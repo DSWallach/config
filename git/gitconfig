@@ -54,3 +54,5 @@
 [user]
 	name = dswallach
 	email = d.s.t.wallach@gmail.com
+[push]
+	default = simple
