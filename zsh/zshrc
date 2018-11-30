@@ -53,11 +53,6 @@ alias setupR='export PKG_CXXFLAGS=`Rscript -e '\''Rcpp:::CxxFlags()'\''`; export
 alias allow='sudo setcap '\''cap_net_bind_service=+ep'\'
 alias gpg='gpg2'
 
-# Vim
-alias vi='nvim'
-
-# Stolen
-
 # Show human friendly numbers and colors
 alias df='df -h'
 alias du='du -h -d 2'
@@ -65,6 +60,18 @@ alias du='du -h -d 2'
 # Kill processes
 alias ka9='killall -9'
 alias k9='kill -9'
+
+export PATH="$HOME/.local/bin:$PATH"
+export LC_CTYPE=en_US.UTF-8
+
+# Custom params for different locations
+if [ $(hostname) = 'localhost.localdomain' ]
+then
+    # Setup Anaconda
+    export PATH="$HOME/anaconda3/bin:$PATH"
+    # Vim
+    alias vi='nvim'
+fi
 
 if [ $(hostname) = 'node2-3' ]
 then
@@ -82,11 +89,7 @@ then
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
     alias tommeds='cd /sc/orga/projects/MMEDS/'
     alias vi='vim'
+
+    export MMEDS=/sc/orga/projects/MMEDS
+    export PATH="$MMEDS/anaconda3/bin:$PATH"
 fi
-
-# Setup Anaconda
-export PATH="$HOME/anaconda3/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
-export LC_CTYPE=en_US.UTF-8
-
-
