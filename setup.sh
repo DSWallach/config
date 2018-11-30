@@ -1,4 +1,5 @@
-
-ln -s $HOME/zsh/.zshrc $HOME/.zshrc
-ln -s $HOME/vim/.vimrc $HOME/.vimrc
-ln -s $HOME/tmux/.tmux.config $HOME/.tmux.config
+ln -sf $HOME/.sel/vim/vim $HOME/.vim
+ln -sf $HOME/.sel/vim/.vimrc $HOME/.vimrc
+ln -sf $HOME/.sel/zsh/.zshrc $HOME/.zshrc
+ln -sf $HOME/.sel/tmux/.tmux.config $HOME/.tmux.config
+ln -sf $HOME/.sel/git/gitconfig $HOME/.gitconfig
