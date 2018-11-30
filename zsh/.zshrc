@@ -62,3 +62,6 @@ alias du='du -h -d 2'
 # Kill processes
 alias ka9='killall -9'
 alias k9='kill -9'
+
+# Setup prezto
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"

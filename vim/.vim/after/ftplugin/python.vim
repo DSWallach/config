@@ -14,5 +14,5 @@ let g:PyFlakeRangeCommand = 'T'
 let g:PyFlakeDisabledMessages = 'E265,E266,E501'
 let g:PyFlakeDefaultComplexity = 10
 
-autocmd BufWritePost call *.py Flake8()
+autocmd BufWritePost *.py call Flake8()
 autocmd VimEnter * echo "Loaded python settings for vim"

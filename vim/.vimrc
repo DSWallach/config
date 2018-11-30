@@ -9,7 +9,6 @@ let mapleader=","
 
 colo desert
 
-
 " Plugin management
 call plug#begin()
 Plug 'christoomey/vim-tmux-navigator'
@@ -31,3 +30,19 @@ nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+
+set background=dark
+
+" Display tabs as '>-'
+set listchars=trail:☠,tab:>>
+set foldlevelstart=1
+
+" Function for trimming whitespace
+fun! TrimWhiteSpace()
+  let l:save = winsaveview()
+  %s/\s\+$//e
+  call winrestview(l:save)
+endfun
+
+" Custom
+map <silent> <F12> :call TrimWhiteSpace()<cr>
