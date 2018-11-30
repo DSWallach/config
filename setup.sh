@@ -1,5 +1,5 @@
-$name=.sel
-
+name=.sel
+:w
 git clone ssh://github.com/dswallach/config $HOME/$name
 
 ln -sf $HOME/$name/vim/vim $HOME/.vim
