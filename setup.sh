@@ -1,6 +1,6 @@
-$name=.sel
+export name=".sel"
 
-git clone ssh://github.com/dswallach/config $HOME/$name
+git clone ssh://github.com/dswallach/config ${HOME}/${name}
 
 ln -sf $HOME/$name/vim/vim $HOME/.vim
 ln -sf $HOME/$name/vim/vimrc $HOME/.vimrc
