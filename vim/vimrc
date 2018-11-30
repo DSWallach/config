@@ -36,6 +36,11 @@ set background=dark
 " Display tabs as '>-'
 set listchars=trail:%,tab:>>
 set foldlevelstart=1
+set tabstop=2
+set softtabstop=0
+set expandtab
+set shiftwidth=4
+set smarttab
 
 " Function for trimming whitespace
 fun! TrimWhiteSpace()

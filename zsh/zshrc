@@ -66,25 +66,31 @@ alias du='du -h -d 2'
 alias ka9='killall -9'
 alias k9='kill -9'
 
-# Minerva Aliases
-alias towork='cd /sc/orga/projects/clemej05a/wallach'
-alias remlinks='find -L . -name . -o -type d -prune -o -type l -exec rm {} +'
-alias logindb='mysql -h db1 -u wallad07_db1 -p wallad07_db1'
-alias tokraken='cd /sc/orga/projects/clemej05a/ileal_resection/shihchen/software/Kraken'
-alias newkraken='tokraken; cd newKraken/newInstall'
-alias srcens='source /sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/activate'
-alias toens='towork; cd ENS'
-alias inens='./sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/python /sc/orga/projects/clemej05a/wallach/ENS/ensemble/setup.py install'
-alias l='ls -lah'
-alias duh='du -sh'
-alias sac='source activate'
-alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
-alias tommeds='cd /sc/orga/projects/MMEDS/'
-alias py='python'
-alias pin='python setup.py install'
-
 # Setup Anaconda
 export PATH="$HOME/anaconda3/bin:$PATH"
 export LC_CTYPE=en_US.UTF-8
 
 prompt skwp
+
+if [ $(hostname) = 'node2-3' ]
+then
+    module load tmux
+    module load Firefox
+    
+    # Minerva Aliases
+    alias towork='cd /sc/orga/projects/clemej05a/wallach'
+    alias remlinks='find -L . -name . -o -type d -prune -o -type l -exec rm {} +'
+    alias logindb='mysql -h db1 -u wallad07_db1 -p wallad07_db1'
+    alias tokraken='cd /sc/orga/projects/clemej05a/ileal_resection/shihchen/software/Kraken'
+    alias newkraken='tokraken; cd newKraken/newInstall'
+    alias srcens='source /sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/activate'
+    alias toens='towork; cd ENS'
+    alias inens='./sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/python /sc/orga/projects/clemej05a/wallach/ENS/ensemble/setup.py install'
+    alias l='ls -lah'
+    alias duh='du -sh'
+    alias sac='source activate'
+    alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
+    alias tommeds='cd /sc/orga/projects/MMEDS/'
+    alias py='python'
+    alias pin='python setup.py install'
+fi
