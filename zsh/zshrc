@@ -32,11 +32,11 @@ alias sac='source activate'
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
 alias gcmp='ga; gc -m "Update"; gp'
 alias gsync='cd ~/.yadr/GoalsList/; gcmp; po;'
+alias g='git'
 alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
 alias gs='git status'
-alias git nb='git checkout -b'
 
 # Makes git auto completion faster favouring for local completions
 __git_files () {
