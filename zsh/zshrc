@@ -56,6 +56,9 @@ alias gpg='gpg2'
 # Vim
 alias vi='nvim'
 
+# Search history for commands
+bindkey "^[OA" history-beginning-search-backward
+bindkey "^[OB" history-beginning-search-forward
 # Stolen
 
 # Show human friendly numbers and colors
