@@ -28,7 +28,7 @@ alias ds='dirs -v'
 
 # Python
 alias py='python'
-alias pin='pip install .'
+alias pin='python setup.py install'
 alias sac='source activate'
 
 # Git

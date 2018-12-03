@@ -1,5 +1,3 @@
-set foldmethod=indent
-
 " Disable syntastic
 let g:syntastic_python_checkers = []
 let g:syntastic_mode_map = {
