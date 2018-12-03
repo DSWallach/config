@@ -16,6 +16,7 @@ Plug 'ncm2/ncm2'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'nvie/vim-flake8'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 

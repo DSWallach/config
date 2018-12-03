@@ -1,5 +1,7 @@
 export name=".sel"
 
+sudo dnf install cmake gcc-c++ make python3-devel
+
 git clone ssh://github.com/dswallach/config ${HOME}/${name}
 
 ln -sf $HOME/$name/vim/vim $HOME/.vim
