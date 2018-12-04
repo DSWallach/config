@@ -17,8 +17,9 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'nvie/vim-flake8'
 " Don't load cause Minerva's Vim is super old
-if hostname() == 'localhost.localdomain':
+if (hostname() == 'localhost.localdomain')
     Plug 'Valloric/YouCompleteMe'
+endif
 call plug#end()
 
 
