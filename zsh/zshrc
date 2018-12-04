@@ -34,7 +34,8 @@ alias sac='source activate'
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
 alias gcmp='ga; gc -m "Update"; gp'
-alias gsync='cd ~/.sel; gcmp; po;'
+alias gpush='cd ~/.sel; gcmp; po;'
+alias gpull='cd ~/.sel; git pull; po;'
 alias g='git'
 alias ga='git add .'
 alias gc='git commit'
@@ -52,9 +53,6 @@ alias setupR='export PKG_CXXFLAGS=`Rscript -e '\''Rcpp:::CxxFlags()'\''`; export
 # Port Access
 alias allow='sudo setcap '\''cap_net_bind_service=+ep'\'
 alias gpg='gpg2'
-
-# Vim
-alias vi='nvim'
 
 # Search history for commands
 bindkey "^[OA" history-beginning-search-backward
