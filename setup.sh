@@ -6,6 +6,7 @@ git clone ssh://github.com/dswallach/config ${HOME}/${name}
 
 ln -sf $HOME/$name/vim/vim $HOME/.vim
 ln -sf $HOME/$name/vim/vimrc $HOME/.vimrc
+ln -sf $HOME/$name/vim/flake8 $HOME/.flake8
 ln -sf $HOME/$name/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/$name/tmux/tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/$name/git/gitconfig $HOME/.gitconfig
