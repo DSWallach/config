@@ -9,6 +9,8 @@ ln -sf $HOME/$name/vim/vimrc $HOME/.vimrc
 ln -sf $HOME/$name/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/$name/tmux/tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/$name/git/gitconfig $HOME/.gitconfig
+ln -sf $HOME/$name/taskwarrior/task $HOME/.task
+ln -sf $HOME/$name/taskwarrior/taskrc $HOME/.taskrc
 
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 

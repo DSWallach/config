@@ -34,7 +34,7 @@ alias sac='source activate'
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
 alias gcmp='ga; gc -m "Update"; gp'
-alias gsync='cd ~/.yadr/GoalsList/; gcmp; po;'
+alias gsync='cd ~/.sel; gcmp; po;'
 alias g='git'
 alias ga='git add .'
 alias gc='git commit'
@@ -68,6 +68,10 @@ alias du='du -h -d 2'
 alias ka9='killall -9'
 alias k9='kill -9'
 
+# Options
+setopt rmstarsilent
+
+# Environment Variables
 export PATH="$HOME/.local/bin:$PATH"
 export LC_CTYPE=en_US.UTF-8
 

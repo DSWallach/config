@@ -1,0 +1,17 @@
+time 1543928615
+new [description:"Prepare for first draft of the proposal" due:"1544158800" entry:"1543928615" modified:"1543928615" status:"pending" uuid:"95edb803-922d-4810-9f29-875b2cd0a06c"]
+---
+time 1543928635
+new [description:"Buy milk" entry:"1543928635" modified:"1543928635" status:"pending" uuid:"f70d07b4-94b5-497a-b3e2-b43c9d121da2"]
+---
+time 1543929093
+old [description:"Prepare for first draft of the proposal" due:"1544158800" entry:"1543928615" modified:"1543928615" status:"pending" uuid:"95edb803-922d-4810-9f29-875b2cd0a06c"]
+new [description:"Prepare for first draft of the proposal" due:"1544158800" end:"1543929093" entry:"1543928615" modified:"1543929093" status:"completed" uuid:"95edb803-922d-4810-9f29-875b2cd0a06c"]
+---
+time 1543929093
+old [description:"Buy milk" entry:"1543928635" modified:"1543928635" status:"pending" uuid:"f70d07b4-94b5-497a-b3e2-b43c9d121da2"]
+new [description:"Buy milk" end:"1543929093" entry:"1543928635" modified:"1543929093" status:"completed" uuid:"f70d07b4-94b5-497a-b3e2-b43c9d121da2"]
+---
+time 1543929313
+new [description:"Figure out how to handle ages for mice or other short lived animals" due:"1544158800" entry:"1543929313" modified:"1543929313" priority:"L" project:"MMEDS" status:"pending" tags:"Work" uuid:"845f4fa5-2162-4fcc-8edd-5110911fc592"]
+---

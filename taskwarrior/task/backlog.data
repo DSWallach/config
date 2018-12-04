@@ -1,0 +1,5 @@
+{"description":"Prepare for first draft of the proposal","due":"20181207T050000Z","entry":"20181204T130335Z","modified":"20181204T130335Z","status":"pending","uuid":"95edb803-922d-4810-9f29-875b2cd0a06c"}
+{"description":"Buy milk","entry":"20181204T130355Z","modified":"20181204T130355Z","status":"pending","uuid":"f70d07b4-94b5-497a-b3e2-b43c9d121da2"}
+{"description":"Prepare for first draft of the proposal","due":"20181207T050000Z","end":"20181204T131133Z","entry":"20181204T130335Z","modified":"20181204T131133Z","status":"completed","uuid":"95edb803-922d-4810-9f29-875b2cd0a06c"}
+{"description":"Buy milk","end":"20181204T131133Z","entry":"20181204T130355Z","modified":"20181204T131133Z","status":"completed","uuid":"f70d07b4-94b5-497a-b3e2-b43c9d121da2"}
+{"description":"Figure out how to handle ages for mice or other short lived animals","due":"20181207T050000Z","entry":"20181204T131513Z","modified":"20181204T131513Z","priority":"L","project":"MMEDS","status":"pending","tags":["Work"],"uuid":"845f4fa5-2162-4fcc-8edd-5110911fc592"}
