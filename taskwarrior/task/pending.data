@@ -5,3 +5,4 @@
 [description:"Figure out a schema for allowing sequence level queries on the raw data" entry:"1543938151" modified:"1543938151" priority:"L" project:"mmeds" status:"pending" tags:"work" uuid:"345bba53-2f83-4acf-8a08-9ec9cb7602b4"]
 [description:"Take brown leather jacket to be refinished and pocket repaired" entry:"1543938351" modified:"1543938351" status:"pending" tags:"home" uuid:"d76daae3-5590-4e1b-b4ef-70c3e21aba51"]
 [description:"Take black leather jachet to have pocket and underarm repaired" entry:"1543938373" modified:"1543938373" status:"pending" tags:"home" uuid:"21f7c2c6-fc50-40d0-80a6-7e6961962d67"]
+[description:"Look into formats and standards used by successful teams for code review" due:"1544158800" entry:"1543952667" modified:"1543952667" project:"BeA3" status:"pending" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]

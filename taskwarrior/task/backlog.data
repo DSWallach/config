@@ -14,3 +14,4 @@
 {"description":"Determine how best to store analyses. Pipelines or ad hoc","entry":"20181204T135344Z","modified":"20181204T154306Z","priority":"L","project":"mmeds","status":"pending","tags":["work"],"uuid":"df2a1dfb-af3b-4075-92cc-67e9d544d089"}
 {"description":"Take brown leather jacket to be refinished and pocket repaired","entry":"20181204T154551Z","modified":"20181204T154551Z","status":"pending","tags":["home"],"uuid":"d76daae3-5590-4e1b-b4ef-70c3e21aba51"}
 {"description":"Take black leather jachet to have pocket and underarm repaired","entry":"20181204T154613Z","modified":"20181204T154613Z","status":"pending","tags":["home"],"uuid":"21f7c2c6-fc50-40d0-80a6-7e6961962d67"}
+{"description":"Look into formats and standards used by successful teams for code review","due":"20181207T050000Z","entry":"20181204T194427Z","modified":"20181204T194427Z","project":"BeA3","status":"pending","tags":["work"],"uuid":"55c76310-5013-4fa4-976d-a27bb9183c81"}

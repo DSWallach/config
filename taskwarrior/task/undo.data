@@ -53,3 +53,6 @@ new [description:"Take brown leather jacket to be refinished and pocket repaired
 time 1543938373
 new [description:"Take black leather jachet to have pocket and underarm repaired" entry:"1543938373" modified:"1543938373" status:"pending" tags:"home" uuid:"21f7c2c6-fc50-40d0-80a6-7e6961962d67"]
 ---
+time 1543952667
+new [description:"Look into formats and standards used by successful teams for code review" due:"1544158800" entry:"1543952667" modified:"1543952667" project:"BeA3" status:"pending" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]
+---
