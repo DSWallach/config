@@ -36,9 +36,11 @@ nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 
+" SETtings
+set ttimeout
+set timeoutlen=1000
+set ttimeoutlen=0
 set background=dark
-
-" Display tabs as '>-'
 set foldmethod=indent
 set listchars=trail:%,tab:>>
 set foldlevelstart=1

@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/david/.sel/vim/vim'
 let g:netrw_dirhist_2='/home/david/Work/lodi/.git'
 let g:netrw_dirhist_3='/home/david/Work/lodi/.git/logs'
 let g:netrw_dirhist_4='/home/david/Work/lodi/.git/logs/refs'
 let g:netrw_dirhist_5='/home/david/Work/lodi/.git/logs/refs/heads'
+let g:netrw_dirhist_6='/home/david/Work/mmeds-meta/mmeds'
+let g:netrw_dirhist_7='/home/david/Work/mmeds-meta/demux_output'

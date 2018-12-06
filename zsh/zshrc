@@ -69,6 +69,8 @@ alias k9='kill -9'
 
 # Options
 setopt rmstarsilent
+KEYTIMEOUT=10
+bindkey -v
 
 # Environment Variables
 export PATH="$HOME/.local/bin:$PATH"
@@ -100,6 +102,6 @@ then
     alias tommeds='cd /sc/orga/projects/MMEDS/'
     alias vi='vim'
 
-    export MMEDS=/sc/orga/projects/MMEDS
+    export MMEDS="/sc/orga/projects/MMEDS"
     export PATH="$MMEDS/anaconda3/bin:$PATH"
 fi
