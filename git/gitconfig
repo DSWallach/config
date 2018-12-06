@@ -56,3 +56,5 @@
 	email = d.s.t.wallach@gmail.com
 [push]
 	default = simple
+[github]
+	user = dswallach
