@@ -31,6 +31,7 @@ alias ds='dirs -v'
 alias py='python'
 alias pin='python setup.py install'
 alias sac='source activate'
+alias sad='source deactivate'
 
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
