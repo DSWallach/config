@@ -94,3 +94,18 @@ time 1544199856
 old [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1544158800" entry:"1543932304" modified:"1543932304" project:"mmeds" status:"pending" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
 new [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1544245200" entry:"1543932304" modified:"1544199856" project:"mmeds" status:"pending" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
 ---
+time 1545054275
+old [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1544245200" entry:"1543932304" modified:"1544199856" project:"mmeds" status:"pending" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
+new [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1545282000" entry:"1543932304" modified:"1545054275" project:"mmeds" status:"pending" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
+---
+time 1545054309
+old [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1545195600" entry:"1544191194" modified:"1544191194" project:"mmeds" status:"pending" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+new [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1545368400" entry:"1544191194" modified:"1545054309" project:"mmeds" status:"pending" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+---
+time 1545075840
+old [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1545282000" entry:"1543932304" modified:"1545054275" project:"mmeds" status:"pending" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
+new [description:"Create a basic summary PDF\/HTML for results of analysis" due:"1545282000" end:"1545075840" entry:"1543932304" modified:"1545075840" project:"mmeds" status:"completed" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
+---
+time 1545075881
+new [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545282000" entry:"1545075881" modified:"1545075881" project:"mmeds" status:"pending" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
+---

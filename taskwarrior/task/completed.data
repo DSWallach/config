@@ -1,3 +1,4 @@
+[description:"Create a basic summary PDF\/HTML for results of analysis" due:"1545282000" end:"1545075840" entry:"1543932304" modified:"1545075840" project:"mmeds" status:"completed" tags:"work" uuid:"368a9eb2-6113-4935-b3fa-0e1b5f523bc5"]
 [description:"Add sanity check of counts to analysis functionality" end:"1544122739" entry:"1544016578" modified:"1544122739" project:"mmeds" status:"completed" tags:"work" uuid:"c4a2b40b-2f83-43c8-928c-1cbc7014eeed"]
 [description:"p:mmeds t:work Bug Zach about demultiplexed file imports" due:"1544072400" end:"1544110857" entry:"1543933950" modified:"1544110857" project:"mmeds" status:"completed" tags:"work" uuid:"16d1b60d-caa1-409c-8939-3e1ea5f6a35f"]
 [description:"Buy milk" end:"1543929093" entry:"1543928635" modified:"1543929093" status:"completed" uuid:"f70d07b4-94b5-497a-b3e2-b43c9d121da2"]
