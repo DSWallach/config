@@ -109,3 +109,6 @@ new [description:"Create a basic summary PDF\/HTML for results of analysis" due:
 time 1545075881
 new [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545282000" entry:"1545075881" modified:"1545075881" project:"mmeds" status:"pending" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
 ---
+time 1545221890
+new [description:"Add tests for new summary functionality" due:"1545714000" entry:"1545221890" modified:"1545221890" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---

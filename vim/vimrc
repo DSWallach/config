@@ -44,7 +44,7 @@ set ttimeoutlen=0
 set background=dark
 set foldmethod=indent
 set listchars=trail:%,tab:>>
-set foldlevelstart=1
+set foldlevelstart=0
 set tabstop=2
 set softtabstop=0
 set expandtab
@@ -52,6 +52,8 @@ set shiftwidth=4
 set smarttab
 set nowrap
 
+
+"---------- FUNCTIONS -----------"
 " Function for trimming whitespace
 fun! TrimWhiteSpace()
   let l:save = winsaveview()
@@ -61,3 +63,51 @@ endfun
 
 " Custom
 map <silent> <F12> :call TrimWhiteSpace()<cr>
+
+" Function for switch a buffer to a existing tab
+function MoveToPrevTab()
+    " There is only one window
+    if tabpagenr('$') == 1 && winnr('$') == 1
+        return
+    endif
+    " Prepare a new window
+    let l:tab_nr = tabpagenr('$')
+    let l:cur_buf = bufnr('%')
+    if tabpagenr() != 1
+        close!
+        if l:tab_nr == tabpagenr('$')
+            tabprev
+        endif
+        sp
+    else
+        close!
+        exe "0tabnew"
+    endif
+    " Opening current buffer in new window
+    exe "b" .l:cur_buf
+endfunc
+
+function MoveToNextTab()
+    " There is only one window
+    if tabpagenr('$') == 1 && winnr('$') == 1
+        return
+    endif
+    " Prepare new window
+    let l:tab_nr = tabpagenr('$')
+    let l:cur_buf = bufnr('%')
+    if tabpagenr() < tab_nr
+        close!
+        if l:tab_nr == tabpagenr('$')
+            tabnext
+        endif
+        sp
+    else
+        close!
+        tabnew
+    endif
+    " Opening current buffer in new window
+    exe "b" .l:cur_buf
+endfunc
+
+nnoremap <A-.> :call MoveToNextTab()<CR>
+nnoremap <A-,> :call MoveToPrevTab()<CR>
