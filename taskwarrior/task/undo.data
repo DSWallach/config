@@ -112,3 +112,29 @@ new [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"
 time 1545221890
 new [description:"Add tests for new summary functionality" due:"1545714000" entry:"1545221890" modified:"1545221890" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
 ---
+time 1545314497
+old [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545282000" entry:"1545075881" modified:"1545075881" project:"mmeds" status:"pending" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
+new [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545886800" entry:"1545075881" modified:"1545314497" project:"mmeds" status:"pending" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
+---
+time 1545314549
+old [description:"Add tests for new summary functionality" due:"1545714000" entry:"1545221890" modified:"1545221890" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1515128400" entry:"1545221890" modified:"1545314549" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1545413569
+old [description:"Add tests for new summary functionality" due:"1515128400" entry:"1545221890" modified:"1545314549" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1546664400" entry:"1545221890" modified:"1545413569" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1545413599
+old [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545886800" entry:"1545075881" modified:"1545314497" project:"mmeds" status:"pending" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
+new [description:"Add plots for alpha\/beta diversity and taxa to summary" due:"1545886800" end:"1545413599" entry:"1545075881" modified:"1545413599" project:"mmeds" status:"completed" tags:"work" uuid:"af8d4805-6737-4743-857f-90bb1f8b8c8a"]
+---
+time 1545413632
+old [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1545368400" entry:"1544191194" modified:"1545054309" project:"mmeds" status:"pending" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+new [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1547096400" entry:"1544191194" modified:"1545413632" project:"mmeds" status:"pending" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+---
+time 1545413689
+new [description:"Create consistant color palette for all mmeds graphs" due:"1546318800" entry:"1545413689" modified:"1545413689" project:"mmeds" status:"pending" tags:"work" uuid:"5d86e691-6089-40a8-a3e5-d1f0d3a10cff"]
+---
+time 1545413736
+new [description:"Create full legend for mmeds colors" due:"1546664400" entry:"1545413736" modified:"1545413736" project:"mmeds" status:"pending" tags:"work" uuid:"b2ce57c5-1a96-47d0-9882-358e9320d8d4"]
+---
