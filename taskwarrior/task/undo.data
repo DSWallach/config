@@ -138,3 +138,172 @@ new [description:"Create consistant color palette for all mmeds graphs" due:"154
 time 1545413736
 new [description:"Create full legend for mmeds colors" due:"1546664400" entry:"1545413736" modified:"1545413736" project:"mmeds" status:"pending" tags:"work" uuid:"b2ce57c5-1a96-47d0-9882-358e9320d8d4"]
 ---
+time 1545415523
+old [description:"Create consistant color palette for all mmeds graphs" due:"1546318800" entry:"1545413689" modified:"1545413689" project:"mmeds" status:"pending" tags:"work" uuid:"5d86e691-6089-40a8-a3e5-d1f0d3a10cff"]
+new [description:"Create consistant color palette for all mmeds graphs" due:"1546318800" end:"1545415523" entry:"1545413689" modified:"1545415523" project:"mmeds" status:"completed" tags:"work" uuid:"5d86e691-6089-40a8-a3e5-d1f0d3a10cff"]
+---
+time 1545415569
+new [description:"Change summarize to use a notebook template rather than writing every" due:"1546318800" entry:"1545415569" modified:"1545415569" project:"mmeds" status:"pending" tags:"work" uuid:"66080cbe-905a-4c82-969e-e3c093484d39"]
+---
+time 1545915710
+old [description:"Create full legend for mmeds colors" due:"1546664400" entry:"1545413736" modified:"1545413736" project:"mmeds" status:"pending" tags:"work" uuid:"b2ce57c5-1a96-47d0-9882-358e9320d8d4"]
+new [description:"Create full legend for mmeds colors" due:"1546664400" end:"1545915710" entry:"1545413736" modified:"1545915710" project:"mmeds" status:"completed" tags:"work" uuid:"b2ce57c5-1a96-47d0-9882-358e9320d8d4"]
+---
+time 1546442522
+new [description:"Add code to create taxa summary for qiime2" due:"1547960400" entry:"1546442522" modified:"1546442522" project:"mmeds" status:"pending" tags:"work" uuid:"4b5e8bc3-fc69-4a4c-ae15-594059d69f61"]
+---
+time 1546442580
+old [description:"Add code to create taxa summary for qiime2" due:"1547960400" entry:"1546442522" modified:"1546442522" project:"mmeds" status:"pending" tags:"work" uuid:"4b5e8bc3-fc69-4a4c-ae15-594059d69f61"]
+new [description:"Finish suggested updates to summary template" due:"1547960400" entry:"1546442522" modified:"1546442580" project:"mmeds" status:"pending" tags:"work" uuid:"4b5e8bc3-fc69-4a4c-ae15-594059d69f61"]
+---
+time 1546444765
+old [description:"Change summarize to use a notebook template rather than writing every" due:"1546318800" entry:"1545415569" modified:"1545415569" project:"mmeds" status:"pending" tags:"work" uuid:"66080cbe-905a-4c82-969e-e3c093484d39"]
+new [description:"Change summarize to use a notebook template rather than writing every" due:"1546318800" end:"1546444763" entry:"1545415569" modified:"1546444765" project:"mmeds" status:"deleted" tags:"work" uuid:"66080cbe-905a-4c82-969e-e3c093484d39"]
+---
+time 1546444908
+old [description:"Figure out how to handle ages for mice or other short lived animals" entry:"1543929313" modified:"1543932334" priority:"L" project:"mmeds" status:"pending" tags:"work" uuid:"845f4fa5-2162-4fcc-8edd-5110911fc592"]
+new [description:"Figure out how to handle ages for mice or other short lived animals" end:"1546444906" entry:"1543929313" modified:"1546444908" priority:"L" project:"mmeds" status:"deleted" tags:"work" uuid:"845f4fa5-2162-4fcc-8edd-5110911fc592"]
+---
+time 1546444908
+old [description:"Determine how best to store analyses. Pipelines or ad hoc" entry:"1543931624" modified:"1543938186" priority:"L" project:"mmeds" status:"pending" tags:"work" uuid:"df2a1dfb-af3b-4075-92cc-67e9d544d089"]
+new [description:"Determine how best to store analyses. Pipelines or ad hoc" end:"1546444908" entry:"1543931624" modified:"1546444908" priority:"L" project:"mmeds" status:"deleted" tags:"work" uuid:"df2a1dfb-af3b-4075-92cc-67e9d544d089"]
+---
+time 1546444908
+old [description:"Figure out a schema for allowing sequence level queries on the raw data" entry:"1543938151" modified:"1543938151" priority:"L" project:"mmeds" status:"pending" tags:"work" uuid:"345bba53-2f83-4acf-8a08-9ec9cb7602b4"]
+new [description:"Figure out a schema for allowing sequence level queries on the raw data" end:"1546444908" entry:"1543938151" modified:"1546444908" priority:"L" project:"mmeds" status:"deleted" tags:"work" uuid:"345bba53-2f83-4acf-8a08-9ec9cb7602b4"]
+---
+time 1546444908
+old [description:"Take brown leather jacket to be refinished and pocket repaired" entry:"1543938351" modified:"1544123534" status:"pending" tags:"home" uuid:"d76daae3-5590-4e1b-b4ef-70c3e21aba51"]
+new [description:"Take brown leather jacket to be refinished and pocket repaired" end:"1546444908" entry:"1543938351" modified:"1546444908" status:"deleted" tags:"home" uuid:"d76daae3-5590-4e1b-b4ef-70c3e21aba51"]
+---
+time 1546444908
+old [description:"Take black leather jachet to have pocket and underarm repaired" entry:"1543938373" modified:"1544123534" status:"pending" tags:"home" uuid:"21f7c2c6-fc50-40d0-80a6-7e6961962d67"]
+new [description:"Take black leather jachet to have pocket and underarm repaired" end:"1546444908" entry:"1543938373" modified:"1546444908" status:"deleted" tags:"home" uuid:"21f7c2c6-fc50-40d0-80a6-7e6961962d67"]
+---
+time 1546445130
+old [description:"Look into formats and standards used by successful teams for code review" due:"1546318800" entry:"1543952667" modified:"1544122773" project:"BeA3" status:"pending" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]
+new [description:"Look into formats and standards used by successful teams for code review" due:"1546837200" entry:"1543952667" modified:"1546445130" project:"BeA3" status:"pending" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]
+---
+time 1546445216
+new [description:"Rotate labels for OTU plot" due:"1546405200" entry:"1546445216" modified:"1546445216" status:"pending" uuid:"01719887-3bbb-4a76-89c4-9308768fcc11"]
+---
+time 1546445251
+new [description:"Sort samples so they correspond to metadata catagories" due:"1546491600" entry:"1546445251" modified:"1546445251" status:"pending" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546445306
+new [description:"Config file for analysis" due:"1546491600" entry:"1546445306" modified:"1546445306" status:"pending" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+---
+time 1546445328
+new [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445328" status:"pending" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+---
+time 1546445346
+new [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445346" status:"pending" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+---
+time 1546445369
+new [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445369" status:"pending" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+---
+time 1546445403
+new [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445403" status:"pending" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+---
+time 1546445421
+new [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445421" status:"pending" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+---
+time 1546445442
+new [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445442" status:"pending" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+---
+time 1546445460
+new [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445460" status:"pending" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+---
+time 1546445478
+old [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445328" status:"pending" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+new [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445478" status:"pending" tags:"work" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+---
+time 1546445478
+old [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445346" status:"pending" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+new [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445478" status:"pending" tags:"work" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+---
+time 1546445478
+old [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445369" status:"pending" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+new [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445478" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+---
+time 1546445478
+old [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445403" status:"pending" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+new [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445478" status:"pending" tags:"work" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+---
+time 1546445478
+old [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445421" status:"pending" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+new [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445478" status:"pending" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+---
+time 1546445478
+old [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445442" status:"pending" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+new [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445478" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+---
+time 1546445478
+old [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445460" status:"pending" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+new [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445478" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+---
+time 1546445499
+old [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445478" status:"pending" tags:"work" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+new [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445499" project:"mmeds" status:"pending" tags:"work" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+---
+time 1546445503
+old [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445478" status:"pending" tags:"work" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+new [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+---
+time 1546445503
+old [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445478" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+new [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+---
+time 1546445503
+old [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445478" status:"pending" tags:"work" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+new [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+---
+time 1546445503
+old [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445478" status:"pending" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+new [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+---
+time 1546445503
+old [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445478" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+new [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+---
+time 1546445503
+old [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445478" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+new [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+---
+time 1546445550
+old [description:"Config file for analysis" due:"1546491600" entry:"1546445306" modified:"1546445306" status:"pending" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+new [description:"Config file for analysis" due:"1546578000" entry:"1546445306" modified:"1546445550" status:"pending" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+---
+time 1546445588
+old [description:"Rotate labels for OTU plot" due:"1546405200" entry:"1546445216" modified:"1546445216" status:"pending" uuid:"01719887-3bbb-4a76-89c4-9308768fcc11"]
+new [description:"Rotate labels for OTU plot" due:"1546405200" entry:"1546445216" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"01719887-3bbb-4a76-89c4-9308768fcc11"]
+---
+time 1546445588
+old [description:"Sort samples so they correspond to metadata catagories" due:"1546491600" entry:"1546445251" modified:"1546445251" status:"pending" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+new [description:"Sort samples so they correspond to metadata catagories" due:"1546491600" entry:"1546445251" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546445588
+old [description:"Config file for analysis" due:"1546578000" entry:"1546445306" modified:"1546445550" status:"pending" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+new [description:"Config file for analysis" due:"1546578000" entry:"1546445306" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+---
+time 1546445689
+new [description:"Check meeting_notes.txt for any tasks missed" due:"1548824400" entry:"1546445689" modified:"1546445689" project:"mmeds" status:"pending" tags:"work" uuid:"354e7975-aabb-4f4b-b646-bf7dd04a9585"]
+---
+time 1546453994
+old [description:"Add shannon analysis for alpha div for qiime1" entry:"1546445403" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+new [description:"Add shannon analysis for alpha div for qiime1" end:"1546453994" entry:"1546445403" modified:"1546453994" project:"mmeds" status:"completed" tags:"work" uuid:"010c9750-872b-4cae-a87a-6fd41280af88"]
+---
+time 1546454424
+old [description:"Set max number of columns for taxa summary plots" entry:"1546445328" modified:"1546445499" project:"mmeds" status:"pending" tags:"work" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+new [description:"Set max number of columns for taxa summary plots" end:"1546454424" entry:"1546445328" modified:"1546454424" project:"mmeds" status:"completed" tags:"work" uuid:"35be1cc2-88e9-4b40-8ff4-988a419a23bc"]
+---
+time 1546455189
+old [description:"create Taxa summaries for Qiime2" entry:"1546445346" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+new [description:"create Taxa summaries for Qiime2" end:"1546455189" entry:"1546445346" modified:"1546455189" project:"mmeds" status:"completed" tags:"work" uuid:"a344bd76-c8c1-4928-a0e9-85e8f55d6746"]
+---
+time 1546455209
+new [description:"Integrate taxa summaries in the summary for qiime2" entry:"1546455209" modified:"1546455209" project:"mmeds" status:"pending" tags:"work" uuid:"70a342c6-3418-4dd9-917e-4c45bd3e2566"]
+---
+time 1546455358
+new [description:"Fix files error in summary function" due:"1546491600" entry:"1546455358" modified:"1546455358" project:"mmeds" status:"pending" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
+---
