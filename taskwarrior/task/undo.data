@@ -307,3 +307,102 @@ new [description:"Integrate taxa summaries in the summary for qiime2" entry:"154
 time 1546455358
 new [description:"Fix files error in summary function" due:"1546491600" entry:"1546455358" modified:"1546455358" project:"mmeds" status:"pending" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
 ---
+time 1546518042
+old [description:"Rotate labels for OTU plot" due:"1546405200" entry:"1546445216" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"01719887-3bbb-4a76-89c4-9308768fcc11"]
+new [description:"Rotate labels for OTU plot" due:"1546405200" end:"1546518042" entry:"1546445216" modified:"1546518042" project:"mmeds" status:"completed" tags:"work" uuid:"01719887-3bbb-4a76-89c4-9308768fcc11"]
+---
+time 1546518085
+old [description:"Sort samples so they correspond to metadata catagories" due:"1546491600" entry:"1546445251" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+new [description:"Sort samples so they correspond to metadata catagories" due:"1546578000" entry:"1546445251" modified:"1546518085" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546518085
+old [description:"Fix files error in summary function" due:"1546491600" entry:"1546455358" modified:"1546455358" project:"mmeds" status:"pending" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
+new [description:"Fix files error in summary function" due:"1546578000" entry:"1546455358" modified:"1546518085" project:"mmeds" status:"pending" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
+---
+time 1546518102
+old [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1547096400" entry:"1544191194" modified:"1545413632" project:"mmeds" status:"pending" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+new [description:"Resolve issue with accessing and storing files in MetaData objects" due:"1547096400" end:"1546518099" entry:"1544191194" modified:"1546518102" project:"mmeds" status:"deleted" tags:"work" uuid:"a81ea0be-7e55-40dd-a23b-f602a2775384"]
+---
+time 1546518115
+old [description:"Finish suggested updates to summary template" due:"1547960400" entry:"1546442522" modified:"1546442580" project:"mmeds" status:"pending" tags:"work" uuid:"4b5e8bc3-fc69-4a4c-ae15-594059d69f61"]
+new [description:"Finish suggested updates to summary template" due:"1547960400" end:"1546518114" entry:"1546442522" modified:"1546518115" project:"mmeds" status:"deleted" tags:"work" uuid:"4b5e8bc3-fc69-4a4c-ae15-594059d69f61"]
+---
+time 1546525565
+old [description:"Look into formats and standards used by successful teams for code review" due:"1546837200" entry:"1543952667" modified:"1546445130" project:"BeA3" status:"pending" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]
+new [description:"Look into formats and standards used by successful teams for code review" due:"1546837200" end:"1546525565" entry:"1543952667" modified:"1546525565" project:"BeA3" status:"completed" tags:"work" uuid:"55c76310-5013-4fa4-976d-a27bb9183c81"]
+---
+time 1546526627
+old [description:"Fix files error in summary function" due:"1546578000" entry:"1546455358" modified:"1546518085" project:"mmeds" status:"pending" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
+new [description:"Fix files error in summary function" due:"1546578000" end:"1546526627" entry:"1546455358" modified:"1546526627" project:"mmeds" status:"completed" tags:"work" uuid:"3fff7e33-41d6-49eb-b408-171baea4c5a3"]
+---
+time 1546526668
+old [description:"Integrate taxa summaries in the summary for qiime2" entry:"1546455209" modified:"1546455209" project:"mmeds" status:"pending" tags:"work" uuid:"70a342c6-3418-4dd9-917e-4c45bd3e2566"]
+new [description:"Integrate taxa summaries in the summary for qiime2" due:"1546578000" entry:"1546455209" modified:"1546526668" project:"mmeds" status:"pending" tags:"work" uuid:"70a342c6-3418-4dd9-917e-4c45bd3e2566"]
+---
+time 1546529932
+old [description:"Integrate taxa summaries in the summary for qiime2" due:"1546578000" entry:"1546455209" modified:"1546526668" project:"mmeds" status:"pending" tags:"work" uuid:"70a342c6-3418-4dd9-917e-4c45bd3e2566"]
+new [description:"Integrate taxa summaries in the summary for qiime2" due:"1546578000" end:"1546529932" entry:"1546455209" modified:"1546529932" project:"mmeds" status:"completed" tags:"work" uuid:"70a342c6-3418-4dd9-917e-4c45bd3e2566"]
+---
+time 1546529967
+new [description:"Fully test qiime2 analysis" due:"1547096400" entry:"1546529967" modified:"1546529967" project:"mmeds" status:"pending" tags:"work" uuid:"285bcd65-da0e-42da-8aed-f2d09c652708"]
+---
+time 1546530727
+new [description:"Setup notebooks to only export images not code" due:"1546578000" entry:"1546530727" modified:"1546530727" project:"mmeds" status:"pending" tags:"work" uuid:"6484f424-a622-477a-902e-c2e203201bab"]
+---
+time 1546530758
+old [description:"Add tests for new summary functionality" due:"1546664400" entry:"1545221890" modified:"1545413569" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1546578000" entry:"1545221890" modified:"1546530758" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1546530775
+old [description:"Add tests for new summary functionality" due:"1546578000" entry:"1545221890" modified:"1546530758" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1546837200" entry:"1545221890" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1546530775
+old [description:"Sort samples so they correspond to metadata catagories" due:"1546578000" entry:"1546445251" modified:"1546518085" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+new [description:"Sort samples so they correspond to metadata catagories" due:"1546837200" entry:"1546445251" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546530775
+old [description:"Config file for analysis" due:"1546578000" entry:"1546445306" modified:"1546445588" project:"mmeds" status:"pending" tags:"work" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+new [description:"Config file for analysis" due:"1546837200" entry:"1546445306" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+---
+time 1546530810
+old [description:"Add tests for new summary functionality" due:"1546837200" entry:"1545221890" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1547960400" entry:"1545221890" modified:"1546530810" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1546530825
+old [description:"Sort samples so they correspond to metadata catagories" due:"1546837200" entry:"1546445251" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+new [description:"Sort samples so they correspond to metadata catagories" due:"1547010000" entry:"1546445251" modified:"1546530825" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546530839
+old [description:"Config file for analysis" due:"1546837200" entry:"1546445306" modified:"1546530775" project:"mmeds" status:"pending" tags:"work" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+new [description:"Config file for analysis" due:"1547528400" entry:"1546445306" modified:"1546530839" project:"mmeds" status:"pending" tags:"work" uuid:"792b53ba-0b84-44ba-a17b-d5eb5dce3cfa"]
+---
+time 1546539845
+old [description:"Setup notebooks to only export images not code" due:"1546578000" entry:"1546530727" modified:"1546530727" project:"mmeds" status:"pending" tags:"work" uuid:"6484f424-a622-477a-902e-c2e203201bab"]
+new [description:"Setup notebooks to only export images not code" due:"1546578000" end:"1546539845" entry:"1546530727" modified:"1546539845" project:"mmeds" status:"completed" tags:"work" uuid:"6484f424-a622-477a-902e-c2e203201bab"]
+---
+time 1546542438
+old [description:"Sort samples so they correspond to metadata catagories" due:"1547010000" entry:"1546445251" modified:"1546530825" project:"mmeds" status:"pending" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+new [description:"Sort samples so they correspond to metadata catagories" due:"1547010000" end:"1546542438" entry:"1546445251" modified:"1546542438" project:"mmeds" status:"completed" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
+---
+time 1546609773
+old [description:"Add to plot title\/caption what variable is used for grouping" entry:"1546445421" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+new [description:"Add to plot title\/caption what variable is used for grouping" end:"1546609773" entry:"1546445421" modified:"1546609773" project:"mmeds" status:"completed" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
+---
+time 1546614337
+new [description:"Add document chapters to summary pdf" entry:"1546614337" modified:"1546614337" project:"mmeds" status:"pending" tags:"work" uuid:"74b79c56-e22f-4d55-8d8d-27fef2724fac"]
+---
+time 1546618060
+new [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1546618060" project:"mmeds" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+---
+time 1546618586
+old [description:"Fully test qiime2 analysis" due:"1547096400" entry:"1546529967" modified:"1546529967" project:"mmeds" status:"pending" tags:"work" uuid:"285bcd65-da0e-42da-8aed-f2d09c652708"]
+new [description:"Add testing for summary functions" due:"1548997200" entry:"1546529967" modified:"1546618586" project:"mmeds" status:"pending" tags:"work" uuid:"285bcd65-da0e-42da-8aed-f2d09c652708"]
+---
+time 1546618607
+old [description:"Add PCA plots with ggrepel to label each point" entry:"1546445442" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+new [description:"Add PCA plots with ggrepel to label each point" due:"1546837200" entry:"1546445442" modified:"1546618607" project:"mmeds" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+---
+time 1546618734
+new [description:"flesh out documentation for analysis config file" entry:"1546618734" modified:"1546618734" project:"mmeds" status:"pending" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
+---
