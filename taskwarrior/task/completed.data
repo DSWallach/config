@@ -1,3 +1,7 @@
+[description:"Fix issue with metadata object storing files" due:"1546923600" end:"1546948164" entry:"1546884962" modified:"1546948164" project:"mmeds" status:"completed" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
+[description:"testing" end:"1546884929" entry:"1546884916" modified:"1546884930" project:"lodi" status:"deleted" tags:"work" uuid:"2fa7c3d6-db9c-41e5-8aaa-d39f4e0cf874"]
+[description:"Add proper titles to all plots" due:"1546923600" end:"1546878813" entry:"1546877350" modified:"1546878813" project:"mmeds" status:"completed" tags:"work" uuid:"ffb4d839-9aee-4c3d-8aa8-8944f3d94c73"]
+[description:"Add PCA plots with ggrepel to label each point" due:"1546837200" end:"1546874745" entry:"1546445442" modified:"1546874745" project:"mmeds" status:"completed" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
 [description:"Add to plot title\/caption what variable is used for grouping" end:"1546609773" entry:"1546445421" modified:"1546609773" project:"mmeds" status:"completed" tags:"work" uuid:"7cb974e0-2423-4317-a077-c418fb62106a"]
 [description:"Sort samples so they correspond to metadata catagories" due:"1547010000" end:"1546542438" entry:"1546445251" modified:"1546542438" project:"mmeds" status:"completed" tags:"work" uuid:"a34d645b-a038-4de3-b36f-eb12283767d5"]
 [description:"Setup notebooks to only export images not code" due:"1546578000" end:"1546539845" entry:"1546530727" modified:"1546539845" project:"mmeds" status:"completed" tags:"work" uuid:"6484f424-a622-477a-902e-c2e203201bab"]

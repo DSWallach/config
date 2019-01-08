@@ -406,3 +406,34 @@ new [description:"Add PCA plots with ggrepel to label each point" due:"154683720
 time 1546618734
 new [description:"flesh out documentation for analysis config file" entry:"1546618734" modified:"1546618734" project:"mmeds" status:"pending" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
 ---
+time 1546874745
+old [description:"Add PCA plots with ggrepel to label each point" due:"1546837200" entry:"1546445442" modified:"1546618607" project:"mmeds" status:"pending" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+new [description:"Add PCA plots with ggrepel to label each point" due:"1546837200" end:"1546874745" entry:"1546445442" modified:"1546874745" project:"mmeds" status:"completed" tags:"work" uuid:"4b965f2e-11c0-4e44-8b3a-1623d183ae4e"]
+---
+time 1546877350
+new [description:"Add proper titles to all plots" due:"1546923600" entry:"1546877350" modified:"1546877350" project:"mmeds" status:"pending" tags:"work" uuid:"ffb4d839-9aee-4c3d-8aa8-8944f3d94c73"]
+---
+time 1546878813
+old [description:"Add proper titles to all plots" due:"1546923600" entry:"1546877350" modified:"1546877350" project:"mmeds" status:"pending" tags:"work" uuid:"ffb4d839-9aee-4c3d-8aa8-8944f3d94c73"]
+new [description:"Add proper titles to all plots" due:"1546923600" end:"1546878813" entry:"1546877350" modified:"1546878813" project:"mmeds" status:"completed" tags:"work" uuid:"ffb4d839-9aee-4c3d-8aa8-8944f3d94c73"]
+---
+time 1546883814
+new [description:"Look into automatically generated tests" due:"1547442000" entry:"1546883814" modified:"1546883814" project:"BEA3" status:"pending" tags:"work" uuid:"4192abeb-940c-4282-9f4a-670435f16957"]
+---
+time 1546884916
+new [description:"testing" entry:"1546884916" modified:"1546884916" project:"lodi" status:"pending" tags:"work" uuid:"2fa7c3d6-db9c-41e5-8aaa-d39f4e0cf874"]
+---
+time 1546884930
+old [description:"testing" entry:"1546884916" modified:"1546884916" project:"lodi" status:"pending" tags:"work" uuid:"2fa7c3d6-db9c-41e5-8aaa-d39f4e0cf874"]
+new [description:"testing" end:"1546884929" entry:"1546884916" modified:"1546884930" project:"lodi" status:"deleted" tags:"work" uuid:"2fa7c3d6-db9c-41e5-8aaa-d39f4e0cf874"]
+---
+time 1546884962
+new [description:"Fix issue with metadata object storing files" due:"1546923600" entry:"1546884962" modified:"1546884962" project:"mmeds" status:"pending" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
+---
+time 1546885438
+new [description:"Change copying files in summarize to use shutil" due:"1546923600" entry:"1546885438" modified:"1546885438" project:"mmeds" status:"pending" tags:"work" uuid:"b39c8d56-df70-4287-a37d-c61e97bcd983"]
+---
+time 1546948164
+old [description:"Fix issue with metadata object storing files" due:"1546923600" entry:"1546884962" modified:"1546884962" project:"mmeds" status:"pending" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
+new [description:"Fix issue with metadata object storing files" due:"1546923600" end:"1546948164" entry:"1546884962" modified:"1546948164" project:"mmeds" status:"completed" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
+---

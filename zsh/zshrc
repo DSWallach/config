@@ -23,6 +23,7 @@ alias pperf='sudo cpupower frequency-set -g performance'
 alias psave='sudo cpupower frequency-set -g ondemand'
 alias oct='octave --no-gui'
 alias susegrub='grub2-mkconfig -o /boot/grub2/grub.cfg'
+alias ta='task add tag:work project:mmeds'
 
 # Directory Navigation
 alias ds='dirs -v'
@@ -32,6 +33,7 @@ alias py='python'
 alias pin='python setup.py install'
 alias sac='source activate'
 alias sad='source deactivate'
+alias jb='jupyter notebook'
 
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
@@ -72,6 +74,7 @@ alias k9='kill -9'
 setopt rmstarsilent
 KEYTIMEOUT=10
 bindkey -v
+xset rate r 250 45
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
