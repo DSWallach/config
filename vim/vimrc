@@ -15,9 +15,10 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'nvie/vim-flake8'
+" Plug 'nvie/vim-flake8'
 Plug 'blindFS/vim-taskwarrior'
 Plug 'vim-scripts/YankRing.vim'
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')
     Plug 'Valloric/YouCompleteMe'

@@ -74,7 +74,7 @@ alias k9='kill -9'
 setopt rmstarsilent
 KEYTIMEOUT=10
 bindkey -v
-xset rate r 250 45
+xset r rate 250 45
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
