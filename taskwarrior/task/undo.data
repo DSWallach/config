@@ -437,3 +437,13 @@ time 1546948164
 old [description:"Fix issue with metadata object storing files" due:"1546923600" entry:"1546884962" modified:"1546884962" project:"mmeds" status:"pending" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
 new [description:"Fix issue with metadata object storing files" due:"1546923600" end:"1546948164" entry:"1546884962" modified:"1546948164" project:"mmeds" status:"completed" tags:"work" uuid:"7e590150-c7a4-4f01-b69f-af386696970e"]
 ---
+time 1546972903
+new [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1546972903" project:"mmeds" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+---
+time 1546974260
+new [description:"add mmeds guide document to centrally editable location" entry:"1546974260" modified:"1546974260" project:"mmeds" status:"pending" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
+---
+time 1547041545
+old [description:"Change copying files in summarize to use shutil" due:"1546923600" entry:"1546885438" modified:"1546885438" project:"mmeds" status:"pending" tags:"work" uuid:"b39c8d56-df70-4287-a37d-c61e97bcd983"]
+new [description:"Change copying files in summarize to use shutil" due:"1546923600" end:"1547041545" entry:"1546885438" modified:"1547041545" project:"mmeds" status:"completed" tags:"work" uuid:"b39c8d56-df70-4287-a37d-c61e97bcd983"]
+---

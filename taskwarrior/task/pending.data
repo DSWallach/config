@@ -8,4 +8,6 @@
 [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1546618060" project:"mmeds" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
 [description:"flesh out documentation for analysis config file" entry:"1546618734" modified:"1546618734" project:"mmeds" status:"pending" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
 [description:"Look into automatically generated tests" due:"1547442000" entry:"1546883814" modified:"1546883814" project:"BEA3" status:"pending" tags:"work" uuid:"4192abeb-940c-4282-9f4a-670435f16957"]
-[description:"Change copying files in summarize to use shutil" due:"1546923600" entry:"1546885438" modified:"1546885438" project:"mmeds" status:"pending" tags:"work" uuid:"b39c8d56-df70-4287-a37d-c61e97bcd983"]
+[description:"Change copying files in summarize to use shutil" due:"1546923600" end:"1547041545" entry:"1546885438" modified:"1547041545" project:"mmeds" status:"completed" tags:"work" uuid:"b39c8d56-df70-4287-a37d-c61e97bcd983"]
+[description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1546972903" project:"mmeds" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+[description:"add mmeds guide document to centrally editable location" entry:"1546974260" modified:"1546974260" project:"mmeds" status:"pending" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]

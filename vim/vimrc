@@ -13,16 +13,17 @@ colo desert
 call plug#begin()
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-" Plug 'nvie/vim-flake8'
 Plug 'blindFS/vim-taskwarrior'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'terryma/vim-multiple-cursors'
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')
     Plug 'Valloric/YouCompleteMe'
 endif
+Plug 'ervandew/supertab'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 
 
@@ -44,15 +45,16 @@ set timeoutlen=1000
 set ttimeoutlen=0
 set background=dark
 set foldmethod=indent
-set listchars=trail:%,tab:>>
 set foldlevelstart=0
 set tabstop=2
 set softtabstop=0
 set shiftwidth=4
-set smarttab
 set expandtab
+set smarttab
 set nowrap
-
+set relativenumber
+set listchars=eol:$,tab:>>,trail:~,extends:>,precedes:<
+set list
 
 "---------- FUNCTIONS -----------"
 " Function for trimming whitespace
@@ -112,3 +114,22 @@ endfunc
 
 nnoremap <A-.> :call MoveToNextTab()<CR>
 nnoremap <A-,> :call MoveToPrevTab()<CR>
+
+"" Python Plugin Settings
+let g:pep8_ignore="E501"
+let g:pymode_python='python3'
+let g:pymode_options_max_line_length=120
+let g:pymode_lint_options_pep8 =
+    \ {'max_line_length': g:pymode_options_max_line_length}
+let g:pymode_doc_bind='B'
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsListSnippets = '<c-g>'
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
