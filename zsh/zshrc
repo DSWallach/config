@@ -70,6 +70,9 @@ alias du='du -h -d 2'
 alias ka9='killall -9'
 alias k9='kill -9'
 
+# Work stuff
+alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
+
 # Options
 setopt rmstarsilent
 KEYTIMEOUT=10
