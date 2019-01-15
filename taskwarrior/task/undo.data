@@ -696,3 +696,23 @@ new [description:"finish work with notebook metadata and legend branches" entry:
 time 1547231045
 new [description:"integrate legend with all graphs" due:"1547442000" entry:"1547231045" modified:"1547231045" project:"mmeds" status:"pending" tags:"work" uuid:"afaea17b-dc5c-437e-ba19-9071085e13e0"]
 ---
+time 1547478096
+old [description:"integrate legend with all graphs" due:"1547442000" entry:"1547231045" modified:"1547231045" project:"mmeds" status:"pending" tags:"work" uuid:"afaea17b-dc5c-437e-ba19-9071085e13e0"]
+new [description:"integrate legend with all graphs" due:"1547442000" end:"1547478096" entry:"1547231045" modified:"1547478096" project:"mmeds" status:"completed" tags:"work" uuid:"afaea17b-dc5c-437e-ba19-9071085e13e0"]
+---
+time 1547478105
+old [description:"finish work with notebook metadata and legend branches" entry:"1547230851" modified:"1547230851" project:"mmeds" status:"pending" tags:"work" uuid:"a1f8768f-a9e8-45b2-a5b8-e90376834755"]
+new [description:"finish work with notebook metadata and legend branches" end:"1547478105" entry:"1547230851" modified:"1547478105" project:"mmeds" status:"completed" tags:"work" uuid:"a1f8768f-a9e8-45b2-a5b8-e90376834755"]
+---
+time 1547487588
+old [description:"Look into automatically generated tests" due:"1547442000" entry:"1546883814" modified:"1546883814" project:"BEA3" status:"pending" tags:"work" uuid:"4192abeb-940c-4282-9f4a-670435f16957"]
+new [description:"Look into automatically generated tests" due:"1547442000" end:"1547487588" entry:"1546883814" modified:"1547487588" project:"BEA3" status:"completed" tags:"work" uuid:"4192abeb-940c-4282-9f4a-670435f16957"]
+---
+time 1547487624
+old [description:"Add document chapters to summary pdf" entry:"1546614337" modified:"1546614337" project:"mmeds" status:"pending" tags:"work" uuid:"74b79c56-e22f-4d55-8d8d-27fef2724fac"]
+new [description:"Add document chapters to summary pdf" end:"1547487624" entry:"1546614337" modified:"1547487624" project:"mmeds" status:"completed" tags:"work" uuid:"74b79c56-e22f-4d55-8d8d-27fef2724fac"]
+---
+time 1547487624
+old [description:"add mmeds guide document to centrally editable location" entry:"1546974260" modified:"1546974260" project:"mmeds" status:"pending" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
+new [description:"add mmeds guide document to centrally editable location" end:"1547487624" entry:"1546974260" modified:"1547487624" project:"mmeds" status:"completed" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
+---

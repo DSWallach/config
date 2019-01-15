@@ -13,12 +13,12 @@ colo desert
 call plug#begin()
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
-Plug 'blindFS/vim-taskwarrior'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'terryma/vim-multiple-cursors'
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')
+    Plug 'blindFS/vim-taskwarrior'
     Plug 'Valloric/YouCompleteMe'
 endif
 Plug 'ervandew/supertab'
