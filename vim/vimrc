@@ -20,10 +20,10 @@ Plug 'terryma/vim-multiple-cursors'
 if (hostname() == 'localhost.localdomain')
     Plug 'blindFS/vim-taskwarrior'
     Plug 'Valloric/YouCompleteMe'
+    Plug 'ervandew/supertab'
+    Plug 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
 endif
-Plug 'ervandew/supertab'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 call plug#end()
 
 
