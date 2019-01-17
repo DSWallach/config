@@ -5,4 +5,6 @@
 [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1546618060" project:"mmeds" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
 [description:"flesh out documentation for analysis config file" entry:"1546618734" modified:"1546618734" project:"mmeds" status:"pending" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
 [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1546972903" project:"mmeds" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
-[description:"Create stable branch to leave running on Minerva" entry:"1547130287" modified:"1547130287" project:"mmeds-meta" status:"pending" tags:"work" uuid:"12188a73-a1c1-4519-8c19-34ccfb5fb778"]
+[description:"add functionality to remove all data for a particular user" due:"1547787600" entry:"1547570824" modified:"1547570824" project:"mmeds" status:"pending" tags:"work" uuid:"21311b94-86d0-4501-b000-d2092685b6b5"]
+[description:"design tests for database that will catch if an entry is missing for any user" entry:"1547645758" modified:"1547645758" project:"mmeds" status:"pending" tags:"work" uuid:"120a361e-d10b-44e4-a457-a612cda8e27b"]
+[description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738481" project:"BeA3" status:"pending" tags:"work" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
