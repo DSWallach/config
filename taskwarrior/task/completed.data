@@ -1,3 +1,5 @@
+[description:"design" end:"1547645765" entry:"1547645731" modified:"1547645766" project:"mmeds" status:"deleted" tags:"work" uuid:"95cb51c3-640f-4a8f-9aab-f6c0703a268a"]
+[description:"Create stable branch to leave running on Minerva" end:"1547559651" entry:"1547130287" modified:"1547559651" project:"mmeds-meta" status:"completed" tags:"work" uuid:"12188a73-a1c1-4519-8c19-34ccfb5fb778"]
 [description:"Add document chapters to summary pdf" end:"1547487624" entry:"1546614337" modified:"1547487624" project:"mmeds" status:"completed" tags:"work" uuid:"74b79c56-e22f-4d55-8d8d-27fef2724fac"]
 [description:"add mmeds guide document to centrally editable location" end:"1547487624" entry:"1546974260" modified:"1547487624" project:"mmeds" status:"completed" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
 [description:"Look into automatically generated tests" due:"1547442000" end:"1547487588" entry:"1546883814" modified:"1547487588" project:"BEA3" status:"completed" tags:"work" uuid:"4192abeb-940c-4282-9f4a-670435f16957"]

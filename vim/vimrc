@@ -15,14 +15,9 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
-Plug 'terryma/vim-multiple-cursors'
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')
-    Plug 'blindFS/vim-taskwarrior'
     Plug 'Valloric/YouCompleteMe'
-    Plug 'ervandew/supertab'
-    Plug 'SirVer/ultisnips'
-    Plug 'honza/vim-snippets'
 endif
 call plug#end()
 

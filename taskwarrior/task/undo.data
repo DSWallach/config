@@ -716,3 +716,27 @@ time 1547487624
 old [description:"add mmeds guide document to centrally editable location" entry:"1546974260" modified:"1546974260" project:"mmeds" status:"pending" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
 new [description:"add mmeds guide document to centrally editable location" end:"1547487624" entry:"1546974260" modified:"1547487624" project:"mmeds" status:"completed" tags:"work" uuid:"a3b9e279-1a17-481f-a97c-66c0eeeef11e"]
 ---
+time 1547559651
+old [description:"Create stable branch to leave running on Minerva" entry:"1547130287" modified:"1547130287" project:"mmeds-meta" status:"pending" tags:"work" uuid:"12188a73-a1c1-4519-8c19-34ccfb5fb778"]
+new [description:"Create stable branch to leave running on Minerva" end:"1547559651" entry:"1547130287" modified:"1547559651" project:"mmeds-meta" status:"completed" tags:"work" uuid:"12188a73-a1c1-4519-8c19-34ccfb5fb778"]
+---
+time 1547570824
+new [description:"add functionality to remove all data for a particular user" due:"1547787600" entry:"1547570824" modified:"1547570824" project:"mmeds" status:"pending" tags:"work" uuid:"21311b94-86d0-4501-b000-d2092685b6b5"]
+---
+time 1547645731
+new [description:"design" entry:"1547645731" modified:"1547645731" project:"mmeds" status:"pending" tags:"work" uuid:"95cb51c3-640f-4a8f-9aab-f6c0703a268a"]
+---
+time 1547645758
+new [description:"design tests for database that will catch if an entry is missing for any user" entry:"1547645758" modified:"1547645758" project:"mmeds" status:"pending" tags:"work" uuid:"120a361e-d10b-44e4-a457-a612cda8e27b"]
+---
+time 1547645766
+old [description:"design" entry:"1547645731" modified:"1547645731" project:"mmeds" status:"pending" tags:"work" uuid:"95cb51c3-640f-4a8f-9aab-f6c0703a268a"]
+new [description:"design" end:"1547645765" entry:"1547645731" modified:"1547645766" project:"mmeds" status:"deleted" tags:"work" uuid:"95cb51c3-640f-4a8f-9aab-f6c0703a268a"]
+---
+time 1547738453
+new [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738453" project:"mmeds" status:"pending" tags:"BeA3" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
+---
+time 1547738481
+old [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738453" project:"mmeds" status:"pending" tags:"BeA3" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
+new [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738481" project:"BeA3" status:"pending" tags:"work" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
+---
