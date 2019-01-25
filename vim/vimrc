@@ -111,8 +111,10 @@ nnoremap <A-.> :call MoveToNextTab()<CR>
 nnoremap <A-,> :call MoveToPrevTab()<CR>
 
 "" Python Plugin Settings
+if (hostname() == 'localhost.localdomain')
+    let g:pymode_python='python3'
+endif
 let g:pep8_ignore="E501"
-let g:pymode_python='python3'
 let g:pymode_options_max_line_length=120
 let g:pymode_lint_options_pep8 =
     \ {'max_line_length': g:pymode_options_max_line_length}
