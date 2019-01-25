@@ -1,6 +1,10 @@
 export name=".sel"
 
-sudo dnf install cmake gcc-c++ make python3-devel
+if [ $(hostname) = "localhost.localdomain" ]; then
+    sudo dnf install cmake gcc-c++ make python3-devel
+else
+    module use /hpc/packages/minerva-common/modulefiles
+fi
 
 git clone ssh://github.com/dswallach/config ${HOME}/${name}
 
