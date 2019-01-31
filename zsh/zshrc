@@ -31,8 +31,8 @@ alias ds='dirs -v'
 # Python
 alias py='python'
 alias pin='python setup.py install'
-alias sac='source activate'
-alias sad='source deactivate'
+alias sac='conda activate'
+alias sad='conda deactivate'
 alias jb='jupyter notebook'
 alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning'
 
