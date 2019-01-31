@@ -740,3 +740,215 @@ time 1547738481
 old [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738453" project:"mmeds" status:"pending" tags:"BeA3" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
 new [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738481" project:"BeA3" status:"pending" tags:"work" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
 ---
+time 1547821866
+old [description:"add functionality to remove all data for a particular user" due:"1547787600" entry:"1547570824" modified:"1547570824" project:"mmeds" status:"pending" tags:"work" uuid:"21311b94-86d0-4501-b000-d2092685b6b5"]
+new [description:"add functionality to remove all data for a particular user" due:"1547787600" end:"1547821866" entry:"1547570824" modified:"1547821866" project:"mmeds" status:"completed" tags:"work" uuid:"21311b94-86d0-4501-b000-d2092685b6b5"]
+---
+time 1547821896
+old [description:"design tests for database that will catch if an entry is missing for any user" entry:"1547645758" modified:"1547645758" project:"mmeds" status:"pending" tags:"work" uuid:"120a361e-d10b-44e4-a457-a612cda8e27b"]
+new [description:"design tests for database that will catch if an entry is missing for any user" end:"1547821896" entry:"1547645758" modified:"1547821896" project:"mmeds" status:"completed" tags:"work" uuid:"120a361e-d10b-44e4-a457-a612cda8e27b"]
+---
+time 1547821924
+old [description:"Add tests for new summary functionality" due:"1547960400" entry:"1545221890" modified:"1546530810" project:"mmeds" status:"pending" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+new [description:"Add tests for new summary functionality" due:"1547960400" end:"1547821924" entry:"1545221890" modified:"1547821924" project:"mmeds" status:"completed" tags:"work" uuid:"9bbbc16f-a1a9-4724-8541-6849d4149359"]
+---
+time 1548165620
+new [description:"modify server to create seperate thread for uploads and require metadata checks first" due:"1548219600" entry:"1548165620" modified:"1548165620" project:"mmeds" status:"pending" tags:"work" uuid:"b8152606-a11c-43ae-975d-32e5dd23137b"]
+---
+time 1548166479
+new [description:"Review layout of mmeds website" due:"1548997200" entry:"1548166479" modified:"1548166479" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+---
+time 1548166663
+new [description:"change modify upload to use the new setup" due:"1548219600" entry:"1548166663" modified:"1548166663" project:"mmeds" status:"pending" tags:"work" uuid:"437dc69f-2c84-4814-863c-24a84b76b998"]
+---
+time 1548166746
+new [description:"Ensure testing still works after server modification" entry:"1548166746" modified:"1548166746" project:"mmeds" status:"pending" tags:"work" uuid:"91a15c0e-6508-4547-81a6-1fba242f2b77"]
+---
+time 1548168599
+new [description:"Create a temporary directory for storing metadata until the final upload" due:"1548651600" entry:"1548168599" modified:"1548168599" project:"mmeds" status:"pending" tags:"work" uuid:"72285d56-b8e2-45c6-a12b-8fa65acfc364"]
+---
+time 1548169945
+new [description:"look into special cp_dispatch to simplify server.py" entry:"1548169945" modified:"1548169945" project:"mmeds" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+---
+time 1548172210
+new [description:"add check for study name to mmeds" entry:"1548172210" modified:"1548172210" project:"mmeds" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+---
+time 1548176743
+new [description:"test uploading of data for filetypes" entry:"1548176743" modified:"1548176743" project:"mmeds" status:"pending" tags:"work" uuid:"d868f85e-41ab-4a14-9485-03910e053c19"]
+---
+time 1548177595
+new [description:"fix server so it doesnt rely on cp.session&open;dir&close;\n" entry:"1548177595" modified:"1548177595" project:"mmeds" status:"pending" tags:"work" uuid:"bb26ea0f-8113-456e-a543-cfbb0ebdb211"]
+---
+time 1548177610
+old [description:"modify server to create seperate thread for uploads and require metadata checks first" due:"1548219600" entry:"1548165620" modified:"1548165620" project:"mmeds" status:"pending" tags:"work" uuid:"b8152606-a11c-43ae-975d-32e5dd23137b"]
+new [description:"modify server to create seperate thread for uploads and require metadata checks first" due:"1548219600" end:"1548177610" entry:"1548165620" modified:"1548177610" project:"mmeds" status:"completed" tags:"work" uuid:"b8152606-a11c-43ae-975d-32e5dd23137b"]
+---
+time 1548249419
+new [description:"move summary functionality into the job file" entry:"1548249419" modified:"1548249419" project:"mmeds" status:"pending" tags:"work" uuid:"4307256a-00e0-4ff6-a10f-bfb33bd2c7dd"]
+---
+time 1548352798
+old [description:"change modify upload to use the new setup" due:"1548219600" entry:"1548166663" modified:"1548166663" project:"mmeds" status:"pending" tags:"work" uuid:"437dc69f-2c84-4814-863c-24a84b76b998"]
+new [description:"change modify upload to use the new setup" due:"1548219600" end:"1548352798" entry:"1548166663" modified:"1548352798" project:"mmeds" status:"completed" tags:"work" uuid:"437dc69f-2c84-4814-863c-24a84b76b998"]
+---
+time 1548352808
+old [description:"Check meeting_notes.txt for any tasks missed" due:"1548824400" entry:"1546445689" modified:"1546445689" project:"mmeds" status:"pending" tags:"work" uuid:"354e7975-aabb-4f4b-b646-bf7dd04a9585"]
+new [description:"Check meeting_notes.txt for any tasks missed" due:"1548824400" end:"1548352808" entry:"1546445689" modified:"1548352808" project:"mmeds" status:"completed" tags:"work" uuid:"354e7975-aabb-4f4b-b646-bf7dd04a9585"]
+---
+time 1548352844
+old [description:"Create a temporary directory for storing metadata until the final upload" due:"1548651600" entry:"1548168599" modified:"1548168599" project:"mmeds" status:"pending" tags:"work" uuid:"72285d56-b8e2-45c6-a12b-8fa65acfc364"]
+new [description:"Create a temporary directory for storing metadata until the final upload" due:"1550206800" entry:"1548168599" modified:"1548352844" project:"mmeds" status:"pending" tags:"work" uuid:"72285d56-b8e2-45c6-a12b-8fa65acfc364"]
+---
+time 1548352889
+old [description:"Create templates for each type of plot and what they represent" entry:"1546445369" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+new [description:"Create templates for each type of plot and what they represent" due:"1548651600" entry:"1546445369" modified:"1548352889" project:"mmeds" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+---
+time 1548352889
+old [description:"Add option to use continuous colors for particular variables" entry:"1546445460" modified:"1546445503" project:"mmeds" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+new [description:"Add option to use continuous colors for particular variables" due:"1548651600" entry:"1546445460" modified:"1548352889" project:"mmeds" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+---
+time 1548352902
+old [description:"Ensure testing still works after server modification" entry:"1548166746" modified:"1548166746" project:"mmeds" status:"pending" tags:"work" uuid:"91a15c0e-6508-4547-81a6-1fba242f2b77"]
+new [description:"Ensure testing still works after server modification" end:"1548352902" entry:"1548166746" modified:"1548352902" project:"mmeds" status:"completed" tags:"work" uuid:"91a15c0e-6508-4547-81a6-1fba242f2b77"]
+---
+time 1548352938
+new [description:"sort alpha\/beta legend by name" entry:"1548352938" modified:"1548352938" project:"mmeds" status:"pending" tags:"work" uuid:"bfc33f3e-76b2-4c8a-9c4d-d1b1904dab0d"]
+---
+time 1548352958
+new [description:"create custom legend with abundances for taxa summary" entry:"1548352958" modified:"1548352958" project:"mmeds" status:"pending" tags:"work" uuid:"4f01a8aa-b6c0-4447-ac87-fed40e405c8b"]
+---
+time 1548352970
+old [description:"create custom legend with abundances for taxa summary" entry:"1548352958" modified:"1548352958" project:"mmeds" status:"pending" tags:"work" uuid:"4f01a8aa-b6c0-4447-ac87-fed40e405c8b"]
+new [description:"create custom legend with abundances for taxa summary" due:"1548824400" entry:"1548352958" modified:"1548352970" project:"mmeds" status:"pending" tags:"work" uuid:"4f01a8aa-b6c0-4447-ac87-fed40e405c8b"]
+---
+time 1548352999
+new [description:"change alpha\/beta plots to white background" entry:"1548352999" modified:"1548352999" project:"mmeds" status:"pending" tags:"work" uuid:"a1577aab-fbc8-41fd-9c6a-1c95e3597910"]
+---
+time 1548353034
+new [description:"Reads Tufte books on visualization" entry:"1548353034" modified:"1548353034" project:"BeA3" status:"pending" tags:"work" uuid:"da15ba17-2fbc-4cbe-8072-f986ea0d3c91"]
+---
+time 1548353044
+new [description:"get more datasets for analysis" entry:"1548353044" modified:"1548353044" project:"mmeds" status:"pending" tags:"work" uuid:"13fc1d08-fab7-46ed-a1b4-66c406a0e0b4"]
+---
+time 1548355629
+old [description:"fix server so it doesnt rely on cp.session&open;dir&close;\n" entry:"1548177595" modified:"1548177595" project:"mmeds" status:"pending" tags:"work" uuid:"bb26ea0f-8113-456e-a543-cfbb0ebdb211"]
+new [description:"fix server so it doesnt rely on cp.session&open;dir&close;\n" end:"1548355629" entry:"1548177595" modified:"1548355629" project:"mmeds" status:"completed" tags:"work" uuid:"bb26ea0f-8113-456e-a543-cfbb0ebdb211"]
+---
+time 1548435815
+old [description:"move summary functionality into the job file" entry:"1548249419" modified:"1548249419" project:"mmeds" status:"pending" tags:"work" uuid:"4307256a-00e0-4ff6-a10f-bfb33bd2c7dd"]
+new [description:"move summary functionality into the job file" due:"1548392400" entry:"1548249419" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"4307256a-00e0-4ff6-a10f-bfb33bd2c7dd"]
+---
+time 1548435815
+old [description:"sort alpha\/beta legend by name" entry:"1548352938" modified:"1548352938" project:"mmeds" status:"pending" tags:"work" uuid:"bfc33f3e-76b2-4c8a-9c4d-d1b1904dab0d"]
+new [description:"sort alpha\/beta legend by name" due:"1548392400" entry:"1548352938" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"bfc33f3e-76b2-4c8a-9c4d-d1b1904dab0d"]
+---
+time 1548435815
+old [description:"change alpha\/beta plots to white background" entry:"1548352999" modified:"1548352999" project:"mmeds" status:"pending" tags:"work" uuid:"a1577aab-fbc8-41fd-9c6a-1c95e3597910"]
+new [description:"change alpha\/beta plots to white background" due:"1548392400" entry:"1548352999" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"a1577aab-fbc8-41fd-9c6a-1c95e3597910"]
+---
+time 1548679031
+new [description:"Get a dentist appointment" due:"1548997200" entry:"1548679031" modified:"1548679031" project:"life" status:"pending" tags:"life" uuid:"b32b46ac-37d9-4512-a813-89d3136988ad"]
+---
+time 1548679042
+new [description:"Switch all accounts to draw from Chase" due:"1548997200" entry:"1548679042" modified:"1548679042" project:"life" status:"pending" tags:"life" uuid:"137b4bf1-feac-4ce9-ad7b-7e079348ce18"]
+---
+time 1548679057
+new [description:"Close Apple Bank account" due:"1549256400" entry:"1548679057" modified:"1548679057" project:"life" status:"pending" tags:"life" uuid:"31be3307-8dc2-40d6-b001-a2d1e4c97591"]
+---
+time 1548679288
+new [description:"Handle NAs in meta data when creating summary" entry:"1548679288" modified:"1548679288" project:"mmeds" status:"pending" tags:"work" uuid:"8cc4f3e8-8a6d-4760-a0b7-88b30c7b54ef"]
+---
+time 1548679312
+old [description:"Handle NAs in meta data when creating summary" entry:"1548679288" modified:"1548679288" project:"mmeds" status:"pending" tags:"work" uuid:"8cc4f3e8-8a6d-4760-a0b7-88b30c7b54ef"]
+new [description:"Handle NAs in meta data when creating summary" due:"1548824400" entry:"1548679288" modified:"1548679312" project:"mmeds" status:"pending" tags:"work" uuid:"8cc4f3e8-8a6d-4760-a0b7-88b30c7b54ef"]
+---
+time 1548681161
+new [description:"add jumpable headers for each taxa level" entry:"1548681161" modified:"1548681161" project:"mmeds" status:"pending" tags:"work" uuid:"89aac2b1-d174-449d-934f-41b3ba6ee241"]
+---
+time 1548683570
+new [description:"Convert mmeds files to make use of environmental variables" due:"1548997200" entry:"1548683570" modified:"1548683570" project:"mmeds" status:"pending" tags:"work" uuid:"4d195d7b-6aba-4b6b-8d8a-ff4124352904"]
+---
+time 1548684450
+new [description:"add ability to pick levels of OTU analysis to config file" entry:"1548684450" modified:"1548684450" project:"mmeds" status:"pending" tags:"work" uuid:"f197bfc1-4251-44df-9d87-894516e958cb"]
+---
+time 1548685105
+new [description:"automatically add analysis for all samples together and all seperately" entry:"1548685105" modified:"1548685105" project:"mmeds" status:"pending" tags:"work" uuid:"d1029655-7bce-4127-9c13-4b9df804a2d9"]
+---
+time 1548686664
+new [description:"set all analysis functionality to work off catagories in config" entry:"1548686664" modified:"1548686664" project:"mmeds" status:"pending" tags:"work" uuid:"b99d0649-3f9a-46a5-b3cf-cb55124e6f49"]
+---
+time 1548688887
+old [description:"set all analysis functionality to work off catagories in config" entry:"1548686664" modified:"1548686664" project:"mmeds" status:"pending" tags:"work" uuid:"b99d0649-3f9a-46a5-b3cf-cb55124e6f49"]
+new [description:"set all analysis functionality to work off catagories in config" end:"1548688887" entry:"1548686664" modified:"1548688887" project:"mmeds" status:"completed" tags:"work" uuid:"b99d0649-3f9a-46a5-b3cf-cb55124e6f49"]
+---
+time 1548695505
+old [description:"Handle NAs in meta data when creating summary" due:"1548824400" entry:"1548679288" modified:"1548679312" project:"mmeds" status:"pending" tags:"work" uuid:"8cc4f3e8-8a6d-4760-a0b7-88b30c7b54ef"]
+new [description:"Handle NAs in meta data when creating summary" due:"1548824400" end:"1548695505" entry:"1548679288" modified:"1548695505" project:"mmeds" status:"completed" tags:"work" uuid:"8cc4f3e8-8a6d-4760-a0b7-88b30c7b54ef"]
+---
+time 1548695514
+old [description:"move summary functionality into the job file" due:"1548392400" entry:"1548249419" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"4307256a-00e0-4ff6-a10f-bfb33bd2c7dd"]
+new [description:"move summary functionality into the job file" due:"1548392400" end:"1548695514" entry:"1548249419" modified:"1548695514" project:"mmeds" status:"completed" tags:"work" uuid:"4307256a-00e0-4ff6-a10f-bfb33bd2c7dd"]
+---
+time 1548695522
+old [description:"change alpha\/beta plots to white background" due:"1548392400" entry:"1548352999" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"a1577aab-fbc8-41fd-9c6a-1c95e3597910"]
+new [description:"change alpha\/beta plots to white background" due:"1548392400" end:"1548695522" entry:"1548352999" modified:"1548695522" project:"mmeds" status:"completed" tags:"work" uuid:"a1577aab-fbc8-41fd-9c6a-1c95e3597910"]
+---
+time 1548695856
+old [description:"sort alpha\/beta legend by name" due:"1548392400" entry:"1548352938" modified:"1548435815" project:"mmeds" status:"pending" tags:"work" uuid:"bfc33f3e-76b2-4c8a-9c4d-d1b1904dab0d"]
+new [description:"sort alpha\/beta legend by name" due:"1548392400" end:"1548695856" entry:"1548352938" modified:"1548695856" project:"mmeds" status:"completed" tags:"work" uuid:"bfc33f3e-76b2-4c8a-9c4d-d1b1904dab0d"]
+---
+time 1548699077
+new [description:"Custom legend for taxa summary" due:"1548738000" entry:"1548699077" modified:"1548699077" project:"mmeds" status:"pending" tags:"work" uuid:"43469c25-eecd-4414-8e3a-31decbd77ece"]
+---
+time 1548700644
+new [description:"check that R data frame is not reordering columns" entry:"1548700644" modified:"1548700644" project:"mmeds" status:"pending" tags:"work" uuid:"9b51b9ee-8fd5-46ae-97e1-374337f03457"]
+---
+time 1548765250
+old [description:"Custom legend for taxa summary" due:"1548738000" entry:"1548699077" modified:"1548699077" project:"mmeds" status:"pending" tags:"work" uuid:"43469c25-eecd-4414-8e3a-31decbd77ece"]
+new [description:"Custom legend for taxa summary" due:"1548738000" end:"1548765250" entry:"1548699077" modified:"1548765250" project:"mmeds" status:"completed" tags:"work" uuid:"43469c25-eecd-4414-8e3a-31decbd77ece"]
+---
+time 1548776439
+old [description:"Create templates for each type of plot and what they represent" due:"1548651600" entry:"1546445369" modified:"1548352889" project:"mmeds" status:"pending" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+new [description:"Create templates for each type of plot and what they represent" due:"1548651600" end:"1548776438" entry:"1546445369" modified:"1548776439" project:"mmeds" status:"completed" tags:"work" uuid:"5f19704d-3b08-4aaf-9d52-e9b3b67e4053"]
+---
+time 1548776439
+old [description:"Create a temporary directory for storing metadata until the final upload" due:"1550206800" entry:"1548168599" modified:"1548352844" project:"mmeds" status:"pending" tags:"work" uuid:"72285d56-b8e2-45c6-a12b-8fa65acfc364"]
+new [description:"Create a temporary directory for storing metadata until the final upload" due:"1550206800" end:"1548776439" entry:"1548168599" modified:"1548776439" project:"mmeds" status:"completed" tags:"work" uuid:"72285d56-b8e2-45c6-a12b-8fa65acfc364"]
+---
+time 1548776439
+old [description:"test uploading of data for filetypes" entry:"1548176743" modified:"1548176743" project:"mmeds" status:"pending" tags:"work" uuid:"d868f85e-41ab-4a14-9485-03910e053c19"]
+new [description:"test uploading of data for filetypes" end:"1548776439" entry:"1548176743" modified:"1548776439" project:"mmeds" status:"completed" tags:"work" uuid:"d868f85e-41ab-4a14-9485-03910e053c19"]
+---
+time 1548776439
+old [description:"create custom legend with abundances for taxa summary" due:"1548824400" entry:"1548352958" modified:"1548352970" project:"mmeds" status:"pending" tags:"work" uuid:"4f01a8aa-b6c0-4447-ac87-fed40e405c8b"]
+new [description:"create custom legend with abundances for taxa summary" due:"1548824400" end:"1548776439" entry:"1548352958" modified:"1548776439" project:"mmeds" status:"completed" tags:"work" uuid:"4f01a8aa-b6c0-4447-ac87-fed40e405c8b"]
+---
+time 1548776454
+old [description:"add jumpable headers for each taxa level" entry:"1548681161" modified:"1548681161" project:"mmeds" status:"pending" tags:"work" uuid:"89aac2b1-d174-449d-934f-41b3ba6ee241"]
+new [description:"add jumpable headers for each taxa level" end:"1548776454" entry:"1548681161" modified:"1548776454" project:"mmeds" status:"completed" tags:"work" uuid:"89aac2b1-d174-449d-934f-41b3ba6ee241"]
+---
+time 1548784797
+old [description:"flesh out documentation for analysis config file" entry:"1546618734" modified:"1546618734" project:"mmeds" status:"pending" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
+new [description:"flesh out documentation for analysis config file" end:"1548784797" entry:"1546618734" modified:"1548784797" project:"mmeds" status:"completed" tags:"work" uuid:"01191c56-34cf-49e5-ab8c-f8afd221ff5f"]
+---
+time 1548850996
+old [description:"add ability to pick levels of OTU analysis to config file" entry:"1548684450" modified:"1548684450" project:"mmeds" status:"pending" tags:"work" uuid:"f197bfc1-4251-44df-9d87-894516e958cb"]
+new [description:"add ability to pick levels of OTU analysis to config file" end:"1548850996" entry:"1548684450" modified:"1548850996" project:"mmeds" status:"completed" tags:"work" uuid:"f197bfc1-4251-44df-9d87-894516e958cb"]
+---
+time 1548864898
+old [description:"Add option to use continuous colors for particular variables" due:"1548651600" entry:"1546445460" modified:"1548352889" project:"mmeds" status:"pending" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+new [description:"Add option to use continuous colors for particular variables" due:"1548651600" end:"1548864898" entry:"1546445460" modified:"1548864898" project:"mmeds" status:"completed" tags:"work" uuid:"48b27476-994b-4724-83fc-ece7fe47aa51"]
+---
+time 1548866541
+new [description:"convert taxa legends to html" entry:"1548866541" modified:"1548866541" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+---
+time 1548868527
+old [description:"Review layout of mmeds website" due:"1548997200" entry:"1548166479" modified:"1548166479" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+new [description:"Review layout of mmeds website" due:"1559361600" entry:"1548166479" modified:"1548868527" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+---
+time 1548874828
+new [description:"look into selenium testing for mmeds" due:"1549256400" entry:"1548874828" modified:"1548874828" project:"mmeds" status:"pending" tags:"work" uuid:"6301943b-d2e3-4e39-9cbf-0ede88255619"]
+---
+time 1548949298
+old [description:"look into selenium testing for mmeds" due:"1549256400" entry:"1548874828" modified:"1548874828" project:"mmeds" status:"pending" tags:"work" uuid:"6301943b-d2e3-4e39-9cbf-0ede88255619"]
+new [description:"look into selenium testing for mmeds" due:"1549256400" end:"1548949298" entry:"1548874828" modified:"1548949298" project:"mmeds" status:"completed" tags:"work" uuid:"6301943b-d2e3-4e39-9cbf-0ede88255619"]
+---

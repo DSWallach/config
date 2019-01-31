@@ -34,6 +34,7 @@ alias pin='python setup.py install'
 alias sac='source activate'
 alias sad='source deactivate'
 alias jb='jupyter notebook'
+alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning'
 
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
@@ -80,7 +81,6 @@ bindkey -v
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
-export TMUX_TMPDIR=~/tmp
 
 # Custom params for different locations
 if [ $(hostname) = 'localhost.localdomain' ]
