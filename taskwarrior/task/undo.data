@@ -955,3 +955,6 @@ new [description:"look into selenium testing for mmeds" due:"1549256400" end:"15
 time 1548957115
 new [description:"Add checks for config to ensure requested metadata columns exist" due:"1549515600" entry:"1548957115" modified:"1548957115" project:"mmeds" status:"pending" tags:"work" uuid:"1aa2a9b7-9beb-454a-a45d-e8fc8364e852"]
 ---
+time 1548957333
+new [description:"Fix colors in summary and summary spacing" entry:"1548957333" modified:"1548957333" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
+---

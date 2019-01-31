@@ -14,3 +14,4 @@
 [description:"check that R data frame is not reordering columns" entry:"1548700644" modified:"1548700644" project:"mmeds" status:"pending" tags:"work" uuid:"9b51b9ee-8fd5-46ae-97e1-374337f03457"]
 [description:"convert taxa legends to html" entry:"1548866541" modified:"1548866541" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
 [description:"Add checks for config to ensure requested metadata columns exist" due:"1549515600" entry:"1548957115" modified:"1548957115" project:"mmeds" status:"pending" tags:"work" uuid:"1aa2a9b7-9beb-454a-a45d-e8fc8364e852"]
+[description:"Fix colors in summary and summary spacing" entry:"1548957333" modified:"1548957333" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
