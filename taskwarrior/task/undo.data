@@ -958,3 +958,20 @@ new [description:"Add checks for config to ensure requested metadata columns exi
 time 1548957333
 new [description:"Fix colors in summary and summary spacing" entry:"1548957333" modified:"1548957333" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
 ---
+time 1549285636
+old [description:"Switch all accounts to draw from Chase" due:"1548997200" entry:"1548679042" modified:"1548679042" project:"life" status:"pending" tags:"life" uuid:"137b4bf1-feac-4ce9-ad7b-7e079348ce18"]
+new [description:"Switch all accounts to draw from Chase" due:"1548997200" end:"1549285636" entry:"1548679042" modified:"1549285636" project:"life" status:"completed" tags:"life" uuid:"137b4bf1-feac-4ce9-ad7b-7e079348ce18"]
+---
+time 1549298919
+new [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1549861200" entry:"1549298919" modified:"1549298919" project:"mmeds" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+---
+time 1549304054
+new [description:"handle non-gzipped uploads" entry:"1549304054" modified:"1549304054" project:"mmeds" status:"pending" tags:"work" uuid:"2c6769d2-0568-4317-98ea-9d2e05383656"]
+---
+time 1549307125
+old [description:"Add checks for config to ensure requested metadata columns exist" due:"1549515600" entry:"1548957115" modified:"1548957115" project:"mmeds" status:"pending" tags:"work" uuid:"1aa2a9b7-9beb-454a-a45d-e8fc8364e852"]
+new [description:"Add checks for config to ensure requested metadata columns exist" due:"1549515600" end:"1549307125" entry:"1548957115" modified:"1549307125" project:"mmeds" status:"completed" tags:"work" uuid:"1aa2a9b7-9beb-454a-a45d-e8fc8364e852"]
+---
+time 1549307144
+new [description:"full testing for mmeds-pipline" due:"1549429200" entry:"1549307144" modified:"1549307144" project:"mmeds" status:"pending" tags:"work" uuid:"923c7bf8-bf94-42b4-bdb3-fd25d44ba6fb"]
+---
