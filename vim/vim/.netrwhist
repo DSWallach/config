@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/david/Work/mmeds-meta/scripts'
-let g:netrw_dirhist_2='/home/david/Work/mmeds-meta/.git'
-let g:netrw_dirhist_3='/home/david/Work/mmeds-meta/mmeds'
-let g:netrw_dirhist_4='/home/david/Work/mmeds-meta'
-let g:netrw_dirhist_5='/home/david/.sel'
-let g:netrw_dirhist_6='/home/david/Work/data-mmeds/analysis4/summary_test'
-let g:netrw_dirhist_7='/home/david/anaconda3'
-let g:netrw_dirhist_8='/home/david/Work/mmeds-meta/.cache'
-let g:netrw_dirhist_9='/home/david/Work/test-mmeds/short'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/david/mmeds_server_data/david_5/analysis0/core_metrics_results'

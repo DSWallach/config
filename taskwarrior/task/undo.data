@@ -975,3 +975,15 @@ new [description:"Add checks for config to ensure requested metadata columns exi
 time 1549307144
 new [description:"full testing for mmeds-pipline" due:"1549429200" entry:"1549307144" modified:"1549307144" project:"mmeds" status:"pending" tags:"work" uuid:"923c7bf8-bf94-42b4-bdb3-fd25d44ba6fb"]
 ---
+time 1549634512
+new [description:"better error handling for metadata uploads" entry:"1549634512" modified:"1549634512" project:"mmeds" status:"pending" tags:"work" uuid:"ffe1430b-4494-43a3-ac50-cb52b735e5bd"]
+---
+time 1549645465
+new [description:"integrate barcode options into config file" entry:"1549645465" modified:"1549645465" project:"mmeds" status:"pending" tags:"work" uuid:"11e44f70-3da2-46f1-8d87-bb2311206d48"]
+---
+time 1549898475
+new [description:"perform filtering of metadata columns prior to qiime1 analysis" entry:"1549898475" modified:"1549898475" project:"mmeds" status:"pending" tags:"work" uuid:"15c36fb2-837f-4b07-8167-9b01abc8a90b"]
+---
+time 1549898906
+new [description:"add functionality for reverse reads to qiime1\/2" entry:"1549898906" modified:"1549898906" project:"mmeds" status:"pending" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
+---

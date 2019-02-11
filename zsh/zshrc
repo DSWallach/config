@@ -24,6 +24,7 @@ alias psave='sudo cpupower frequency-set -g ondemand'
 alias oct='octave --no-gui'
 alias susegrub='grub2-mkconfig -o /boot/grub2/grub.cfg'
 alias ta='task add tag:work project:mmeds'
+alias tw='task tag:work'
 
 # Directory Navigation
 alias ds='dirs -v'
@@ -82,16 +83,13 @@ bindkey -v
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
 
+
 # Custom params for different locations
-if [ $(hostname) = 'localhost.localdomain' ]
-then
+if [ $(hostname) = 'localhost.localdomain' ]; then
     xset r rate 250 45
-    # Setup Anaconda
-    if [[ $PATH != *"anaconda3/bin"* ]]; then
-# export PATH="$HOME/anaconda3/bin:$PATH"  # commented out by conda initialize
-    fi
     # Vim
     alias vi='nvim'
+    module use ~/.modules/modulefiles
 fi
 
 if [ $(hostname) = 'node2-3' ]
@@ -134,4 +132,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
