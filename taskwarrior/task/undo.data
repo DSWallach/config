@@ -987,3 +987,18 @@ new [description:"perform filtering of metadata columns prior to qiime1 analysis
 time 1549898906
 new [description:"add functionality for reverse reads to qiime1\/2" entry:"1549898906" modified:"1549898906" project:"mmeds" status:"pending" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
 ---
+time 1549901040
+old [description:"add functionality for reverse reads to qiime1\/2" entry:"1549898906" modified:"1549898906" project:"mmeds" status:"pending" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
+new [description:"add functionality for reverse reads to qiime1\/2" due:"1550206800" entry:"1549898906" modified:"1549901040" project:"mmeds" status:"pending" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
+---
+time 1549901057
+old [description:"perform filtering of metadata columns prior to qiime1 analysis" entry:"1549898475" modified:"1549898475" project:"mmeds" status:"pending" tags:"work" uuid:"15c36fb2-837f-4b07-8167-9b01abc8a90b"]
+new [description:"perform filtering of metadata columns prior to qiime1 analysis" due:"1550206800" entry:"1549898475" modified:"1549901057" project:"mmeds" status:"pending" tags:"work" uuid:"15c36fb2-837f-4b07-8167-9b01abc8a90b"]
+---
+time 1549980577
+old [description:"Convert mmeds files to make use of environmental variables" due:"1548997200" entry:"1548683570" modified:"1548683570" project:"mmeds" status:"pending" tags:"work" uuid:"4d195d7b-6aba-4b6b-8d8a-ff4124352904"]
+new [description:"Convert mmeds files to make use of environmental variables" due:"1551416400" entry:"1548683570" modified:"1549980577" project:"mmeds" status:"pending" tags:"work" uuid:"4d195d7b-6aba-4b6b-8d8a-ff4124352904"]
+---
+time 1549992019
+new [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1549992019" project:"mmeds" status:"pending" tags:"work" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
