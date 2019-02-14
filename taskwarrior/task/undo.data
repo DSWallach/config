@@ -1002,3 +1002,35 @@ new [description:"Convert mmeds files to make use of environmental variables" du
 time 1549992019
 new [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1549992019" project:"mmeds" status:"pending" tags:"work" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
 ---
+time 1549994667
+new [description:"look into best way to wrap other packages for use within loclust\/ensemble" entry:"1549994667" modified:"1549994667" project:"BeA3" status:"pending" tags:"work" uuid:"b1a926bb-9eb1-458e-ab0c-5c8b7683f276"]
+---
+time 1550082185
+new [description:"add logout error catching for working_dir" due:"1550206800" entry:"1550082185" modified:"1550082185" project:"mmeds" status:"pending" tags:"work" uuid:"9f350bac-29fd-4758-9e49-a66fe18fed42"]
+---
+time 1550082197
+old [description:"full testing for mmeds-pipline" due:"1549429200" entry:"1549307144" modified:"1549307144" project:"mmeds" status:"pending" tags:"work" uuid:"923c7bf8-bf94-42b4-bdb3-fd25d44ba6fb"]
+new [description:"full testing for mmeds-pipline" due:"1549429200" end:"1550082197" entry:"1549307144" modified:"1550082197" project:"mmeds" status:"completed" tags:"work" uuid:"923c7bf8-bf94-42b4-bdb3-fd25d44ba6fb"]
+---
+time 1550082221
+old [description:"get more datasets for analysis" entry:"1548353044" modified:"1548353044" project:"mmeds" status:"pending" tags:"work" uuid:"13fc1d08-fab7-46ed-a1b4-66c406a0e0b4"]
+new [description:"get more datasets for analysis" end:"1550082219" entry:"1548353044" modified:"1550082221" project:"mmeds" status:"deleted" tags:"work" uuid:"13fc1d08-fab7-46ed-a1b4-66c406a0e0b4"]
+---
+time 1550082221
+old [description:"Close Apple Bank account" due:"1549256400" entry:"1548679057" modified:"1548679057" project:"life" status:"pending" tags:"life" uuid:"31be3307-8dc2-40d6-b001-a2d1e4c97591"]
+new [description:"Close Apple Bank account" due:"1549256400" end:"1550082221" entry:"1548679057" modified:"1550082221" project:"life" status:"deleted" tags:"life" uuid:"31be3307-8dc2-40d6-b001-a2d1e4c97591"]
+---
+time 1550082239
+old [description:"Get a dentist appointment" due:"1548997200" entry:"1548679031" modified:"1548679031" project:"life" status:"pending" tags:"life" uuid:"b32b46ac-37d9-4512-a813-89d3136988ad"]
+new [description:"Get a dentist appointment" due:"1548997200" end:"1550082238" entry:"1548679031" modified:"1550082239" project:"life" status:"deleted" tags:"life" uuid:"b32b46ac-37d9-4512-a813-89d3136988ad"]
+---
+time 1550082265
+old [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1549861200" entry:"1549298919" modified:"1549298919" project:"mmeds" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+new [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553400000" entry:"1549298919" modified:"1550082265" project:"mmeds" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+---
+time 1550090660
+new [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1551416400" entry:"1550090660" modified:"1550090660" project:"mmeds" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+---
+time 1550091132
+new [description:"test all cases for setup_dir" due:"1550206800" entry:"1550091132" modified:"1550091132" project:"mmeds" status:"pending" tags:"work" uuid:"f7303ade-2169-4c5e-9623-13f22f62ff66"]
+---

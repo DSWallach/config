@@ -1,3 +1,7 @@
+[description:"get more datasets for analysis" end:"1550082219" entry:"1548353044" modified:"1550082221" project:"mmeds" status:"deleted" tags:"work" uuid:"13fc1d08-fab7-46ed-a1b4-66c406a0e0b4"]
+[description:"Get a dentist appointment" due:"1548997200" end:"1550082238" entry:"1548679031" modified:"1550082239" project:"life" status:"deleted" tags:"life" uuid:"b32b46ac-37d9-4512-a813-89d3136988ad"]
+[description:"Close Apple Bank account" due:"1549256400" end:"1550082221" entry:"1548679057" modified:"1550082221" project:"life" status:"deleted" tags:"life" uuid:"31be3307-8dc2-40d6-b001-a2d1e4c97591"]
+[description:"full testing for mmeds-pipline" due:"1549429200" end:"1550082197" entry:"1549307144" modified:"1550082197" project:"mmeds" status:"completed" tags:"work" uuid:"923c7bf8-bf94-42b4-bdb3-fd25d44ba6fb"]
 [description:"Add checks for config to ensure requested metadata columns exist" due:"1549515600" end:"1549307125" entry:"1548957115" modified:"1549307125" project:"mmeds" status:"completed" tags:"work" uuid:"1aa2a9b7-9beb-454a-a45d-e8fc8364e852"]
 [description:"Switch all accounts to draw from Chase" due:"1548997200" end:"1549285636" entry:"1548679042" modified:"1549285636" project:"life" status:"completed" tags:"life" uuid:"137b4bf1-feac-4ce9-ad7b-7e079348ce18"]
 [description:"look into selenium testing for mmeds" due:"1549256400" end:"1548949298" entry:"1548874828" modified:"1548949298" project:"mmeds" status:"completed" tags:"work" uuid:"6301943b-d2e3-4e39-9cbf-0ede88255619"]

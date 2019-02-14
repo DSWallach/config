@@ -7,7 +7,7 @@ if [ $0 = "full" ]; then
 	if [ $(hostname) = "localhost@local.domain" ]; then
 		sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm;
 		sudo dnf upgrade;
-		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior;
+		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior fzf;
 	else
 		module use /hpc/packages/minerva-common/modulefiles;
 	fi
