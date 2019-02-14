@@ -100,7 +100,6 @@ then
     module use /hpc/packages/minerva-common/modulefiles
     module load tmux
     module load anaconda
-    module load htop
 
     prompt skwp
 
