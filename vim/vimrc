@@ -7,6 +7,9 @@ syntax on
 " the plugins.
 let mapleader=","
 
+" Easy Motion default
+map <Leader> <Plug>(easymotion-prefix)
+
 colo desert
 
 " Plugin management
@@ -139,7 +142,11 @@ let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 " CtrlP file finding
-let g:ctrlp_mapp = '<c-u>'
+let g:ctrlp_map = '<c-u>'
+let g:ctrlp_prompt_mappings = {
+    \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
+    \ 'AcceptSelection("t")': ['<cr>'],
+    \ }
 
 " Filetypes
 au BufNewFile,BufRead *.tsv		setf tsv
