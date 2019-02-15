@@ -1034,3 +1034,34 @@ new [description:"Ensure analysis-pipline tests will catch issues with incorrect
 time 1550091132
 new [description:"test all cases for setup_dir" due:"1550206800" entry:"1550091132" modified:"1550091132" project:"mmeds" status:"pending" tags:"work" uuid:"f7303ade-2169-4c5e-9623-13f22f62ff66"]
 ---
+time 1550159592
+new [description:"setup mmeds to run from latex docker image" entry:"1550159592" modified:"1550159592" project:"mmeds" status:"pending" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
+---
+time 1550165140
+old [description:"add functionality for reverse reads to qiime1\/2" due:"1550206800" entry:"1549898906" modified:"1549901040" project:"mmeds" status:"pending" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
+new [description:"add functionality for reverse reads to qiime1\/2" due:"1550206800" end:"1550165140" entry:"1549898906" modified:"1550165140" project:"mmeds" status:"completed" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
+---
+time 1550165149
+old [description:"test all cases for setup_dir" due:"1550206800" entry:"1550091132" modified:"1550091132" project:"mmeds" status:"pending" tags:"work" uuid:"f7303ade-2169-4c5e-9623-13f22f62ff66"]
+new [description:"test all cases for setup_dir" due:"1550206800" end:"1550165149" entry:"1550091132" modified:"1550165149" project:"mmeds" status:"completed" tags:"work" uuid:"f7303ade-2169-4c5e-9623-13f22f62ff66"]
+---
+time 1550167288
+old [description:"add logout error catching for working_dir" due:"1550206800" entry:"1550082185" modified:"1550082185" project:"mmeds" status:"pending" tags:"work" uuid:"9f350bac-29fd-4758-9e49-a66fe18fed42"]
+new [description:"add logout error catching for working_dir" due:"1551416400" entry:"1550082185" modified:"1550167288" project:"mmeds" status:"pending" tags:"work" uuid:"9f350bac-29fd-4758-9e49-a66fe18fed42"]
+---
+time 1550168349
+old [description:"Fix colors in summary and summary spacing" entry:"1548957333" modified:"1548957333" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
+new [description:"Fix colors in summary and summary spacing" due:"1550206800" entry:"1548957333" modified:"1550168349" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
+---
+time 1550247892
+new [description:"update MIxS translation to handle new unit setup" entry:"1550247892" modified:"1550247892" project:"mmeds" status:"pending" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]
+---
+time 1550252920
+new [description:"Figure out what analysis Nan ran" due:"1550638800" entry:"1550252920" modified:"1550252920" project:"loclust" status:"pending" tags:"work" uuid:"6b5df847-288c-4cae-b83c-3c174a9fa875"]
+---
+time 1550252951
+new [description:"Update to python3" entry:"1550252951" modified:"1550252951" project:"loclust" status:"pending" tags:"work" uuid:"cdf0a0fe-647e-47ff-b55d-ae709dad17c3"]
+---
+time 1550258360
+new [description:"try checkpointing with mmeds scripts" due:"1550638800" entry:"1550258360" modified:"1550258360" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+---

@@ -142,6 +142,7 @@ let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 " CtrlP file finding
+let g:ctrlp_custom_ignore = '\v[\/](build|__pycache__|git|htmlcov)|(\.(swp|git))$'
 let g:ctrlp_map = '<c-u>'
 let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
