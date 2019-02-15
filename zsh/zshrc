@@ -91,10 +91,10 @@ if [ $(hostname) = 'localhost.localdomain' ]; then
     # Vim
     alias vi='nvim'
     module use ~/.modules/modulefiles
+    export CONDA_DIR=/home/david/anaconda3/
 fi
 
-if [ $(hostname) = 'node2-3' ]
-then
+if [ $(hostname) = 'node2-3' ]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
     module load tmux
@@ -116,22 +116,23 @@ then
     #export PATH="$MMEDS/anaconda3/bin:$PATH"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
+    export CONDA_DIR=/hpc/packages/minerva-common/anaconda2/
+    source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh
 fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/david/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$(\"${CONDA_DIR}bin/conda\" 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/david/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "${CONDA_DIR}/etc/profile.d/conda.sh" ]; then
+        . "${CONDA_DIR}/etc/profile.d/conda.sh"
     else
-        export PATH="/home/david/anaconda3/bin:$PATH"
+        export PATH="${CONDA_DIR}/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-. /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh
