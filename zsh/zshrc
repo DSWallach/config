@@ -134,3 +134,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+. /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh
