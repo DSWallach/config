@@ -1,3 +1,4 @@
+[description:"Figure out what analysis Nan ran" due:"1550638800" end:"1550583256" entry:"1550252920" modified:"1550583256" project:"loclust" status:"completed" tags:"work" uuid:"6b5df847-288c-4cae-b83c-3c174a9fa875"]
 [description:"test all cases for setup_dir" due:"1550206800" end:"1550165149" entry:"1550091132" modified:"1550165149" project:"mmeds" status:"completed" tags:"work" uuid:"f7303ade-2169-4c5e-9623-13f22f62ff66"]
 [description:"add functionality for reverse reads to qiime1\/2" due:"1550206800" end:"1550165140" entry:"1549898906" modified:"1550165140" project:"mmeds" status:"completed" tags:"work" uuid:"06e2814e-90ad-4953-b966-a9f2b76e6f7c"]
 [description:"get more datasets for analysis" end:"1550082219" entry:"1548353044" modified:"1550082221" project:"mmeds" status:"deleted" tags:"work" uuid:"13fc1d08-fab7-46ed-a1b4-66c406a0e0b4"]
