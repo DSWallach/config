@@ -1118,3 +1118,29 @@ time 1550674971
 old [description:"update user guide to reflaect new ICD setup" entry:"1550673480" modified:"1550673480" project:"mmeds" status:"pending" tags:"work" uuid:"6c8f9c0c-172d-4a69-bffe-070fe0afccd6"]
 new [description:"update user guide to reflaect new ICD setup" due:"1550811600" entry:"1550673480" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"6c8f9c0c-172d-4a69-bffe-070fe0afccd6"]
 ---
+time 1550689173
+new [description:"Handle Key Error: Subjects" entry:"1550689173" modified:"1550689173" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+---
+time 1550689267
+old [description:"Handle Key Error: Subjects" entry:"1550689173" modified:"1550689173" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+new [description:"Handle Key Error Subjects when returning from validate mapping file" entry:"1550689173" modified:"1550689267" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+---
+time 1550689921
+new [description:"Update column BC ResultsProtocols-ResultsToolVersion" entry:"1550689921" modified:"1550689921" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+---
+time 1550689953
+old [description:"Update column BC ResultsProtocols-ResultsToolVersion" entry:"1550689921" modified:"1550689921" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+new [description:"Update column BC ResultsProtocols-ResultsToolVersion and column BK" entry:"1550689921" modified:"1550689953" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+---
+time 1550691689
+new [description:"update column BY in metadata template" entry:"1550691689" modified:"1550691689" project:"mmeds" status:"pending" tags:"work" uuid:"b8a185ff-6316-4ed6-9404-4035cffa93a1"]
+---
+time 1550692100
+new [description:"figure out issue where connection to the server is reset while page is loading for Kevins data" entry:"1550692100" modified:"1550692100" project:"mmeds" status:"pending" tags:"work" uuid:"4b8b194c-4651-4dbd-8a8b-e34c51c211d8"]
+---
+time 1550692661
+new [description:"move font files into summary dir" entry:"1550692661" modified:"1550692661" project:"mmeds" status:"pending" tags:"work" uuid:"f2c6b160-cb38-4690-a4f5-cab38f4d71ac"]
+---
+time 1550753256
+new [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1550753256" project:"mmeds" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
