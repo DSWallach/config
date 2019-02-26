@@ -96,7 +96,7 @@ ctrlp() {
 }
 
 zle -N ctrlp
-bindkey "^P" ctrlp
+bindkey "^U" ctrlp
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
