@@ -50,4 +50,8 @@ if [ $0 = "full" ]; then
 	python3 install.py --clang-completer
 
 	chsh -s /bin/zsh
+
+  zsh "${HOME}/${name}/zsh/antigen.zsh"
 fi
+
+ln -sf $HOME/$name/zsh/zpreztorc $HOME/.zpreztorc

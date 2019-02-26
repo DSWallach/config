@@ -1144,3 +1144,18 @@ new [description:"move font files into summary dir" entry:"1550692661" modified:
 time 1550753256
 new [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1550753256" project:"mmeds" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
 ---
+time 1551106686
+new [description:"Maybe resolve issue with incolor for input cells" entry:"1551106686" modified:"1551106686" project:"mmeds" status:"pending" tags:"work" uuid:"a5562ab3-6f11-49e3-b64b-658107397e78"]
+---
+time 1551187869
+old [description:"Update database so first letter of ICD code is separate table" due:"1550811600" entry:"1550673226" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"d1d759fb-4130-43eb-a858-431db0510e21"]
+new [description:"Update database so first letter of ICD code is separate table" due:"1550811600" end:"1551187867" entry:"1550673226" modified:"1551187869" project:"mmeds" status:"completed" tags:"work" uuid:"d1d759fb-4130-43eb-a858-431db0510e21"]
+---
+time 1551187869
+old [description:"Determine specific ICD entry for healthy subjects" due:"1550811600" entry:"1550673260" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"f67b24f5-e62e-4698-a4ef-52d27971aa60"]
+new [description:"Determine specific ICD entry for healthy subjects" due:"1550811600" end:"1551187869" entry:"1550673260" modified:"1551187869" project:"mmeds" status:"completed" tags:"work" uuid:"f67b24f5-e62e-4698-a4ef-52d27971aa60"]
+---
+time 1551187869
+old [description:"Add code to automatically parse ICD codes into seperate tables" due:"1550811600" entry:"1550673281" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"4ed84022-1175-4d6f-b537-4749840597a1"]
+new [description:"Add code to automatically parse ICD codes into seperate tables" due:"1550811600" end:"1551187869" entry:"1550673281" modified:"1551187869" project:"mmeds" status:"completed" tags:"work" uuid:"4ed84022-1175-4d6f-b537-4749840597a1"]
+---

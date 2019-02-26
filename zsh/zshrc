@@ -1,5 +1,10 @@
 # Setup prezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+source "${HOME}/.sel/zsh/antigen.zsh"
+
+# Modules
+antigen use prezto
+antigen apply
 
 # Custom alias's
 alias userpath='sudo env "PATH=$PATH"'
@@ -61,10 +66,6 @@ alias setupR='export PKG_CXXFLAGS=`Rscript -e '\''Rcpp:::CxxFlags()'\''`; export
 alias allow='sudo setcap '\''cap_net_bind_service=+ep'\'
 alias gpg='gpg2'
 
-# Search history for commands
-bindkey "^[OA" history-beginning-search-backward
-bindkey "^[OB" history-beginning-search-forward
-
 # Show human friendly numbers and colors
 alias df='df -h'
 alias du='du -h -d 2'
@@ -79,11 +80,28 @@ alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
 # Options
 setopt rmstarsilent
 KEYTIMEOUT=10
+
+# Key Bindings
 bindkey -v
+
+# Search history for commands
+bindkey "^[OA" history-beginning-search-backward
+bindkey "^[OB" history-beginning-search-forward
+
+# FZF search
+ctrlp() {
+    zle reset-prompt
+    print -z - $BUFFER $( find . -not -path '*/\.*' -nowarn 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
+    zle send-break
+}
+
+zle -N ctrlp
+bindkey "^P" ctrlp
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
 export FZF_COMPLETION_TRIGGER='~~'
+export SEL="${HOME}/${name}"
 
 
 # Custom params for different locations

@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/david/mmeds_server_data/david_5/analysis0/core_metrics_results'
-let g:netrw_dirhist_2='/home/david/.modules/modulefiles'
-let g:netrw_dirhist_3='/home/david/.sel'
-let g:netrw_dirhist_4='/home/david/Work/mmeds-meta/mmeds'
-let g:netrw_dirhist_5='/home/david/.cache/ctrlp/hist'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/david/.zprezto/modules/terminal'
+let g:netrw_dirhist_2='/home/david/.zprezto/modules'
+let g:netrw_dirhist_3='/home/david/.zprezto/modules/python'
+let g:netrw_dirhist_4='/home/david/.zprezto'
+let g:netrw_dirhist_5='/home/david/.zprezto/modules'
+let g:netrw_dirhist_6='/home/david/.zprezto/modules/utility'
