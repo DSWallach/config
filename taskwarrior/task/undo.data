@@ -1159,3 +1159,124 @@ time 1551187869
 old [description:"Add code to automatically parse ICD codes into seperate tables" due:"1550811600" entry:"1550673281" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"4ed84022-1175-4d6f-b537-4749840597a1"]
 new [description:"Add code to automatically parse ICD codes into seperate tables" due:"1550811600" end:"1551187869" entry:"1550673281" modified:"1551187869" project:"mmeds" status:"completed" tags:"work" uuid:"4ed84022-1175-4d6f-b537-4749840597a1"]
 ---
+time 1551195053
+old [description:"perform filtering of metadata columns prior to qiime1 analysis" due:"1550725200" entry:"1549898475" modified:"1550578290" project:"mmeds" status:"pending" tags:"work" uuid:"15c36fb2-837f-4b07-8167-9b01abc8a90b"]
+new [description:"perform filtering of metadata columns prior to qiime1 analysis" due:"1550725200" end:"1551195053" entry:"1549898475" modified:"1551195053" project:"mmeds" status:"completed" tags:"work" uuid:"15c36fb2-837f-4b07-8167-9b01abc8a90b"]
+---
+time 1551195053
+old [description:"Determine equivalent for ICD codes for animal subjects" due:"1550811600" entry:"1550673241" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"0102f8ff-4473-4d76-9e43-52bf2398b421"]
+new [description:"Determine equivalent for ICD codes for animal subjects" due:"1550811600" end:"1551195053" entry:"1550673241" modified:"1551195053" project:"mmeds" status:"completed" tags:"work" uuid:"0102f8ff-4473-4d76-9e43-52bf2398b421"]
+---
+time 1551195053
+old [description:"update user guide to reflaect new ICD setup" due:"1550811600" entry:"1550673480" modified:"1550674971" project:"mmeds" status:"pending" tags:"work" uuid:"6c8f9c0c-172d-4a69-bffe-070fe0afccd6"]
+new [description:"update user guide to reflaect new ICD setup" due:"1550811600" end:"1551195053" entry:"1550673480" modified:"1551195053" project:"mmeds" status:"completed" tags:"work" uuid:"6c8f9c0c-172d-4a69-bffe-070fe0afccd6"]
+---
+time 1551272738
+old [description:"convert taxa legends to html" entry:"1548866541" modified:"1548866541" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+new [description:"convert taxa legends to html" due:"1551416400" entry:"1548866541" modified:"1551272738" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+---
+time 1551286043
+new [description:"move sanity checks into scripts or something" entry:"1551286043" modified:"1551286043" project:"mmeds" status:"pending" tags:"work" uuid:"7d93ce28-6e3e-4855-a12d-7d060cbd400a"]
+---
+time 1551373186
+old [description:"better error handling for metadata uploads" entry:"1549634512" modified:"1549634512" project:"mmeds" status:"pending" tags:"work" uuid:"ffe1430b-4494-43a3-ac50-cb52b735e5bd"]
+new [description:"better error handling for metadata uploads" end:"1551373186" entry:"1549634512" modified:"1551373186" project:"mmeds" status:"completed" tags:"work" uuid:"ffe1430b-4494-43a3-ac50-cb52b735e5bd"]
+---
+time 1551373186
+old [description:"Maybe resolve issue with incolor for input cells" entry:"1551106686" modified:"1551106686" project:"mmeds" status:"pending" tags:"work" uuid:"a5562ab3-6f11-49e3-b64b-658107397e78"]
+new [description:"Maybe resolve issue with incolor for input cells" end:"1551373186" entry:"1551106686" modified:"1551373186" project:"mmeds" status:"completed" tags:"work" uuid:"a5562ab3-6f11-49e3-b64b-658107397e78"]
+---
+time 1551375320
+old [description:"add logout error catching for working_dir" due:"1551416400" entry:"1550082185" modified:"1550167288" project:"mmeds" status:"pending" tags:"work" uuid:"9f350bac-29fd-4758-9e49-a66fe18fed42"]
+new [description:"add logout error catching for working_dir" due:"1551416400" end:"1551375320" entry:"1550082185" modified:"1551375320" project:"mmeds" status:"completed" tags:"work" uuid:"9f350bac-29fd-4758-9e49-a66fe18fed42"]
+---
+time 1551443648
+new [description:"test continuous colors" due:"1551502800" entry:"1551443648" modified:"1551443648" project:"mmeds" status:"pending" tags:"work" uuid:"3147a072-2a19-48aa-9a9b-210e7b3c1efb"]
+---
+time 1551473634
+old [description:"automatically add analysis for all samples together and all seperately" entry:"1548685105" modified:"1548685105" project:"mmeds" status:"pending" tags:"work" uuid:"d1029655-7bce-4127-9c13-4b9df804a2d9"]
+new [description:"automatically add analysis for all samples together and all seperately" end:"1551473634" entry:"1548685105" modified:"1551473634" project:"mmeds" status:"completed" tags:"work" uuid:"d1029655-7bce-4127-9c13-4b9df804a2d9"]
+---
+time 1551473634
+old [description:"Fix colors in summary and summary spacing" due:"1550725200" entry:"1548957333" modified:"1550578290" project:"mmeds" status:"pending" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
+new [description:"Fix colors in summary and summary spacing" due:"1550725200" end:"1551473634" entry:"1548957333" modified:"1551473634" project:"mmeds" status:"completed" tags:"work" uuid:"233143df-d71a-46a7-ad8c-8add32b5a97c"]
+---
+time 1551705100
+old [description:"try checkpointing with mmeds scripts" due:"1550638800" entry:"1550258360" modified:"1550258360" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+new [description:"try checkpointing with mmeds scripts" due:"1554091200" entry:"1550258360" modified:"1551705100" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+---
+time 1551708867
+new [description:"Note where recommandations for sql quoting came from" entry:"1551708867" modified:"1551708867" project:"mmeds" status:"pending" tags:"work" uuid:"9c021c8a-3e6c-42a1-b09a-455436b10f27"]
+---
+time 1551709501
+new [description:"Add guide for lab members to wiki\/drive" entry:"1551709501" modified:"1551709501" project:"mmeds" status:"pending" tags:"work" uuid:"d1c38aab-46f6-435e-a4d6-9cbce1280865"]
+---
+time 1551724505
+old [description:"test continuous colors" due:"1551502800" entry:"1551443648" modified:"1551443648" project:"mmeds" status:"pending" tags:"work" uuid:"3147a072-2a19-48aa-9a9b-210e7b3c1efb"]
+new [description:"test continuous colors" due:"1551502800" end:"1551724505" entry:"1551443648" modified:"1551724505" project:"mmeds" status:"completed" tags:"work" uuid:"3147a072-2a19-48aa-9a9b-210e7b3c1efb"]
+---
+time 1551724517
+old [description:"check that R data frame is not reordering columns" entry:"1548700644" modified:"1548700644" project:"mmeds" status:"pending" tags:"work" uuid:"9b51b9ee-8fd5-46ae-97e1-374337f03457"]
+new [description:"check that R data frame is not reordering columns" end:"1551724517" entry:"1548700644" modified:"1551724517" project:"mmeds" status:"completed" tags:"work" uuid:"9b51b9ee-8fd5-46ae-97e1-374337f03457"]
+---
+time 1551726775
+old [description:"move sanity checks into scripts or something" entry:"1551286043" modified:"1551286043" project:"mmeds" status:"pending" tags:"work" uuid:"7d93ce28-6e3e-4855-a12d-7d060cbd400a"]
+new [description:"move sanity checks into scripts or something" end:"1551726775" entry:"1551286043" modified:"1551726775" project:"mmeds" status:"completed" tags:"work" uuid:"7d93ce28-6e3e-4855-a12d-7d060cbd400a"]
+---
+time 1551726802
+old [description:"rerun analysis on new data for first 12 months" entry:"1550674303" modified:"1550674303" project:"loclust" status:"pending" tags:"work" uuid:"69387a24-f815-4ddb-948c-ae70bf56b731"]
+new [description:"rerun analysis on new data for first 12 months" end:"1551726802" entry:"1550674303" modified:"1551726802" project:"loclust" status:"completed" tags:"work" uuid:"69387a24-f815-4ddb-948c-ae70bf56b731"]
+---
+time 1551726802
+old [description:"rerun analysis on new data for first 12 months" entry:"1550674926" modified:"1550674926" project:"loclust" status:"pending" tags:"work" uuid:"e1cae2b8-3bff-4667-b1e0-aac66796b3c1"]
+new [description:"rerun analysis on new data for first 12 months" end:"1551726802" entry:"1550674926" modified:"1551726802" project:"loclust" status:"completed" tags:"work" uuid:"e1cae2b8-3bff-4667-b1e0-aac66796b3c1"]
+---
+time 1551729136
+old [description:"Convert mmeds files to make use of environmental variables" due:"1551416400" entry:"1548683570" modified:"1549980577" project:"mmeds" status:"pending" tags:"work" uuid:"4d195d7b-6aba-4b6b-8d8a-ff4124352904"]
+new [description:"Convert mmeds files to make use of environmental variables" due:"1551416400" end:"1551729136" entry:"1548683570" modified:"1551729136" project:"mmeds" status:"completed" tags:"work" uuid:"4d195d7b-6aba-4b6b-8d8a-ff4124352904"]
+---
+time 1551791416
+old [description:"convert taxa legends to html" due:"1551416400" entry:"1548866541" modified:"1551272738" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+new [description:"convert taxa legends to html" due:"1554091200" entry:"1548866541" modified:"1551791416" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+---
+time 1551791471
+new [description:"Analysis of demuxed paired end reads" due:"1552021200" entry:"1551791471" modified:"1551791471" status:"pending" uuid:"e7d4ee8b-0bf7-40e2-a854-83c41417736b"]
+---
+time 1551791979
+old [description:"Update column BC ResultsProtocols-ResultsToolVersion and column BK" entry:"1550689921" modified:"1550689953" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+new [description:"Update column BC ResultsProtocols-ResultsToolVersion and column BK" due:"1552021200" entry:"1550689921" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+---
+time 1551791979
+old [description:"update column BY in metadata template" entry:"1550691689" modified:"1550691689" project:"mmeds" status:"pending" tags:"work" uuid:"b8a185ff-6316-4ed6-9404-4035cffa93a1"]
+new [description:"update column BY in metadata template" due:"1552021200" entry:"1550691689" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"b8a185ff-6316-4ed6-9404-4035cffa93a1"]
+---
+time 1551791979
+old [description:"figure out issue where connection to the server is reset while page is loading for Kevins data" entry:"1550692100" modified:"1550692100" project:"mmeds" status:"pending" tags:"work" uuid:"4b8b194c-4651-4dbd-8a8b-e34c51c211d8"]
+new [description:"figure out issue where connection to the server is reset while page is loading for Kevins data" due:"1552021200" entry:"1550692100" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"4b8b194c-4651-4dbd-8a8b-e34c51c211d8"]
+---
+time 1551791984
+old [description:"move font files into summary dir" entry:"1550692661" modified:"1550692661" project:"mmeds" status:"pending" tags:"work" uuid:"f2c6b160-cb38-4690-a4f5-cab38f4d71ac"]
+new [description:"move font files into summary dir" end:"1551791984" entry:"1550692661" modified:"1551791984" project:"mmeds" status:"completed" tags:"work" uuid:"f2c6b160-cb38-4690-a4f5-cab38f4d71ac"]
+---
+time 1551792473
+new [description:"testing of server" entry:"1551792473" modified:"1551792473" status:"pending" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+---
+time 1551796661
+old [description:"Update column BC ResultsProtocols-ResultsToolVersion and column BK" due:"1552021200" entry:"1550689921" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+new [description:"Update column BC ResultsProtocols-ResultsToolVersion and column BK" due:"1552021200" end:"1551796657" entry:"1550689921" modified:"1551796661" project:"mmeds" status:"completed" tags:"work" uuid:"9ebebec8-790f-466b-a940-11524cdc228c"]
+---
+time 1551796661
+old [description:"update column BY in metadata template" due:"1552021200" entry:"1550691689" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"b8a185ff-6316-4ed6-9404-4035cffa93a1"]
+new [description:"update column BY in metadata template" due:"1552021200" end:"1551796661" entry:"1550691689" modified:"1551796661" project:"mmeds" status:"completed" tags:"work" uuid:"b8a185ff-6316-4ed6-9404-4035cffa93a1"]
+---
+time 1551796661
+old [description:"figure out issue where connection to the server is reset while page is loading for Kevins data" due:"1552021200" entry:"1550692100" modified:"1551791979" project:"mmeds" status:"pending" tags:"work" uuid:"4b8b194c-4651-4dbd-8a8b-e34c51c211d8"]
+new [description:"figure out issue where connection to the server is reset while page is loading for Kevins data" due:"1552021200" end:"1551796661" entry:"1550692100" modified:"1551796661" project:"mmeds" status:"completed" tags:"work" uuid:"4b8b194c-4651-4dbd-8a8b-e34c51c211d8"]
+---
+time 1551796676
+old [description:"Analysis of demuxed paired end reads" due:"1552021200" entry:"1551791471" modified:"1551791471" status:"pending" uuid:"e7d4ee8b-0bf7-40e2-a854-83c41417736b"]
+new [description:"Analysis of demuxed paired end reads" due:"1552021200" entry:"1551791471" modified:"1551796676" project:"mmeds" status:"pending" tags:"work" uuid:"e7d4ee8b-0bf7-40e2-a854-83c41417736b"]
+---
+time 1551799195
+new [description:"move load_html into a server method that automatically loads the necessary keys" entry:"1551799195" modified:"1551799195" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
+---

@@ -121,6 +121,7 @@ nnoremap <A-.> :call MoveToNextTab()<CR>
 nnoremap <A-,> :call MoveToPrevTab()<CR>
 nnoremap H gT
 nnoremap L gt
+nnoremap K :YcmCompleter GetDoc<CR>
 
 "" Python Plugin Settings
 if (hostname() == 'localhost.localdomain')

@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/david/.zprezto/modules/terminal'
 let g:netrw_dirhist_2='/home/david/.zprezto/modules'
 let g:netrw_dirhist_3='/home/david/.zprezto/modules/python'
 let g:netrw_dirhist_4='/home/david/.zprezto'
 let g:netrw_dirhist_5='/home/david/.zprezto/modules'
 let g:netrw_dirhist_6='/home/david/.zprezto/modules/utility'
+let g:netrw_dirhist_7='/home/david/edirect'
+let g:netrw_dirhist_8='/home/david/Work/mmeds-meta/mmeds/resources'
+let g:netrw_dirhist_9='/home/david/Work/teslaver/teslaver'
