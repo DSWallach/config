@@ -1280,3 +1280,12 @@ new [description:"Analysis of demuxed paired end reads" due:"1552021200" entry:"
 time 1551799195
 new [description:"move load_html into a server method that automatically loads the necessary keys" entry:"1551799195" modified:"1551799195" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
 ---
+time 1551799988
+new [description:"add tests for uploading metadata missing values" entry:"1551799988" modified:"1551799988" project:"mmeds" status:"pending" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+---
+time 1551804442
+new [description:"add guide for naming reads files" due:"1552276800" entry:"1551804442" modified:"1551804442" project:"mmeds" status:"pending" tags:"work" uuid:"63fde92f-2310-4390-8801-15a98f47dc5a"]
+---
+time 1551879255
+new [description:"setup compatability for multiple qiime2 versions" entry:"1551879255" modified:"1551879255" project:"mmeds" status:"pending" tags:"work" uuid:"03cae83e-b059-48d2-933d-fbb0ed1abbeb"]
+---
