@@ -76,6 +76,7 @@ alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
 
 # Options
 setopt rmstarsilent
+xset r rate 300 25
 KEYTIMEOUT=10
 bindkey -v
 
@@ -134,4 +135,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
