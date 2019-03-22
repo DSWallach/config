@@ -1,5 +1,10 @@
 # Setup prezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+source "${HOME}/.sel/zsh/antigen.zsh"
+
+# Modules
+antigen use prezto
+antigen apply
 
 # Custom alias's
 alias userpath='sudo env "PATH=$PATH"'
@@ -24,6 +29,7 @@ alias psave='sudo cpupower frequency-set -g ondemand'
 alias oct='octave --no-gui'
 alias susegrub='grub2-mkconfig -o /boot/grub2/grub.cfg'
 alias ta='task add tag:work project:mmeds'
+alias tw='task tag:work'
 
 # Directory Navigation
 alias ds='dirs -v'
@@ -47,6 +53,7 @@ alias gc='git commit'
 alias gp='git push'
 alias gst='git status'
 
+
 # Makes git auto completion faster favouring for local completions
 __git_files () {
     _wanted files expl 'local files' _files
@@ -59,10 +66,6 @@ alias setupR='export PKG_CXXFLAGS=`Rscript -e '\''Rcpp:::CxxFlags()'\''`; export
 alias allow='sudo setcap '\''cap_net_bind_service=+ep'\'
 alias gpg='gpg2'
 
-# Search history for commands
-bindkey "^[OA" history-beginning-search-backward
-bindkey "^[OB" history-beginning-search-forward
-
 # Show human friendly numbers and colors
 alias df='df -h'
 alias du='du -h -d 2'
@@ -71,39 +74,56 @@ alias du='du -h -d 2'
 alias ka9='killall -9'
 alias k9='kill -9'
 
-# Work stuff
-alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
-
 # Options
 setopt rmstarsilent
 xset r rate 300 25
 KEYTIMEOUT=10
+
+# Key Bindings
 bindkey -v
+
+# Search history for commands
+bindkey "^[OA" history-beginning-search-backward
+bindkey "^[OB" history-beginning-search-forward
+
+# FZF search
+ctrlp() {
+    zle reset-prompt
+    print -z - $BUFFER $( find . -not -path '*/\.*' -nowarn 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
+    zle send-break
+}
+
+zle -N ctrlp
+bindkey "^U" ctrlp
 
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
+export FZF_COMPLETION_TRIGGER='~~'
+export SEL="${HOME}/${name}"
+
 
 # Custom params for different locations
-if [ $(hostname) = 'localhost.localdomain' ]
-then
+if [ $(hostname) = 'localhost.localdomain' ]; then
     xset r rate 250 45
-    # Setup Anaconda
-    if [[ $PATH != *"anaconda3/bin"* ]]; then
-# export PATH="$HOME/anaconda3/bin:$PATH"  # commented out by conda initialize
-    fi
     # Vim
     alias vi='nvim'
-fi
-
-if [ $(hostname) = 'node2-3' ]
-then
+    alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
+    module use ~/.modules/modulefiles
+    export CONDA_DIR=/home/david/anaconda3/
+elif [ $(hostname) = 'node2-3' ]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
     module load tmux
     module load anaconda
-    module load htop
 
     prompt skwp
+
+
+    export MMEDS="/sc/orga/projects/MMEDS"
+    #export PATH="$MMEDS/anaconda3/bin:$PATH"
+    export PATH="$HOME/.local/bin:$PATH"
+    export TMPDIR="/local/tmp"
+    export CONDA_DIR=/hpc/packages/minerva-common/anaconda2/
 
     # Minerva Aliases
     alias towork='cd /sc/orga/projects/clemej05a/wallach'
@@ -112,14 +132,13 @@ then
     alias srcens='source /sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/activate'
     alias duh='du -sh'
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
-    alias tommeds='cd /sc/orga/projects/MMEDS/'
+    alias tommeds="cd $MMEDS"
     alias vi='vim'
-
-    export MMEDS="/sc/orga/projects/MMEDS"
-    #export PATH="$MMEDS/anaconda3/bin:$PATH"
-    export PATH="$HOME/.local/bin:$PATH"
-    export TMPDIR="/local/tmp"
+    alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
+# source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh  # commented out by conda initialize
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

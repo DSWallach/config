@@ -7,6 +7,9 @@ syntax on
 " the plugins.
 let mapleader=","
 
+" Easy Motion default
+map <Leader> <Plug>(easymotion-prefix)
+
 colo desert
 
 " Plugin management
@@ -15,6 +18,11 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-key-bindings --no-update-rc --completion' }
+Plug 'junegunn/fzf.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'ctrlpvim/ctrlp.vim'
+
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')
     Plug 'Valloric/YouCompleteMe'
@@ -61,6 +69,7 @@ endfun
 
 " Custom
 map <silent> <F12> :call TrimWhiteSpace()<cr>
+cmap w!! w !sudo tee > /dev/null %
 
 " Function for switch a buffer to a existing tab
 function MoveToPrevTab()
@@ -112,12 +121,12 @@ nnoremap <A-.> :call MoveToNextTab()<CR>
 nnoremap <A-,> :call MoveToPrevTab()<CR>
 nnoremap H gT
 nnoremap L gt
+nnoremap K :YcmCompleter GetDoc<CR>
 
 "" Python Plugin Settings
 if (hostname() == 'localhost.localdomain')
     let g:pymode_python='python3'
 endif
-let g:pep8_ignore="E501"
 let g:pymode_options_max_line_length=120
 let g:pymode_lint_options_pep8 =
     \ {'max_line_length': g:pymode_options_max_line_length}
@@ -133,6 +142,14 @@ let g:UltiSnipsListSnippets = '<c-g>'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
+" CtrlP file finding
+let g:ctrlp_custom_ignore = '\v[\/](build|__pycache__|git|htmlcov)|(\.(swp|git))$'
+let g:ctrlp_map = '<c-u>'
+let g:ctrlp_prompt_mappings = {
+    \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
+    \ 'AcceptSelection("t")': ['<cr>'],
+    \ }
 
 " Filetypes
 au BufNewFile,BufRead *.tsv		setf tsv
