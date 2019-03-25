@@ -1,0 +1,67 @@
+#!/usr/bin/python
+"""
+Referencing current branch in github readme.md[1]
+
+This pre-commit hook[2] updates the README.md file's
+Travis badge with the current branch. Gist at[4].
+
+[1] http://stackoverflow.com/questions/18673694/referencing-current-branch-in-github-readme-md
+[2] http://www.git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+[3] https://docs.travis-ci.com/user/status-images/
+[4] https://gist.github.com/dandye/dfe0870a6a1151c89ed9
+"""
+import subprocess
+
+# Hard-Coded for your repo (ToDo: get from remote?)
+GITHUB_USER = "clemente-lab"
+REPO = "mmeds-meta"
+
+print("Starting pre-commit hook...")
+
+BRANCH = subprocess.check_output(["git",
+                                  "rev-parse",
+                                  "--abbrev-ref",
+                                  "HEAD"]).strip()
+
+# String with hard-coded values
+# See Embedding Status Images[3] for alternate formats (private repos, svg, etc)
+
+# Output String with Variable substitution
+travis = "[![Build Status](https://travis-ci.com/" \
+        "{GITHUB_USER}/{REPO}.png?" \
+        "branch={BRANCH})]" \
+        "(https://travis-cl.com/{GITHUB_USER}/{REPO})\n".format(BRANCH=BRANCH,
+                                                                GITHUB_USER=GITHUB_USER,
+                                                                REPO=REPO)
+coverage = "[![codecov](https://codecov.io/gh/" \
+          "{GITHUB_USER}/{REPO}/branch/" \
+          "{BRANCH}/graph/badge.svg)]" \
+          "(https://codecov.io/gh/{GITHUB_USER}/{REPO})\n".format(BRANCH=BRANCH,
+                                                                  GITHUB_USER=GITHUB_USER,
+                                                                  REPO=REPO)
+factor = "[![CodeFactor](https://codefactor.io/repository/github/" \
+        "{GITHUB_USER}/{REPO}/badge/{BRANCH})]" \
+        "(https://codefactor.io/repository/github/"\
+        "{GITHUB_USER}/{REPO}/overview/{BRANCH})\n".format(BRANCH=BRANCH,
+                                                           GITHUB_USER=GITHUB_USER,
+                                                           REPO=REPO)
+
+sentinel_str = "[![Build Status]"
+sentinel_str2 = "[![codecov]"
+sentinel_str3 = "[![CodeFactor]"
+
+readmelines = open("README.md").readlines()
+with open("README.md", "w") as fh:
+    for aline in readmelines:
+        if sentinel_str in aline and travis != aline:
+            fh.write(travis)
+        elif sentinel_str2 in aline and coverage != aline:
+            fh.write(coverage)
+        elif sentinel_str3 in aline and factor != aline:
+            fh.write(factor)
+        else:
+            fh.write(aline)
+
+subprocess.check_output(["git", "add", "README.md"])
+
+print("pre-commit hook complete.")

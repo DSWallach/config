@@ -1339,3 +1339,211 @@ time 1551982922
 old [description:"add guide for naming reads files" due:"1552276800" entry:"1551804442" modified:"1551804442" project:"mmeds" status:"pending" tags:"work" uuid:"63fde92f-2310-4390-8801-15a98f47dc5a"]
 new [description:"add guide for naming reads files" due:"1552276800" end:"1551982922" entry:"1551804442" modified:"1551982922" project:"mmeds" status:"completed" tags:"work" uuid:"63fde92f-2310-4390-8801-15a98f47dc5a"]
 ---
+time 1552388319
+old [description:"testing of server" entry:"1551792473" modified:"1551792473" status:"pending" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+new [description:"testing of server" entry:"1551792473" modified:"1552388319" project:"mmeds" status:"pending" tags:"work" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+---
+time 1552388379
+old [description:"Sabrina nasal study" entry:"1551969666" modified:"1551969666" project:"mmeds" status:"pending" tags:"work" uuid:"d90892c7-8c28-4383-80a4-52941f3981ac"]
+new [description:"Sabrina nasal study" entry:"1551969666" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"d90892c7-8c28-4383-80a4-52941f3981ac"]
+---
+time 1552388379
+old [description:"Enrica malaspina" entry:"1551969679" modified:"1551969679" project:"mmeds" status:"pending" tags:"work" uuid:"1a4b1fc6-d3df-4794-8316-2dce47882629"]
+new [description:"Enrica malaspina" entry:"1551969679" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"1a4b1fc6-d3df-4794-8316-2dce47882629"]
+---
+time 1552388379
+old [description:"Sabrina fmt study" entry:"1551969691" modified:"1551969691" project:"mmeds" status:"pending" tags:"work" uuid:"04b95d09-ec0b-41e2-9061-19a17a8e00af"]
+new [description:"Sabrina fmt study" entry:"1551969691" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"04b95d09-ec0b-41e2-9061-19a17a8e00af"]
+---
+time 1552388379
+old [description:"Jose FMT" entry:"1551969698" modified:"1551969698" project:"mmeds" status:"pending" tags:"work" uuid:"19643735-ce6c-4664-97c3-f919ae3b0047"]
+new [description:"Jose FMT" entry:"1551969698" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"19643735-ce6c-4664-97c3-f919ae3b0047"]
+---
+time 1552388445
+old [description:"Sabrina nasal study" entry:"1551969666" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"d90892c7-8c28-4383-80a4-52941f3981ac"]
+new [description:"Sabrina nasal study" entry:"1551969666" modified:"1552388445" project:"mmeds.studies" status:"pending" tags:"work" uuid:"d90892c7-8c28-4383-80a4-52941f3981ac"]
+---
+time 1552388445
+old [description:"Enrica malaspina" entry:"1551969679" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"1a4b1fc6-d3df-4794-8316-2dce47882629"]
+new [description:"Enrica malaspina" entry:"1551969679" modified:"1552388445" project:"mmeds.studies" status:"pending" tags:"work" uuid:"1a4b1fc6-d3df-4794-8316-2dce47882629"]
+---
+time 1552388445
+old [description:"Sabrina fmt study" entry:"1551969691" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"04b95d09-ec0b-41e2-9061-19a17a8e00af"]
+new [description:"Sabrina fmt study" entry:"1551969691" modified:"1552388445" project:"mmeds.studies" status:"pending" tags:"work" uuid:"04b95d09-ec0b-41e2-9061-19a17a8e00af"]
+---
+time 1552388445
+old [description:"Jose FMT" entry:"1551969698" modified:"1552388379" project:"mmeds,studies" status:"pending" tags:"work" uuid:"19643735-ce6c-4664-97c3-f919ae3b0047"]
+new [description:"Jose FMT" entry:"1551969698" modified:"1552388445" project:"mmeds.studies" status:"pending" tags:"work" uuid:"19643735-ce6c-4664-97c3-f919ae3b0047"]
+---
+time 1552388525
+old [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1546618060" project:"mmeds" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+new [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+---
+time 1552388525
+old [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1546972903" project:"mmeds" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+new [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+---
+time 1552388525
+old [description:"look into special cp_dispatch to simplify server.py" entry:"1548169945" modified:"1548169945" project:"mmeds" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+new [description:"look into special cp_dispatch to simplify server.py" entry:"1548169945" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+---
+time 1552388525
+old [description:"add check for study name to mmeds" entry:"1548172210" modified:"1548172210" project:"mmeds" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+new [description:"add check for study name to mmeds" entry:"1548172210" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+---
+time 1552388525
+old [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553400000" entry:"1549298919" modified:"1550082265" project:"mmeds" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+new [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553400000" entry:"1549298919" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+---
+time 1552388525
+old [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1549992019" project:"mmeds" status:"pending" tags:"work" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+new [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
+time 1552388525
+old [description:"look into best way to wrap other packages for use within loclust\/ensemble" entry:"1549994667" modified:"1549994667" project:"BeA3" status:"pending" tags:"work" uuid:"b1a926bb-9eb1-458e-ab0c-5c8b7683f276"]
+new [description:"look into best way to wrap other packages for use within loclust\/ensemble" entry:"1549994667" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"b1a926bb-9eb1-458e-ab0c-5c8b7683f276"]
+---
+time 1552388525
+old [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1553054400" entry:"1550090660" modified:"1551895331" project:"mmeds" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+new [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1553054400" entry:"1550090660" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+---
+time 1552388525
+old [description:"setup mmeds to run from latex docker image" entry:"1550159592" modified:"1550159592" project:"mmeds" status:"pending" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
+new [description:"setup mmeds to run from latex docker image" entry:"1550159592" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
+---
+time 1552388525
+old [description:"update MIxS translation to handle new unit setup" entry:"1550247892" modified:"1550247892" project:"mmeds" status:"pending" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]
+new [description:"update MIxS translation to handle new unit setup" entry:"1550247892" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]
+---
+time 1552388525
+old [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1550753256" project:"mmeds" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+new [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
+time 1552388543
+old [description:"convert setup_environment to recreate all environment variables" entry:"1551886139" modified:"1551886139" project:"mmeds" status:"pending" tags:"work" uuid:"747743e4-cd4b-4305-b4fb-57d05f136cc5"]
+new [description:"convert setup_environment to recreate all environment variables" end:"1552388543" entry:"1551886139" modified:"1552388543" project:"mmeds" status:"completed" tags:"work" uuid:"747743e4-cd4b-4305-b4fb-57d05f136cc5"]
+---
+time 1552388552
+old [description:"set continuous columns to use gradients for the legend" entry:"1551967618" modified:"1551967618" project:"mmeds" status:"pending" tags:"work" uuid:"91184d0e-814c-4c15-bc89-a69e4add4a7a"]
+new [description:"set continuous columns to use gradients for the legend" end:"1552388552" entry:"1551967618" modified:"1552388552" project:"mmeds" status:"completed" tags:"work" uuid:"91184d0e-814c-4c15-bc89-a69e4add4a7a"]
+---
+time 1552388642
+old [description:"Switch summary to be a download from the site rather than an attachment" entry:"1546618060" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+new [description:"Switch summary to be a download from the site rather than an attachment" due:"1552622400" entry:"1546618060" modified:"1552388642" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+---
+time 1552388707
+old [description:"add check for study name to mmeds" entry:"1548172210" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+new [description:"add check for study name to mmeds" entry:"1548172210" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+---
+time 1552388707
+old [description:"testing of server" entry:"1551792473" modified:"1552388319" project:"mmeds" status:"pending" tags:"work" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+new [description:"testing of server" entry:"1551792473" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+---
+time 1552388707
+old [description:"add tests for uploading metadata missing values" entry:"1551799988" modified:"1551799988" project:"mmeds" status:"pending" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+new [description:"add tests for uploading metadata missing values" entry:"1551799988" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+---
+time 1552388707
+old [description:"when doing otu picking how many reads map to 16S sequences" entry:"1551968450" modified:"1551968450" project:"mmeds" status:"pending" tags:"work" uuid:"60ec0149-0952-4b0e-b750-c6040fd57a69"]
+new [description:"when doing otu picking how many reads map to 16S sequences" entry:"1551968450" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"60ec0149-0952-4b0e-b750-c6040fd57a69"]
+---
+time 1552563520
+old [description:"convert taxa legends to html" due:"1552276800" entry:"1548866541" modified:"1551895339" project:"mmeds" status:"pending" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+new [description:"convert taxa legends to html" due:"1552276800" end:"1552563520" entry:"1548866541" modified:"1552563520" project:"mmeds" status:"completed" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
+---
+time 1552573533
+old [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1553054400" entry:"1550090660" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+new [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1554091200" entry:"1550090660" modified:"1552573533" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+---
+time 1552573641
+old [description:"Switch summary to be a download from the site rather than an attachment" due:"1552622400" entry:"1546618060" modified:"1552388642" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+new [description:"Switch summary to be a download from the site rather than an attachment" due:"1553227200" entry:"1546618060" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+---
+time 1552573641
+old [description:"Review layout of mmeds website" due:"1559361600" entry:"1548166479" modified:"1548868527" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+new [description:"Review layout of mmeds website" due:"1553227200" entry:"1548166479" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+---
+time 1552573641
+old [description:"look into special cp_dispatch to simplify server.py" entry:"1548169945" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+new [description:"look into special cp_dispatch to simplify server.py" due:"1553227200" entry:"1548169945" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+---
+time 1552573641
+old [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553400000" entry:"1549298919" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+new [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553227200" entry:"1549298919" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+---
+time 1552573641
+old [description:"Handle Key Error Subjects when returning from validate mapping file" entry:"1550689173" modified:"1550689267" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+new [description:"Handle Key Error Subjects when returning from validate mapping file" due:"1553227200" entry:"1550689173" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+---
+time 1552573641
+old [description:"move load_html into a server method that automatically loads the necessary keys" entry:"1551799195" modified:"1551799195" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
+new [description:"move load_html into a server method that automatically loads the necessary keys" due:"1553227200" entry:"1551799195" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
+---
+time 1552573641
+old [description:"Add results from analysis to the database" entry:"1551965959" modified:"1551965959" project:"mmeds" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+new [description:"Add results from analysis to the database" due:"1553227200" entry:"1551965959" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+---
+time 1552573656
+old [description:"Switch summary to be a download from the site rather than an attachment" due:"1553227200" entry:"1546618060" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+new [description:"Switch summary to be a download from the site rather than an attachment" due:"1553140800" entry:"1546618060" modified:"1552573656" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
+---
+time 1552573656
+old [description:"Review layout of mmeds website" due:"1553227200" entry:"1548166479" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+new [description:"Review layout of mmeds website" due:"1553140800" entry:"1548166479" modified:"1552573656" project:"mmeds" status:"pending" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
+---
+time 1552573656
+old [description:"look into special cp_dispatch to simplify server.py" due:"1553227200" entry:"1548169945" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+new [description:"look into special cp_dispatch to simplify server.py" due:"1553140800" entry:"1548169945" modified:"1552573656" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]
+---
+time 1552573656
+old [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553227200" entry:"1549298919" modified:"1552573641" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+new [description:"Restructure errors so they all include messages and are simplier to handle in the server. Combine with cp_dispatch" due:"1553140800" entry:"1549298919" modified:"1552573656" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"db5612c2-7896-404f-86ef-104d8b724fcc"]
+---
+time 1552573656
+old [description:"Handle Key Error Subjects when returning from validate mapping file" due:"1553227200" entry:"1550689173" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+new [description:"Handle Key Error Subjects when returning from validate mapping file" due:"1553140800" entry:"1550689173" modified:"1552573656" project:"mmeds" status:"pending" tags:"work" uuid:"a7067701-8979-48b6-9a7c-06f1c28e0edb"]
+---
+time 1552573656
+old [description:"move load_html into a server method that automatically loads the necessary keys" due:"1553227200" entry:"1551799195" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
+new [description:"move load_html into a server method that automatically loads the necessary keys" due:"1553140800" entry:"1551799195" modified:"1552573656" project:"mmeds" status:"pending" tags:"work" uuid:"c54071f1-daab-4d9d-b86a-14ed99887f74"]
+---
+time 1552573656
+old [description:"Add results from analysis to the database" due:"1553227200" entry:"1551965959" modified:"1552573641" project:"mmeds" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+new [description:"Add results from analysis to the database" due:"1553140800" entry:"1551965959" modified:"1552573656" project:"mmeds" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+---
+time 1552573680
+old [description:"testing of server" entry:"1551792473" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+new [description:"testing of server" due:"1553140800" entry:"1551792473" modified:"1552573680" project:"mmeds.testing" status:"pending" tags:"work" uuid:"b4d65614-ead6-4d3b-9c85-017255c21c2a"]
+---
+time 1552574456
+new [description:"Break up MMEDSServer into multiple classes" due:"1553140800" entry:"1552574456" modified:"1552574456" project:"mmeds" status:"pending" tags:"work" uuid:"58328291-ea3d-42d8-be79-19f558fc45ee"]
+---
+time 1552918572
+new [description:"Look into best plugin setup for loclust, do tutorial for qiime2 plugins" due:"1553227200" entry:"1552918572" modified:"1552918572" project:"BeA3" status:"pending" tags:"work" uuid:"ac0fac8f-2d72-4c2b-9b95-9486e276d333"]
+---
+time 1553006324
+new [description:"improve performance of metadata validation" entry:"1553006324" modified:"1553006324" project:"mmeds" status:"pending" tags:"work" uuid:"6b49c69f-706a-4c49-8e05-b71ab00e21a5"]
+---
+time 1553017677
+new [description:"figure out better setup for tracking processes" due:"1553227200" entry:"1553017677" modified:"1553017677" project:"mmeds" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+---
+time 1553174491
+new [description:"check for RawDataID as NA" entry:"1553174491" modified:"1553174491" project:"mmeds" status:"pending" tags:"work" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+---
+time 1553175058
+new [description:"American Gut dataset. Try to process a subsection through mmeds" due:"1554091200" entry:"1553175058" modified:"1553175058" project:"mmeds" status:"pending" tags:"work" uuid:"364c5c07-d83c-4b92-9f98-64f3336459ca"]
+---
+time 1553175363
+new [description:"look into american gut filtering of bloom sequences" entry:"1553175363" modified:"1553175363" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+---
+time 1553176400
+new [description:"stup meeting with zach" due:"1553486400" entry:"1553176400" modified:"1553176400" project:"mmeds" status:"pending" tags:"work" uuid:"6fe03ca5-d6d7-441c-8923-c27bb3ed4418"]
+---
+time 1553190649
+old [description:"Look into best plugin setup for loclust, do tutorial for qiime2 plugins" due:"1553227200" entry:"1552918572" modified:"1552918572" project:"BeA3" status:"pending" tags:"work" uuid:"ac0fac8f-2d72-4c2b-9b95-9486e276d333"]
+new [description:"Look into best plugin setup for loclust, do tutorial for qiime2 plugins" due:"1553227200" end:"1553190649" entry:"1552918572" modified:"1553190649" project:"BeA3" status:"completed" tags:"work" uuid:"ac0fac8f-2d72-4c2b-9b95-9486e276d333"]
+---
+time 1553518491
+old [description:"look into american gut filtering of bloom sequences" entry:"1553175363" modified:"1553175363" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+new [description:"look into american gut filtering of bloom sequences" due:"1553832000" entry:"1553175363" modified:"1553518491" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+---
