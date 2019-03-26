@@ -1547,3 +1547,19 @@ time 1553518491
 old [description:"look into american gut filtering of bloom sequences" entry:"1553175363" modified:"1553175363" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
 new [description:"look into american gut filtering of bloom sequences" due:"1553832000" entry:"1553175363" modified:"1553518491" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
 ---
+time 1553520032
+old [description:"stup meeting with zach" due:"1553486400" entry:"1553176400" modified:"1553176400" project:"mmeds" status:"pending" tags:"work" uuid:"6fe03ca5-d6d7-441c-8923-c27bb3ed4418"]
+new [description:"stup meeting with zach" due:"1553486400" end:"1553520032" entry:"1553176400" modified:"1553520032" project:"mmeds" status:"completed" tags:"work" uuid:"6fe03ca5-d6d7-441c-8923-c27bb3ed4418"]
+---
+time 1553532173
+new [description:"combine all download pages into single server method" due:"1553572800" entry:"1553532173" modified:"1553532173" project:"mmeds" status:"pending" tags:"work" uuid:"9e5c98f8-cbe8-4fcf-9a7a-e79377b10049"]
+---
+time 1553602219
+new [description:"check how database handles NA entries for subjects and ICD codes" entry:"1553602219" modified:"1553602219" project:"mmeds" status:"pending" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
+---
+time 1553610480
+new [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+---
+time 1553616016
+new [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1553616016" project:"mmeds" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
+---
