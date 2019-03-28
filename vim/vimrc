@@ -22,6 +22,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-key-bindings --no-
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'lervag/vimtex'
+Plug 'terryma/vim-multiple-cursors'
 
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'localhost.localdomain')

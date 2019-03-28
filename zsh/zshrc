@@ -37,11 +37,11 @@ alias ds='dirs -v'
 
 # Python
 alias py='python'
-alias pin='python setup.py install'
+alias pin='python setup.py install&>/dev/null'
 alias sac='conda activate'
 alias sad='conda deactivate'
 alias jb='jupyter notebook'
-alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning'
+alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning -s'
 
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
@@ -77,6 +77,7 @@ alias k9='kill -9'
 
 # Options
 setopt rmstarsilent
+xset r rate 300 25
 KEYTIMEOUT=10
 
 # Key Bindings
@@ -108,6 +109,7 @@ if [ $(hostname) = 'localhost.localdomain' ]; then
     # Vim
     alias vi='nvim'
     alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
+    alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
     export CONDA_DIR=/home/david/anaconda3/
 elif [ $(hostname) = 'node2-3' ]; then
@@ -154,4 +156,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
