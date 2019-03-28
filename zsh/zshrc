@@ -15,6 +15,7 @@ alias clean='rm -f *~ .*~ \#*\#'
 alias mv='mv -i'
 alias ku='pkill -u dawallach'
 alias rmr='rm -rf'
+alias cpr='cp -rf'
 alias wemacs='env TERM=xterm-256color emacs -nw'
 alias srcocc='source /usr/local/bin/kroc-setup.sh'
 alias ssv='ssh dawallach@mote.cs.vassar.edu'
@@ -141,14 +142,14 @@ fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/david/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/hpc/packages/minerva-common/anaconda2/4.3.0/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/david/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh" ]; then
+        . "/hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh"
     else
-        export PATH="/home/david/anaconda3/bin:$PATH"
+        export PATH="/hpc/packages/minerva-common/anaconda2/4.3.0/bin:$PATH"
     fi
 fi
 unset __conda_setup
