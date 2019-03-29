@@ -57,7 +57,7 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set nowrap
-set relativenumber
+set number
 set listchars=tab:>>,trail:~,extends:>,precedes:<
 set list
 
