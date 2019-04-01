@@ -1,3 +1,4 @@
+[description:"stup meeting with zach" due:"1553486400" end:"1553520032" entry:"1553176400" modified:"1553520032" project:"mmeds" status:"completed" tags:"work" uuid:"6fe03ca5-d6d7-441c-8923-c27bb3ed4418"]
 [description:"Look into best plugin setup for loclust, do tutorial for qiime2 plugins" due:"1553227200" end:"1553190649" entry:"1552918572" modified:"1553190649" project:"BeA3" status:"completed" tags:"work" uuid:"ac0fac8f-2d72-4c2b-9b95-9486e276d333"]
 [description:"convert taxa legends to html" due:"1552276800" end:"1552563520" entry:"1548866541" modified:"1552563520" project:"mmeds" status:"completed" tags:"work" uuid:"f450845a-0bd4-42dc-8f84-9e4f961c67c1"]
 [description:"convert setup_environment to recreate all environment variables" end:"1552388543" entry:"1551886139" modified:"1552388543" project:"mmeds" status:"completed" tags:"work" uuid:"747743e4-cd4b-4305-b4fb-57d05f136cc5"]

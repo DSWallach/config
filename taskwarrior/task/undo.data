@@ -1563,3 +1563,6 @@ new [description:"performance analysis of mmeds" entry:"1553610480" modified:"15
 time 1553616016
 new [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1553616016" project:"mmeds" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
 ---
+time 1554140819
+new [description:"Email authors of paper w\/ no (meta)data" entry:"1554140819" modified:"1554140819" project:"loclust" status:"pending" tags:"work" uuid:"a0b4d376-315b-4f60-88c7-8afa88235e5e"]
+---
