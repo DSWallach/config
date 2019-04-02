@@ -1569,3 +1569,9 @@ new [description:"Email authors of paper w\/ no (meta)data" entry:"1554140819" m
 time 1554219539
 new [description:"Finish toptal application" due:"1554436800" entry:"1554219539" modified:"1554219539" project:"freelance" status:"pending" tags:"home" uuid:"36bda4d1-ec48-4401-981c-00f557ee991f"]
 ---
+time 1554219865
+new [description:"Get soldering iron from updstate" entry:"1554219865" modified:"1554219865" status:"pending" tags:"life" uuid:"6b3f7707-7057-46db-9590-05864fb6979b"]
+---
+time 1554231542
+new [description:"get slides for day 2 talks" entry:"1554231542" modified:"1554231542" project:"loclust" status:"pending" tags:"work" uuid:"d4d7c9bf-abd8-4362-a39f-566704970aa3"]
+---

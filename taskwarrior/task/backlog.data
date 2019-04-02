@@ -432,3 +432,5 @@
 {"description":"create subclass for importing data to avoid so many queries and dataframes as arguments","entry":"20190326T160016Z","modified":"20190326T160016Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"}
 {"description":"Email authors of paper w\/ no (meta)data","entry":"20190401T174659Z","modified":"20190401T174659Z","project":"loclust","status":"pending","tags":["work"],"uuid":"a0b4d376-315b-4f60-88c7-8afa88235e5e"}
 {"description":"Finish toptal application","due":"20190405T040000Z","entry":"20190402T153859Z","modified":"20190402T153859Z","project":"freelance","status":"pending","tags":["home"],"uuid":"36bda4d1-ec48-4401-981c-00f557ee991f"}
+{"description":"Get soldering iron from updstate","entry":"20190402T154425Z","modified":"20190402T154425Z","status":"pending","tags":["life"],"uuid":"6b3f7707-7057-46db-9590-05864fb6979b"}
+{"description":"get slides for day 2 talks","entry":"20190402T185902Z","modified":"20190402T185902Z","project":"loclust","status":"pending","tags":["work"],"uuid":"d4d7c9bf-abd8-4362-a39f-566704970aa3"}
