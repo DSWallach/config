@@ -104,7 +104,7 @@ export SEL="${HOME}/${name}"
 
 
 # Custom params for different locations
-if [ $(hostname) = 'localhost.localdomain' ]; then
+if ! [ $(hostname) = 'node2-3' ]; then
     xset r rate 250 45
     # Vim
     alias vi='nvim'
@@ -112,6 +112,18 @@ if [ $(hostname) = 'localhost.localdomain' ]; then
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
     export CONDA_DIR=/home/david/anaconda3/
+    __conda_setup="$('$CONDA_DIR/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "$CONDA_DIR/etc/profile.d/conda.sh" ]; then
+            . "$CONDA_DIR/etc/profile.d/conda.sh"
+        else
+            export PATH="$CONDA_DIR/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+    # <<< conda initialize <<<
 elif [ $(hostname) = 'node2-3' ]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
@@ -138,7 +150,6 @@ elif [ $(hostname) = 'node2-3' ]; then
     alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
 # source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh  # commented out by conda initialize
-fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -156,3 +167,4 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+fi
