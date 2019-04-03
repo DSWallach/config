@@ -434,3 +434,4 @@
 {"description":"Finish toptal application","due":"20190405T040000Z","entry":"20190402T153859Z","modified":"20190402T153859Z","project":"freelance","status":"pending","tags":["home"],"uuid":"36bda4d1-ec48-4401-981c-00f557ee991f"}
 {"description":"Get soldering iron from updstate","entry":"20190402T154425Z","modified":"20190402T154425Z","status":"pending","tags":["life"],"uuid":"6b3f7707-7057-46db-9590-05864fb6979b"}
 {"description":"get slides for day 2 talks","entry":"20190402T185902Z","modified":"20190402T185902Z","project":"loclust","status":"pending","tags":["work"],"uuid":"d4d7c9bf-abd8-4362-a39f-566704970aa3"}
+{"description":"Start a blog","entry":"20190403T113233Z","modified":"20190403T113233Z","project":"freelance","status":"pending","tags":["life"],"uuid":"450e335b-585c-43be-968c-e7096aa686dc"}
