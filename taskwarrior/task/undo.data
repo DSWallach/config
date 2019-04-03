@@ -1563,6 +1563,7 @@ new [description:"performance analysis of mmeds" entry:"1553610480" modified:"15
 time 1553616016
 new [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1553616016" project:"mmeds" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
 ---
+<<<<<<< HEAD
 time 1553694035
 new [description:"Get data for paper Jose mentioned" entry:"1553694035" modified:"1553694035" project:"loclust" status:"pending" tags:"work" uuid:"544db84d-a987-4a82-9506-2e46a7c22a58"]
 ---
@@ -1634,4 +1635,17 @@ new [description:"Set in the in summary file index to use relative paths" entry:
 ---
 time 1553881717
 new [description:"ensure _ will be handled correctly in latex" entry:"1553881717" modified:"1553881717" project:"mmeds.summary" status:"pending" tags:"work" uuid:"16068628-7716-4345-b89e-e0fc345c4af4"]
+=======
+time 1554140819
+new [description:"Email authors of paper w\/ no (meta)data" entry:"1554140819" modified:"1554140819" project:"loclust" status:"pending" tags:"work" uuid:"a0b4d376-315b-4f60-88c7-8afa88235e5e"]
+---
+time 1554219539
+new [description:"Finish toptal application" due:"1554436800" entry:"1554219539" modified:"1554219539" project:"freelance" status:"pending" tags:"home" uuid:"36bda4d1-ec48-4401-981c-00f557ee991f"]
+---
+time 1554219865
+new [description:"Get soldering iron from updstate" entry:"1554219865" modified:"1554219865" status:"pending" tags:"life" uuid:"6b3f7707-7057-46db-9590-05864fb6979b"]
+---
+time 1554231542
+new [description:"get slides for day 2 talks" entry:"1554231542" modified:"1554231542" project:"loclust" status:"pending" tags:"work" uuid:"d4d7c9bf-abd8-4362-a39f-566704970aa3"]
+>>>>>>> a757217d67eb0726aa64d2dd0a1fd25fdfde2b26
 ---

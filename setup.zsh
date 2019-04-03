@@ -3,15 +3,15 @@ export name=".sel"
 export XDG_CONFIG_HOME=$HOME/.config
 
 # Install necessary packages
-if [ $0 = "full" ]; then
-	if [ $(hostname) = "localhost@local.domain" ]; then
-		sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm;
-		sudo dnf upgrade;
-		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior fzf;
-	else
-		module use /hpc/packages/minerva-common/modulefiles;
-	fi
-fi
+#if [ $0 = "full" ]; then
+	#if [ $(hostname) != "node2-3@minerva.hpc.mssm.edu" ]; then
+		sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y;
+		#sudo dnf upgrade -y;
+		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior fzf -y;
+	#else
+	#	module use /hpc/packages/minerva-common/modulefiles;
+	#fi
+#fi
 
 # Clone my config repo
 if [ ! -d ${HOME}/${name} ]; then
@@ -31,14 +31,7 @@ ln -sf $HOME/$name/taskwarrior/task $HOME/.task
 ln -sf $HOME/$name/taskwarrior/taskrc $HOME/.taskrc
 
 
-# Setup ZSH with Prezto
-if [ $0 = "full" ]; then
-	git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-
-	setopt EXTENDED_GLOB
-	for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-		ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}";
-	done;
+#if [ $0 = "full" ]; then
 	# Setup for vim and neovim
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -52,6 +45,6 @@ if [ $0 = "full" ]; then
 	chsh -s /bin/zsh
 
   zsh "${HOME}/${name}/zsh/antigen.zsh"
-fi
+#fi
 
 ln -sf $HOME/$name/zsh/zpreztorc $HOME/.zpreztorc
