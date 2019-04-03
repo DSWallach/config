@@ -435,3 +435,5 @@
 {"description":"Get soldering iron from updstate","entry":"20190402T154425Z","modified":"20190402T154425Z","status":"pending","tags":["life"],"uuid":"6b3f7707-7057-46db-9590-05864fb6979b"}
 {"description":"get slides for day 2 talks","entry":"20190402T185902Z","modified":"20190402T185902Z","project":"loclust","status":"pending","tags":["work"],"uuid":"d4d7c9bf-abd8-4362-a39f-566704970aa3"}
 {"description":"Start a blog","entry":"20190403T113233Z","modified":"20190403T113233Z","project":"freelance","status":"pending","tags":["life"],"uuid":"450e335b-585c-43be-968c-e7096aa686dc"}
+{"description":"mmeds.performance Add multiple threads to metadata processing methods","entry":"20190403T174709Z","modified":"20190403T174709Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"96b33e76-050c-4ceb-9fc4-f4c46ea435a7"}
+{"description":"mmeds.summary update colors for tankou summaries","due":"20190408T040000Z","entry":"20190403T174729Z","modified":"20190403T174729Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"cd0bcdee-1d96-4f29-aeae-77956a913b93"}
