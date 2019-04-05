@@ -1,3 +1,5 @@
+[description:"stuff" end:"1554382412" entry:"1554382404" modified:"1554382414" project:"mmeds" status:"deleted" tags:"work" uuid:"edb1f822-b6d6-4f55-88ee-7b63e12cd2a7"]
+[description:"stuff" end:"1554382426" entry:"1554382421" modified:"1554382427" project:"blog" status:"deleted" tags:"work" uuid:"fe5d6251-1c4c-4592-819f-ec7cec97a9ed"]
 [description:"Switch summary to be a download from the site rather than an attachment" due:"1553140800" end:"1553694071" entry:"1546618060" modified:"1553694071" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
 [description:"Review layout of mmeds website" due:"1553140800" end:"1553694071" entry:"1548166479" modified:"1553694071" project:"mmeds" status:"completed" tags:"work" uuid:"acb052fa-898a-45fe-b365-ac800a4ee030"]
 [description:"look into special cp_dispatch to simplify server.py" due:"1553140800" end:"1553694071" entry:"1548169945" modified:"1553694071" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"9bc58f4f-e27f-4988-96ca-13d909dd5352"]

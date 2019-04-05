@@ -1658,3 +1658,57 @@ new [description:"mmeds.performance Add multiple threads to metadata processing 
 time 1554313649
 new [description:"mmeds.summary update colors for tankou summaries" due:"1554696000" entry:"1554313649" modified:"1554313649" project:"mmeds" status:"pending" tags:"work" uuid:"cd0bcdee-1d96-4f29-aeae-77956a913b93"]
 ---
+time 1554382404
+new [description:"stuff" entry:"1554382404" modified:"1554382404" project:"mmeds" status:"pending" tags:"work" uuid:"edb1f822-b6d6-4f55-88ee-7b63e12cd2a7"]
+---
+time 1554382414
+old [description:"stuff" entry:"1554382404" modified:"1554382404" project:"mmeds" status:"pending" tags:"work" uuid:"edb1f822-b6d6-4f55-88ee-7b63e12cd2a7"]
+new [description:"stuff" end:"1554382412" entry:"1554382404" modified:"1554382414" project:"mmeds" status:"deleted" tags:"work" uuid:"edb1f822-b6d6-4f55-88ee-7b63e12cd2a7"]
+---
+time 1554382421
+new [description:"stuff" entry:"1554382421" modified:"1554382421" project:"blog" status:"pending" tags:"work" uuid:"fe5d6251-1c4c-4592-819f-ec7cec97a9ed"]
+---
+time 1554382427
+old [description:"stuff" entry:"1554382421" modified:"1554382421" project:"blog" status:"pending" tags:"work" uuid:"fe5d6251-1c4c-4592-819f-ec7cec97a9ed"]
+new [description:"stuff" end:"1554382426" entry:"1554382421" modified:"1554382427" project:"blog" status:"deleted" tags:"work" uuid:"fe5d6251-1c4c-4592-819f-ec7cec97a9ed"]
+---
+time 1554382453
+new [description:"Interlab standards for scientific software" entry:"1554382453" modified:"1554382453" project:"blog" status:"pending" tags:"postidea" uuid:"3c75ee98-2d16-4f8d-ac79-a2dd1d73ee12"]
+---
+time 1554382459
+new [description:"Intralab standards for scientific software" entry:"1554382459" modified:"1554382459" project:"blog" status:"pending" tags:"postidea" uuid:"0b203de6-ab47-4831-89a6-ad43d26d8f98"]
+---
+time 1554382488
+new [description:"Code review on small teams" entry:"1554382488" modified:"1554382488" project:"blog" status:"pending" tags:"postidea" uuid:"78625632-d45c-4139-aeff-0d318b28f017"]
+---
+time 1554382514
+new [description:"Performance vs. readability in scientific software" entry:"1554382514" modified:"1554382514" project:"blog" status:"pending" tags:"postidea" uuid:"7db6b361-146e-4e2e-8e52-0e399d649011"]
+---
+time 1554382543
+new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554382543" project:"blog" status:"pending" tags:"postidea" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+---
+time 1554383850
+new [description:"send hmp-cleaned to Eliza" entry:"1554383850" modified:"1554383850" project:"mmeds" status:"pending" tags:"work" uuid:"cfe97c5e-b102-4bec-8aae-8b2b4c679734"]
+---
+time 1554384024
+new [description:"create basic stats on varience of the metadata. Look at if these metadata meet our criteria for mmeds, are there outlier values" entry:"1554384024" modified:"1554384024" project:"mmeds" status:"pending" tags:"work" uuid:"4cca13e3-1a76-4e42-aab5-e5f4a93c1327"]
+---
+time 1554385380
+new [description:"Test how mmeds works with a large otu table. Try running the analysis with qiime2" entry:"1554385380" modified:"1554385380" project:"mmeds" status:"pending" tags:"work" uuid:"1c563e0b-0bc9-406b-8262-830425d31fb1"]
+---
+time 1554385917
+new [description:"100nt, 100 nucleotides, chopping everything to the same length" entry:"1554385917" modified:"1554385917" project:"mmeds" status:"pending" tags:"work" uuid:"fc86d98c-c6b0-4a16-b64c-500a806ea681"]
+---
+time 1554386865
+old [description:"send hmp-cleaned to Eliza" entry:"1554383850" modified:"1554383850" project:"mmeds" status:"pending" tags:"work" uuid:"cfe97c5e-b102-4bec-8aae-8b2b4c679734"]
+new [description:"send hmp-cleaned to Eliza" end:"1554386865" entry:"1554383850" modified:"1554386865" project:"mmeds" status:"completed" tags:"work" uuid:"cfe97c5e-b102-4bec-8aae-8b2b4c679734"]
+---
+time 1554391962
+new [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1554391962" project:"mmeds.guides" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
+---
+time 1554398206
+new [description:"setup rpi as taskwarrior and wordspress server" entry:"1554398206" modified:"1554398206" project:"life" status:"pending" uuid:"9e1fd3d2-f1f5-4bc2-a95b-3229bf1dce20"]
+---
+time 1554467807
+new [description:"Function to write a metadata dataframe to mmeds format tsv" entry:"1554467807" modified:"1554467807" project:"mmeds.util" status:"pending" tags:"work" uuid:"371f58d7-034c-4c4d-85ff-9c64e042efba"]
+---
