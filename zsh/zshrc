@@ -77,7 +77,9 @@ alias k9='kill -9'
 
 # Options
 setopt rmstarsilent
-xset r rate 300 25
+if ! [ $(hostname) != 'taskserver' ]; then
+	xset r rate 300 25
+fi
 KEYTIMEOUT=10
 
 # Key Bindings
@@ -104,7 +106,7 @@ export SEL="${HOME}/${name}"
 
 
 # Custom params for different locations
-if ! [ $(hostname) = 'node2-3' ]; then
+if ! [ $(hostname) == 'node2-3' || $(hostname) == 'taskserver' ]; then
     xset r rate 250 45
     # Vim
     alias vi='nvim'
