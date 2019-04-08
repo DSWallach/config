@@ -24,6 +24,9 @@ Plug 'easymotion/vim-easymotion'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'lervag/vimtex'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'rhysd/vim-grammarous'
 
 " Don't load cause Minerva's Vim is super old
 if ! (hostname() == 'node2-3@minerva.hpc.mssm.edu')

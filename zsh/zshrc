@@ -102,7 +102,9 @@ bindkey "^U" ctrlp
 # Environment Variables
 export LC_CTYPE=en_US.UTF-8
 export FZF_COMPLETION_TRIGGER='~~'
+export name='.sel'
 export SEL="${HOME}/${name}"
+export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
@@ -159,4 +161,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-

@@ -1,3 +1,8 @@
+[description:"Minimum two hour cycling" due:"1555214400" end:"1554740106" entry:"1554739685" modified:"1554740106" project:"exercise" status:"completed" tags:"weekly" uuid:"882be140-5067-4df6-8ffe-8e9107ece19d"]
+[description:"Write one blog post" due:"1555214400" end:"1554740081" entry:"1554740057" modified:"1554740081" project:"blog" status:"completed" tags:"weekly" uuid:"3d9333f4-ca5e-4159-9494-445b21b6feb9"]
+[description:"mmeds.summary update colors for tankou summaries" due:"1554696000" end:"1554731841" entry:"1554313649" modified:"1554731841" project:"mmeds" status:"completed" tags:"work" uuid:"cd0bcdee-1d96-4f29-aeae-77956a913b93"]
+[description:"combine all download pages into single server method" due:"1553572800" end:"1554731831" entry:"1553532173" modified:"1554731831" project:"mmeds" status:"completed" tags:"work" uuid:"9e5c98f8-cbe8-4fcf-9a7a-e79377b10049"]
+[description:"send hmp-cleaned to Eliza" end:"1554386865" entry:"1554383850" modified:"1554386865" project:"mmeds" status:"completed" tags:"work" uuid:"cfe97c5e-b102-4bec-8aae-8b2b4c679734"]
 [description:"stuff" end:"1554382412" entry:"1554382404" modified:"1554382414" project:"mmeds" status:"deleted" tags:"work" uuid:"edb1f822-b6d6-4f55-88ee-7b63e12cd2a7"]
 [description:"stuff" end:"1554382426" entry:"1554382421" modified:"1554382427" project:"blog" status:"deleted" tags:"work" uuid:"fe5d6251-1c4c-4592-819f-ec7cec97a9ed"]
 [description:"Switch summary to be a download from the site rather than an attachment" due:"1553140800" end:"1553694071" entry:"1546618060" modified:"1553694071" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"308679e6-1437-4f86-9333-f051339864a8"]
