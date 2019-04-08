@@ -1712,3 +1712,33 @@ new [description:"setup rpi as taskwarrior and wordspress server" entry:"1554398
 time 1554467807
 new [description:"Function to write a metadata dataframe to mmeds format tsv" entry:"1554467807" modified:"1554467807" project:"mmeds.util" status:"pending" tags:"work" uuid:"371f58d7-034c-4c4d-85ff-9c64e042efba"]
 ---
+time 1554468085
+new [description:"mmeds.server put error_html behind a button" entry:"1554468085" modified:"1554468085" project:"mmeds" status:"pending" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
+---
+time 1554478779
+new [description:"add ancom analysis results to pipeline" entry:"1554478779" modified:"1554478779" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"5cfee138-8f44-400c-a2d2-f658b2b8b576"]
+---
+time 1554731764
+old [description:"try checkpointing with mmeds scripts" due:"1554091200" entry:"1550258360" modified:"1551705100" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+new [description:"try checkpointing with mmeds scripts" due:"1556683200" entry:"1550258360" modified:"1554731764" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+---
+time 1554731781
+old [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1554091200" entry:"1550090660" modified:"1552573533" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+new [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1555732800" entry:"1550090660" modified:"1554731781" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+---
+time 1554731810
+old [description:"Add results from analysis to the database" due:"1553140800" entry:"1551965959" modified:"1552573656" project:"mmeds" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+new [description:"Add results from analysis to the database" due:"1556164800" entry:"1551965959" modified:"1554731810" project:"mmeds.database" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+---
+time 1554731831
+old [description:"combine all download pages into single server method" due:"1553572800" entry:"1553532173" modified:"1553532173" project:"mmeds" status:"pending" tags:"work" uuid:"9e5c98f8-cbe8-4fcf-9a7a-e79377b10049"]
+new [description:"combine all download pages into single server method" due:"1553572800" end:"1554731831" entry:"1553532173" modified:"1554731831" project:"mmeds" status:"completed" tags:"work" uuid:"9e5c98f8-cbe8-4fcf-9a7a-e79377b10049"]
+---
+time 1554731841
+old [description:"mmeds.summary update colors for tankou summaries" due:"1554696000" entry:"1554313649" modified:"1554313649" project:"mmeds" status:"pending" tags:"work" uuid:"cd0bcdee-1d96-4f29-aeae-77956a913b93"]
+new [description:"mmeds.summary update colors for tankou summaries" due:"1554696000" end:"1554731841" entry:"1554313649" modified:"1554731841" project:"mmeds" status:"completed" tags:"work" uuid:"cd0bcdee-1d96-4f29-aeae-77956a913b93"]
+---
+time 1554731880
+old [description:"figure out better setup for tracking processes" due:"1553227200" entry:"1553017677" modified:"1553017677" project:"mmeds" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+new [description:"figure out better setup for tracking processes" due:"1556683200" entry:"1553017677" modified:"1554731880" project:"mmeds.server" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+---
