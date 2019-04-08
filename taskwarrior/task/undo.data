@@ -1751,3 +1751,38 @@ new [description:"add extra.sh functionality to mmeds proper" due:"1556683200" e
 time 1554738222
 new [description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" entry:"1554738222" modified:"1554738222" project:"mmeds" status:"pending" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
 ---
+time 1554738489
+new [description:"computer vision application to check if a plot looks reasonable, readable text, figures do not run off boundries, etc" entry:"1554738489" modified:"1554738489" project:"freelance" status:"pending" uuid:"2bd48b10-1154-4cf3-8b0e-fb9bf942dbd8"]
+---
+time 1554739685
+new [description:"Minimum one hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"da0dc149-2b20-457c-a4dd-37c2afaa3841"]
+---
+time 1554739685
+new [description:"Minimum one hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"db5d0f97-051a-45f8-b9db-18f5b8c9159c"]
+---
+time 1554739685
+new [description:"Minimum two hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"882be140-5067-4df6-8ffe-8e9107ece19d"]
+---
+time 1554739685
+new [description:"Leg day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
+---
+time 1554739685
+new [description:"Arm day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
+---
+time 1554739685
+new [description:"Leg day with six rounds of arms on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
+---
+time 1554739685
+new [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
+---
+time 1554740057
+new [description:"Write one blog post" due:"1555214400" entry:"1554740057" modified:"1554740057" project:"blog" status:"pending" tags:"weekly" uuid:"3d9333f4-ca5e-4159-9494-445b21b6feb9"]
+---
+time 1554740081
+old [description:"Write one blog post" due:"1555214400" entry:"1554740057" modified:"1554740057" project:"blog" status:"pending" tags:"weekly" uuid:"3d9333f4-ca5e-4159-9494-445b21b6feb9"]
+new [description:"Write one blog post" due:"1555214400" end:"1554740081" entry:"1554740057" modified:"1554740081" project:"blog" status:"completed" tags:"weekly" uuid:"3d9333f4-ca5e-4159-9494-445b21b6feb9"]
+---
+time 1554740106
+old [description:"Minimum two hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"882be140-5067-4df6-8ffe-8e9107ece19d"]
+new [description:"Minimum two hour cycling" due:"1555214400" end:"1554740106" entry:"1554739685" modified:"1554740106" project:"exercise" status:"completed" tags:"weekly" uuid:"882be140-5067-4df6-8ffe-8e9107ece19d"]
+---
