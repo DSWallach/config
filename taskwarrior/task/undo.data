@@ -1742,3 +1742,12 @@ time 1554731880
 old [description:"figure out better setup for tracking processes" due:"1553227200" entry:"1553017677" modified:"1553017677" project:"mmeds" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
 new [description:"figure out better setup for tracking processes" due:"1556683200" entry:"1553017677" modified:"1554731880" project:"mmeds.server" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
 ---
+time 1554734658
+new [description:"Create specific directories for storing different types of qiime2 archives" entry:"1554734658" modified:"1554734658" project:"mmeds.database" status:"pending" tags:"work" uuid:"d8b92360-a7c1-4bf8-8956-19a4c481e512"]
+---
+time 1554738144
+new [description:"add extra.sh functionality to mmeds proper" due:"1556683200" entry:"1554738144" modified:"1554738144" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+---
+time 1554738222
+new [description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" entry:"1554738222" modified:"1554738222" project:"mmeds" status:"pending" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
+---

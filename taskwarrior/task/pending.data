@@ -66,3 +66,6 @@
 [description:"Function to write a metadata dataframe to mmeds format tsv" entry:"1554467807" modified:"1554467807" project:"mmeds.util" status:"pending" tags:"work" uuid:"371f58d7-034c-4c4d-85ff-9c64e042efba"]
 [description:"mmeds.server put error_html behind a button" entry:"1554468085" modified:"1554468085" project:"mmeds" status:"pending" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
 [description:"add ancom analysis results to pipeline" entry:"1554478779" modified:"1554478779" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"5cfee138-8f44-400c-a2d2-f658b2b8b576"]
+[description:"Create specific directories for storing different types of qiime2 archives" entry:"1554734658" modified:"1554734658" project:"mmeds.database" status:"pending" tags:"work" uuid:"d8b92360-a7c1-4bf8-8956-19a4c481e512"]
+[description:"add extra.sh functionality to mmeds proper" due:"1556683200" entry:"1554738144" modified:"1554738144" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+[description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" entry:"1554738222" modified:"1554738222" project:"mmeds" status:"pending" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
