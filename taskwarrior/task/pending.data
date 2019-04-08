@@ -76,4 +76,4 @@
 [description:"Arm day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
 [description:"Leg day with six rounds of arms on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
 [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
-[description:"Overhall validation setup. Make sure each check\/type assignment only happens once" entry:"1554744601" modified:"1554744601" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
+[description:"Overhall validation setup. Make sure each check\/type assignment only happens once" due:"1554955200" entry:"1554744601" modified:"1554745583" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]

@@ -1789,3 +1789,7 @@ new [description:"Minimum two hour cycling" due:"1555214400" end:"1554740106" en
 time 1554744601
 new [description:"Overhall validation setup. Make sure each check\/type assignment only happens once" entry:"1554744601" modified:"1554744601" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
 ---
+time 1554745583
+old [description:"Overhall validation setup. Make sure each check\/type assignment only happens once" entry:"1554744601" modified:"1554744601" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
+new [description:"Overhall validation setup. Make sure each check\/type assignment only happens once" due:"1554955200" entry:"1554744601" modified:"1554745583" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
+---
