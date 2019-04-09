@@ -1797,3 +1797,7 @@ time 1554763008
 old [description:"Minimum one hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"db5d0f97-051a-45f8-b9db-18f5b8c9159c"]
 new [description:"Minimum one hour cycling" due:"1555214400" end:"1554763008" entry:"1554739685" modified:"1554763008" project:"exercise" status:"completed" tags:"weekly" uuid:"db5d0f97-051a-45f8-b9db-18f5b8c9159c"]
 ---
+time 1554808773
+old [description:"Arm day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
+new [description:"Arm day with core" due:"1555214400" end:"1554808773" entry:"1554739685" modified:"1554808773" project:"exercise" status:"completed" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
+---

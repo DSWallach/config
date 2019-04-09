@@ -108,7 +108,7 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
-if ! [ $(hostname) == 'node2-3' || $(hostname) == 'taskserver' ]; then
+if ! [[ $(hostname) == "node2-3" || $(hostname) == "taskserver" ]]; then
     xset r rate 250 45
     # Vim
     alias vi='nvim'
