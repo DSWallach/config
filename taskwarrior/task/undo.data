@@ -1844,3 +1844,30 @@ new [description:"Blog post about why you should use a linter" entry:"1554826421
 time 1554826479
 new [description:"Blog post about why I do not like the phrase 'Learn to code'" entry:"1554826479" modified:"1554826479" project:"blog.idea" status:"pending" tags:"todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
 ---
+time 1554826688
+new [description:"Add a check that all the necessary header rows are present" entry:"1554826688" modified:"1554826688" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ae36a097-c8d6-4300-94fc-79165de4df2d"]
+---
+time 1554828847
+old [description:"Blog post about why you should use a linter" entry:"1554826421" modified:"1554826421" project:"blog.idea" status:"pending" tags:"todo" uuid:"223b44f8-6a0a-4420-9128-9e38b25b8c94"]
+new [description:"Blog post about why you should use a linter" end:"1554828847" entry:"1554826421" modified:"1554828847" project:"blog.idea" status:"completed" tags:"todo" uuid:"223b44f8-6a0a-4420-9128-9e38b25b8c94"]
+---
+time 1554828862
+old [description:"Interlab standards for scientific software" entry:"1554382453" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"3c75ee98-2d16-4f8d-ac79-a2dd1d73ee12"]
+new [description:"Interlab standards for scientific software" entry:"1554382453" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"3c75ee98-2d16-4f8d-ac79-a2dd1d73ee12"]
+---
+time 1554828862
+old [description:"Intralab standards for scientific software" entry:"1554382459" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"0b203de6-ab47-4831-89a6-ad43d26d8f98"]
+new [description:"Intralab standards for scientific software" entry:"1554382459" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"0b203de6-ab47-4831-89a6-ad43d26d8f98"]
+---
+time 1554828862
+old [description:"Code review on small teams" entry:"1554382488" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"78625632-d45c-4139-aeff-0d318b28f017"]
+new [description:"Code review on small teams" entry:"1554382488" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"78625632-d45c-4139-aeff-0d318b28f017"]
+---
+time 1554828862
+old [description:"Performance vs. readability in scientific software" entry:"1554382514" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"7db6b361-146e-4e2e-8e52-0e399d649011"]
+new [description:"Performance vs. readability in scientific software" entry:"1554382514" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"7db6b361-146e-4e2e-8e52-0e399d649011"]
+---
+time 1554828862
+old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+---
