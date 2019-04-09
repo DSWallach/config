@@ -77,3 +77,4 @@
 [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
 [description:"Overhall validation setup. Make sure each check\/type assignment only happens once" due:"1554955200" entry:"1554744601" modified:"1554745583" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
 [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
+[description:"Figure out how to track what batch of samples a particular sample was run with" entry:"1554824283" modified:"1554824283" project:"mmeds.database" status:"pending" tags:"work" uuid:"526c522f-a9d5-4da7-a4bf-5f3fc597a6e2"]

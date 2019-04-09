@@ -1804,3 +1804,6 @@ new [description:"Arm day with core" due:"1555214400" end:"1554808773" entry:"15
 time 1554821513
 new [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
 ---
+time 1554824283
+new [description:"Figure out how to track what batch of samples a particular sample was run with" entry:"1554824283" modified:"1554824283" project:"mmeds.database" status:"pending" tags:"work" uuid:"526c522f-a9d5-4da7-a4bf-5f3fc597a6e2"]
+---

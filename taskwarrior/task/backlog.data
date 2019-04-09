@@ -481,3 +481,4 @@
 {"description":"Minimum one hour cycling","due":"20190414T040000Z","end":"20190408T223648Z","entry":"20190408T160805Z","modified":"20190408T223648Z","project":"exercise","status":"completed","tags":["weekly"],"uuid":"db5d0f97-051a-45f8-b9db-18f5b8c9159c"}
 {"description":"Arm day with core","due":"20190414T040000Z","end":"20190409T111933Z","entry":"20190408T160805Z","modified":"20190409T111933Z","project":"exercise","status":"completed","tags":["weekly"],"uuid":"58284f63-6518-4860-93ef-df875858ed1c"}
 {"description":"finish server testing","entry":"20190409T145153Z","modified":"20190409T145153Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"b5b65135-7468-4223-83a4-3381d66b33f9"}
+{"description":"Figure out how to track what batch of samples a particular sample was run with","entry":"20190409T153803Z","modified":"20190409T153803Z","project":"mmeds.database","status":"pending","tags":["work"],"uuid":"526c522f-a9d5-4da7-a4bf-5f3fc597a6e2"}
