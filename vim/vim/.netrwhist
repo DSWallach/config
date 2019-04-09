@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/david/Work/mmeds-meta/tests/unit/__pycache__'
 let g:netrw_dirhist_2='/home/david/Work/mmeds-meta/mmeds/html/__pycache__'
 let g:netrw_dirhist_3='/home/david/mmeds_server_data/serveruser_18'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/david/mmeds_server_data'
 let g:netrw_dirhist_5='/home/david/mmeds_server_data/old'
 let g:netrw_dirhist_6='/home/david/Documents/RentalAgency/build'
 let g:netrw_dirhist_7='/home/david/Work/minerva/mmeds-stable/mmeds/resources'
+let g:netrw_dirhist_8='/home/david/.sel/vim/vim'

@@ -1,3 +1,5 @@
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath=&runtimepath
 "turn on syntax highlighting
 syntax on
 
@@ -29,7 +31,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'rhysd/vim-grammarous'
 
 " Don't load cause Minerva's Vim is super old
-if ! (hostname() == 'node2-3@minerva.hpc.mssm.edu')
+if (hostname() == 'Fedora.Y70')
     Plug 'Valloric/YouCompleteMe'
 endif
 call plug#end()
@@ -129,7 +131,7 @@ nnoremap L gt
 nnoremap K :YcmCompleter GetDoc<CR>
 
 "" Python Plugin Settings
-if (hostname() == 'localhost.localdomain')
+if (hostname() == 'Fedora.Y70')
     let g:pymode_python='python3'
 endif
 let g:pymode_options_max_line_length=120
@@ -158,3 +160,4 @@ let g:ctrlp_prompt_mappings = {
 
 " Filetypes
 au BufNewFile,BufRead *.tsv		setf tsv
+

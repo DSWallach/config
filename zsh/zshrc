@@ -77,9 +77,6 @@ alias k9='kill -9'
 
 # Options
 setopt rmstarsilent
-if ! [ $(hostname) != 'taskserver' ]; then
-	xset r rate 300 25
-fi
 KEYTIMEOUT=10
 
 # Key Bindings
@@ -108,7 +105,7 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
-if ! [[ $(hostname) == "node2-3" || $(hostname) == "taskserver" ]]; then
+if [[ $(hostname) == "Fedora.Y70" ]]; then
     xset r rate 250 45
     # Vim
     alias vi='nvim'
@@ -116,7 +113,7 @@ if ! [[ $(hostname) == "node2-3" || $(hostname) == "taskserver" ]]; then
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
     export CONDA_DIR=/home/david/anaconda3/
-else
+elif [[ $(hostname) == 'node2-3' ]]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
     module load tmux

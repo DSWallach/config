@@ -1801,3 +1801,6 @@ time 1554808773
 old [description:"Arm day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
 new [description:"Arm day with core" due:"1555214400" end:"1554808773" entry:"1554739685" modified:"1554808773" project:"exercise" status:"completed" tags:"weekly" uuid:"58284f63-6518-4860-93ef-df875858ed1c"]
 ---
+time 1554821513
+new [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
+---
