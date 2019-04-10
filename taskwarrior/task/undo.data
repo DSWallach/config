@@ -1871,3 +1871,7 @@ time 1554828862
 old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554826316" project:"blog.ideas" status:"pending" tags:"todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
 new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
 ---
+time 1554893836
+old [description:"Leg day with six rounds of arms on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
+new [description:"Leg day with six rounds of arms on the bag" due:"1555214400" end:"1554893836" entry:"1554739685" modified:"1554893836" project:"exercise" status:"completed" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
+---

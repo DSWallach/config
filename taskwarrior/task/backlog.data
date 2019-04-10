@@ -499,3 +499,4 @@
 {"description":"Code review on small teams","entry":"20190404T125448Z","modified":"20190409T165422Z","project":"blog.idea","status":"pending","tags":["todo"],"uuid":"78625632-d45c-4139-aeff-0d318b28f017"}
 {"description":"Performance vs. readability in scientific software","entry":"20190404T125514Z","modified":"20190409T165422Z","project":"blog.idea","status":"pending","tags":["todo"],"uuid":"7db6b361-146e-4e2e-8e52-0e399d649011"}
 {"description":"When to hire a developer rather than a scientist","entry":"20190404T125543Z","modified":"20190409T165422Z","project":"blog.idea","status":"pending","tags":["todo"],"uuid":"242902b9-271c-4b70-9274-2e011202cd1a"}
+{"description":"Leg day with six rounds of arms on the bag","due":"20190414T040000Z","end":"20190410T105716Z","entry":"20190408T160805Z","modified":"20190410T105716Z","project":"exercise","status":"completed","tags":["weekly"],"uuid":"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"}

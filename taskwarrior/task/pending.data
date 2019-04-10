@@ -70,7 +70,6 @@
 [description:"computer vision application to check if a plot looks reasonable, readable text, figures do not run off boundries, etc" entry:"1554738489" modified:"1554738489" project:"freelance" status:"pending" uuid:"2bd48b10-1154-4cf3-8b0e-fb9bf942dbd8"]
 [description:"Minimum one hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"da0dc149-2b20-457c-a4dd-37c2afaa3841"]
 [description:"Leg day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
-[description:"Leg day with six rounds of arms on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
 [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
 [description:"Overhall validation setup. Make sure each check\/type assignment only happens once" due:"1554955200" entry:"1554744601" modified:"1554745583" project:"mmeds.validate" status:"pending" tags:"work" uuid:"53850bb4-75f4-4e9a-970a-af5cc3061c09"]
 [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
