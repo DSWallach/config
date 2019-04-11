@@ -1958,19 +1958,3 @@ time 1554989585
 old [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 new [description:"performance analysis of mmeds" end:"1554989583" entry:"1553610480" modified:"1554989585" project:"mmeds" status:"deleted" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 ---
-time 1554989665
-old [description:"add error handling for issues when importing metadata to mysql" entry:"1553781753" modified:"1553781753" project:"mmeds" status:"pending" tags:"work" uuid:"a61723c4-fd95-4e4b-960d-d8901ca2e9b3"]
-new [description:"mmeds.testing" entry:"1553781753" modified:"1554989665" project:"mmeds" status:"pending" tags:"work" uuid:"a61723c4-fd95-4e4b-960d-d8901ca2e9b3"]
----
-time 1554989665
-old [description:"possible issue server segfaults after many uploads" entry:"1553788648" modified:"1553788648" project:"mmeds" status:"pending" tags:"work" uuid:"7bc8b85b-b1c1-42ef-bef1-558c4aab025a"]
-new [description:"mmeds.testing" entry:"1553788648" modified:"1554989665" project:"mmeds" status:"pending" tags:"work" uuid:"7bc8b85b-b1c1-42ef-bef1-558c4aab025a"]
----
-time 1554989665
-old [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
-new [description:"mmeds.testing" entry:"1553610480" modified:"1554989665" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
----
-time 1554989665
-old [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
-new [description:"mmeds.testing" entry:"1554821513" modified:"1554989665" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
----
