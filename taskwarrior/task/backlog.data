@@ -529,3 +529,4 @@
 {"description":"performance analysis of mmeds","entry":"20190326T142800Z","modified":"20190326T142800Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"ba19f54d-593a-44fe-994f-899f32128970"}
 {"description":"possible issue server segfaults after many uploads","entry":"20190328T155728Z","modified":"20190328T155728Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"7bc8b85b-b1c1-42ef-bef1-558c4aab025a"}
 {"description":"add error handling for issues when importing metadata to mysql","entry":"20190328T140233Z","modified":"20190328T140233Z","project":"mmeds","status":"pending","tags":["work"],"uuid":"a61723c4-fd95-4e4b-960d-d8901ca2e9b3"}
+{"description":"add check incase data is in nested dir in zip","entry":"20190411T181056Z","modified":"20190411T181056Z","project":"mmeds.validation","status":"pending","tags":["work"],"uuid":"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"}

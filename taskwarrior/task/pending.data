@@ -65,3 +65,4 @@
 [description:"Blog post about why I do not like the phrase 'Learn to code'" entry:"1554826479" modified:"1554826479" project:"blog.idea" status:"pending" tags:"todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
 [description:"Resolve issues with uploading large metadata files" entry:"1554905717" modified:"1554905717" project:"mmeds.server" status:"pending" tags:"work" uuid:"5c9155b2-b285-441a-a033-7ef63e676ceb"]
 [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+[description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1555006256" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]

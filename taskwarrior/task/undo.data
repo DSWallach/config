@@ -1958,3 +1958,6 @@ time 1554989585
 old [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 new [description:"performance analysis of mmeds" end:"1554989583" entry:"1553610480" modified:"1554989585" project:"mmeds" status:"deleted" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 ---
+time 1555006256
+new [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1555006256" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+---
