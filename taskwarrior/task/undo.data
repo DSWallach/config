@@ -1875,3 +1875,10 @@ time 1554893836
 old [description:"Leg day with six rounds of arms on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
 new [description:"Leg day with six rounds of arms on the bag" due:"1555214400" end:"1554893836" entry:"1554739685" modified:"1554893836" project:"exercise" status:"completed" tags:"weekly" uuid:"bf2a5ff4-ae07-4119-9288-e4b5fcf57607"]
 ---
+time 1554905717
+new [description:"Resolve issues with uploading large metadata files" entry:"1554905717" modified:"1554905717" project:"mmeds.server" status:"pending" tags:"work" uuid:"5c9155b2-b285-441a-a033-7ef63e676ceb"]
+---
+time 1554982108
+old [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
+new [description:"Arm day with six rounds of kicks on the bag" due:"1555214400" end:"1554982108" entry:"1554739685" modified:"1554982108" project:"exercise" status:"completed" tags:"weekly" uuid:"52ef0bce-fcb2-445d-9c21-45b6b0a4b0b4"]
+---
