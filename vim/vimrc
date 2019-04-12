@@ -129,6 +129,7 @@ nnoremap <A-,> :call MoveToPrevTab()<CR>
 nnoremap H gT
 nnoremap L gt
 nnoremap K :YcmCompleter GetDoc<CR>
+nnoremap ff :setlocal foldlevel=1<CR>
 
 "" Python Plugin Settings
 if (hostname() == 'Fedora.Y70')
