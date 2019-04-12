@@ -1961,3 +1961,11 @@ new [description:"performance analysis of mmeds" end:"1554989583" entry:"1553610
 time 1555006256
 new [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1555006256" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
 ---
+time 1555068807
+old [description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" entry:"1554738222" modified:"1554738222" project:"mmeds" status:"pending" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
+new [description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" end:"1555068807" entry:"1554738222" modified:"1555068807" project:"mmeds" status:"completed" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
+---
+time 1555068807
+old [description:"Leg day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
+new [description:"Leg day with core" due:"1555214400" end:"1555068807" entry:"1554739685" modified:"1555068807" project:"exercise" status:"completed" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
+---
