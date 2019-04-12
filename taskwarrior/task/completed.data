@@ -1,3 +1,7 @@
+[description:"performance analysis of mmeds" end:"1555069451" entry:"1553610480" modified:"1555069452" project:"mmeds" status:"deleted" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+[description:"setup rpi as taskwarrior and wordspress server" end:"1555069167" entry:"1554398206" modified:"1555069167" project:"life" status:"completed" uuid:"9e1fd3d2-f1f5-4bc2-a95b-3229bf1dce20"]
+[description:"Find specifc IDs in GFtransfer dataset that do not cluster by BodySite" due:"1554868800" end:"1555068807" entry:"1554738222" modified:"1555068807" project:"mmeds" status:"completed" tags:"work" uuid:"b4084968-a04f-4633-bb94-70dd19d7b33c"]
+[description:"Leg day with core" due:"1555214400" end:"1555068807" entry:"1554739685" modified:"1555068807" project:"exercise" status:"completed" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
 [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" end:"1554989570" entry:"1553616016" modified:"1554989571" project:"mmeds" status:"deleted" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
 [description:"check how database handles NA entries for subjects and ICD codes" end:"1554989436" entry:"1553602219" modified:"1554989437" project:"mmeds" status:"deleted" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
 [description:"mmeds.performance Add multiple threads to metadata processing methods" end:"1554989453" entry:"1554313629" modified:"1554989454" project:"mmeds" status:"deleted" tags:"work" uuid:"96b33e76-050c-4ceb-9fc4-f4c46ea435a7"]

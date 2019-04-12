@@ -1969,3 +1969,58 @@ time 1555068807
 old [description:"Leg day with core" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
 new [description:"Leg day with core" due:"1555214400" end:"1555068807" entry:"1554739685" modified:"1555068807" project:"exercise" status:"completed" tags:"weekly" uuid:"e57c13ac-304c-4072-95db-d5d093a68492"]
 ---
+time 1555069167
+old [description:"setup rpi as taskwarrior and wordspress server" entry:"1554398206" modified:"1554398206" project:"life" status:"pending" uuid:"9e1fd3d2-f1f5-4bc2-a95b-3229bf1dce20"]
+new [description:"setup rpi as taskwarrior and wordspress server" end:"1555069167" entry:"1554398206" modified:"1555069167" project:"life" status:"completed" uuid:"9e1fd3d2-f1f5-4bc2-a95b-3229bf1dce20"]
+---
+time 1555069179
+old [description:"look into american gut filtering of bloom sequences" due:"1555387200" entry:"1553175363" modified:"1554989238" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+new [description:"look into american gut filtering of bloom sequences" due:"1556683200" entry:"1553175363" modified:"1555069179" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+---
+time 1555069262
+old [description:"match IDs to files in demultiplexed samples" entry:"1551880664" modified:"1551880664" project:"mmeds" status:"pending" tags:"work" uuid:"f98fbbca-cfce-4e70-b60a-513b3e5008a4"]
+new [description:"match IDs to files in demultiplexed samples" entry:"1551880664" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"f98fbbca-cfce-4e70-b60a-513b3e5008a4"]
+---
+time 1555069262
+old [description:"look into issues uploading multiple datsets at the same time" entry:"1553781366" modified:"1553781366" project:"mmeds" status:"pending" tags:"work" uuid:"ce54ae8e-2562-446e-9ff9-c09b4681308a"]
+new [description:"look into issues uploading multiple datsets at the same time" entry:"1553781366" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"ce54ae8e-2562-446e-9ff9-c09b4681308a"]
+---
+time 1555069262
+old [description:"add error handling for issues when importing metadata to mysql" entry:"1553781753" modified:"1553781753" project:"mmeds" status:"pending" tags:"work" uuid:"a61723c4-fd95-4e4b-960d-d8901ca2e9b3"]
+new [description:"add error handling for issues when importing metadata to mysql" entry:"1553781753" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"a61723c4-fd95-4e4b-960d-d8901ca2e9b3"]
+---
+time 1555069262
+old [description:"check how database handles NA entries for subjects and ICD codes" entry:"1553602219" modified:"1553602219" project:"mmeds" status:"pending" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
+new [description:"check how database handles NA entries for subjects and ICD codes" entry:"1553602219" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
+---
+time 1555069262
+old [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1553616016" project:"mmeds" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
+new [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
+---
+time 1555069452
+old [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+new [description:"performance analysis of mmeds" end:"1555069451" entry:"1553610480" modified:"1555069452" project:"mmeds" status:"deleted" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+---
+time 1555069481
+old [description:"setup compatability for multiple qiime2 versions parameter changed for export and import" entry:"1551879255" modified:"1551879377" project:"mmeds" status:"pending" tags:"work" uuid:"03cae83e-b059-48d2-933d-fbb0ed1abbeb"]
+new [description:"setup compatability for multiple qiime2 versions parameter changed for export and import" entry:"1551879255" modified:"1555069481" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"03cae83e-b059-48d2-933d-fbb0ed1abbeb"]
+---
+time 1555069483
+old [description:"update summarize.py to be truely system\/location agnostic" entry:"1553705429" modified:"1553705429" project:"mmeds" status:"pending" tags:"work" uuid:"90154692-e8e6-4aad-8841-8036409ba3c9"]
+new [description:"update summarize.py to be truely system\/location agnostic" entry:"1553705429" modified:"1555069483" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"90154692-e8e6-4aad-8841-8036409ba3c9"]
+---
+time 1555069483
+old [description:"set all to be default config for analysis" entry:"1553791401" modified:"1553791401" project:"mmeds" status:"pending" tags:"work" uuid:"96effee1-ddac-4698-b21f-d2e16d23f58f"]
+new [description:"set all to be default config for analysis" entry:"1553791401" modified:"1555069483" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"96effee1-ddac-4698-b21f-d2e16d23f58f"]
+---
+time 1555069483
+old [description:"Test how mmeds works with a large otu table. Try running the analysis with qiime2" entry:"1554385380" modified:"1554385380" project:"mmeds" status:"pending" tags:"work" uuid:"1c563e0b-0bc9-406b-8262-830425d31fb1"]
+new [description:"Test how mmeds works with a large otu table. Try running the analysis with qiime2" entry:"1554385380" modified:"1555069483" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"1c563e0b-0bc9-406b-8262-830425d31fb1"]
+---
+time 1555069483
+old [description:"100nt, 100 nucleotides, chopping everything to the same length" entry:"1554385917" modified:"1554385917" project:"mmeds" status:"pending" tags:"work" uuid:"fc86d98c-c6b0-4a16-b64c-500a806ea681"]
+new [description:"100nt, 100 nucleotides, chopping everything to the same length" entry:"1554385917" modified:"1555069483" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"fc86d98c-c6b0-4a16-b64c-500a806ea681"]
+---
+time 1555069974
+new [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555069974" project:"life" status:"pending" tags:"work" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+---
