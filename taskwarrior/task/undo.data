@@ -2024,3 +2024,6 @@ new [description:"100nt, 100 nucleotides, chopping everything to the same length
 time 1555069974
 new [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555069974" project:"life" status:"pending" tags:"work" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
 ---
+time 1555070416
+new [description:"Add additional tests for database integrity after table modification" entry:"1555070416" modified:"1555070416" project:"mmeds.testing" status:"pending" tags:"work" uuid:"dd2cbb45-bad7-4e72-9ad1-e94c495f294b"]
+---

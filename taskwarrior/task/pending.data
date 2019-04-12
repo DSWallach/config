@@ -63,3 +63,4 @@
 [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1555006256" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
 [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555069974" project:"life" status:"pending" tags:"work" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+[description:"Add additional tests for database integrity after table modification" entry:"1555070416" modified:"1555070416" project:"mmeds.testing" status:"pending" tags:"work" uuid:"dd2cbb45-bad7-4e72-9ad1-e94c495f294b"]
