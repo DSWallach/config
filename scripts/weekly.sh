@@ -1,9 +1,9 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-cd /home/david/.sel;
-git pull;
-bash scripts/exercise.sh;
-bash scripts/life.sh;
-git add --all;
-git commint -m 'Weekly update';
-git push;
+cd ~/.sel;
+git pull -y;
+bash ~/.sel/scripts/exercise_quota.sh;
+bash ~/.sel/scripts/life_quota.sh;
+git add --all -y;
+git commit -m 'Weekly update';
+git push -y;
