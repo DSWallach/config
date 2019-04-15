@@ -72,3 +72,4 @@
 [description:"Leg day with six rounds of arms on the bag" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"0a9a4d53-0354-4a80-8260-7611d02124f7"]
 [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" entry:"1555257181" modified:"1555257181" project:"exercise" status:"pending" tags:"weekly" uuid:"9165e4fe-78a3-4901-9cf6-d4e5137eb7a2"]
 [description:"Write one blog post" due:"1555801200" entry:"1555257181" modified:"1555257181" project:"blog.post" status:"pending" tags:"weekly" uuid:"bd6281df-c410-42a3-8dc0-078e54ceea19"]
+[description:"Post about essential skills for a bioinformatician" entry:"1555323961" modified:"1555323961" project:"blog.idea" status:"pending" tags:"todo" uuid:"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"]

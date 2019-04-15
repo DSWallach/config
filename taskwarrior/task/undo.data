@@ -2051,3 +2051,6 @@ new [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" 
 time 1555257181
 new [description:"Write one blog post" due:"1555801200" entry:"1555257181" modified:"1555257181" project:"blog.post" status:"pending" tags:"weekly" uuid:"bd6281df-c410-42a3-8dc0-078e54ceea19"]
 ---
+time 1555323961
+new [description:"Post about essential skills for a bioinformatician" entry:"1555323961" modified:"1555323961" project:"blog.idea" status:"pending" tags:"todo" uuid:"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"]
+---
