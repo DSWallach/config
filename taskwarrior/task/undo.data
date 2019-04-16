@@ -2054,3 +2054,16 @@ new [description:"Write one blog post" due:"1555801200" entry:"1555257181" modif
 time 1555323961
 new [description:"Post about essential skills for a bioinformatician" entry:"1555323961" modified:"1555323961" project:"blog.idea" status:"pending" tags:"todo" uuid:"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"]
 ---
+time 1555350169
+new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1555350169" project:"blog.idea" status:"pending" tags:"todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+---
+time 1555414293
+old [description:"Leg day with core" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"9b45f80e-3a8d-4be9-8ca6-da44b0d2ad51"]
+new [description:"Leg day with core" due:"1555801200" end:"1555414293" entry:"1555257180" modified:"1555414293" project:"exercise" status:"completed" tags:"weekly" uuid:"9b45f80e-3a8d-4be9-8ca6-da44b0d2ad51"]
+---
+time 1555419190
+new [description:"Automatically replace underscores with camel case" entry:"1555419190" modified:"1555419190" project:"mmeds.validation" status:"pending" tags:"work" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+---
+time 1555420718
+new [description:"Post on the issues with standardization within the scientific community" entry:"1555420718" modified:"1555420718" project:"blog.post" status:"pending" tags:"todo" uuid:"3d079af3-91c0-4401-a2e5-6049fa0efa8c"]
+---
