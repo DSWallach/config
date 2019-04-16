@@ -2067,3 +2067,47 @@ new [description:"Automatically replace underscores with camel case" entry:"1555
 time 1555420718
 new [description:"Post on the issues with standardization within the scientific community" entry:"1555420718" modified:"1555420718" project:"blog.post" status:"pending" tags:"todo" uuid:"3d079af3-91c0-4401-a2e5-6049fa0efa8c"]
 ---
+time 1555429646
+old [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1551973479" project:"mmeds" status:"pending" tags:"work" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+new [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+---
+time 1555429646
+old [description:"improve performance of metadata validation" entry:"1553006324" modified:"1553006324" project:"mmeds" status:"pending" tags:"work" uuid:"6b49c69f-706a-4c49-8e05-b71ab00e21a5"]
+new [description:"improve performance of metadata validation" entry:"1553006324" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"6b49c69f-706a-4c49-8e05-b71ab00e21a5"]
+---
+time 1555429646
+old [description:"check for RawDataID as NA" entry:"1553174491" modified:"1553174491" project:"mmeds" status:"pending" tags:"work" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+new [description:"check for RawDataID as NA" entry:"1553174491" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+---
+time 1555429674
+old [description:"look into american gut filtering of bloom sequences" due:"1556683200" entry:"1553175363" modified:"1555069179" project:"mmeds" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+new [description:"look into american gut filtering of bloom sequences" due:"1556683200" entry:"1553175363" modified:"1555429674" project:"mmeds.studies" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+---
+time 1555429704
+old [description:"add page giving user list of errors, asking if they want a table layout" entry:"1553780638" modified:"1553780638" project:"mmeds" status:"pending" tags:"work" uuid:"ebf0f256-d192-485c-8c7c-515b86d98910"]
+new [description:"add page giving user list of errors, asking if they want a table layout" entry:"1553780638" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"ebf0f256-d192-485c-8c7c-515b86d98910"]
+---
+time 1555429704
+old [description:"possible issue server segfaults after many uploads" entry:"1553788648" modified:"1553788648" project:"mmeds" status:"pending" tags:"work" uuid:"7bc8b85b-b1c1-42ef-bef1-558c4aab025a"]
+new [description:"possible issue server segfaults after many uploads" entry:"1553788648" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"7bc8b85b-b1c1-42ef-bef1-558c4aab025a"]
+---
+time 1555429704
+old [description:"add automatic clearing of \/local\/tmp for minerva server" entry:"1553870326" modified:"1553870326" project:"mmeds" status:"pending" tags:"work" uuid:"f106644f-5ab4-42ad-bc02-a2335e4b016e"]
+new [description:"add automatic clearing of \/local\/tmp for minerva server" entry:"1553870326" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"f106644f-5ab4-42ad-bc02-a2335e4b016e"]
+---
+time 1555429704
+old [description:"mmeds.server put error_html behind a button" entry:"1554468085" modified:"1554468085" project:"mmeds" status:"pending" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
+new [description:"mmeds.server put error_html behind a button" entry:"1554468085" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
+---
+time 1555429704
+old [description:"finish server testing" entry:"1554821513" modified:"1554821513" project:"mmeds" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
+new [description:"finish server testing" entry:"1554821513" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"b5b65135-7468-4223-83a4-3381d66b33f9"]
+---
+time 1555429727
+old [description:"performance analysis of mmeds" entry:"1553610480" modified:"1553610480" project:"mmeds" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+new [description:"performance analysis of mmeds" entry:"1553610480" modified:"1555429727" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
+---
+time 1555429789
+old [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1554391962" project:"mmeds.guides" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
+new [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1555429789" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
+---
