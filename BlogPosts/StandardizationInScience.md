@@ -21,3 +21,5 @@ Since computers aren't currently capable of this type of logic it's up to us to 
 
 ## Where they are not
 Metadata, a set of data that describes or gives information about other data, is far from standard. 
+
+
