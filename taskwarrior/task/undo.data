@@ -2111,3 +2111,43 @@ time 1555429789
 old [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1554391962" project:"mmeds.guides" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
 new [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1555429789" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
 ---
+time 1555432971
+new [description:"Add automatic filtering of data based on metadata" entry:"1555432971" modified:"1555432971" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+---
+time 1555433682
+new [description:"Add functional uploading of non-qiime study_types" entry:"1555433682" modified:"1555433682" project:"mmeds.server" status:"pending" tags:"work" uuid:"9e5efbfa-d822-4186-b1ef-34e2e1071d93"]
+---
+time 1555434096
+new [description:"Be sure to correctly handle subjects uploaded by the public user" entry:"1555434096" modified:"1555434096" project:"mmeds.database" status:"pending" tags:"work" uuid:"52f9b97e-1d61-42b3-8ffd-019555641a5f"]
+---
+time 1555500472
+old [description:"Minimum one hour cycling" due:"1555214400" entry:"1554739685" modified:"1554739685" project:"exercise" status:"pending" tags:"weekly" uuid:"da0dc149-2b20-457c-a4dd-37c2afaa3841"]
+new [description:"Minimum one hour cycling" due:"1555214400" end:"1555500471" entry:"1554739685" modified:"1555500472" project:"exercise" status:"deleted" tags:"weekly" uuid:"da0dc149-2b20-457c-a4dd-37c2afaa3841"]
+---
+time 1555500478
+old [description:"Arm day with core" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"626dbd54-0170-454b-9d9d-790b667f3ab4"]
+new [description:"Arm day with core" due:"1555801200" end:"1555500478" entry:"1555257180" modified:"1555500478" project:"exercise" status:"completed" tags:"weekly" uuid:"626dbd54-0170-454b-9d9d-790b667f3ab4"]
+---
+time 1555512858
+new [description:"Add testing for parallel uploads" entry:"1555512858" modified:"1555512858" project:"mmeds.database,mmeds.testing" status:"pending" tags:"work" uuid:"8bbd68b1-5df1-4b88-bed3-fab244734064"]
+---
+time 1555512885
+old [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" entry:"1555257181" modified:"1555257181" project:"exercise" status:"pending" tags:"weekly" uuid:"9165e4fe-78a3-4901-9cf6-d4e5137eb7a2"]
+new [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" entry:"1555257181" modified:"1555512885" project:"mmeds.database" status:"pending" tags:"weekly" uuid:"9165e4fe-78a3-4901-9cf6-d4e5137eb7a2"]
+---
+time 1555593829
+new [description:"create seperate templates for HumanSubject, AnimalSubject, and Specimens" entry:"1555593829" modified:"1555593829" project:"mmeds.database" status:"pending" tags:"work" uuid:"4864465d-212e-4b3d-ad65-a71ae814cc08"]
+---
+time 1555594125
+new [description:"Look for large mice microbiome studies to include in the database" entry:"1555594125" modified:"1555594125" project:"mmeds.mice" status:"pending" tags:"work" uuid:"3586ceec-cdfb-4f87-9f8e-5fbe9e117215"]
+---
+time 1555594574
+new [description:"Test the columns that do work in mmeds and try querying the database after the upload" entry:"1555594574" modified:"1555594574" project:"mmeds.database" status:"pending" tags:"work" uuid:"b3a633bf-1ce3-4ba6-8d96-7d8a99fd19b4"]
+---
+time 1555594709
+new [description:"Queue multiple uploads of metadata" entry:"1555594709" modified:"1555594709" project:"mmeds.database" status:"pending" tags:"work" uuid:"e3082a31-57c5-47d4-89e2-ac80831cf91b"]
+---
+time 1555594901
+old [description:"Add automatic filtering of data based on metadata" entry:"1555432971" modified:"1555432971" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555594901" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+---

@@ -20,6 +20,6 @@ It's probably very easy for you to determine the correct answer ( 1. The council
 Since computers aren't currently capable of this type of logic it's up to us to translate our data into a format they can understand. In my field of microbiome research we have done this to a certain exist with data. The fasta and subsequent fastq formats for recording reads of bacterial DNA sequences are widely adopted. This allows data produced by any sequencing lab (Illumina, New York Genome Center, etc) to be analyzed by any analysis tool (qiime2, PICRUSt, etc) without any manual modification of the data files. Not all types of data have stepped into this bright new future however.
 
 ## Where they are not
-Metadata, a set of data that describes or gives information about other data, is far from standard. 
+Metadata, a set of data that describes or gives information about other data, is far from standard. Data is essentially useless without good metadata to accompany it. It's not useful to know what bacteria are found in a sample if you don't know what the sample is. 
 
 

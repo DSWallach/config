@@ -1,3 +1,5 @@
+[description:"Minimum one hour cycling" due:"1555214400" end:"1555500471" entry:"1554739685" modified:"1555500472" project:"exercise" status:"deleted" tags:"weekly" uuid:"da0dc149-2b20-457c-a4dd-37c2afaa3841"]
+[description:"Arm day with core" due:"1555801200" end:"1555500478" entry:"1555257180" modified:"1555500478" project:"exercise" status:"completed" tags:"weekly" uuid:"626dbd54-0170-454b-9d9d-790b667f3ab4"]
 [description:"Leg day with core" due:"1555801200" end:"1555414293" entry:"1555257180" modified:"1555414293" project:"exercise" status:"completed" tags:"weekly" uuid:"9b45f80e-3a8d-4be9-8ca6-da44b0d2ad51"]
 [description:"performance analysis of mmeds" end:"1555069451" entry:"1553610480" modified:"1555069452" project:"mmeds" status:"deleted" tags:"work" uuid:"ba19f54d-593a-44fe-994f-899f32128970"]
 [description:"setup rpi as taskwarrior and wordspress server" end:"1555069167" entry:"1554398206" modified:"1555069167" project:"life" status:"completed" uuid:"9e1fd3d2-f1f5-4bc2-a95b-3229bf1dce20"]
