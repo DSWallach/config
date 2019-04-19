@@ -25,7 +25,14 @@ Metadata, a set of data that describes or gives information about other data, is
 1) What fields are collected
 Short of the fields required by analysis tools (such as SampleID and BarcodeSequence) there little overlap between the metadata collected by different labs, or even different studies conducted by the same lab. Are relatively common such as Weight and Age but even in those cases the metadata cannot be easy combined.
 2) Units
-There is no standardization for what units are used in any particular column. There are the SI base units but they are not always followed. Depending on the study age could be in years, months, or days. Weight could be in grams or kilograms.
+There is no standardization for what units are used in any particular column. There are the SI base units, but they are not always followed. Depending on the study age could be in years, months, or days. Weight could be in grams or kilograms.
 3) How values are represented
 Even for simple boolean columns, True could be indicated by 'T', 'True', 'Yes', 'Present', or any number of phrases that all indicate the same thing. If data doesn't exist for a particular column it may be represented by 'N/A', 'Not Available', 'Unknown', or even just left blank.
-3) What format this information is stored in 
+4) What format this information is stored in
+The most common setup is for each row to correspond to a particular sample and each column to a particular category of metadata but I've seen that reversed. Units might be included in column titles, in their own column, or worst of all missing entirely. Sometimes information is grouped in a way that looks nice in a spreadsheet but makes it impossible to process as a typical CSV.
+
+## Implications
+Designing a program to comprehensively deal with any one of these issues would be a formidable task, let alone all of them together. These inconsistencies make it needlessly difficult to use existing datasets for new analysis. Many datasets are uploaded to databases such as MG-RAST and Qiita but without standardization there is no good way to search for datasets that contain the metadata that would be relevant to your analysis. If you can find a dataset that works for your purposes you have to write a custom parser pretty much every time. I should know, I've spent many more hours than I'd like doing exactly this.
+
+## Where we go from here
+With standardization you could perform an SQL query to find all the relevant datasets, download them all in a single format, and run them through the last metadata parser you'd ever need to write. It could be that easy. It should be that easy. My lab at is working on a project that will make it that easy. We can't do it alone however. A standard is meaningless if nobody uses it. When our design and service is ready for public use, I'll update this post with a like. I hope you're as excited for the future as I am.
