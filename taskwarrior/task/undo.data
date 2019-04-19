@@ -2151,3 +2151,14 @@ time 1555594901
 old [description:"Add automatic filtering of data based on metadata" entry:"1555432971" modified:"1555432971" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555594901" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 ---
+time 1555673902
+new [description:"Respond to alex" due:"1555646400" entry:"1555673902" modified:"1555673902" project:"teslaver" status:"pending" tags:"work" uuid:"9d69916c-caab-4531-964c-426647b33d62"]
+---
+time 1555673943
+old [description:"Minimum one hour cycling" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"7fdde386-51f5-4663-97eb-c00f16629420"]
+new [description:"Minimum one hour cycling" due:"1555801200" end:"1555673943" entry:"1555257180" modified:"1555673943" project:"exercise" status:"completed" tags:"weekly" uuid:"7fdde386-51f5-4663-97eb-c00f16629420"]
+---
+time 1555673943
+old [description:"Leg day with six rounds of arms on the bag" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"0a9a4d53-0354-4a80-8260-7611d02124f7"]
+new [description:"Leg day with six rounds of arms on the bag" due:"1555801200" end:"1555673943" entry:"1555257180" modified:"1555673943" project:"exercise" status:"completed" tags:"weekly" uuid:"0a9a4d53-0354-4a80-8260-7611d02124f7"]
+---
