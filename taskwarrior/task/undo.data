@@ -2162,3 +2162,52 @@ time 1555673943
 old [description:"Leg day with six rounds of arms on the bag" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"0a9a4d53-0354-4a80-8260-7611d02124f7"]
 new [description:"Leg day with six rounds of arms on the bag" due:"1555801200" end:"1555673943" entry:"1555257180" modified:"1555673943" project:"exercise" status:"completed" tags:"weekly" uuid:"0a9a4d53-0354-4a80-8260-7611d02124f7"]
 ---
+time 1555674153
+old [description:"Get soldering iron from updstate" entry:"1554219865" modified:"1554219865" status:"pending" tags:"life" uuid:"6b3f7707-7057-46db-9590-05864fb6979b"]
+new [description:"Get soldering iron from updstate" end:"1555674153" entry:"1554219865" modified:"1555674153" status:"completed" tags:"life" uuid:"6b3f7707-7057-46db-9590-05864fb6979b"]
+---
+time 1555674181
+old [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" entry:"1555257181" modified:"1555512885" project:"mmeds.database" status:"pending" tags:"weekly" uuid:"9165e4fe-78a3-4901-9cf6-d4e5137eb7a2"]
+new [description:"Arm day with six rounds of kicks on the bag" due:"1555801200" end:"1555674181" entry:"1555257181" modified:"1555674181" project:"mmeds.database" status:"completed" tags:"weekly" uuid:"9165e4fe-78a3-4901-9cf6-d4e5137eb7a2"]
+---
+time 1555677610
+old [description:"Add testing for parallel uploads" entry:"1555512858" modified:"1555512858" project:"mmeds.database,mmeds.testing" status:"pending" tags:"work" uuid:"8bbd68b1-5df1-4b88-bed3-fab244734064"]
+new [description:"Add testing for parallel uploads" end:"1555677608" entry:"1555512858" modified:"1555677610" project:"mmeds.database,mmeds.testing" status:"deleted" tags:"work" uuid:"8bbd68b1-5df1-4b88-bed3-fab244734064"]
+---
+time 1555677656
+old [description:"look into issues uploading multiple datsets at the same time" entry:"1553781366" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"ce54ae8e-2562-446e-9ff9-c09b4681308a"]
+new [description:"look into issues uploading multiple datsets at the same time" end:"1555677654" entry:"1553781366" modified:"1555677656" project:"mmeds.database" status:"completed" tags:"work" uuid:"ce54ae8e-2562-446e-9ff9-c09b4681308a"]
+---
+time 1555677656
+old [description:"find better solution to finding foreign keys for NA values" entry:"1553783683" modified:"1553783683" project:"mmeds.database" status:"pending" tags:"work" uuid:"99dce7ef-7ee3-4980-96aa-4441c9b5ff0b"]
+new [description:"find better solution to finding foreign keys for NA values" end:"1555677656" entry:"1553783683" modified:"1555677656" project:"mmeds.database" status:"completed" tags:"work" uuid:"99dce7ef-7ee3-4980-96aa-4441c9b5ff0b"]
+---
+time 1555677656
+old [description:"check how database handles NA entries for subjects and ICD codes" entry:"1553602219" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
+new [description:"check how database handles NA entries for subjects and ICD codes" end:"1555677656" entry:"1553602219" modified:"1555677656" project:"mmeds.database" status:"completed" tags:"work" uuid:"0e144e74-587b-4d52-a424-a444209634f6"]
+---
+time 1555678370
+new [description:"Create seperate log file for SQL queries automatically truncate the file after 1000 lines" due:"1556683200" entry:"1555678370" modified:"1555678370" project:"mmeds" status:"pending" tags:"logging,server" uuid:"397c5f3b-05e0-4924-a69b-754319bb5b54"]
+---
+time 1555680452
+new [description:"Add error message if strings are too long to fit in particular column" entry:"1555680452" modified:"1555680452" project:"mmeds" status:"pending" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+---
+time 1555681114
+old [description:"Add error message if strings are too long to fit in particular column" entry:"1555680452" modified:"1555680452" project:"mmeds" status:"pending" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+new [description:"Add error message if strings are too long to fit in particular column" due:"1555992000" entry:"1555680452" modified:"1555681114" project:"mmeds" status:"pending" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+---
+time 1555682965
+new [description:"Restructure tests so each metadata file only needs to be imported once" entry:"1555682965" modified:"1555682965" project:"mmeds" status:"pending" tags:"database,testing" uuid:"bca65616-c80e-47dd-ba47-ae1807474303"]
+---
+time 1555689544
+old [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" entry:"1553616016" modified:"1555069262" project:"mmeds.database" status:"pending" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
+new [description:"create subclass for importing data to avoid so many queries and dataframes as arguments" end:"1555689544" entry:"1553616016" modified:"1555689544" project:"mmeds.database" status:"completed" tags:"work" uuid:"b5b89b8d-7199-4b50-9bc8-e796c6d52c10"]
+---
+time 1555689550
+old [description:"Respond to alex" due:"1555646400" entry:"1555673902" modified:"1555673902" project:"teslaver" status:"pending" tags:"work" uuid:"9d69916c-caab-4531-964c-426647b33d62"]
+new [description:"Respond to alex" due:"1555646400" end:"1555689550" entry:"1555673902" modified:"1555689550" project:"teslaver" status:"completed" tags:"work" uuid:"9d69916c-caab-4531-964c-426647b33d62"]
+---
+time 1555690945
+old [description:"Test the columns that do work in mmeds and try querying the database after the upload" entry:"1555594574" modified:"1555594574" project:"mmeds.database" status:"pending" tags:"work" uuid:"b3a633bf-1ce3-4ba6-8d96-7d8a99fd19b4"]
+new [description:"Test the columns that do work in mmeds and try querying the database after the upload" end:"1555690944" entry:"1555594574" modified:"1555690945" project:"mmeds.database" status:"deleted" tags:"work" uuid:"b3a633bf-1ce3-4ba6-8d96-7d8a99fd19b4"]
+---
