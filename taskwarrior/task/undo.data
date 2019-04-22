@@ -2274,3 +2274,30 @@ new [description:"Leg day with six rounds of arms on the bag" due:"1556424000" e
 time 1555934719
 new [description:"Arm day with six rounds of kicks on the bag" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"426e7f64-a82f-4418-bbf5-32d1563f7edf"]
 ---
+time 1555934759
+old [description:"Leg day with core" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"1ef5e29f-965f-4b59-8dfe-04262414158f"]
+new [description:"Leg day with core" due:"1556424000" end:"1555934759" entry:"1555934719" modified:"1555934759" project:"exercise" status:"completed" tags:"weekly" uuid:"1ef5e29f-965f-4b59-8dfe-04262414158f"]
+---
+time 1555942418
+new [description:"Finish instructions for coding test problem" entry:"1555942418" modified:"1555942418" project:"BeA3" status:"pending" tags:"CodeTest" uuid:"f5ed4d12-4de7-4578-a1b2-ee5625728ec7"]
+---
+time 1555944915
+old [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555069974" project:"life" status:"pending" tags:"work" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+new [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555944915" project:"life" status:"pending" tags:"todo" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+---
+time 1555945184
+old [description:"Note where recommandations for sql quoting came from" entry:"1551708867" modified:"1554989555" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"9c021c8a-3e6c-42a1-b09a-455436b10f27"]
+new [description:"Note where recommandations for sql quoting came from" end:"1555945184" entry:"1551708867" modified:"1555945184" project:"mmeds.documentation" status:"completed" tags:"work" uuid:"9c021c8a-3e6c-42a1-b09a-455436b10f27"]
+---
+time 1555945200
+old [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" due:"1555732800" entry:"1550090660" modified:"1554731781" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+new [description:"Ensure analysis-pipline tests will catch issues with incorrect data file" entry:"1550090660" modified:"1555945200" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"8a1edeff-6b6c-4428-aa79-859d815df284"]
+---
+time 1555945624
+old [description:"Add error message if strings are too long to fit in particular column" due:"1555992000" entry:"1555680452" modified:"1555681114" project:"mmeds" status:"pending" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+new [description:"Add error message if strings are too long to fit in particular column" due:"1555992000" end:"1555945624" entry:"1555680452" modified:"1555945624" project:"mmeds" status:"completed" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+---
+time 1555945702
+old [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555594901" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555945702" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+---

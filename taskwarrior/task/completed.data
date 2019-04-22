@@ -1,3 +1,6 @@
+[description:"Add error message if strings are too long to fit in particular column" due:"1555992000" end:"1555945624" entry:"1555680452" modified:"1555945624" project:"mmeds" status:"completed" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
+[description:"Note where recommandations for sql quoting came from" end:"1555945184" entry:"1551708867" modified:"1555945184" project:"mmeds.documentation" status:"completed" tags:"work" uuid:"9c021c8a-3e6c-42a1-b09a-455436b10f27"]
+[description:"Leg day with core" due:"1556424000" end:"1555934759" entry:"1555934719" modified:"1555934759" project:"exercise" status:"completed" tags:"weekly" uuid:"1ef5e29f-965f-4b59-8dfe-04262414158f"]
 [description:"Minimum one hour cycling" due:"1555801200" end:"1555934701" entry:"1555257180" modified:"1555934701" project:"exercise" status:"completed" tags:"weekly" uuid:"c1692bd5-09f8-4a10-ac49-ed103738ac1f"]
 [description:"Minimum two hour cycling" due:"1555801200" end:"1555934690" entry:"1555257180" modified:"1555934692" project:"exercise" status:"deleted" tags:"weekly" uuid:"972e9cd5-fd7a-4e3f-af69-8aab705d2e32"]
 [description:"Write one blog post" due:"1555801200" end:"1555695621" entry:"1555257181" modified:"1555695621" project:"blog.post" status:"completed" tags:"weekly" uuid:"bd6281df-c410-42a3-8dc0-078e54ceea19"]
