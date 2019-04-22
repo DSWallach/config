@@ -2301,3 +2301,22 @@ time 1555945702
 old [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555594901" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555945702" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 ---
+time 1555946003
+old [description:"Post on the issues with standardization within the scientific community" entry:"1555420718" modified:"1555420718" project:"blog.post" status:"pending" tags:"todo" uuid:"3d079af3-91c0-4401-a2e5-6049fa0efa8c"]
+new [description:"Post on the issues with standardization within the scientific community" end:"1555946003" entry:"1555420718" modified:"1555946003" project:"blog.post" status:"completed" tags:"todo" uuid:"3d079af3-91c0-4401-a2e5-6049fa0efa8c"]
+---
+time 1555951164
+new [description:"Add Parameters for paticular column analysis to the config file" entry:"1555951164" modified:"1555951164" project:"mmeds" status:"pending" tags:"work,server" uuid:"8f515ab3-808d-43c6-b52d-3ee13ef3d18d"]
+---
+time 1555954510
+old [description:"add extra.sh functionality to mmeds proper" due:"1556683200" entry:"1554738144" modified:"1554738144" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+new [description:"add extra.sh functionality to mmeds proper" due:"1556683200" entry:"1554738144" modified:"1555954510" project:"mmeds.analysis" start:"1555954510" status:"pending" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+---
+time 1555954515
+old [description:"add extra.sh functionality to mmeds proper" due:"1556683200" entry:"1554738144" modified:"1555954510" project:"mmeds.analysis" start:"1555954510" status:"pending" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+new [description:"add extra.sh functionality to mmeds proper" due:"1556683200" end:"1555954515" entry:"1554738144" modified:"1555954515" project:"mmeds.analysis" status:"completed" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+---
+time 1555954524
+old [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555945702" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555954524" project:"mmeds.analysis" start:"1555954524" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+---

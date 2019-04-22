@@ -1,3 +1,5 @@
+[description:"add extra.sh functionality to mmeds proper" due:"1556683200" end:"1555954515" entry:"1554738144" modified:"1555954515" project:"mmeds.analysis" status:"completed" tags:"work" uuid:"6e3b6a45-9016-4f4a-93d3-295b3aa63974"]
+[description:"Post on the issues with standardization within the scientific community" end:"1555946003" entry:"1555420718" modified:"1555946003" project:"blog.post" status:"completed" tags:"todo" uuid:"3d079af3-91c0-4401-a2e5-6049fa0efa8c"]
 [description:"Add error message if strings are too long to fit in particular column" due:"1555992000" end:"1555945624" entry:"1555680452" modified:"1555945624" project:"mmeds" status:"completed" tags:"database,validation" uuid:"e9f11399-7a50-466b-97c1-349f2a0b0c69"]
 [description:"Note where recommandations for sql quoting came from" end:"1555945184" entry:"1551708867" modified:"1555945184" project:"mmeds.documentation" status:"completed" tags:"work" uuid:"9c021c8a-3e6c-42a1-b09a-455436b10f27"]
 [description:"Leg day with core" due:"1556424000" end:"1555934759" entry:"1555934719" modified:"1555934759" project:"exercise" status:"completed" tags:"weekly" uuid:"1ef5e29f-965f-4b59-8dfe-04262414158f"]
