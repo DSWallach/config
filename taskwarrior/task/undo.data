@@ -2211,3 +2211,66 @@ time 1555690945
 old [description:"Test the columns that do work in mmeds and try querying the database after the upload" entry:"1555594574" modified:"1555594574" project:"mmeds.database" status:"pending" tags:"work" uuid:"b3a633bf-1ce3-4ba6-8d96-7d8a99fd19b4"]
 new [description:"Test the columns that do work in mmeds and try querying the database after the upload" end:"1555690944" entry:"1555594574" modified:"1555690945" project:"mmeds.database" status:"deleted" tags:"work" uuid:"b3a633bf-1ce3-4ba6-8d96-7d8a99fd19b4"]
 ---
+time 1555695621
+old [description:"Write one blog post" due:"1555801200" entry:"1555257181" modified:"1555257181" project:"blog.post" status:"pending" tags:"weekly" uuid:"bd6281df-c410-42a3-8dc0-078e54ceea19"]
+new [description:"Write one blog post" due:"1555801200" end:"1555695621" entry:"1555257181" modified:"1555695621" project:"blog.post" status:"completed" tags:"weekly" uuid:"bd6281df-c410-42a3-8dc0-078e54ceea19"]
+---
+time 1555934692
+old [description:"Minimum two hour cycling" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"972e9cd5-fd7a-4e3f-af69-8aab705d2e32"]
+new [description:"Minimum two hour cycling" due:"1555801200" end:"1555934690" entry:"1555257180" modified:"1555934692" project:"exercise" status:"deleted" tags:"weekly" uuid:"972e9cd5-fd7a-4e3f-af69-8aab705d2e32"]
+---
+time 1555934701
+old [description:"Minimum one hour cycling" due:"1555801200" entry:"1555257180" modified:"1555257180" project:"exercise" status:"pending" tags:"weekly" uuid:"c1692bd5-09f8-4a10-ac49-ed103738ac1f"]
+new [description:"Minimum one hour cycling" due:"1555801200" end:"1555934701" entry:"1555257180" modified:"1555934701" project:"exercise" status:"completed" tags:"weekly" uuid:"c1692bd5-09f8-4a10-ac49-ed103738ac1f"]
+---
+time 1555934719
+new [description:"Write one blog post" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"blog.post" status:"pending" tags:"weekly" uuid:"f4b0068f-b874-4f95-bd8b-da9320c81cee"]
+---
+time 1555934719
+new [description:"Comment on someone else's blog post" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"blog.comment" status:"pending" tags:"weekly" uuid:"ac2083bd-05ff-4901-a743-d4557c36570a"]
+---
+time 1555934719
+new [description:"Comment on someone else's blog post" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"blog.comment" status:"pending" tags:"weekly" uuid:"04a6c810-9992-4aff-a0fb-6007d5155432"]
+---
+time 1555934719
+new [description:"Comment on someone else's blog post" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"blog.comment" status:"pending" tags:"weekly" uuid:"618f3fe7-edad-47f1-9681-778787ba0e5e"]
+---
+time 1555934719
+new [description:"Find a deal in the Hudson Valley" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"income.rental" status:"pending" tags:"weekly" uuid:"4efb655e-0b8d-4af6-ac56-c09d0b8d2400"]
+---
+time 1555934719
+new [description:"Find a deal in the Hudson Valley" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"income.rental" status:"pending" tags:"weekly" uuid:"a289eedd-08a3-42c9-9dd1-5e15489fa6a1"]
+---
+time 1555934719
+new [description:"Find a deal in the Hudson Valley" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"income.rental" status:"pending" tags:"weekly" uuid:"dcaf2896-0975-43c7-a02f-fab5d556e82c"]
+---
+time 1555934719
+new [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"BeA3" status:"pending" tags:"Programming" uuid:"9feb3081-564d-4011-a37e-a515511d8518"]
+---
+time 1555934719
+new [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"BeA3" status:"pending" tags:"Programming" uuid:"7d850e50-c037-44a8-880c-1523e04d9d9e"]
+---
+time 1555934719
+new [description:"Complete one hard algorithms type problem from some coding site (leetcode, codility, etc)" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"BeA3" status:"pending" tags:"Programming" uuid:"551758d2-5397-4f7a-a3fc-0ea39a40cc7b"]
+---
+time 1555934719
+new [description:"Minimum one hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"d4d2e863-6556-402b-944f-acbf191da5e2"]
+---
+time 1555934719
+new [description:"Minimum one hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"f1957c13-b028-4522-9a6d-b88b1129b0e7"]
+---
+time 1555934719
+new [description:"Minimum two hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"9f0c1d29-60c8-4873-b72f-f8699ec729fa"]
+---
+time 1555934719
+new [description:"Leg day with core" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"1ef5e29f-965f-4b59-8dfe-04262414158f"]
+---
+time 1555934719
+new [description:"Arm day with core" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"24d3dcb7-f3bb-47a9-a2f1-9fb66d008be7"]
+---
+time 1555934719
+new [description:"Leg day with six rounds of arms on the bag" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"0657ac59-a716-4612-9b53-4b91a50870bb"]
+---
+time 1555934719
+new [description:"Arm day with six rounds of kicks on the bag" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"426e7f64-a82f-4418-bbf5-32d1563f7edf"]
+---
