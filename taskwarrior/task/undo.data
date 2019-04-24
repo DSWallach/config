@@ -2320,3 +2320,39 @@ time 1555954524
 old [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555945702" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555954524" project:"mmeds.analysis" start:"1555954524" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
 ---
+time 1556020258
+old [description:"Arm day with core" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"24d3dcb7-f3bb-47a9-a2f1-9fb66d008be7"]
+new [description:"Arm day with core" due:"1556424000" end:"1556020258" entry:"1555934719" modified:"1556020258" project:"exercise" status:"completed" tags:"weekly" uuid:"24d3dcb7-f3bb-47a9-a2f1-9fb66d008be7"]
+---
+time 1556024405
+new [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1556024405" project:"mmeds" status:"pending" tags:"work,analysis,mongo" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
+---
+time 1556036183
+new [description:"Setup tools to write all rather than particular columns in the config" entry:"1556036183" modified:"1556036183" project:"mmeds" status:"pending" tags:"work,util" uuid:"0cf93263-ca0b-49f1-bf67-93a3fbfa1c95"]
+---
+time 1556040899
+old [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" entry:"1555432971" modified:"1555954524" project:"mmeds.analysis" start:"1555954524" status:"pending" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+new [description:"Add automatic filtering of data based on metadata Stratification analysis. Summary for only a particular bodySite or a particular nationality" end:"1556040899" entry:"1555432971" modified:"1556040899" project:"mmeds.analysis" status:"completed" tags:"work,next" uuid:"46cb351a-6a54-43e8-a57a-947f7271a175"]
+---
+time 1556040937
+old [description:"update MIxS translation to handle new unit setup" entry:"1550247892" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]
+new [description:"update MIxS translation to handle new unit setup" end:"1556040936" entry:"1550247892" modified:"1556040937" project:"mmeds.enhancements" status:"deleted" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]
+---
+time 1556040942
+old [description:"setup mmeds to run from latex docker image" entry:"1550159592" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
+new [description:"setup mmeds to run from latex docker image" end:"1556040941" entry:"1550159592" modified:"1556040942" project:"mmeds.enhancements" status:"deleted" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
+---
+time 1556044453
+new [description:"Finish spawning and testing sub-analysis" entry:"1556044453" modified:"1556044453" project:"mmeds" status:"pending" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+---
+time 1556044456
+old [description:"Finish spawning and testing sub-analysis" entry:"1556044453" modified:"1556044453" project:"mmeds" status:"pending" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+new [description:"Finish spawning and testing sub-analysis" entry:"1556044453" modified:"1556044456" project:"mmeds" start:"1556044456" status:"pending" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+---
+time 1556107803
+old [description:"Minimum one hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"d4d2e863-6556-402b-944f-acbf191da5e2"]
+new [description:"Minimum one hour cycling" due:"1556424000" end:"1556107803" entry:"1555934719" modified:"1556107803" project:"exercise" status:"completed" tags:"weekly" uuid:"d4d2e863-6556-402b-944f-acbf191da5e2"]
+---
+time 1556111236
+new [description:"allow archiving of old reads, keeping the otu tables" entry:"1556111236" modified:"1556111236" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
+---
