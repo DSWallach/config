@@ -1,3 +1,7 @@
+[description:"Finish spawning and testing sub-analysis" end:"1556294855" entry:"1556044453" modified:"1556294855" project:"mmeds" status:"completed" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+[description:"Minimum two hour cycling" due:"1556424000" end:"1556286020" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"9f0c1d29-60c8-4873-b72f-f8699ec729fa"]
+[description:"Leg day with six rounds of arms on the bag" due:"1556424000" end:"1556286022" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"0657ac59-a716-4612-9b53-4b91a50870bb"]
+[description:"Arm day with six rounds of kicks on the bag" due:"1556424000" end:"1556286022" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"426e7f64-a82f-4418-bbf5-32d1563f7edf"]
 [description:"Minimum one hour cycling" due:"1556424000" end:"1556107803" entry:"1555934719" modified:"1556107803" project:"exercise" status:"completed" tags:"weekly" uuid:"d4d2e863-6556-402b-944f-acbf191da5e2"]
 [description:"setup mmeds to run from latex docker image" end:"1556040941" entry:"1550159592" modified:"1556040942" project:"mmeds.enhancements" status:"deleted" tags:"work" uuid:"b414a8a0-365b-4188-a124-f94589f63843"]
 [description:"update MIxS translation to handle new unit setup" end:"1556040936" entry:"1550247892" modified:"1556040937" project:"mmeds.enhancements" status:"deleted" tags:"work" uuid:"67a55a39-2f83-4336-b8a7-100d743bb41f"]

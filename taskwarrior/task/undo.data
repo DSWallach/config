@@ -2356,3 +2356,63 @@ new [description:"Minimum one hour cycling" due:"1556424000" end:"1556107803" en
 time 1556111236
 new [description:"allow archiving of old reads, keeping the otu tables" entry:"1556111236" modified:"1556111236" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
 ---
+time 1556286022
+old [description:"Minimum two hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"9f0c1d29-60c8-4873-b72f-f8699ec729fa"]
+new [description:"Minimum two hour cycling" due:"1556424000" end:"1556286020" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"9f0c1d29-60c8-4873-b72f-f8699ec729fa"]
+---
+time 1556286022
+old [description:"Leg day with six rounds of arms on the bag" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"0657ac59-a716-4612-9b53-4b91a50870bb"]
+new [description:"Leg day with six rounds of arms on the bag" due:"1556424000" end:"1556286022" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"0657ac59-a716-4612-9b53-4b91a50870bb"]
+---
+time 1556286022
+old [description:"Arm day with six rounds of kicks on the bag" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"426e7f64-a82f-4418-bbf5-32d1563f7edf"]
+new [description:"Arm day with six rounds of kicks on the bag" due:"1556424000" end:"1556286022" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"426e7f64-a82f-4418-bbf5-32d1563f7edf"]
+---
+time 1556286065
+old [description:"try checkpointing with mmeds scripts" due:"1556683200" entry:"1550258360" modified:"1554731764" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+new [description:"try checkpointing with mmeds scripts" entry:"1550258360" modified:"1556286065" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+---
+time 1556286065
+old [description:"Add results from analysis to the database" due:"1556164800" entry:"1551965959" modified:"1554731810" project:"mmeds.database" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+new [description:"Add results from analysis to the database" entry:"1551965959" modified:"1556286065" project:"mmeds.database" status:"pending" tags:"work" uuid:"cfe131ee-deb0-42eb-a554-26918864d6de"]
+---
+time 1556286065
+old [description:"figure out better setup for tracking processes" due:"1556683200" entry:"1553017677" modified:"1554731880" project:"mmeds.server" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+new [description:"figure out better setup for tracking processes" entry:"1553017677" modified:"1556286065" project:"mmeds.server" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+---
+time 1556286065
+old [description:"look into american gut filtering of bloom sequences" due:"1556683200" entry:"1553175363" modified:"1555429674" project:"mmeds.studies" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+new [description:"look into american gut filtering of bloom sequences" entry:"1553175363" modified:"1556286065" project:"mmeds.studies" status:"pending" tags:"work" uuid:"fcf7c14c-b44a-42de-b0e8-67307273a304"]
+---
+time 1556294855
+old [description:"Finish spawning and testing sub-analysis" entry:"1556044453" modified:"1556044456" project:"mmeds" start:"1556044456" status:"pending" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+new [description:"Finish spawning and testing sub-analysis" end:"1556294855" entry:"1556044453" modified:"1556294855" project:"mmeds" status:"completed" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
+---
+time 1556295843
+old [description:"Interlab standards for scientific software" entry:"1554382453" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"3c75ee98-2d16-4f8d-ac79-a2dd1d73ee12"]
+new [description:"Interlab standards for scientific software" entry:"1554382453" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"3c75ee98-2d16-4f8d-ac79-a2dd1d73ee12"]
+---
+time 1556295843
+old [description:"Code review on small teams" entry:"1554382488" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"78625632-d45c-4139-aeff-0d318b28f017"]
+new [description:"Code review on small teams" entry:"1554382488" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"78625632-d45c-4139-aeff-0d318b28f017"]
+---
+time 1556295843
+old [description:"Performance vs. readability in scientific software" entry:"1554382514" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"7db6b361-146e-4e2e-8e52-0e399d649011"]
+new [description:"Performance vs. readability in scientific software" entry:"1554382514" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"7db6b361-146e-4e2e-8e52-0e399d649011"]
+---
+time 1556295843
+old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1554828862" project:"blog.idea" status:"pending" tags:"todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+---
+time 1556295843
+old [description:"Blog post about why I do not like the phrase 'Learn to code'" entry:"1554826479" modified:"1554826479" project:"blog.idea" status:"pending" tags:"todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
+new [description:"Blog post about why I do not like the phrase 'Learn to code'" entry:"1554826479" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
+---
+time 1556295843
+old [description:"Post about essential skills for a bioinformatician" entry:"1555323961" modified:"1555323961" project:"blog.idea" status:"pending" tags:"todo" uuid:"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"]
+new [description:"Post about essential skills for a bioinformatician" entry:"1555323961" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"]
+---
+time 1556295843
+old [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1555350169" project:"blog.idea" status:"pending" tags:"todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+---
