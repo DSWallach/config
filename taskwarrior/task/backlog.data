@@ -672,3 +672,4 @@
 {"description":"Blog post about why I do not like the phrase 'Learn to code'","entry":"20190409T161439Z","modified":"20190426T162403Z","project":"blog","status":"pending","tags":["postidea","todo"],"uuid":"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"}
 {"description":"Post about essential skills for a bioinformatician","entry":"20190415T102601Z","modified":"20190426T162403Z","project":"blog","status":"pending","tags":["postidea","todo"],"uuid":"39f8d928-bf7b-468f-b946-ac2ec4e63ae3"}
 {"description":"When to refactor code in a small project (when it's going to be expanded later)","entry":"20190415T174249Z","modified":"20190426T162403Z","project":"blog","status":"pending","tags":["postidea","todo"],"uuid":"8394ab5d-99f0-465b-9b41-96a65eb2d01c"}
+{"description":"Reply to Jose about allocation application","entry":"20190426T201312Z","modified":"20190426T201312Z","project":"mmeds","status":"pending","tags":["work","next"],"uuid":"a72c1224-ecf6-4a4d-8dd1-0e6c799c45ae"}

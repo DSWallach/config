@@ -2416,3 +2416,6 @@ time 1556295843
 old [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1555350169" project:"blog.idea" status:"pending" tags:"todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
 new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
 ---
+time 1556309592
+new [description:"Reply to Jose about allocation application" entry:"1556309592" modified:"1556309592" project:"mmeds" status:"pending" tags:"work,next" uuid:"a72c1224-ecf6-4a4d-8dd1-0e6c799c45ae"]
+---
