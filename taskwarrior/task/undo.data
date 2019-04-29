@@ -2502,3 +2502,55 @@ new [description:"Leg day with six rounds of arms on the bag" due:"1557028800" e
 time 1556540788
 new [description:"Arm day with six rounds of kicks on the bag" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"2ebdce39-fb16-4fd7-9e14-7ad97a0d7f8c"]
 ---
+time 1556547043
+old [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"BeA3" status:"pending" tags:"Programming" uuid:"7ab3615b-fa76-4dea-a940-df29e5008c4e"]
+new [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" end:"1556547040" entry:"1556540787" modified:"1556547043" project:"BeA3" status:"deleted" tags:"Programming" uuid:"7ab3615b-fa76-4dea-a940-df29e5008c4e"]
+---
+time 1556547043
+old [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"BeA3" status:"pending" tags:"Programming" uuid:"c15b5068-dab9-4e63-8b9d-6776c3bb85f0"]
+new [description:"Complete one medium algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" end:"1556547043" entry:"1556540787" modified:"1556547043" project:"BeA3" status:"deleted" tags:"Programming" uuid:"c15b5068-dab9-4e63-8b9d-6776c3bb85f0"]
+---
+time 1556547043
+old [description:"Complete one hard algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"BeA3" status:"pending" tags:"Programming" uuid:"db160943-9e61-44b5-8120-8df5df35a7f6"]
+new [description:"Complete one hard algorithms type problem from some coding site (leetcode, codility, etc)" due:"1557028800" end:"1556547043" entry:"1556540787" modified:"1556547043" project:"BeA3" status:"deleted" tags:"Programming" uuid:"db160943-9e61-44b5-8120-8df5df35a7f6"]
+---
+time 1556547043
+old [description:"Minimum one hour cycling" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"exercise" status:"pending" tags:"weekly" uuid:"39e9593a-6874-4beb-a7d8-ed659bf71f3f"]
+new [description:"Minimum one hour cycling" due:"1557028800" end:"1556547043" entry:"1556540787" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"39e9593a-6874-4beb-a7d8-ed659bf71f3f"]
+---
+time 1556547043
+old [description:"Minimum one hour cycling" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"exercise" status:"pending" tags:"weekly" uuid:"e05de1ce-e121-44f9-a63c-53b093d26b3e"]
+new [description:"Minimum one hour cycling" due:"1557028800" end:"1556547043" entry:"1556540787" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"e05de1ce-e121-44f9-a63c-53b093d26b3e"]
+---
+time 1556547043
+old [description:"Minimum two hour cycling" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"b1e18396-c207-40fa-a451-649a1e3143f4"]
+new [description:"Minimum two hour cycling" due:"1557028800" end:"1556547043" entry:"1556540788" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"b1e18396-c207-40fa-a451-649a1e3143f4"]
+---
+time 1556547043
+old [description:"Leg day with core" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"8edd1244-ee66-4bbe-8f27-20b37313b358"]
+new [description:"Leg day with core" due:"1557028800" end:"1556547043" entry:"1556540788" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"8edd1244-ee66-4bbe-8f27-20b37313b358"]
+---
+time 1556547043
+old [description:"Arm day with core" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"cc901fe9-228a-4426-8749-a94b75f6aadc"]
+new [description:"Arm day with core" due:"1557028800" end:"1556547043" entry:"1556540788" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"cc901fe9-228a-4426-8749-a94b75f6aadc"]
+---
+time 1556547043
+old [description:"Leg day with six rounds of arms on the bag" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"321dd59d-9776-403f-8702-dc861b75d902"]
+new [description:"Leg day with six rounds of arms on the bag" due:"1557028800" end:"1556547043" entry:"1556540788" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"321dd59d-9776-403f-8702-dc861b75d902"]
+---
+time 1556547043
+old [description:"Arm day with six rounds of kicks on the bag" due:"1557028800" entry:"1556540788" modified:"1556540788" project:"exercise" status:"pending" tags:"weekly" uuid:"2ebdce39-fb16-4fd7-9e14-7ad97a0d7f8c"]
+new [description:"Arm day with six rounds of kicks on the bag" due:"1557028800" end:"1556547043" entry:"1556540788" modified:"1556547043" project:"exercise" status:"deleted" tags:"weekly" uuid:"2ebdce39-fb16-4fd7-9e14-7ad97a0d7f8c"]
+---
+time 1556547059
+old [description:"Try out nixOS on some computer" entry:"1547738453" modified:"1547738481" project:"BeA3" status:"pending" tags:"work" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
+new [description:"Try out nixOS on some computer" end:"1556547057" entry:"1547738453" modified:"1556547059" project:"BeA3" status:"deleted" tags:"work" uuid:"d989506b-8aeb-47b1-a825-ccf81449b1a0"]
+---
+time 1556547565
+old [description:"Blog post about why I do not like the phrase 'Learn to code'" entry:"1554826479" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
+new [description:"Blog post about why I do not like the phrase 'Learn to code'" end:"1556547565" entry:"1554826479" modified:"1556547565" project:"blog" status:"completed" tags:"postidea,todo" uuid:"0888a6d8-e446-4961-b2d3-f8a8ff38dc4f"]
+---
+time 1556547579
+old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556547579" project:"blog" start:"1556547579" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+---
