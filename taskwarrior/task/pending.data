@@ -78,3 +78,4 @@
 [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1556024405" project:"mmeds" status:"pending" tags:"work,analysis,mongo" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
 [description:"Setup tools to write all rather than particular columns in the config" entry:"1556036183" modified:"1556036183" project:"mmeds" status:"pending" tags:"work,util" uuid:"0cf93263-ca0b-49f1-bf67-93a3fbfa1c95"]
 [description:"allow archiving of old reads, keeping the otu tables" entry:"1556111236" modified:"1556111236" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
+[description:"Reply to Jose about allocation application" entry:"1556309592" modified:"1556309592" project:"mmeds" status:"pending" tags:"work,next" uuid:"a72c1224-ecf6-4a4d-8dd1-0e6c799c45ae"]

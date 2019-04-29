@@ -2423,4 +2423,6 @@ new [description:"Write one blog post" due:"1556424000" end:"1556538672" entry:"
 time 1556538682
 old [description:"Minimum one hour cycling" due:"1556424000" entry:"1555934719" modified:"1555934719" project:"exercise" status:"pending" tags:"weekly" uuid:"f1957c13-b028-4522-9a6d-b88b1129b0e7"]
 new [description:"Minimum one hour cycling" due:"1556424000" end:"1556538681" entry:"1555934719" modified:"1556538682" project:"exercise" status:"deleted" tags:"weekly" uuid:"f1957c13-b028-4522-9a6d-b88b1129b0e7"]
+time 1556309592
+new [description:"Reply to Jose about allocation application" entry:"1556309592" modified:"1556309592" project:"mmeds" status:"pending" tags:"work,next" uuid:"a72c1224-ecf6-4a4d-8dd1-0e6c799c45ae"]
 ---
