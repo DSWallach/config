@@ -1,3 +1,5 @@
+[description:"Minimum one hour cycling" due:"1556424000" end:"1556538681" entry:"1555934719" modified:"1556538682" project:"exercise" status:"deleted" tags:"weekly" uuid:"f1957c13-b028-4522-9a6d-b88b1129b0e7"]
+[description:"Write one blog post" due:"1556424000" end:"1556538672" entry:"1555934719" modified:"1556538672" project:"blog.post" status:"completed" tags:"weekly" uuid:"f4b0068f-b874-4f95-bd8b-da9320c81cee"]
 [description:"Finish spawning and testing sub-analysis" end:"1556294855" entry:"1556044453" modified:"1556294855" project:"mmeds" status:"completed" tags:"work,analysis" uuid:"441df2bf-a584-476d-ac99-0b832a1c2bb1"]
 [description:"Minimum two hour cycling" due:"1556424000" end:"1556286020" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"9f0c1d29-60c8-4873-b72f-f8699ec729fa"]
 [description:"Leg day with six rounds of arms on the bag" due:"1556424000" end:"1556286022" entry:"1555934719" modified:"1556286022" project:"exercise" status:"completed" tags:"weekly" uuid:"0657ac59-a716-4612-9b53-4b91a50870bb"]
