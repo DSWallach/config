@@ -69,3 +69,4 @@
 [description:"allow archiving of old reads, keeping the otu tables" entry:"1556111236" modified:"1556111236" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
 [description:"Write one blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.post" status:"pending" tags:"weekly" uuid:"ec5c7fd5-658b-4268-8416-6a6e5ff6f5aa"]
 [description:"Comment on someone else's blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.comment" status:"pending" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
+[description:"setup system for importing datasets without server" entry:"1556724629" modified:"1556724629" project:"mmeds" status:"pending" tags:"database" uuid:"9f87e825-a9ed-4f0a-8f91-81302254e59e"]

@@ -2554,3 +2554,6 @@ time 1556547579
 old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
 new [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556547579" project:"blog" start:"1556547579" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
 ---
+time 1556724629
+new [description:"setup system for importing datasets without server" entry:"1556724629" modified:"1556724629" project:"mmeds" status:"pending" tags:"database" uuid:"9f87e825-a9ed-4f0a-8f91-81302254e59e"]
+---
