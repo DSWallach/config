@@ -2572,3 +2572,19 @@ new [description:"change analysis and storage dir names to be more informative" 
 time 1556803804
 new [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1556803804" project:"mmeds" status:"pending" tags:"analysis" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
 ---
+time 1556812040
+old [description:"Create seperate log file for SQL queries automatically truncate the file after 1000 lines" due:"1556683200" entry:"1555678370" modified:"1555678370" project:"mmeds" status:"pending" tags:"logging,server" uuid:"397c5f3b-05e0-4924-a69b-754319bb5b54"]
+new [description:"Create seperate log file for SQL queries automatically truncate the file after 1000 lines" due:"1556683200" end:"1556812040" entry:"1555678370" modified:"1556812040" project:"mmeds" status:"completed" tags:"logging,server" uuid:"397c5f3b-05e0-4924-a69b-754319bb5b54"]
+---
+time 1556812081
+old [description:"setup system for importing datasets without server" entry:"1556724629" modified:"1556724629" project:"mmeds" status:"pending" tags:"database" uuid:"9f87e825-a9ed-4f0a-8f91-81302254e59e"]
+new [description:"setup system for importing datasets without server" end:"1556812081" entry:"1556724629" modified:"1556812081" project:"mmeds" status:"completed" tags:"database" uuid:"9f87e825-a9ed-4f0a-8f91-81302254e59e"]
+---
+time 1556816899
+old [description:"add seperate variable for sub analysis" entry:"1556803078" modified:"1556803078" project:"mmeds" status:"pending" tags:"analysis" uuid:"2845a104-55e0-4378-b00f-06cd85a5025b"]
+new [description:"add seperate variable for sub analysis" end:"1556816899" entry:"1556803078" modified:"1556816899" project:"mmeds" status:"completed" tags:"analysis" uuid:"2845a104-55e0-4378-b00f-06cd85a5025b"]
+---
+time 1556816899
+old [description:"change analysis and storage dir names to be more informative" entry:"1556803336" modified:"1556803336" project:"mmeds" status:"pending" tags:"analysis" uuid:"d84e2ad4-eba8-4cb3-8af8-1330027f2f98"]
+new [description:"change analysis and storage dir names to be more informative" end:"1556816899" entry:"1556803336" modified:"1556816899" project:"mmeds" status:"completed" tags:"analysis" uuid:"d84e2ad4-eba8-4cb3-8af8-1330027f2f98"]
+---
