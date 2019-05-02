@@ -70,3 +70,8 @@
 [description:"Write one blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.post" status:"pending" tags:"weekly" uuid:"ec5c7fd5-658b-4268-8416-6a6e5ff6f5aa"]
 [description:"Comment on someone else's blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.comment" status:"pending" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
 [description:"setup system for importing datasets without server" entry:"1556724629" modified:"1556724629" project:"mmeds" status:"pending" tags:"database" uuid:"9f87e825-a9ed-4f0a-8f91-81302254e59e"]
+[description:"add seperate variable for sub analysis" entry:"1556803078" modified:"1556803078" project:"mmeds" status:"pending" tags:"analysis" uuid:"2845a104-55e0-4378-b00f-06cd85a5025b"]
+[description:"Add new documents for storing files during analysis" entry:"1556803095" modified:"1556803095" project:"mmeds" status:"pending" tags:"mongo" uuid:"643fa4e8-a1f1-428c-8102-9721279248d2"]
+[description:"Ensure users know to have useful study names" entry:"1556803255" modified:"1556803255" project:"mmeds" status:"pending" tags:"documentation" uuid:"ad5f6369-749d-48fe-94fc-ef38f48f2c2d"]
+[description:"change analysis and storage dir names to be more informative" entry:"1556803336" modified:"1556803336" project:"mmeds" status:"pending" tags:"analysis" uuid:"d84e2ad4-eba8-4cb3-8af8-1330027f2f98"]
+[description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1556803804" project:"mmeds" status:"pending" tags:"analysis" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
