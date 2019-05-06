@@ -1,0 +1,442 @@
+# Words that extend the spell checker. See ignore.txt for words that should be
+# completely ignored (i.e. not used to create suggestions).
+# For multi-word terms, refer to https://github.com/languagetool-org/languagetool/issues/700
+a posteriori
+a priori
+ab initio
+Abu Dhabi
+accomplishable
+achromatization
+Airbnb
+Al Jazeera
+Alibaba
+alkalizer
+alkalizers
+alphameric
+amplexus
+amplexuses
+analyte
+analytes
+Antiguans
+argy-bargy
+Asteraceae
+astronomize
+astronomized
+astronomizes
+astronomizing
+au contraire
+au fait
+aurochs
+AutoCAD
+autoxidizable
+Bing
+biomes
+blackbody radiation
+bona fide
+brussels sprout
+brussels sprouts
+Buffett
+callipygian
+Christianized
+Christianizes
+Christianizing
+chronobiologist
+chronobiologists
+chronotype
+chronotypes
+cicatrizant
+cognizably
+computerizable
+counterintuitive
+counterintuitively
+Craigslist
+criticizable
+cui bono
+cyberattacker
+cyberattackers
+cyberintrusion
+cyberintrusions
+cyberoperation
+cyberoperations
+de facto
+de jure
+decarbonization
+decolorization
+déjà vu
+depolymerization
+derivatization
+derring-do
+deterritorialization
+DHL
+dogmatizer
+dogmatizers
+drumroll
+El Niño
+embox
+en masse
+enolizable
+et al
+etherealization
+ex officio
+exempli gratia
+exteriorization
+fait accompli
+feralized
+focalization
+fo'c'sle
+formalizable
+Fortnite
+GCHQ
+gelatinization
+geminate
+genealogize
+genealogized
+genealogizes
+genealogizing
+genialize
+genialized
+genializes
+genializing
+geometricize
+geometricized
+geometricizes
+geometricizing
+Gmail
+gospelize
+gospelized
+gospelizes
+gospelizing
+grandparenting
+granitization
+granitize
+granitized
+granitizes
+granitizing
+granulator
+granulators
+graphitizable
+groupthink
+gutturalize
+gutturalized
+gutturalizes
+gutturalizing
+gyrostabilizer
+gyrostabilizers
+Hammerstein
+historize
+historized
+historizes
+historizing
+hors d'oeuvre
+hors d'oeuvres
+Huawei
+humorize
+humorized
+humorizes
+humorizing
+hypophysial
+hysterectomize
+hysterectomized
+hysterectomizes
+hysterectomizing
+in toto
+informatization
+inseverable
+intelligize
+intelligized
+intelligizes
+intelligizing
+inter alia
+ipso facto
+irrealizable
+jeu d'esprit
+jeux d'esprit
+Jimi
+landform
+landforms
+lingua franca
+lingua francas
+lingualize
+lingualized
+lingualizes
+lingualizing
+LinkedIn
+localizability
+Mailchimp
+majuscule
+marsupialize
+marsupialized
+marsupializes
+marsupializing
+memorizable
+mercurialize
+mercurialized
+mercurializes
+mercurializing
+Mercutio
+metadata
+metaphorize
+metaphorized
+metaphorizes
+metaphorizing
+micellization
+microminiaturize
+microminiaturized
+microminiaturizes
+microminiaturizing
+Minecraft
+mineralizable
+mithridatize
+mithridatized
+mithridatizes
+mithridatizing
+modus operandi
+modus vivendi
+moisturizer
+moisturizers
+monotonize
+monotonized
+monotonizes
+monotonizing
+mortiser
+mortisers
+muscularize
+muscularized
+muscularizes
+muscularizing
+mutagenize
+mutagenized
+mutagenizes
+mutagenizing
+mutatis mutandis
+mylonitize
+mylonitized
+mylonitizes
+mylonitizing
+né
+ne plus ultra
+nephrectomize
+nephrectomized
+nephrectomizes
+nephrectomizing
+nidification
+nodalize
+nodalized
+nodalizes
+nodalizing
+nonpolarizable
+nota bene
+notarize
+notarizes
+notarizing
+oophorectomize
+oophorectomized
+oophorectomizes
+oophorectomizing
+operationalizable
+orthonormalize
+orthonormalized
+orthonormalizes
+orthonormalizing
+ostracizable
+oxidizability
+oxygenize
+oxygenized
+oxygenizes
+oxygenizing
+pacta sunt servanda
+palletization
+Palme d'or
+Palme d'Or
+panegyrize
+panegyrized
+panegyrizes
+panegyrizing
+papalize
+papalized
+papalizes
+papalizing
+papyral
+parabolization
+parameterization
+parfocalize
+parfocalized
+parfocalizes
+parfocalizing
+pari passu
+parochialize
+parochialized
+parochializes
+parochializing
+particularization
+particularizations
+paternalize
+paternalized
+paternalizes
+paternalizing
+pauperization
+pectizable
+Pelagianize
+Pelagianized
+Pelagianizes
+Pelagianizing
+peptizable
+per annum
+per capita
+per centum
+per diem
+per se
+phoneticize
+phoneticized
+phoneticizes
+phoneticizing
+phosphatization
+phosphatize
+phosphatized
+phosphatizes
+phosphatizing
+photopolymerize
+photopolymerized
+photopolymerizes
+photopolymerizing
+photoshop
+Photoshop
+pinealectomize
+pinealectomized
+pinealectomizes
+pinealectomizing
+polarizability
+polarizable
+polymerizable
+porcelainize
+porcelainized
+porcelainizes
+porcelainizing
+postalize
+postalized
+postalizes
+postalizing
+posterization
+posturize
+posturized
+posturizes
+posturizing
+pragmatize
+pragmatized
+pragmatizes
+pragmatizing
+prima facie
+pro bono
+prologized
+prologizes
+prologizing
+prologuized
+prologuizes
+prologuizing
+pronominalization
+pronominalize
+pronominalized
+pronominalizes
+pronominalizing
+Protestantise
+Protestantised
+Protestantises
+Protestantising
+Protestantize
+Protestantized
+Protestantizes
+protocolize
+protocolized
+protocolizes
+protocolizing
+provincialize
+provincialized
+provincializes
+provincializing
+psychedelicize
+psychedelicized
+psychedelicizes
+psychedelicizing
+psychiatrize
+psychiatrized
+psychiatrizes
+psychiatrizing
+pyritize
+pyritized
+pyritizes
+pyritizing
+quantizable
+quod vide
+radialization
+radializations
+rainforest
+rainforests
+raison d'être
+rationalizable
+Rebecca
+rehospitalization
+replicable
+resocialization
+Rio Grande
+rivulose
+sci-fi
+serializable
+sericitization
+sheesh
+Shenzhen
+sizable
+sizably
+sizeably
+Snapchat
+socializable
+spina bifida
+spiralizer
+spiralizers
+Spotify
+subtilization
+sui generis
+sui juris
+summa cum laude
+synecdoche
+tabula rasa
+terpenoid
+terpenoids
+theatricalization
+tr
+traditionalize
+traditionalized
+traditionalizes
+traditionalizing
+Uighur
+Uighurs
+uncategorizable
+undercapitalization
+unenfranchised
+unlink
+unlinking
+unlinks
+unnaturalize
+unnaturalized
+unnaturalizes
+unnaturalizing
+unobservable
+unprotestantize
+unprotestantized
+unprotestantizes
+unprotestantizing
+unrealize
+unrealizes
+unrealizing
+unrecognized
+unspecialized
+vaporizable
+verbalizable
+vernalization
+volatilizable
+volatilization
+von Neumann
+Wachovia
+WhatsApp
+Wi-Fi
+Xbox
+Xiaomi

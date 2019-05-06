@@ -2588,3 +2588,39 @@ time 1556816899
 old [description:"change analysis and storage dir names to be more informative" entry:"1556803336" modified:"1556803336" project:"mmeds" status:"pending" tags:"analysis" uuid:"d84e2ad4-eba8-4cb3-8af8-1330027f2f98"]
 new [description:"change analysis and storage dir names to be more informative" end:"1556816899" entry:"1556803336" modified:"1556816899" project:"mmeds" status:"completed" tags:"analysis" uuid:"d84e2ad4-eba8-4cb3-8af8-1330027f2f98"]
 ---
+time 1556893336
+old [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1556024405" project:"mmeds" status:"pending" tags:"work,analysis,mongo" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
+new [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1556893336" project:"mmeds" status:"pending" tags:"work,analysis,mongo,next" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
+---
+time 1556893361
+old [description:"mmeds.server put error_html behind a button" entry:"1554468085" modified:"1555429704" project:"mmeds.server" status:"pending" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
+new [description:"mmeds.server put error_html behind a button" end:"1556893360" entry:"1554468085" modified:"1556893361" project:"mmeds.server" status:"deleted" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]
+---
+time 1556893392
+old [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1556803804" project:"mmeds" status:"pending" tags:"analysis" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+new [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1556893392" project:"mmeds" start:"1556893392" status:"pending" tags:"analysis" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+---
+time 1556893411
+old [description:"Add new documents for storing files during analysis" entry:"1556803095" modified:"1556803095" project:"mmeds" status:"pending" tags:"mongo" uuid:"643fa4e8-a1f1-428c-8102-9721279248d2"]
+new [description:"Add new documents for storing files during analysis" end:"1556893408" entry:"1556803095" modified:"1556893411" project:"mmeds" status:"deleted" tags:"mongo" uuid:"643fa4e8-a1f1-428c-8102-9721279248d2"]
+---
+time 1556894864
+old [description:"When to hire a developer rather than a scientist" entry:"1554382543" modified:"1556547579" project:"blog" start:"1556547579" status:"pending" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+new [description:"When to hire a developer rather than a scientist" end:"1556894864" entry:"1554382543" modified:"1556894864" project:"blog" status:"completed" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
+---
+time 1556894864
+old [description:"Write one blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.post" status:"pending" tags:"weekly" uuid:"ec5c7fd5-658b-4268-8416-6a6e5ff6f5aa"]
+new [description:"Write one blog post" due:"1557028800" end:"1556894864" entry:"1556540787" modified:"1556894864" project:"blog.post" status:"completed" tags:"weekly" uuid:"ec5c7fd5-658b-4268-8416-6a6e5ff6f5aa"]
+---
+time 1557137871
+new [description:"Run sub-analysis on existing full analysis" entry:"1557137871" modified:"1557137871" project:"mmeds" status:"pending" tags:"work,analysis" uuid:"e4b82904-9a73-4529-94dd-0eeae5e3f6a5"]
+---
+time 1557140172
+new [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1557140172" project:"mmeds" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+---
+time 1557141588
+new [description:"Write one blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.post" status:"pending" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+---
+time 1557141588
+new [description:"Comment on someone else's blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.comment" status:"pending" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
+---

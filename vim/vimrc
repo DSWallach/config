@@ -29,6 +29,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'rhysd/vim-grammarous'
+Plug 'dpelle/vim-LanguageTool'
 
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'Fedora.Y70')
@@ -158,6 +159,9 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
     \ 'AcceptSelection("t")': ['<cr>'],
     \ }
+
+" LanguageTool Jar
+let g:languagetool_jar='$HOME/.vim/LanguageTool-4.5/languagetool-commandline.jar'
 
 " Filetypes
 au BufNewFile,BufRead *.tsv		setf tsv
