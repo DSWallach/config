@@ -2624,3 +2624,6 @@ new [description:"Write one blog post" due:"1557633600" entry:"1557141588" modif
 time 1557141588
 new [description:"Comment on someone else's blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.comment" status:"pending" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
 ---
+time 1557145628
+new [description:"Vim as an editor for Python development" entry:"1557145628" modified:"1557145628" project:"blog" status:"pending" tags:"todo,postidea" uuid:"bb04fc60-7a21-4752-9741-08c36604ca3a"]
+---

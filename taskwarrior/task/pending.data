@@ -71,3 +71,4 @@
 [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1557140172" project:"mmeds" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
 [description:"Write one blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.post" status:"pending" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
 [description:"Comment on someone else's blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.comment" status:"pending" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
+[description:"Vim as an editor for Python development" entry:"1557145628" modified:"1557145628" project:"blog" status:"pending" tags:"todo,postidea" uuid:"bb04fc60-7a21-4752-9741-08c36604ca3a"]

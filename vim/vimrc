@@ -30,6 +30,7 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'rhysd/vim-grammarous'
 Plug 'dpelle/vim-LanguageTool'
+Plug 'ron89/thesaurus_query.vim'
 
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'Fedora.Y70')
