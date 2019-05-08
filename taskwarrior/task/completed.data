@@ -1,3 +1,8 @@
+[description:"Comment on someone else's blog post" due:"1557028800" end:"1557319040" entry:"1556540787" modified:"1557319041" project:"blog.comment" status:"deleted" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
+[description:"try qiime1 on tankou multi-data dataset" end:"1557319033" entry:"1556803804" modified:"1557319033" project:"mmeds" status:"completed" tags:"analysis,next" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+[description:"Write one blog post" due:"1557633600" end:"1557236873" entry:"1557141588" modified:"1557236883" project:"blog.post" status:"deleted" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+[description:"Comment on someone else's blog post" due:"1557633600" end:"1557236883" entry:"1557141588" modified:"1557236884" project:"blog.comment" status:"deleted" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
+[description:"Close Apple bank account" due:"1556683200" end:"1557231452" entry:"1555069974" modified:"1557231452" project:"life" status:"completed" tags:"todo" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
 [description:"When to hire a developer rather than a scientist" end:"1556894864" entry:"1554382543" modified:"1556894864" project:"blog" status:"completed" tags:"postidea,todo" uuid:"242902b9-271c-4b70-9274-2e011202cd1a"]
 [description:"Write one blog post" due:"1557028800" end:"1556894864" entry:"1556540787" modified:"1556894864" project:"blog.post" status:"completed" tags:"weekly" uuid:"ec5c7fd5-658b-4268-8416-6a6e5ff6f5aa"]
 [description:"mmeds.server put error_html behind a button" end:"1556893360" entry:"1554468085" modified:"1556893361" project:"mmeds.server" status:"deleted" tags:"work" uuid:"6dde1e35-1dd8-4da9-a761-b5e08b51b195"]

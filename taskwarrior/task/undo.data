@@ -2627,3 +2627,54 @@ new [description:"Comment on someone else's blog post" due:"1557633600" entry:"1
 time 1557145628
 new [description:"Vim as an editor for Python development" entry:"1557145628" modified:"1557145628" project:"blog" status:"pending" tags:"todo,postidea" uuid:"bb04fc60-7a21-4752-9741-08c36604ca3a"]
 ---
+time 1557149087
+new [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1557149087" project:"mmeds" status:"pending" tags:"work,analysis,summary" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
+---
+time 1557231452
+old [description:"Close Apple bank account" due:"1556683200" entry:"1555069974" modified:"1555944915" project:"life" status:"pending" tags:"todo" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+new [description:"Close Apple bank account" due:"1556683200" end:"1557231452" entry:"1555069974" modified:"1557231452" project:"life" status:"completed" tags:"todo" uuid:"a0cb628b-4dcb-42d1-9219-90335bf275ec"]
+---
+time 1557231469
+old [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1556893392" project:"mmeds" start:"1556893392" status:"pending" tags:"analysis" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+new [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1557231469" project:"mmeds" start:"1556893392" status:"pending" tags:"analysis,next" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+---
+time 1557236873
+old [description:"Write one blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.post" status:"pending" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+new [description:"Write one blog post" due:"1557633600" end:"1557236873" entry:"1557141588" modified:"1557236873" project:"blog.post" status:"completed" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+---
+time 1557236883
+old [description:"Write one blog post" due:"1557633600" end:"1557236873" entry:"1557141588" modified:"1557236873" project:"blog.post" status:"completed" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+new [description:"Write one blog post" due:"1557633600" end:"1557236873" entry:"1557141588" modified:"1557236883" project:"blog.post" status:"deleted" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
+---
+time 1557236884
+old [description:"Comment on someone else's blog post" due:"1557633600" entry:"1557141588" modified:"1557141588" project:"blog.comment" status:"pending" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
+new [description:"Comment on someone else's blog post" due:"1557633600" end:"1557236883" entry:"1557141588" modified:"1557236884" project:"blog.comment" status:"deleted" tags:"weekly" uuid:"87d42cd4-2d73-44ef-941a-d00c5d3759b0"]
+---
+time 1557319033
+old [description:"try qiime1 on tankou multi-data dataset" entry:"1556803804" modified:"1557231469" project:"mmeds" start:"1556893392" status:"pending" tags:"analysis,next" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+new [description:"try qiime1 on tankou multi-data dataset" end:"1557319033" entry:"1556803804" modified:"1557319033" project:"mmeds" status:"completed" tags:"analysis,next" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
+---
+time 1557319041
+old [description:"Comment on someone else's blog post" due:"1557028800" entry:"1556540787" modified:"1556540787" project:"blog.comment" status:"pending" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
+new [description:"Comment on someone else's blog post" due:"1557028800" end:"1557319040" entry:"1556540787" modified:"1557319041" project:"blog.comment" status:"deleted" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
+---
+time 1557319046
+old [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1556893336" project:"mmeds" status:"pending" tags:"work,analysis,mongo,next" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
+new [description:"Move file tracking for analysis into mongoDB objects" entry:"1556024405" modified:"1557319046" project:"mmeds" start:"1557319046" status:"pending" tags:"work,analysis,mongo,next" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
+---
+time 1557319054
+old [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+new [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1557319054" project:"mmeds.enhancements" start:"1557319054" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
+time 1557319086
+old [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+new [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557319086" project:"mmeds.enhancements" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
+time 1557319135
+old [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1557140172" project:"mmeds" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+new [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1557319135" project:"mmeds" status:"pending" tags:"database,work,analysis,error,next" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+---
+time 1557319176
+old [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1557319054" project:"mmeds.enhancements" start:"1557319054" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+new [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1557319176" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
