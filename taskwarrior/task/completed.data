@@ -1,3 +1,5 @@
+[description:"Complete one algorithms type problem from some coding site (leetcode, codility, etc):w" due:"1557460800" end:"1557417914" entry:"1557374401" modified:"1557417916" project:"BeA3" status:"deleted" tags:"Programming" uuid:"59804554-d1ab-4ebd-9f15-e4f2af56da0c"]
+[description:"Move file tracking for analysis into mongoDB objects" end:"1557336887" entry:"1556024405" modified:"1557336887" project:"mmeds" status:"completed" tags:"work,analysis,mongo,next" uuid:"b59b8f85-a143-42c0-8fc8-87019118e9cf"]
 [description:"Comment on someone else's blog post" due:"1557028800" end:"1557319040" entry:"1556540787" modified:"1557319041" project:"blog.comment" status:"deleted" tags:"weekly" uuid:"85e7feb1-205f-4b3e-b65d-62a723cdf266"]
 [description:"try qiime1 on tankou multi-data dataset" end:"1557319033" entry:"1556803804" modified:"1557319033" project:"mmeds" status:"completed" tags:"analysis,next" uuid:"7658499d-1d03-4d19-b592-7dedfd3214ae"]
 [description:"Write one blog post" due:"1557633600" end:"1557236873" entry:"1557141588" modified:"1557236883" project:"blog.post" status:"deleted" tags:"weekly" uuid:"0dd3780b-5342-484c-b545-18de15de96c0"]
