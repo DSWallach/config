@@ -2717,3 +2717,10 @@ new [description:"Use mongo documents to track and queue uploading metadata" ent
 time 1557418197
 new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1557418197" project:"mmeds" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
 ---
+time 1557418578
+new [description:"Convert tool to fully rely on AnalysisDoc for file locations" due:"1559361600" entry:"1557418578" modified:"1557418578" project:"mmeds" status:"pending" tags:"work,mongo,tool,next" uuid:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567"]
+---
+time 1557418609
+old [description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557417786" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+new [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567" description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557418609" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+---
