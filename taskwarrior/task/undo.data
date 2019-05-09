@@ -2724,3 +2724,13 @@ time 1557418609
 old [description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557417786" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
 new [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567" description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557418609" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
 ---
+time 1557419267
+new [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557419267" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+---
+time 1557419282
+new [description:"Add tool BugBase" entry:"1557419282" modified:"1557419282" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
+---
+time 1557419330
+old [description:"Add tool BugBase" entry:"1557419282" modified:"1557419282" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
+new [depends:"c28c0633-67c9-45ef-956e-39ae961c2ee0" description:"Add tool BugBase" entry:"1557419282" modified:"1557419330" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
+---

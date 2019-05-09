@@ -76,3 +76,5 @@
 [description:"Use mongo documents to track and queue uploading metadata" entry:"1557418072" modified:"1557418072" project:"mmeds" status:"pending" tags:"work,upload,server" uuid:"e542a1f9-e5f5-49d6-8f73-509cb9f95b9b"]
 [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1557418197" project:"mmeds" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
 [description:"Convert tool to fully rely on AnalysisDoc for file locations" due:"1559361600" entry:"1557418578" modified:"1557418578" project:"mmeds" status:"pending" tags:"work,mongo,tool,next" uuid:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567"]
+[description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557419267" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+[depends:"c28c0633-67c9-45ef-956e-39ae961c2ee0" description:"Add tool BugBase" entry:"1557419282" modified:"1557419330" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
