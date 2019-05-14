@@ -2787,3 +2787,34 @@ time 1557836625
 old [description:"Get status of CRC data" due:"1557979200" entry:"1557418018" modified:"1557418018" project:"mmeds" status:"pending" tags:"work,datasets" uuid:"ad8809d9-4ca4-4dd7-bd8e-c199d8449b7e"]
 new [description:"Get status of CRC data" due:"1557979200" end:"1557836625" entry:"1557418018" modified:"1557836625" project:"mmeds" status:"completed" tags:"work,datasets" uuid:"ad8809d9-4ca4-4dd7-bd8e-c199d8449b7e"]
 ---
+time 1557837772
+old [description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557319086" project:"mmeds.enhancements" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557837772" project:"mmeds.enhancements" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
+time 1557837839
+old [description:"Use mongo documents to track and queue uploading metadata" entry:"1557418072" modified:"1557418072" project:"mmeds" status:"pending" tags:"work,upload,server" uuid:"e542a1f9-e5f5-49d6-8f73-509cb9f95b9b"]
+new [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Use mongo documents to track and queue uploading metadata" entry:"1557418072" modified:"1557837839" project:"mmeds" status:"pending" tags:"work,upload,server" uuid:"e542a1f9-e5f5-49d6-8f73-509cb9f95b9b"]
+---
+time 1557837861
+old [description:"Setup tools to write all rather than particular columns in the config" entry:"1556036183" modified:"1556036183" project:"mmeds" status:"pending" tags:"work,util" uuid:"0cf93263-ca0b-49f1-bf67-93a3fbfa1c95"]
+new [description:"Setup tools to write all rather than particular columns in the config" end:"1557837861" entry:"1556036183" modified:"1557837861" project:"mmeds" status:"completed" tags:"work,util" uuid:"0cf93263-ca0b-49f1-bf67-93a3fbfa1c95"]
+---
+time 1557838608
+old [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1556295843" project:"blog" status:"pending" tags:"postidea,todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1557838608" project:"blog" status:"pending" tags:"postidea,todo,next" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+---
+time 1557841346
+old [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567,294a0f3f-3f08-447d-ae32-383aa0cefd06" description:"Allow restarting of analysis from AnalysisDoc" due:"1557892800" entry:"1557417786" modified:"1557746622" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+new [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567,294a0f3f-3f08-447d-ae32-383aa0cefd06" description:"Allow restarting of analysis from AnalysisDoc" due:"1557892800" end:"1557841346" entry:"1557417786" modified:"1557841346" project:"mmeds" status:"completed" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+---
+time 1557841362
+old [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow restarting of child processes that watch for parent analysis" due:"1559361600" entry:"1557417900" modified:"1557417900" project:"mmeds" status:"pending" tags:"work,database,analysis,mongo" uuid:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a"]
+new [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow restarting of child processes that watch for parent analysis" due:"1559361600" entry:"1557417900" modified:"1557841362" project:"mmeds" status:"pending" tags:"work,database,analysis,mongo,next" uuid:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a"]
+---
+time 1557841397
+new [description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841397" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
+---
+time 1557841412
+old [description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841397" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
+new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841412" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
+---
