@@ -2734,3 +2734,56 @@ time 1557419330
 old [description:"Add tool BugBase" entry:"1557419282" modified:"1557419282" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
 new [depends:"c28c0633-67c9-45ef-956e-39ae961c2ee0" description:"Add tool BugBase" entry:"1557419282" modified:"1557419330" project:"mmeds.tool" status:"pending" tags:"work,analysis,tools" uuid:"04dbc1f2-cef6-4d76-855f-4ae00cabe155"]
 ---
+time 1557493631
+old [description:"Convert tool to fully rely on AnalysisDoc for file locations" due:"1559361600" entry:"1557418578" modified:"1557418578" project:"mmeds" status:"pending" tags:"work,mongo,tool,next" uuid:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567"]
+new [description:"Convert tool to fully rely on AnalysisDoc for file locations" due:"1559361600" end:"1557493631" entry:"1557418578" modified:"1557493631" project:"mmeds" status:"completed" tags:"work,mongo,tool,next" uuid:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567"]
+---
+time 1557497933
+old [description:"figure out better setup for tracking processes" entry:"1553017677" modified:"1556286065" project:"mmeds.server" status:"pending" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+new [description:"figure out better setup for tracking processes" end:"1557497933" entry:"1553017677" modified:"1557497933" project:"mmeds.server" status:"completed" tags:"work" uuid:"a450d4bf-8e83-4c49-a3b7-c682212c0d62"]
+---
+time 1557497968
+new [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1557497968" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+---
+time 1557498022
+new [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Restart all unfinished processes upon restart of server" entry:"1557498022" modified:"1557498022" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"cc5edfa1-dc69-4f72-b00d-e8033b9faac6"]
+---
+time 1557498107
+new [description:"Move all state information from tool to mongo document" entry:"1557498107" modified:"1557498107" project:"mmeds.tool" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+---
+time 1557498119
+old [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567" description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557418609" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+new [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567,294a0f3f-3f08-447d-ae32-383aa0cefd06" description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557498119" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+---
+time 1557746622
+old [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567,294a0f3f-3f08-447d-ae32-383aa0cefd06" description:"Allow restarting of analysis from AnalysisDoc" due:"1557720000" entry:"1557417786" modified:"1557498119" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+new [depends:"9ac4e26e-1efc-47d5-a5fb-92e4f98d6567,294a0f3f-3f08-447d-ae32-383aa0cefd06" description:"Allow restarting of analysis from AnalysisDoc" due:"1557892800" entry:"1557417786" modified:"1557746622" project:"mmeds" status:"pending" tags:"work,next,database" uuid:"91d7c3e4-13e5-4ae3-91c5-08921b37110b"]
+---
+time 1557746622
+old [description:"Move all state information from tool to mongo document" entry:"1557498107" modified:"1557498107" project:"mmeds.tool" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+new [description:"Move all state information from tool to mongo document" due:"1557892800" entry:"1557498107" modified:"1557746622" project:"mmeds.tool" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+---
+time 1557749248
+old [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557419267" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+new [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557749248" project:"mmeds" start:"1557749248" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+---
+time 1557749265
+old [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557749248" project:"mmeds" start:"1557749248" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+new [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557749265" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+---
+time 1557749273
+old [description:"Move all state information from tool to mongo document" due:"1557892800" entry:"1557498107" modified:"1557746622" project:"mmeds.tool" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+new [description:"Move all state information from tool to mongo document" due:"1557892800" entry:"1557498107" modified:"1557749273" project:"mmeds.tool" start:"1557749273" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+---
+time 1557836565
+old [description:"Move all state information from tool to mongo document" due:"1557892800" entry:"1557498107" modified:"1557749273" project:"mmeds.tool" start:"1557749273" status:"pending" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+new [description:"Move all state information from tool to mongo document" due:"1557892800" end:"1557836565" entry:"1557498107" modified:"1557836565" project:"mmeds.tool" status:"completed" tags:"work,next,tool,mongo" uuid:"294a0f3f-3f08-447d-ae32-383aa0cefd06"]
+---
+time 1557836605
+old [description:"Setup tracking of processes via mongo. Implement queue for uploads and stop\/restart for mmeds analysis" due:"1559361600" entry:"1557411119" modified:"1557411119" project:"mmeds" status:"pending" tags:"work,analysis,database,server" uuid:"cc911bb6-5c6b-4387-a2d0-0e622c23bad7"]
+new [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b,eec9743f-2177-4455-9672-314df084f5a2" description:"Setup tracking of processes via mongo. Implement queue for uploads and stop\/restart for mmeds analysis" due:"1559361600" entry:"1557411119" modified:"1557836605" project:"mmeds" status:"pending" tags:"work,analysis,database,server" uuid:"cc911bb6-5c6b-4387-a2d0-0e622c23bad7"]
+---
+time 1557836625
+old [description:"Get status of CRC data" due:"1557979200" entry:"1557418018" modified:"1557418018" project:"mmeds" status:"pending" tags:"work,datasets" uuid:"ad8809d9-4ca4-4dd7-bd8e-c199d8449b7e"]
+new [description:"Get status of CRC data" due:"1557979200" end:"1557836625" entry:"1557418018" modified:"1557836625" project:"mmeds" status:"completed" tags:"work,datasets" uuid:"ad8809d9-4ca4-4dd7-bd8e-c199d8449b7e"]
+---
