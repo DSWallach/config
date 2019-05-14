@@ -2818,3 +2818,10 @@ time 1557841412
 old [description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841397" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
 new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841412" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
 ---
+time 1557853632
+old [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow restarting of child processes that watch for parent analysis" due:"1559361600" entry:"1557417900" modified:"1557841362" project:"mmeds" status:"pending" tags:"work,database,analysis,mongo,next" uuid:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a"]
+new [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow restarting of child processes that watch for parent analysis" due:"1559361600" end:"1557853632" entry:"1557417900" modified:"1557853632" project:"mmeds" status:"completed" tags:"work,database,analysis,mongo,next" uuid:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a"]
+---
+time 1557853858
+new [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Integrate the analysis restart functionality with the web interface" entry:"1557853858" modified:"1557853858" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"3d89edb8-9538-48f1-993f-e6ddc1db7b89"]
+---
