@@ -2899,3 +2899,6 @@ time 1558112934
 old [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1557149087" project:"mmeds" status:"pending" tags:"work,analysis,summary" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
 new [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1558112934" priority:"H" project:"mmeds" status:"pending" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
 ---
+time 1558114873
+new [description:"Fix restarting analysis when jobfile spawns other processes" entry:"1558114873" modified:"1558114873" project:"mmeds.analysis" status:"pending" tags:"work,todo" uuid:"3f13e62b-1e46-4ffb-8461-0813ad9a2606"]
+---
