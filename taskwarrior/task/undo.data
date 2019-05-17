@@ -2831,3 +2831,71 @@ new [description:"Finish sub-analysis of tankou dataset" entry:"1557934375" modi
 time 1557934386
 new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1557934386" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
 ---
+time 1557934915
+old [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557837772" project:"mmeds.enhancements" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557934915" project:"mmeds.enhancements" start:"1557934915" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
+time 1557934940
+old [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" entry:"1553857604" modified:"1554989555" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+new [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" entry:"1553857604" modified:"1557934940" project:"mmeds.documentation" status:"pending" tags:"work,next" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+---
+time 1557934945
+old [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" entry:"1553857604" modified:"1557934940" project:"mmeds.documentation" status:"pending" tags:"work,next" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+new [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" entry:"1553857604" modified:"1557934945" project:"mmeds.documentation" start:"1557934945" status:"pending" tags:"work,next" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+---
+time 1558015637
+old [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"catch filenotfound as analysis errors" entry:"1549992019" modified:"1557934915" project:"mmeds.enhancements" start:"1557934915" status:"pending" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"catch filenotfound as analysis errors" end:"1558015637" entry:"1549992019" modified:"1558015637" project:"mmeds.enhancements" status:"completed" tags:"work,next" uuid:"4c3797ac-10ab-4d6b-b479-ed3ad900b4e5"]
+---
+time 1558015637
+old [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" entry:"1553857604" modified:"1557934945" project:"mmeds.documentation" start:"1557934945" status:"pending" tags:"work,next" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+new [description:"design better logging system for errors during analysis. Should be able to determine which commands failed and which files are missing" end:"1558015637" entry:"1553857604" modified:"1558015637" project:"mmeds.documentation" status:"completed" tags:"work,next" uuid:"4d5e5378-468f-40df-868c-6413e79fb12e"]
+---
+time 1558015684
+new [description:"Allow restarting of analysis from mid-analysis check points" entry:"1558015684" modified:"1558015684" project:"mmeds.analysis" status:"pending" tags:"next,work,mongo" uuid:"cbbdc2bc-0646-4689-bdbd-b11ee9e86b27"]
+---
+time 1558015691
+old [description:"Allow restarting of analysis from mid-analysis check points" entry:"1558015684" modified:"1558015684" project:"mmeds.analysis" status:"pending" tags:"next,work,mongo" uuid:"cbbdc2bc-0646-4689-bdbd-b11ee9e86b27"]
+new [description:"Allow restarting of analysis from mid-analysis check points" entry:"1558015684" modified:"1558015691" project:"mmeds.analysis" start:"1558015691" status:"pending" tags:"next,work,mongo" uuid:"cbbdc2bc-0646-4689-bdbd-b11ee9e86b27"]
+---
+time 1558103191
+old [description:"Allow restarting of analysis from mid-analysis check points" entry:"1558015684" modified:"1558015691" project:"mmeds.analysis" start:"1558015691" status:"pending" tags:"next,work,mongo" uuid:"cbbdc2bc-0646-4689-bdbd-b11ee9e86b27"]
+new [description:"Allow restarting of analysis from mid-analysis check points" end:"1558103191" entry:"1558015684" modified:"1558103191" project:"mmeds.analysis" status:"completed" tags:"next,work,mongo" uuid:"cbbdc2bc-0646-4689-bdbd-b11ee9e86b27"]
+---
+time 1558103202
+old [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1557934386" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1558103202" project:"mmeds.datasets" start:"1558103202" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+---
+time 1558108778
+old [description:"Finish sub-analysis of tankou dataset" entry:"1557934375" modified:"1557934375" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"56d866ef-52c7-4be1-a81c-069439047a82"]
+new [description:"Finish sub-analysis of tankou dataset" entry:"1557934375" modified:"1558108778" project:"mmeds.datasets" start:"1558108778" status:"pending" tags:"analysis,work,next" uuid:"56d866ef-52c7-4be1-a81c-069439047a82"]
+---
+time 1558108835
+old [description:"Run sub-analysis on existing full analysis" entry:"1557137871" modified:"1557137871" project:"mmeds" status:"pending" tags:"work,analysis" uuid:"e4b82904-9a73-4529-94dd-0eeae5e3f6a5"]
+new [description:"Run sub-analysis on existing full analysis" end:"1558108833" entry:"1557137871" modified:"1558108835" project:"mmeds" status:"deleted" tags:"work,analysis" uuid:"e4b82904-9a73-4529-94dd-0eeae5e3f6a5"]
+---
+time 1558108870
+old [description:"Email authors of paper w\/ no (meta)data" entry:"1554140819" modified:"1554140819" project:"loclust" status:"pending" tags:"work" uuid:"a0b4d376-315b-4f60-88c7-8afa88235e5e"]
+new [description:"Email authors of paper w\/ no (meta)data" end:"1558108868" entry:"1554140819" modified:"1558108870" project:"loclust" status:"deleted" tags:"work" uuid:"a0b4d376-315b-4f60-88c7-8afa88235e5e"]
+---
+time 1558108870
+old [description:"get slides for day 2 talks" entry:"1554231542" modified:"1554231542" project:"loclust" status:"pending" tags:"work" uuid:"d4d7c9bf-abd8-4362-a39f-566704970aa3"]
+new [description:"get slides for day 2 talks" end:"1558108870" entry:"1554231542" modified:"1558108870" project:"loclust" status:"deleted" tags:"work" uuid:"d4d7c9bf-abd8-4362-a39f-566704970aa3"]
+---
+time 1558108880
+old [description:"Get data for paper Jose mentioned" entry:"1553694035" modified:"1553694035" project:"loclust" status:"pending" tags:"work" uuid:"544db84d-a987-4a82-9506-2e46a7c22a58"]
+new [description:"Get data for paper Jose mentioned" end:"1558108879" entry:"1553694035" modified:"1558108880" project:"loclust" status:"deleted" tags:"work" uuid:"544db84d-a987-4a82-9506-2e46a7c22a58"]
+---
+time 1558109356
+new [description:"search" end:"1558109356" entry:"1558109356" modified:"1558109356" status:"completed" uuid:"5fa52d76-fae5-4dfe-9abf-32e13b1d272d"]
+---
+time 1558109359
+new [description:"search" end:"1558109359" entry:"1558109359" modified:"1558109359" status:"completed" uuid:"50e10429-b4d2-490a-85b3-e78ae291ac24"]
+---
+time 1558109466
+new [description:"Figure out a more helpful system for logging messages from mmeds" entry:"1558109466" modified:"1558109466" project:"mmeds.server" status:"pending" tags:"problem,server,logging,work" uuid:"ed52768c-6455-48ea-b2a4-4d4648aa8ad2"]
+---
+time 1558112934
+old [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1557149087" project:"mmeds" status:"pending" tags:"work,analysis,summary" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
+new [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1558112934" priority:"H" project:"mmeds" status:"pending" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
+---
