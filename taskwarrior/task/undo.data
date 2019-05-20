@@ -2902,3 +2902,9 @@ new [description:"Fix jupyter execution on Minerva so it generates the legends p
 time 1558114873
 new [description:"Fix restarting analysis when jobfile spawns other processes" entry:"1558114873" modified:"1558114873" project:"mmeds.analysis" status:"pending" tags:"work,todo" uuid:"3f13e62b-1e46-4ffb-8461-0813ad9a2606"]
 ---
+time 1558354806
+new [description:"Add better filenames\/titles to the summary documents" entry:"1558354806" modified:"1558354806" project:"mmeds.summary" status:"pending" tags:"work,summary" uuid:"a1ccdc2d-57aa-4781-bb14-fe143d270d07"]
+---
+time 1558358915
+new [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1558358915" project:"mmeds.summary" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+---
