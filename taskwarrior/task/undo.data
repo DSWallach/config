@@ -2908,3 +2908,16 @@ new [description:"Add better filenames\/titles to the summary documents" entry:"
 time 1558358915
 new [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1558358915" project:"mmeds.summary" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
 ---
+time 1558440368
+old [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1558358915" project:"mmeds.summary" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+new [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1558440368" project:"mmeds.summary" start:"1558440368" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+---
+time 1558446136
+new [description:"run loclust with k=2 for all the taxa\/taxa-levels. Find the taxa\/level that maximizes the accuracy (v-measure)" entry:"1558446136" modified:"1558446136" project:"loclust" status:"pending" uuid:"c7df5c25-ff25-4531-8ab0-0f5ead481936"]
+---
+time 1558446218
+new [depends:"c7df5c25-ff25-4531-8ab0-0f5ead481936" description:"Compare this results to CHI for the best unsupervised (4 cluster) result" due:"1558929600" entry:"1558446218" modified:"1558446218" project:"loclust" status:"pending" uuid:"2593c439-f765-490e-bfa5-9f74c2399f93"]
+---
+time 1558446307
+new [description:"Look at different levels of frac for all datasets referenced in the paper" entry:"1558446307" modified:"1558446307" project:"loclust" status:"pending" uuid:"e5db2383-e7ce-48b0-b130-67402a34d670"]
+---
