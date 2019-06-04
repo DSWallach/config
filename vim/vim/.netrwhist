@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/david/mmeds_server_data/testuser_16/analysis0'
 let g:netrw_dirhist_2='/home/david/mmeds_server_data/testuser_16/analysis0/split_otu_SpecimenBodySite'
 let g:netrw_dirhist_3='/home/david/Documents/BlogPosts'
 let g:netrw_dirhist_4='/home/david/mmeds_server_data/testuser_Good_Study_11'
 let g:netrw_dirhist_5='/home/david/mmeds_server_data/testuser_Good_Study_11/Qiime2-2_0'
 let g:netrw_dirhist_6='/etc/yum.repos.d'
+let g:netrw_dirhist_7='/boot/grub2'
+let g:netrw_dirhist_8='/home/david/Work/wallach2/loclust'
+let g:netrw_dirhist_9='/home/david/Work/wallach2/loclust/scripts'

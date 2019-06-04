@@ -30,8 +30,10 @@ alias pperf='sudo cpupower frequency-set -g performance'
 alias psave='sudo cpupower frequency-set -g ondemand'
 alias oct='octave --no-gui'
 alias susegrub='grub2-mkconfig -o /boot/grub2/grub.cfg'
+alias opti-settings='optirun -b none nvidia-settings -c :8'
 alias ta='task add tag:work project:mmeds'
 alias tw='task tag:work'
+alias prirun='PRIMUS_UPLOAD=1 primusrun'
 
 # Directory Navigation
 alias ds='dirs -v'
@@ -55,6 +57,9 @@ alias gc='git commit'
 alias gp='git push'
 alias gst='git status'
 
+
+# Steam
+alias cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 optirun /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
 
 # Makes git auto completion faster favouring for local completions
 __git_files () {

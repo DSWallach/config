@@ -2944,3 +2944,7 @@ time 1559312156
 old [depends:"c7df5c25-ff25-4531-8ab0-0f5ead481936" description:"Compare this results to CHI for the best unsupervised (4 cluster) result" due:"1558929600" entry:"1558446218" modified:"1559052766" priority:"H" project:"loclust" start:"1559052696" status:"pending" tags:"next" uuid:"2593c439-f765-490e-bfa5-9f74c2399f93"]
 new [depends:"c7df5c25-ff25-4531-8ab0-0f5ead481936" description:"Compare this results to CHI for the best unsupervised (4 cluster) result" due:"1558929600" end:"1559312156" entry:"1558446218" modified:"1559312156" priority:"H" project:"loclust" status:"completed" tags:"next" uuid:"2593c439-f765-490e-bfa5-9f74c2399f93"]
 ---
+time 1559664690
+old [description:"run loclust with k=2 for all the taxa\/taxa-levels. Find the taxa\/level that maximizes the accuracy (v-measure)" entry:"1558446136" modified:"1559052723" priority:"H" project:"loclust" status:"pending" tags:"next" uuid:"c7df5c25-ff25-4531-8ab0-0f5ead481936"]
+new [description:"run loclust with k=2 for all the taxa\/taxa-levels. Find the taxa\/level that maximizes the accuracy (v-measure)" end:"1559664690" entry:"1558446136" modified:"1559664690" priority:"H" project:"loclust" status:"completed" tags:"next" uuid:"c7df5c25-ff25-4531-8ab0-0f5ead481936"]
+---
