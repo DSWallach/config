@@ -2955,3 +2955,6 @@ time 1560169330
 old [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1558112934" priority:"H" project:"mmeds" status:"pending" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
 new [description:"Fix jupyter execution on Minerva so it generates the legends properly" end:"1560169330" entry:"1557149087" modified:"1560169330" priority:"H" project:"mmeds" status:"completed" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
 ---
+time 1560182355
+new [description:"Create the log file as described to Jose" entry:"1560182355" modified:"1560182355" project:"mmeds" status:"pending" tags:"log,analysis,upload" uuid:"2bb64405-ec73-49d9-b6bb-0790840655fd"]
+---
