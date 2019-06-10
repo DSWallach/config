@@ -2948,3 +2948,10 @@ time 1559664690
 old [description:"run loclust with k=2 for all the taxa\/taxa-levels. Find the taxa\/level that maximizes the accuracy (v-measure)" entry:"1558446136" modified:"1559052723" priority:"H" project:"loclust" status:"pending" tags:"next" uuid:"c7df5c25-ff25-4531-8ab0-0f5ead481936"]
 new [description:"run loclust with k=2 for all the taxa\/taxa-levels. Find the taxa\/level that maximizes the accuracy (v-measure)" end:"1559664690" entry:"1558446136" modified:"1559664690" priority:"H" project:"loclust" status:"completed" tags:"next" uuid:"c7df5c25-ff25-4531-8ab0-0f5ead481936"]
 ---
+time 1560169325
+new [depends:"77b0af59-6adf-4e76-bb3c-21a1baf8e620" description:"Adjust the legends so that appear after the image" entry:"1560169325" modified:"1560169325" project:"mmeds.analysis" status:"pending" tags:"next,work,summary" uuid:"2df79310-c998-4661-a2ea-ff29ade63248"]
+---
+time 1560169330
+old [description:"Fix jupyter execution on Minerva so it generates the legends properly" entry:"1557149087" modified:"1558112934" priority:"H" project:"mmeds" status:"pending" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
+new [description:"Fix jupyter execution on Minerva so it generates the legends properly" end:"1560169330" entry:"1557149087" modified:"1560169330" priority:"H" project:"mmeds" status:"completed" tags:"work,analysis,summary,next" uuid:"77b0af59-6adf-4e76-bb3c-21a1baf8e620"]
+---
