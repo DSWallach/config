@@ -2958,3 +2958,7 @@ new [description:"Fix jupyter execution on Minerva so it generates the legends p
 time 1560182355
 new [description:"Create the log file as described to Jose" entry:"1560182355" modified:"1560182355" project:"mmeds" status:"pending" tags:"log,analysis,upload" uuid:"2bb64405-ec73-49d9-b6bb-0790840655fd"]
 ---
+time 1560260666
+old [depends:"77b0af59-6adf-4e76-bb3c-21a1baf8e620" description:"Adjust the legends so that appear after the image" entry:"1560169325" modified:"1560169325" project:"mmeds.analysis" status:"pending" tags:"next,work,summary" uuid:"2df79310-c998-4661-a2ea-ff29ade63248"]
+new [depends:"77b0af59-6adf-4e76-bb3c-21a1baf8e620" description:"Adjust the legends so that appear after the image" end:"1560260666" entry:"1560169325" modified:"1560260666" project:"mmeds.analysis" status:"completed" tags:"next,work,summary" uuid:"2df79310-c998-4661-a2ea-ff29ade63248"]
+---
