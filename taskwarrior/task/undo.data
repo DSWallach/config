@@ -2962,3 +2962,15 @@ time 1560260666
 old [depends:"77b0af59-6adf-4e76-bb3c-21a1baf8e620" description:"Adjust the legends so that appear after the image" entry:"1560169325" modified:"1560169325" project:"mmeds.analysis" status:"pending" tags:"next,work,summary" uuid:"2df79310-c998-4661-a2ea-ff29ade63248"]
 new [depends:"77b0af59-6adf-4e76-bb3c-21a1baf8e620" description:"Adjust the legends so that appear after the image" end:"1560260666" entry:"1560169325" modified:"1560260666" project:"mmeds.analysis" status:"completed" tags:"next,work,summary" uuid:"2df79310-c998-4661-a2ea-ff29ade63248"]
 ---
+time 1560268074
+old [description:"Finish sub-analysis of tankou dataset" entry:"1557934375" modified:"1558108778" project:"mmeds.datasets" start:"1558108778" status:"pending" tags:"analysis,work,next" uuid:"56d866ef-52c7-4be1-a81c-069439047a82"]
+new [description:"Finish sub-analysis of tankou dataset" end:"1560268074" entry:"1557934375" modified:"1560268074" project:"mmeds.datasets" status:"completed" tags:"analysis,work,next" uuid:"56d866ef-52c7-4be1-a81c-069439047a82"]
+---
+time 1560433971
+old [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1559052746" project:"mmeds.summary" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+new [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1560433971" project:"mmeds.summary" start:"1560433971" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+---
+time 1560448525
+old [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1560433971" project:"mmeds.summary" start:"1560433971" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+new [description:"Fix the metadata file for child analyses" end:"1560448525" entry:"1558358915" modified:"1560448525" project:"mmeds.summary" status:"completed" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
+---
