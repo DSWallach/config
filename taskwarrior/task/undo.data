@@ -2974,3 +2974,59 @@ time 1560448525
 old [description:"Fix the metadata file for child analyses" entry:"1558358915" modified:"1560433971" project:"mmeds.summary" start:"1560433971" status:"pending" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
 new [description:"Fix the metadata file for child analyses" end:"1560448525" entry:"1558358915" modified:"1560448525" project:"mmeds.summary" status:"completed" tags:"bug,fix,next" uuid:"c2e5e8c9-23db-4587-a3f2-48b67850511a"]
 ---
+time 1560523096
+old [description:"Check the timepoints of the hazda dataset" entry:"1559155262" modified:"1559155262" project:"loclust" status:"pending" tags:"next" uuid:"5d614fae-3eb7-4e2e-92cd-310f57f6930f"]
+new [description:"Check the timepoints of the hazda dataset" end:"1560523094" entry:"1559155262" modified:"1560523096" project:"loclust" status:"deleted" tags:"next" uuid:"5d614fae-3eb7-4e2e-92cd-310f57f6930f"]
+---
+time 1560523222
+old [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b,eec9743f-2177-4455-9672-314df084f5a2" description:"Setup tracking of processes via mongo. Implement queue for uploads and stop\/restart for mmeds analysis" due:"1559361600" entry:"1557411119" modified:"1557836605" project:"mmeds" status:"pending" tags:"work,analysis,database,server" uuid:"cc911bb6-5c6b-4387-a2d0-0e622c23bad7"]
+new [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b,eec9743f-2177-4455-9672-314df084f5a2" description:"Setup tracking of processes via mongo. Implement queue for uploads and stop\/restart for mmeds analysis" due:"1559361600" end:"1560523222" entry:"1557411119" modified:"1560523222" project:"mmeds" status:"completed" tags:"work,analysis,database,server" uuid:"cc911bb6-5c6b-4387-a2d0-0e622c23bad7"]
+---
+time 1560523287
+old [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow partial analysis from last successful command" entry:"1557417849" modified:"1557417849" project:"mmeds" status:"pending" tags:"work,database,analysis" uuid:"324eba8a-5126-4806-a26d-b923f7d3507e"]
+new [depends:"91d7c3e4-13e5-4ae3-91c5-08921b37110b" description:"Allow partial analysis from last successful command" end:"1560523285" entry:"1557417849" modified:"1560523287" project:"mmeds" status:"completed" tags:"work,database,analysis" uuid:"324eba8a-5126-4806-a26d-b923f7d3507e"]
+---
+time 1560523287
+old [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"Allow restarting from checkpoints in the analysis" entry:"1557841397" modified:"1557841412" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
+new [depends:"4d5e5378-468f-40df-868c-6413e79fb12e" description:"Allow restarting from checkpoints in the analysis" end:"1560523287" entry:"1557841397" modified:"1560523287" project:"mmeds" status:"completed" tags:"work,analysis,tools" uuid:"f6b29c7a-801e-490e-bfb0-5b51099c487e"]
+---
+time 1560523287
+old [description:"Create the log file as described to Jose" entry:"1560182355" modified:"1560182355" project:"mmeds" status:"pending" tags:"log,analysis,upload" uuid:"2bb64405-ec73-49d9-b6bb-0790840655fd"]
+new [description:"Create the log file as described to Jose" end:"1560523287" entry:"1560182355" modified:"1560523287" project:"mmeds" status:"completed" tags:"log,analysis,upload" uuid:"2bb64405-ec73-49d9-b6bb-0790840655fd"]
+---
+time 1560523345
+old [description:"Ensure users know to have useful study names" entry:"1556803255" modified:"1556803255" project:"mmeds" status:"pending" tags:"documentation" uuid:"ad5f6369-749d-48fe-94fc-ef38f48f2c2d"]
+new [description:"Ensure users know to have useful study names" entry:"1556803255" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"documentation" uuid:"ad5f6369-749d-48fe-94fc-ef38f48f2c2d"]
+---
+time 1560523345
+old [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1557411149" project:"mmeds" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+new [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+---
+time 1560523345
+old [description:"Move mongo access functionality into documents.py" entry:"1557337840" modified:"1557337840" project:"mmeds" status:"pending" tags:"mongo,work" uuid:"befdaefe-f514-41bb-ad53-fc309f2632a8"]
+new [description:"Move mongo access functionality into documents.py" entry:"1557337840" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"mongo,work" uuid:"befdaefe-f514-41bb-ad53-fc309f2632a8"]
+---
+time 1560523345
+old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1557418197" project:"mmeds" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+---
+time 1560523362
+old [description:"Add Parameters for paticular column analysis to the config file" entry:"1555951164" modified:"1555951164" project:"mmeds" status:"pending" tags:"work,server" uuid:"8f515ab3-808d-43c6-b52d-3ee13ef3d18d"]
+new [description:"Add Parameters for paticular column analysis to the config file" end:"1560523362" entry:"1555951164" modified:"1560523362" project:"mmeds" status:"completed" tags:"work,server" uuid:"8f515ab3-808d-43c6-b52d-3ee13ef3d18d"]
+---
+time 1560523378
+old [description:"Move mongo access functionality into documents.py" entry:"1557337840" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"mongo,work" uuid:"befdaefe-f514-41bb-ad53-fc309f2632a8"]
+new [description:"Move mongo access functionality into documents.py" end:"1560523375" entry:"1557337840" modified:"1560523378" project:"mmeds.database" status:"deleted" tags:"mongo,work" uuid:"befdaefe-f514-41bb-ad53-fc309f2632a8"]
+---
+time 1560523389
+old [description:"allow archiving of old reads, keeping the otu tables" entry:"1556111236" modified:"1556111236" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
+new [description:"mmeds.database" entry:"1556111236" modified:"1560523389" project:"mmeds" status:"pending" tags:"database" uuid:"e19f4dab-37ca-45fe-b0de-85fce376ae15"]
+---
+time 1560523417
+old [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1557749265" project:"mmeds" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+new [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1560523417" project:"mmeds.analysis" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+---
+time 1560523431
+old [description:"Restructure tests so each metadata file only needs to be imported once" entry:"1555682965" modified:"1555682965" project:"mmeds" status:"pending" tags:"database,testing" uuid:"bca65616-c80e-47dd-ba47-ae1807474303"]
+new [description:"Restructure tests so each metadata file only needs to be imported once" entry:"1555682965" modified:"1560523431" project:"mmeds.testing" status:"pending" tags:"database,testing" uuid:"bca65616-c80e-47dd-ba47-ae1807474303"]
+---
