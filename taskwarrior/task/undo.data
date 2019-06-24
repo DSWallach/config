@@ -3030,3 +3030,7 @@ time 1560523431
 old [description:"Restructure tests so each metadata file only needs to be imported once" entry:"1555682965" modified:"1555682965" project:"mmeds" status:"pending" tags:"database,testing" uuid:"bca65616-c80e-47dd-ba47-ae1807474303"]
 new [description:"Restructure tests so each metadata file only needs to be imported once" entry:"1555682965" modified:"1560523431" project:"mmeds.testing" status:"pending" tags:"database,testing" uuid:"bca65616-c80e-47dd-ba47-ae1807474303"]
 ---
+time 1561385569
+old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1561385569" project:"mmeds.database" start:"1561385569" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+---
