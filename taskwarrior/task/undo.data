@@ -3034,3 +3034,36 @@ time 1561385569
 old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
 new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1561385569" project:"mmeds.database" start:"1561385569" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
 ---
+time 1562156967
+new [description:"Handle situation if Barcodes are wrong type for check_lengths" entry:"1562156967" modified:"1562156967" project:"mmeds.validation" status:"pending" tags:"bugfix" uuid:"081e7a2f-f718-4e2d-b623-0695cfb35672"]
+---
+time 1562164283
+new [description:"Create accounts for lab members" entry:"1562164283" modified:"1562164283" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"019af631-99c1-437f-b67e-b10007f77fb5"]
+---
+time 1562164307
+new [description:"Create guide for downloading data\/metadata from mmeds server" entry:"1562164307" modified:"1562164307" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"87d88496-ffa2-48cc-ae7e-bef7d30b9b13"]
+---
+time 1562164333
+new [description:"LIst of all studies and IDs\/access codes for those studies" entry:"1562164333" modified:"1562164333" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"90b74219-9fb7-4e6f-a42a-52b726dd1300"]
+---
+time 1562164360
+new [description:"Update interface for easier clearer downloading of particular files" entry:"1562164360" modified:"1562164360" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"415b23f0-4063-40f2-b5b7-5b1331ca4a92"]
+---
+time 1562164380
+new [description:"Priviledged read access for lab member accounts" entry:"1562164380" modified:"1562164380" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"28718e51-2683-4ce8-978e-90433c790e8e"]
+---
+time 1562164426
+new [depends:"019af631-99c1-437f-b67e-b10007f77fb5" description:"Improve Lab Access for MMEDS" due:"1562990400" entry:"1562164426" modified:"1562164426" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"4abe30e4-1b00-46e2-b4f2-f035477395be"]
+---
+time 1562164435
+old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1561385569" project:"mmeds.database" start:"1561385569" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1562164435" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+---
+time 1562164462
+old [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1560523417" project:"mmeds.analysis" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+new [description:"Add tool PiCRUsT" entry:"1557419267" modified:"1562164462" priority:"L" project:"mmeds.analysis" status:"pending" tags:"work,analysis,tools" uuid:"c28c0633-67c9-45ef-956e-39ae961c2ee0"]
+---
+time 1562164462
+old [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1557497968" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+new [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1562164462" priority:"L" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+---
