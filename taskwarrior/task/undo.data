@@ -3096,3 +3096,9 @@ new [depends:"019af631-99c1-437f-b67e-b10007f77fb5" description:"Improve Lab Acc
 time 1562682925
 new [description:"Add checks for non-ascii characters in the metadata" entry:"1562682925" modified:"1562682925" project:"mmeds.validation" status:"pending" tags:"metadata,validation" uuid:"2a0cc1f8-865b-42e6-b22d-1678ecf62b17"]
 ---
+time 1562696794
+new [description:"fix write mmeds_metadata to qiime" entry:"1562696794" modified:"1562696794" project:"mmeds.errors" status:"pending" uuid:"321a7eb3-4d37-4367-bd43-c679aaacaac1"]
+---
+time 1562850126
+new [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1562850126" project:"mmeds.validation" status:"pending" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+---

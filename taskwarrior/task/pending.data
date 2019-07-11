@@ -76,3 +76,5 @@
 [description:"Analysis of CancerMortality dataset" due:"1562644800" entry:"1562169094" modified:"1562169094" project:"loclust" status:"pending" tags:"analysis" uuid:"7ffdeeb3-fc71-4a24-bc1c-45465e95f834"]
 [description:"Analysis of data Nan sent" due:"1562644800" entry:"1562169106" modified:"1562169106" project:"loclust" status:"pending" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
 [description:"Add checks for non-ascii characters in the metadata" entry:"1562682925" modified:"1562682925" project:"mmeds.validation" status:"pending" tags:"metadata,validation" uuid:"2a0cc1f8-865b-42e6-b22d-1678ecf62b17"]
+[description:"fix write mmeds_metadata to qiime" entry:"1562696794" modified:"1562696794" project:"mmeds.errors" status:"pending" uuid:"321a7eb3-4d37-4367-bd43-c679aaacaac1"]
+[description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1562850126" project:"mmeds.validation" status:"pending" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
