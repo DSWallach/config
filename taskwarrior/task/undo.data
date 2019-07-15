@@ -3102,3 +3102,7 @@ new [description:"fix write mmeds_metadata to qiime" entry:"1562696794" modified
 time 1562850126
 new [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1562850126" project:"mmeds.validation" status:"pending" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
 ---
+time 1563200308
+old [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1562164462" priority:"L" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+new [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1563200308" priority:"L" project:"mmeds.server" start:"1563200308" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+---
