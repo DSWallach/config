@@ -1,5 +1,8 @@
+scriptencoding utf-8
+set encoding=utf-8
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
+
 "turn on syntax highlighting
 syntax on
 
@@ -16,6 +19,7 @@ colo desert
 
 " Plugin management
 call plug#begin()
+Plug 'Skyleach/pudb.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
 Plug 'vim-scripts/YankRing.vim'
@@ -166,4 +170,20 @@ let g:languagetool_jar='$HOME/.vim/LanguageTool-4.5/languagetool-commandline.jar
 
 " Filetypes
 au BufNewFile,BufRead *.tsv		setf tsv
+
+" PUDB settings
+if has('nvim')
+ " let g:python_host_prog='~/.virtualenvs/neovim2/bin/python'
+ " let g:python3_host_prog='~/.virtualenvs/neovim3/bin/python'
+  " Set python versions
+  "
+  let g:python_host_prog="~/anaconda3/envs/lodi2/bin/python2"
+  let g:python3_host_prog="~/anaconda3/envs/mmeds-stable/bin/python3"
+  " set the virtual env python used to launch the debugger
+  let g:pudb_python='~/.virtualenvs/poweruser_tools/bin/python'
+  " set the entry point (script) to use for pudb
+  let g:pudb_entry_point='~/src/poweruser_tools/test/test_templates.py'
+  " Unicode symbols work fine (nvim, iterm, tmux, nyovim tested)
+  let g:pudb_breakpoint_symbol='☠'
+endif
 

@@ -3106,3 +3106,21 @@ time 1563200308
 old [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1562164462" priority:"L" project:"mmeds.server" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
 new [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1563200308" priority:"L" project:"mmeds.server" start:"1563200308" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
 ---
+time 1563286655
+old [description:"improve performance of metadata validation" entry:"1553006324" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"6b49c69f-706a-4c49-8e05-b71ab00e21a5"]
+new [description:"improve performance of metadata validation" end:"1563286654" entry:"1553006324" modified:"1563286655" project:"mmeds.validation" status:"deleted" tags:"work" uuid:"6b49c69f-706a-4c49-8e05-b71ab00e21a5"]
+---
+time 1563286686
+old [description:"fix write mmeds_metadata to qiime" entry:"1562696794" modified:"1562696794" project:"mmeds.errors" status:"pending" uuid:"321a7eb3-4d37-4367-bd43-c679aaacaac1"]
+new [description:"fix write mmeds_metadata to qiime" end:"1563286685" entry:"1562696794" modified:"1563286686" project:"mmeds.errors" status:"deleted" uuid:"321a7eb3-4d37-4367-bd43-c679aaacaac1"]
+---
+time 1563286764
+old [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1562850126" project:"mmeds.validation" status:"pending" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+new [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1563286764" project:"mmeds.validation" status:"pending" tags:"work" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+---
+time 1563378166
+new [description:"Setup the test_server tests to wait on a particular email coming through at a particular time" entry:"1563378166" modified:"1563378166" project:"mmeds.testing" status:"pending" tags:"next,work" uuid:"5072dc34-b2cc-4cf8-a530-61fb490b2d93"]
+---
+time 1563972540
+new [description:"projects:mmeds.server Ensure any compressed archives contain all files from dir" entry:"1563972540" modified:"1563972540" status:"pending" tags:"Work" uuid:"cf690c82-0035-4483-86c9-e36ecea4b618"]
+---
