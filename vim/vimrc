@@ -19,7 +19,7 @@ colo desert
 
 " Plugin management
 call plug#begin()
-Plug 'Skyleach/pudb.vim'
+" Plug 'Skyleach/pudb.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ncm2/ncm2'
 Plug 'vim-scripts/YankRing.vim'

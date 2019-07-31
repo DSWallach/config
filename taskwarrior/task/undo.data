@@ -3124,3 +3124,11 @@ new [description:"Setup the test_server tests to wait on a particular email comi
 time 1563972540
 new [description:"projects:mmeds.server Ensure any compressed archives contain all files from dir" entry:"1563972540" modified:"1563972540" status:"pending" tags:"Work" uuid:"cf690c82-0035-4483-86c9-e36ecea4b618"]
 ---
+time 1564591324
+old [description:"Analysis of CancerMortality dataset" due:"1562644800" entry:"1562169094" modified:"1562169094" project:"loclust" status:"pending" tags:"analysis" uuid:"7ffdeeb3-fc71-4a24-bc1c-45465e95f834"]
+new [description:"Analysis of CancerMortality dataset" due:"1562644800" end:"1564591323" entry:"1562169094" modified:"1564591324" project:"loclust" status:"deleted" tags:"analysis" uuid:"7ffdeeb3-fc71-4a24-bc1c-45465e95f834"]
+---
+time 1564591324
+old [description:"Analysis of data Nan sent" due:"1562644800" entry:"1562169106" modified:"1562169106" project:"loclust" status:"pending" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
+new [description:"Analysis of data Nan sent" due:"1562644800" end:"1564591324" entry:"1562169106" modified:"1564591324" project:"loclust" status:"deleted" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
+---
