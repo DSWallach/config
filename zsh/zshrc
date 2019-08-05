@@ -45,6 +45,7 @@ alias sac='conda activate'
 alias sad='conda deactivate'
 alias jb='jupyter notebook'
 alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning -s --durations=0'
+alias pudb='python -m pudb.run'
 
 # Git
 alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'

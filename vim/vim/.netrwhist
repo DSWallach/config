@@ -1,9 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/david/mmeds_server_data/testuser_Good_Study_10/Qiime2_0/summary'
-let g:netrw_dirhist_2='/home/david/Documents/logitech-m560/usbhid'
-let g:netrw_dirhist_3='/home/david/.modules'
-let g:netrw_dirhist_4='/home/david/.modules/modulefiles'
-let g:netrw_dirhist_5='/home/david/.modules/modulefiles/qiime2'
-let g:netrw_dirhist_6='/home/david/.sel/vim/vim/plugged/pudb.vim/rplugin'
-let g:netrw_dirhist_7='/home/david/.sel/vim/vim/plugged/pudb.vim/rplugin/python3'
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/david/.vim'
+let g:netrw_dirhist_1='/home/david/.sel/vim/vim/plugged/python-mode/after/ftplugin'
