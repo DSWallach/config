@@ -3132,3 +3132,11 @@ time 1564591324
 old [description:"Analysis of data Nan sent" due:"1562644800" entry:"1562169106" modified:"1562169106" project:"loclust" status:"pending" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
 new [description:"Analysis of data Nan sent" due:"1562644800" end:"1564591324" entry:"1562169106" modified:"1564591324" project:"loclust" status:"deleted" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
 ---
+time 1565019742
+old [description:"Setup the test_server tests to wait on a particular email coming through at a particular time" entry:"1563378166" modified:"1563378166" project:"mmeds.testing" status:"pending" tags:"next,work" uuid:"5072dc34-b2cc-4cf8-a530-61fb490b2d93"]
+new [description:"Setup the test_server tests to wait on a particular email coming through at a particular time" end:"1565019742" entry:"1563378166" modified:"1565019742" project:"mmeds.testing" status:"completed" tags:"next,work" uuid:"5072dc34-b2cc-4cf8-a530-61fb490b2d93"]
+---
+time 1565020256
+old [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1558103202" project:"mmeds.datasets" start:"1558103202" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1565020256" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+---

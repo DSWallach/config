@@ -1,3 +1,4 @@
+[description:"Setup the test_server tests to wait on a particular email coming through at a particular time" end:"1565019742" entry:"1563378166" modified:"1565019742" project:"mmeds.testing" status:"completed" tags:"next,work" uuid:"5072dc34-b2cc-4cf8-a530-61fb490b2d93"]
 [description:"Analysis of CancerMortality dataset" due:"1562644800" end:"1564591323" entry:"1562169094" modified:"1564591324" project:"loclust" status:"deleted" tags:"analysis" uuid:"7ffdeeb3-fc71-4a24-bc1c-45465e95f834"]
 [description:"Analysis of data Nan sent" due:"1562644800" end:"1564591324" entry:"1562169106" modified:"1564591324" project:"loclust" status:"deleted" tags:"analysis" uuid:"6ea935bf-df83-42f9-b4ce-a1cc1380e836"]
 [description:"fix write mmeds_metadata to qiime" end:"1563286685" entry:"1562696794" modified:"1563286686" project:"mmeds.errors" status:"deleted" uuid:"321a7eb3-4d37-4367-bd43-c679aaacaac1"]
