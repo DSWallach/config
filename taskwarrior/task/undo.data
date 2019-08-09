@@ -3191,3 +3191,7 @@ new [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Use mongo docum
 time 1565354551
 new [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565354551" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 ---
+time 1565364769
+old [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565354551" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+new [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565364769" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+---
