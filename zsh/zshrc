@@ -132,7 +132,9 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     export MMEDS="/sc/orga/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
-    export CONDA_DIR='/hpc/packages/minerva-common/anaconda2/'
+    export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
+    # '/hpc/packages/minerva-common/anaconda2/'
+
 
     # Minerva Aliases
     alias towork='cd /sc/orga/projects/clemej05a/wallach'
