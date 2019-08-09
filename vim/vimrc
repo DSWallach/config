@@ -1,7 +1,7 @@
 scriptencoding utf-8
 set encoding=utf-8
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
-set foldopen=all
+set foldopen+=jump
 let &packpath=&runtimepath
 
 "turn on syntax highlighting
@@ -36,7 +36,7 @@ Plug 'ron89/thesaurus_query.vim'
 
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'Fedora.Y70')
-    Plug 'Valloric/YouCompleteMe'
+    " Plug 'Valloric/YouCompleteMe'
 endif
 call plug#end()
 

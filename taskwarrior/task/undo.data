@@ -3140,3 +3140,54 @@ time 1565020256
 old [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1558103202" project:"mmeds.datasets" start:"1558103202" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
 new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1565020256" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
 ---
+time 1565022859
+old [description:"Implement queue of mongo documents for all processes started by the server" entry:"1557497968" modified:"1563200308" priority:"L" project:"mmeds.server" start:"1563200308" status:"pending" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+new [description:"Implement queue of mongo documents for all processes started by the server" end:"1565022859" entry:"1557497968" modified:"1565022859" priority:"L" project:"mmeds.server" status:"completed" tags:"work,server,mongo" uuid:"eec9743f-2177-4455-9672-314df084f5a2"]
+---
+time 1565022978
+old [description:"Add guide for lab members to wiki\/drive" entry:"1551709501" modified:"1554989555" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"d1c38aab-46f6-435e-a4d6-9cbce1280865"]
+new [description:"Add guide for lab members to wiki\/drive" end:"1565022978" entry:"1551709501" modified:"1565022978" project:"mmeds.documentation" status:"completed" tags:"work" uuid:"d1c38aab-46f6-435e-a4d6-9cbce1280865"]
+---
+time 1565022993
+old [description:"setup compatability for multiple qiime2 versions parameter changed for export and import" entry:"1551879255" modified:"1555069481" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"03cae83e-b059-48d2-933d-fbb0ed1abbeb"]
+new [description:"setup compatability for multiple qiime2 versions parameter changed for export and import" end:"1565022992" entry:"1551879255" modified:"1565022993" project:"mmeds.analysis" status:"deleted" tags:"work" uuid:"03cae83e-b059-48d2-933d-fbb0ed1abbeb"]
+---
+time 1565023059
+old [description:"try checkpointing with mmeds scripts" entry:"1550258360" modified:"1556286065" project:"BeA3" status:"pending" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+new [description:"try checkpointing with mmeds scripts" end:"1565023058" entry:"1550258360" modified:"1565023059" project:"BeA3" status:"deleted" tags:"work" uuid:"1ae3a9ed-083b-40bc-a6fe-9d0a3bcebba3"]
+---
+time 1565023134
+old [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+new [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+---
+time 1565023134
+old [description:"check for RawDataID as NA" entry:"1553174491" modified:"1555429646" project:"mmeds.validation" status:"pending" tags:"work" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+new [description:"check for RawDataID as NA" entry:"1553174491" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+---
+time 1565023134
+old [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1555006256" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+new [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+---
+time 1565023134
+old [description:"Automatically replace underscores with camel case" entry:"1555419190" modified:"1555419190" project:"mmeds.validation" status:"pending" tags:"work" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+new [description:"Automatically replace underscores with camel case" entry:"1555419190" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+---
+time 1565023134
+old [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1563286764" project:"mmeds.validation" status:"pending" tags:"work" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+new [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+---
+time 1565023257
+old [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" entry:"1562850126" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+new [description:"Add . to the list of banned characters in headers. Mark as warning and provide automatic subtitution into camelcase" end:"1565023257" entry:"1562850126" modified:"1565023257" project:"mmeds.validation" status:"completed" tags:"work,next" uuid:"f4d3b5d2-5cc8-4157-8b31-fdb64a699a2c"]
+---
+time 1565189113
+old [description:"check for RawDataID as NA" entry:"1553174491" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+new [description:"check for RawDataID as NA" end:"1565189113" entry:"1553174491" modified:"1565189113" project:"mmeds.validation" status:"completed" tags:"work,next" uuid:"1dbe6b79-597f-4a02-8004-f71ea9b95648"]
+---
+time 1565192537
+old [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Use mongo documents to track and queue uploading metadata" entry:"1557418072" modified:"1557837839" project:"mmeds" status:"pending" tags:"work,upload,server" uuid:"e542a1f9-e5f5-49d6-8f73-509cb9f95b9b"]
+new [depends:"eec9743f-2177-4455-9672-314df084f5a2" description:"Use mongo documents to track and queue uploading metadata" end:"1565192537" entry:"1557418072" modified:"1565192537" project:"mmeds" status:"completed" tags:"work,upload,server" uuid:"e542a1f9-e5f5-49d6-8f73-509cb9f95b9b"]
+---
+time 1565354551
+new [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565354551" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+---
