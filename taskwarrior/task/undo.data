@@ -3195,3 +3195,21 @@ time 1565364769
 old [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565354551" project:"mmeds.analysis" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 new [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565364769" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 ---
+time 1566913256
+new [description:"Finish meconium converter" entry:"1566913256" modified:"1566913256" project:"mmeds.utils" status:"pending" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+---
+time 1566913283
+new [description:"Update and test the sql query functionality from the server." entry:"1566913283" modified:"1566913283" project:"mmeds.database" status:"pending" tags:"server,work" uuid:"affd5785-c6c7-420b-bcff-f62d127a335e"]
+---
+time 1566913288
+old [description:"Finish meconium converter" entry:"1566913256" modified:"1566913256" project:"mmeds.utils" status:"pending" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+new [description:"Finish meconium converter" entry:"1566913256" modified:"1566913288" project:"mmeds.utils" start:"1566913288" status:"pending" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+---
+time 1566913328
+old [description:"Update the Qiime2 analysis to be able to train a classifier" due:"1567310400" entry:"1565354551" modified:"1565364769" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+new [description:"Update Qiime2 with the larger database" due:"1567310400" entry:"1565354551" modified:"1566913328" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+---
+time 1566913331
+old [description:"Update Qiime2 with the larger database" due:"1567310400" entry:"1565354551" modified:"1566913328" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+new [description:"Update Qiime2 with the larger database" due:"1567310400" end:"1566913331" entry:"1565354551" modified:"1566913331" project:"mmeds.analysis" status:"completed" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
+---
