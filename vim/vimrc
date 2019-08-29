@@ -35,7 +35,7 @@ Plug 'ron89/thesaurus_query.vim'
 
 " Don't load cause Minerva's Vim is super old
 if (hostname() == 'Fedora.Y70')
-    " Plug 'Valloric/YouCompleteMe'
+    Plug 'Valloric/YouCompleteMe'
 endif
 call plug#end()
 
