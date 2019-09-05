@@ -3213,3 +3213,46 @@ time 1566913331
 old [description:"Update Qiime2 with the larger database" due:"1567310400" entry:"1565354551" modified:"1566913328" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 new [description:"Update Qiime2 with the larger database" due:"1567310400" end:"1566913331" entry:"1565354551" modified:"1566913331" project:"mmeds.analysis" status:"completed" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 ---
+time 1567172865
+old [description:"Finish meconium converter" entry:"1566913256" modified:"1566913288" project:"mmeds.utils" start:"1566913288" status:"pending" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+new [description:"Finish meconium converter" end:"1567172865" entry:"1566913256" modified:"1567172865" project:"mmeds.utils" status:"completed" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+---
+time 1567692732
+old [description:"Automatically replace underscores with camel case" entry:"1555419190" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+new [description:"Automatically replace underscores with camel case" end:"1567692732" entry:"1555419190" modified:"1567692732" project:"mmeds.validation" status:"completed" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+---
+time 1567692744
+old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1562164435" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" entry:"1557418197" modified:"1567692744" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+---
+time 1567692769
+old [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+new [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1567692769" project:"mmeds.validation" status:"pending" tags:"work" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+---
+time 1567692769
+old [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+new [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1567692769" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+---
+time 1567692769
+old [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1557838608" project:"blog" status:"pending" tags:"postidea,todo,next" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1567692769" project:"blog" status:"pending" tags:"postidea,todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+---
+time 1567692769
+old [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1565020256" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1567692769" project:"mmeds.datasets" status:"pending" tags:"analysis,work" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+---
+time 1567692928
+new [description:"Create seperate templates for subject and specimen metadata" entry:"1567692928" modified:"1567692928" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"bef22d9f-2c48-4a42-bc0a-01037e9fc094"]
+---
+time 1567692946
+new [description:"Create seperate validation functions for subject and specimen metadata" entry:"1567692946" modified:"1567692946" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
+---
+time 1567693050
+new [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" entry:"1567693050" modified:"1567693050" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+---
+time 1567693079
+new [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" entry:"1567693079" modified:"1567693079" priority:"H" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
+---
+time 1567693159
+new [description:"Begin meta analysis of issues encountered in processing study metadata" entry:"1567693159" modified:"1567693159" priority:"M" project:"mmeds.analysis" status:"pending" tags:"work,metadata" uuid:"81d6c4df-745e-4299-9383-3020a1ec38b2"]
+---
