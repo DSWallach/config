@@ -2,12 +2,20 @@
 export name=".sel"
 export XDG_CONFIG_HOME=$HOME/.config
 
+# Setup mongodb repo
+sudo printf "[Mongodb]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/4.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc" &> /etc/yum.repos.d/mongodb.repo
+
 # Install necessary packages
 #if [ $0 = "full" ]; then
 	#if [ $(hostname) != "node2-3@minerva.hpc.mssm.edu" ]; then
 		sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y;
 		#sudo dnf upgrade -y;
-		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior fzf -y;
+		sudo dnf install cmake gcc-c++ make python3-devel zsh vim neovim tmux util-linux-user taskwarrior fzf mongodb-org mariadb mariadb-server -y;
 	#else
 	#	module use /hpc/packages/minerva-common/modulefiles;
 	#fi
