@@ -27,6 +27,7 @@ ln -sf $HOME/$name/vim/flake8 $HOME/.flake8
 ln -sf $HOME/$name/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/$name/tmux/tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/$name/git/gitconfig $HOME/.gitconfig
+ln -sf $HOME/$name/conda/condarc $HOME/.condarc
 ln -sf $HOME/$name/taskwarrior/task $HOME/.task
 ln -sf $HOME/$name/taskwarrior/taskrc $HOME/.taskrc
 
