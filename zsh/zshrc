@@ -1,10 +1,11 @@
-# Setup prezto
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 source "${HOME}/.sel/zsh/antigen.zsh"
 
 # Modules
 antigen use prezto
 antigen apply
+
+# Setup prezto
+#source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 # Custom alias's
 alias userpath='sudo env "PATH=$PATH"'

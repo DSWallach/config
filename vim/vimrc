@@ -32,11 +32,11 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'rhysd/vim-grammarous'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'ron89/thesaurus_query.vim'
+Plug 'Valloric/YouCompleteMe'
 
 " Don't load cause Minerva's Vim is super old
-if (hostname() == 'Fedora.Y70')
-    Plug 'Valloric/YouCompleteMe'
-endif
+"if (hostname() == 'Fedora.Y70' || hostname() == 'Fedora.Ryzen7')
+"endif
 call plug#end()
 
 
