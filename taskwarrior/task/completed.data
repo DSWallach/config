@@ -1,3 +1,5 @@
+[description:"Create seperate templates for subject and specimen metadata" end:"1568125709" entry:"1567692928" modified:"1568125709" project:"mmeds.validation" status:"completed" tags:"next,work,metadata" uuid:"bef22d9f-2c48-4a42-bc0a-01037e9fc094"]
+[description:"Create seperate validation functions for subject and specimen metadata" end:"1568125709" entry:"1567692946" modified:"1568125709" project:"mmeds.validation" status:"completed" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
 [description:"Automatically replace underscores with camel case" end:"1567692732" entry:"1555419190" modified:"1567692732" project:"mmeds.validation" status:"completed" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
 [description:"Finish meconium converter" end:"1567172865" entry:"1566913256" modified:"1567172865" project:"mmeds.utils" status:"completed" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
 [description:"Update Qiime2 with the larger database" due:"1567310400" end:"1566913331" entry:"1565354551" modified:"1566913331" project:"mmeds.analysis" status:"completed" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
