@@ -3267,3 +3267,7 @@ time 1568125709
 old [description:"Create seperate validation functions for subject and specimen metadata" entry:"1567692946" modified:"1567692946" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
 new [description:"Create seperate validation functions for subject and specimen metadata" end:"1568125709" entry:"1567692946" modified:"1568125709" project:"mmeds.validation" status:"completed" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
 ---
+time 1568814091
+old [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" entry:"1567693050" modified:"1567693050" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+new [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" end:"1568814091" entry:"1567693050" modified:"1568814091" project:"mmeds.validation" status:"completed" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+---

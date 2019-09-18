@@ -121,7 +121,6 @@ if [[ $(hostname) == "Fedora.Y70" || $(hostname) == "david-yoga.linux" ]]; then
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
     export CONDA_DIR=/home/david/.modules/
-    echo "Using Fedora config"
     export PATH=/home/david/anaconda3/bin/:$PATH
 elif [[ $(hostname) == 'node2-3' ]]; then
     module load Firefox
