@@ -12,6 +12,7 @@ syntax on
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader=","
+let @+=@"
 
 " Easy Motion default
 map <Leader> <Plug>(easymotion-prefix)
@@ -51,6 +52,7 @@ nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+vnoremap <silent> <c-y> "+y
 
 " SETtings
 set ttimeout

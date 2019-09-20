@@ -3275,3 +3275,19 @@ time 1568903182
 old [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" entry:"1567693079" modified:"1567693079" priority:"H" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
 new [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" end:"1568903182" entry:"1567693079" modified:"1568903182" priority:"H" project:"mmeds.validation" status:"completed" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
 ---
+time 1568907556
+old [description:"add tests for uploading metadata missing values" entry:"1551799988" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+new [description:"add tests for uploading metadata missing values" end:"1568907556" entry:"1551799988" modified:"1568907556" project:"mmeds.testing" status:"completed" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+---
+time 1568907599
+old [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+new [description:"look into backup\/restore git type functionality for sql and mongo" end:"1568907597" entry:"1546972903" modified:"1568907599" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+---
+time 1568907599
+old [description:"add check for study name to mmeds" entry:"1548172210" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+new [description:"add check for study name to mmeds" end:"1568907599" entry:"1548172210" modified:"1568907599" project:"mmeds.testing" status:"completed" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+---
+time 1568907599
+old [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1557319176" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+new [description:"ensure no . or $ in mongo files keys" end:"1568907599" entry:"1550753256" modified:"1568907599" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
