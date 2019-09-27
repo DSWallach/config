@@ -111,6 +111,14 @@ export name='.sel'
 export SEL="${HOME}/${name}"
 export PATH="${HOME}/${name}/scripts:$PATH"
 
+if [[ $(hostname) == "Fedora.Y70" ]]; then
+    # alias tmux='tmux new-session "tmux source-file ~/.sel/tmux/session1"'
+    #alias tmux="tmux new-session \; \
+    #    split-window -h -p 50 \; \
+    #    split-window -h -p 50 \; \
+    #    select-pane -t 1 \; \
+    #        split-window -h 50 \;"
+fi
 
 # Custom params for different locations
 if [[ $(hostname) == "Fedora.Y70" || $(hostname) == "david-yoga.linux" ]]; then
