@@ -62,6 +62,7 @@ alias gst='git status'
 
 # Steam
 alias cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 optirun /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
+alias steam='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 optirun steam'
 
 # Makes git auto completion faster favouring for local completions
 __git_files () {
