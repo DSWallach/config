@@ -12,6 +12,7 @@ syntax on
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader=","
+let @+=@"
 
 " Easy Motion default
 map <Leader> <Plug>(easymotion-prefix)
@@ -32,11 +33,11 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'rhysd/vim-grammarous'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'ron89/thesaurus_query.vim'
+Plug 'Valloric/YouCompleteMe'
 
 " Don't load cause Minerva's Vim is super old
-if (hostname() == 'Fedora.Y70')
-    Plug 'Valloric/YouCompleteMe'
-endif
+"if (hostname() == 'Fedora.Y70' || hostname() == 'Fedora.Ryzen7')
+"endif
 call plug#end()
 
 
@@ -51,6 +52,7 @@ nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+vnoremap <silent> <c-y> "+y
 
 " SETtings
 set ttimeout
@@ -187,4 +189,3 @@ if has('nvim')
   " Unicode symbols work fine (nvim, iterm, tmux, nyovim tested)
   let g:pudb_breakpoint_symbol='☠'
 endif
-

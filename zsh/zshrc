@@ -133,7 +133,7 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
     export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
-    export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/modules/'
+    export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/.modules/'
     # '/hpc/packages/minerva-common/anaconda2/'
 
 

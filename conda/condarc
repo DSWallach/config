@@ -1,0 +1,3 @@
+envs_dirs:
+    - ~/.modules
+    - ~/anaconda3/envs

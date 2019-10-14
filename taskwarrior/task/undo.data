@@ -3213,3 +3213,125 @@ time 1566913331
 old [description:"Update Qiime2 with the larger database" due:"1567310400" entry:"1565354551" modified:"1566913328" project:"mmeds.analysis" start:"1565364769" status:"pending" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 new [description:"Update Qiime2 with the larger database" due:"1567310400" end:"1566913331" entry:"1565354551" modified:"1566913331" project:"mmeds.analysis" status:"completed" tags:"work,next" uuid:"65deb07b-2915-4a23-b5c3-edbfa48f8c4e"]
 ---
+time 1567172865
+old [description:"Finish meconium converter" entry:"1566913256" modified:"1566913288" project:"mmeds.utils" start:"1566913288" status:"pending" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+new [description:"Finish meconium converter" end:"1567172865" entry:"1566913256" modified:"1567172865" project:"mmeds.utils" status:"completed" tags:"work,next" uuid:"967dde23-bb0c-47e0-945f-602b1a6062d9"]
+---
+time 1567692732
+old [description:"Automatically replace underscores with camel case" entry:"1555419190" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+new [description:"Automatically replace underscores with camel case" end:"1567692732" entry:"1555419190" modified:"1567692732" project:"mmeds.validation" status:"completed" tags:"work,next" uuid:"bd3cec87-a5cb-476d-9fca-b8ea55ba31ae"]
+---
+time 1567692744
+old [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" due:"1559361600" entry:"1557418197" modified:"1562164435" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+new [depends:"4487a574-9dc4-4e6b-9a23-9b2e0dc0d19a" description:"Setup server to restart all jobs that were unfinished when it shut down" entry:"1557418197" modified:"1567692744" project:"mmeds.database" status:"pending" tags:"work,database,server,mongo" uuid:"c33c134d-f9e1-45f1-a57a-259ea77c414a"]
+---
+time 1567692769
+old [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+new [description:"Add checks for NCD, UBERON, and py" entry:"1551973479" modified:"1567692769" project:"mmeds.validation" status:"pending" tags:"work" uuid:"0e671c45-d24e-4a4e-92be-0939bfd2e9a4"]
+---
+time 1567692769
+old [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1565023134" project:"mmeds.validation" status:"pending" tags:"work,next" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+new [description:"add check incase data is in nested dir in zip" entry:"1555006256" modified:"1567692769" project:"mmeds.validation" status:"pending" tags:"work" uuid:"ebe69f0c-9ce6-4b66-b47c-21433864d3fe"]
+---
+time 1567692769
+old [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1557838608" project:"blog" status:"pending" tags:"postidea,todo,next" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+new [description:"When to refactor code in a small project (when it's going to be expanded later)" entry:"1555350169" modified:"1567692769" project:"blog" status:"pending" tags:"postidea,todo" uuid:"8394ab5d-99f0-465b-9b41-96a65eb2d01c"]
+---
+time 1567692769
+old [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1565020256" project:"mmeds.datasets" status:"pending" tags:"analysis,work,next" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+new [description:"Run analysis on AG data with MMEDS" entry:"1557934386" modified:"1567692769" project:"mmeds.datasets" status:"pending" tags:"analysis,work" uuid:"489ee166-15da-4709-aa0b-a3706080c24f"]
+---
+time 1567692928
+new [description:"Create seperate templates for subject and specimen metadata" entry:"1567692928" modified:"1567692928" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"bef22d9f-2c48-4a42-bc0a-01037e9fc094"]
+---
+time 1567692946
+new [description:"Create seperate validation functions for subject and specimen metadata" entry:"1567692946" modified:"1567692946" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
+---
+time 1567693050
+new [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" entry:"1567693050" modified:"1567693050" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+---
+time 1567693079
+new [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" entry:"1567693079" modified:"1567693079" priority:"H" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
+---
+time 1567693159
+new [description:"Begin meta analysis of issues encountered in processing study metadata" entry:"1567693159" modified:"1567693159" priority:"M" project:"mmeds.analysis" status:"pending" tags:"work,metadata" uuid:"81d6c4df-745e-4299-9383-3020a1ec38b2"]
+---
+time 1567770980
+new [description:"Update error page to reflect issues in each file" entry:"1567770980" modified:"1567770980" priority:"M" project:"mmeds.analysis" status:"pending" tags:"work,metadata" uuid:"129851a2-64a5-43a1-bc2b-f7533ccd6df2"]
+---
+time 1568125709
+old [description:"Create seperate templates for subject and specimen metadata" entry:"1567692928" modified:"1567692928" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"bef22d9f-2c48-4a42-bc0a-01037e9fc094"]
+new [description:"Create seperate templates for subject and specimen metadata" end:"1568125709" entry:"1567692928" modified:"1568125709" project:"mmeds.validation" status:"completed" tags:"next,work,metadata" uuid:"bef22d9f-2c48-4a42-bc0a-01037e9fc094"]
+---
+time 1568125709
+old [description:"Create seperate validation functions for subject and specimen metadata" entry:"1567692946" modified:"1567692946" project:"mmeds.validation" status:"pending" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
+new [description:"Create seperate validation functions for subject and specimen metadata" end:"1568125709" entry:"1567692946" modified:"1568125709" project:"mmeds.validation" status:"completed" tags:"next,work,metadata" uuid:"60390cb2-7098-483a-ba58-cb40c440828c"]
+---
+time 1568814091
+old [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" entry:"1567693050" modified:"1567693050" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+new [description:"Update server to allow seperate upload of metadata files for subject and specimen metadata" end:"1568814091" entry:"1567693050" modified:"1568814091" project:"mmeds.validation" status:"completed" tags:"work,metadata" uuid:"9e0534a6-56c5-428b-88b9-0b64866ace73"]
+---
+time 1568903182
+old [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" entry:"1567693079" modified:"1567693079" priority:"H" project:"mmeds.validation" status:"pending" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
+new [depends:"bef22d9f-2c48-4a42-bc0a-01037e9fc094,60390cb2-7098-483a-ba58-cb40c440828c,9e0534a6-56c5-428b-88b9-0b64866ace73" description:"Seperate subject and speciment metadata" end:"1568903182" entry:"1567693079" modified:"1568903182" priority:"H" project:"mmeds.validation" status:"completed" tags:"work,metadata" uuid:"d6ad4ba5-2b38-4d58-9da5-b2667d1ebbb6"]
+---
+time 1568907556
+old [description:"add tests for uploading metadata missing values" entry:"1551799988" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+new [description:"add tests for uploading metadata missing values" end:"1568907556" entry:"1551799988" modified:"1568907556" project:"mmeds.testing" status:"completed" tags:"work" uuid:"08f3749e-14d9-43e5-b70f-de936cc40287"]
+---
+time 1568907599
+old [description:"look into backup\/restore git type functionality for sql and mongo" entry:"1546972903" modified:"1552388525" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+new [description:"look into backup\/restore git type functionality for sql and mongo" end:"1568907597" entry:"1546972903" modified:"1568907599" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"4d0a478b-a141-49e4-bd88-8fb170c95385"]
+---
+time 1568907599
+old [description:"add check for study name to mmeds" entry:"1548172210" modified:"1552388707" project:"mmeds.testing" status:"pending" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+new [description:"add check for study name to mmeds" end:"1568907599" entry:"1548172210" modified:"1568907599" project:"mmeds.testing" status:"completed" tags:"work" uuid:"1a3d11b9-0835-4fdc-9345-fbab1f2c03da"]
+---
+time 1568907599
+old [description:"ensure no . or $ in mongo files keys" entry:"1550753256" modified:"1557319176" project:"mmeds.enhancements" status:"pending" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+new [description:"ensure no . or $ in mongo files keys" end:"1568907599" entry:"1550753256" modified:"1568907599" project:"mmeds.enhancements" status:"completed" tags:"work" uuid:"5a063c80-fe55-4447-a199-c7a13bd93ba1"]
+---
+time 1570817209
+old [description:"Catch errors when a metadata object exists but the dir it points to does not" entry:"1557140172" modified:"1560523345" project:"mmeds.database" status:"pending" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+new [description:"Catch errors when a metadata object exists but the dir it points to does not" end:"1570817209" entry:"1557140172" modified:"1570817209" project:"mmeds.database" status:"completed" tags:"database,work,analysis,error" uuid:"903525dd-22d7-4582-8458-83acf0871d8d"]
+---
+time 1570817222
+old [description:"Queue multiple uploads of metadata" entry:"1555594709" modified:"1555594709" project:"mmeds.database" status:"pending" tags:"work" uuid:"e3082a31-57c5-47d4-89e2-ac80831cf91b"]
+new [description:"Queue multiple uploads of metadata" end:"1570817222" entry:"1555594709" modified:"1570817222" project:"mmeds.database" status:"completed" tags:"work" uuid:"e3082a31-57c5-47d4-89e2-ac80831cf91b"]
+---
+time 1570817323
+old [description:"Add standards for additional column names to guide" entry:"1554391962" modified:"1555429789" project:"mmeds.documentation" status:"pending" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
+new [description:"Add standards for additional column names to guide" end:"1570817321" entry:"1554391962" modified:"1570817323" project:"mmeds.documentation" status:"completed" tags:"work" uuid:"fef623cb-be8e-4d5b-bac4-05da26075bd9"]
+---
+time 1570817323
+old [description:"Resolve issues with uploading large metadata files" entry:"1554905717" modified:"1554905717" project:"mmeds.server" status:"pending" tags:"work" uuid:"5c9155b2-b285-441a-a033-7ef63e676ceb"]
+new [description:"Resolve issues with uploading large metadata files" end:"1570817323" entry:"1554905717" modified:"1570817323" project:"mmeds.server" status:"completed" tags:"work" uuid:"5c9155b2-b285-441a-a033-7ef63e676ceb"]
+---
+time 1570817323
+old [description:"Add better filenames\/titles to the summary documents" entry:"1558354806" modified:"1558354806" project:"mmeds.summary" status:"pending" tags:"work,summary" uuid:"a1ccdc2d-57aa-4781-bb14-fe143d270d07"]
+new [description:"Add better filenames\/titles to the summary documents" end:"1570817323" entry:"1558354806" modified:"1570817323" project:"mmeds.summary" status:"completed" tags:"work,summary" uuid:"a1ccdc2d-57aa-4781-bb14-fe143d270d07"]
+---
+time 1570817323
+old [description:"Handle situation if Barcodes are wrong type for check_lengths" entry:"1562156967" modified:"1562156967" project:"mmeds.validation" status:"pending" tags:"bugfix" uuid:"081e7a2f-f718-4e2d-b623-0695cfb35672"]
+new [description:"Handle situation if Barcodes are wrong type for check_lengths" end:"1570817323" entry:"1562156967" modified:"1570817323" project:"mmeds.validation" status:"completed" tags:"bugfix" uuid:"081e7a2f-f718-4e2d-b623-0695cfb35672"]
+---
+time 1570817323
+old [description:"Create guide for downloading data\/metadata from mmeds server" entry:"1562164307" modified:"1562164307" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"87d88496-ffa2-48cc-ae7e-bef7d30b9b13"]
+new [description:"Create guide for downloading data\/metadata from mmeds server" end:"1570817323" entry:"1562164307" modified:"1570817323" project:"mmeds.server" status:"completed" tags:"access,server,accounts" uuid:"87d88496-ffa2-48cc-ae7e-bef7d30b9b13"]
+---
+time 1570817323
+old [description:"LIst of all studies and IDs\/access codes for those studies" entry:"1562164333" modified:"1562164333" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"90b74219-9fb7-4e6f-a42a-52b726dd1300"]
+new [description:"LIst of all studies and IDs\/access codes for those studies" end:"1570817323" entry:"1562164333" modified:"1570817323" project:"mmeds.server" status:"completed" tags:"access,server,accounts" uuid:"90b74219-9fb7-4e6f-a42a-52b726dd1300"]
+---
+time 1570817323
+old [description:"Update interface for easier clearer downloading of particular files" entry:"1562164360" modified:"1562164360" project:"mmeds.server" status:"pending" tags:"access,server,accounts" uuid:"415b23f0-4063-40f2-b5b7-5b1331ca4a92"]
+new [description:"Update interface for easier clearer downloading of particular files" end:"1570817323" entry:"1562164360" modified:"1570817323" project:"mmeds.server" status:"completed" tags:"access,server,accounts" uuid:"415b23f0-4063-40f2-b5b7-5b1331ca4a92"]
+---
+time 1570817323
+old [description:"Add checks for non-ascii characters in the metadata" entry:"1562682925" modified:"1562682925" project:"mmeds.validation" status:"pending" tags:"metadata,validation" uuid:"2a0cc1f8-865b-42e6-b22d-1678ecf62b17"]
+new [description:"Add checks for non-ascii characters in the metadata" end:"1570817323" entry:"1562682925" modified:"1570817323" project:"mmeds.validation" status:"completed" tags:"metadata,validation" uuid:"2a0cc1f8-865b-42e6-b22d-1678ecf62b17"]
+---
+time 1570817323
+old [description:"Update and test the sql query functionality from the server." entry:"1566913283" modified:"1566913283" project:"mmeds.database" status:"pending" tags:"server,work" uuid:"affd5785-c6c7-420b-bcff-f62d127a335e"]
+new [description:"Update and test the sql query functionality from the server." end:"1570817323" entry:"1566913283" modified:"1570817323" project:"mmeds.database" status:"completed" tags:"server,work" uuid:"affd5785-c6c7-420b-bcff-f62d127a335e"]
+---
