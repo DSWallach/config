@@ -133,6 +133,7 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
     export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
+    export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/modules/'
     # '/hpc/packages/minerva-common/anaconda2/'
 
 
@@ -148,22 +149,22 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
     # source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh  # commented out by conda initialize
 
-fi
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup=$("${CONDA_DIR}/bin/conda" 'shell.zsh' 'hook' 2> /dev/null)
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "{$CONDA_DIR}/etc/profile.d/conda.sh" ]; then
-        echo 'if'
-       . "${CONDA_DIR}/etc/profile.d/conda.sh"  # commented out by conda initialize
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+    
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/sc/orga/projects/MMEDS/anaconda3/bin' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
     else
-        export PATH="${CONDA_DIR}/bin:$PATH"
+        if [ -f "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
+            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"
+        else
+            export PATH="/sc/orga/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
+        fi
     fi
+    unset __conda_setup
+    # <<< conda initialize <<<
+    # . /sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh  # commented out by conda initialize
+
 fi
-unset __conda_setup
-# <<< conda initialize <<<
