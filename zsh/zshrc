@@ -1,11 +1,10 @@
+# Setup prezto
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 source "${HOME}/.sel/zsh/antigen.zsh"
 
 # Modules
 antigen use prezto
 antigen apply
-
-# Setup prezto
-#source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 # Custom alias's
 alias userpath='sudo env "PATH=$PATH"'
@@ -21,8 +20,8 @@ alias wemacs='env TERM=xterm-256color emacs -nw'
 alias srcocc='source /usr/local/bin/kroc-setup.sh'
 alias ssv='ssh dawallach@mote.cs.vassar.edu'
 alias swap='xmodmap ~/Documents/.xmodmap'
-alias ssm='ssh wallad07@login2.hpc.mssm.edu'
-alias ssx='ssh -XY wallad07@login2.hpc.mssm.edu'
+alias ssm='ssh wallad07@minerva2.hpc.mssm.edu'
+alias ssx='ssh -XY wallad07@minerva2.hpc.mssm.edu'
 alias ssc='ssh -XY wallad07@chimera.hpc.mssm.edu'
 alias check='grep "egg" -R *; grep "pyc" -R *'
 alias cleane='rm -rf build; rm -rf dist; rm -rf ensemble.egg-info; rm ensemble/*.pyc;'
@@ -116,12 +115,11 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 if [[ $(hostname) != "node2-3" ]]; then
     xset r rate 250 45
     # Vim
-    alias vi='gvim -v'
+    alias vi='vim'
     alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
-    export CONDA_DIR=/home/david/.modules/
-    export PATH=/home/david/anaconda3/bin/:$PATH
+    export CONDA_DIR=/home/david/anaconda3/
 elif [[ $(hostname) == 'node2-3' ]]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
@@ -135,6 +133,7 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
     export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
+    export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/.modules/'
     # '/hpc/packages/minerva-common/anaconda2/'
 
 
@@ -146,26 +145,26 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     alias duh='du -sh'
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
     alias tommeds="cd $MMEDS"
-    alias vi='nvim'
+    alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
     # source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh  # commented out by conda initialize
 
-fi
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/david/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/david/anaconda3/etc/profile.d/conda.sh"
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+    
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/sc/orga/projects/MMEDS/anaconda3/bin' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
     else
-        export PATH="/home/david/anaconda3/bin:$PATH"
+        if [ -f "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
+            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"
+        else
+            export PATH="/sc/orga/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
+        fi
     fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+    unset __conda_setup
+    # <<< conda initialize <<<
+    # . /sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
+fi
