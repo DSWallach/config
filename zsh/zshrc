@@ -113,7 +113,7 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
-if [[ $(hostname) == "Fedora.Y70" || $(hostname) == "david-yoga.linux" ]]; then
+if [[ $(hostname) != "node2-3" ]]; then
     xset r rate 250 45
     # Vim
     alias vi='gvim -v'

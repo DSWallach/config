@@ -12,7 +12,6 @@ syntax on
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader=","
-let @+=@"
 
 " Easy Motion default
 map <Leader> <Plug>(easymotion-prefix)
