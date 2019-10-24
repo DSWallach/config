@@ -120,6 +120,20 @@ if [[ $(hostname) != "node2-3" ]]; then
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
     export CONDA_DIR=/home/david/anaconda3/
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/home/david/anaconda3/bin' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
+            . "/home/david/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+        else
+            export PATH="/home/david/anaconda3/4.3.0/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+    # <<< conda initialize <<<
 elif [[ $(hostname) == 'node2-3' ]]; then
     module load Firefox
     module use /hpc/packages/minerva-common/modulefiles
@@ -147,7 +161,6 @@ elif [[ $(hostname) == 'node2-3' ]]; then
     alias tommeds="cd $MMEDS"
     alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
-    # source /hpc/packages/minerva-common/anaconda2/4.3.0/etc/profile.d/conda.sh  # commented out by conda initialize
 
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
     
@@ -158,13 +171,11 @@ elif [[ $(hostname) == 'node2-3' ]]; then
         eval "$__conda_setup"
     else
         if [ -f "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"
+            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         else
             export PATH="/sc/orga/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
         fi
     fi
     unset __conda_setup
     # <<< conda initialize <<<
-    # . /sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh  # commented out by conda initialize
-
 fi
