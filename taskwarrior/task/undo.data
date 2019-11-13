@@ -3335,3 +3335,15 @@ time 1570817323
 old [description:"Update and test the sql query functionality from the server." entry:"1566913283" modified:"1566913283" project:"mmeds.database" status:"pending" tags:"server,work" uuid:"affd5785-c6c7-420b-bcff-f62d127a335e"]
 new [description:"Update and test the sql query functionality from the server." end:"1570817323" entry:"1566913283" modified:"1570817323" project:"mmeds.database" status:"completed" tags:"server,work" uuid:"affd5785-c6c7-420b-bcff-f62d127a335e"]
 ---
+time 1572272511
+old [description:"add unique codes to the subjects of server testing emails" entry:"1554824945" modified:"1554824945" project:"mmeds.testing" status:"pending" tags:"work" uuid:"118df5cf-a8f0-4185-8c2d-b44262c738f8"]
+new [description:"add unique codes to the subjects of server testing emails" end:"1572272510" entry:"1554824945" modified:"1572272511" project:"mmeds.testing" status:"deleted" tags:"work" uuid:"118df5cf-a8f0-4185-8c2d-b44262c738f8"]
+---
+time 1572272531
+old [description:"Fix restarting analysis when jobfile spawns other processes" entry:"1558114873" modified:"1558114873" project:"mmeds.analysis" status:"pending" tags:"work,todo" uuid:"3f13e62b-1e46-4ffb-8461-0813ad9a2606"]
+new [description:"Fix restarting analysis when jobfile spawns other processes" end:"1572272528" entry:"1558114873" modified:"1572272531" project:"mmeds.analysis" status:"deleted" tags:"work,todo" uuid:"3f13e62b-1e46-4ffb-8461-0813ad9a2606"]
+---
+time 1572272600
+old [description:"update summarize.py to be truely system\/location agnostic" entry:"1553705429" modified:"1555069483" project:"mmeds.analysis" status:"pending" tags:"work" uuid:"90154692-e8e6-4aad-8841-8036409ba3c9"]
+new [description:"update summarize.py to be truely system\/location agnostic" end:"1572272600" entry:"1553705429" modified:"1572272600" project:"mmeds.analysis" status:"completed" tags:"work" uuid:"90154692-e8e6-4aad-8841-8036409ba3c9"]
+---

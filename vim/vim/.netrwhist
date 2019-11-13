@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/david/Work/labtools/scripts'
 let g:netrw_dirhist_8='/home/david/.modules/modulefiles/qiime2'
 let g:netrw_dirhist_7='/home/david/.modules/modulefiles'
 let g:netrw_dirhist_6='/home/david/.vim'

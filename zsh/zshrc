@@ -21,7 +21,7 @@ alias srcocc='source /usr/local/bin/kroc-setup.sh'
 alias ssv='ssh dawallach@mote.cs.vassar.edu'
 alias swap='xmodmap ~/Documents/.xmodmap'
 alias ssm='ssh wallad07@data4.hpc.mssm.edu'
-alias ssx='ssh -XY wallad07@data4.hpc.mssm.edu'
+alias ssx='ssh -XY wallad07@minerva2.hpc.mssm.edu'
 alias ssc='ssh -XY wallad07@chimera.hpc.mssm.edu'
 alias check='grep "egg" -R *; grep "pyc" -R *'
 alias cleane='rm -rf build; rm -rf dist; rm -rf ensemble.egg-info; rm ensemble/*.pyc;'
@@ -137,7 +137,7 @@ if [[ $(hostname) == 'node2-3' ]] then
     alias duh='du -sh'
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
     alias tommeds="cd $MMEDS"
-    alias vi='vim'
+    alias vi='gvim -g'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
 
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
