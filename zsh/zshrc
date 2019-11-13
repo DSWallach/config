@@ -121,9 +121,6 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     #module load anaconda
     #module load git
 
-    prompt skwp
-
-
     export MMEDS="/sc/orga/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
