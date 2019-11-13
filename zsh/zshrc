@@ -1,4 +1,6 @@
-# Setup prezto
+if [[ $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' ]] then
+    module load git
+fi
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 source "${HOME}/.sel/zsh/antigen.zsh"
 
@@ -112,11 +114,12 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
-if [[ $(hostname) == 'node2-3' ]] then
-    module load Firefox
-    module use /hpc/packages/minerva-common/modulefiles
-    module load tmux
-    module load anaconda
+if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' ]] then
+    #module load Firefox
+    #module use /hpc/packages/minerva-common/modulefiles
+    #module load tmux
+    #module load anaconda
+    #module load git
 
     prompt skwp
 
@@ -149,7 +152,7 @@ if [[ $(hostname) == 'node2-3' ]] then
         eval "$__conda_setup"
     else
         if [ -f "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+            . "/sc/orga/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize
         else
             export PATH="/sc/orga/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
         fi
@@ -171,7 +174,7 @@ else
         eval "$__conda_setup"
     else
         if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "/home/david/anaconda3/etc/profile.d/conda.sh"
+# . "/home/david/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         else
             export PATH="/home/david/anaconda3/4.3.0/bin:$PATH"
         fi
