@@ -1,3 +1,4 @@
 envs_dirs:
-    - ~/.modules
-    - ~/anaconda3/envs
+  - ~/.modules
+  - ~/anaconda3/envs
+restore_free_channel: true
