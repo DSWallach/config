@@ -1,4 +1,4 @@
-if [[ $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' ]] then
+if [[ $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
     module load git
 fi
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -48,7 +48,7 @@ alias pt='pytest --cov=./ -W ignore::DeprecationWarning -W ignore::FutureWarning
 alias pydb='python -m pudb.run'
 
 # Git
-alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -d'
+alias gitcleanup='git fetch -p && git branch -vv | awk '\''/: gone]/{print $1}'\'' | xargs git branch -D'
 alias gcmp='ga; gc -m "Update"; gp'
 alias gpush='cd ~/.sel; gcmp; po;'
 alias gpull='cd ~/.sel; git pull; po;'
@@ -112,7 +112,7 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 
 # Custom params for different locations
-if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' ]] then
+if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
     #module load Firefox
     #module use /hpc/packages/minerva-common/modulefiles
     #module load tmux
