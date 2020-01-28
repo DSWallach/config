@@ -2,3 +2,5 @@
 {"description":"Have meeting with Alba","due":"20200204T050000Z","entry":"20200128T161436Z","modified":"20200128T161436Z","priority":"M","status":"pending","uuid":"f204feb4-e30c-4c72-aa0a-d13c4d882cea"}
 {"description":"Finish mergeing Camilles pull request","due":"20200203T050000Z","entry":"20200128T161652Z","modified":"20200128T161652Z","priority":"M","status":"pending","uuid":"467735fb-1b79-4f24-b5e3-771a6614566f"}
 {"description":"Finish merging my PR","due":"20200203T050000Z","entry":"20200128T161708Z","modified":"20200128T161708Z","priority":"L","status":"pending","uuid":"36d8697e-9878-4d8e-9cd4-866e974358de"}
+{"description":"Review Fungi capability of Qiime","due":"20200130T050000Z","entry":"20200128T163947Z","modified":"20200128T163947Z","priority":"H","status":"pending","uuid":"8d65d5d5-9329-4577-bed1-6c17e4673cf1"}
+{"depends":"8d65d5d5-9329-4577-bed1-6c17e4673cf1","description":"Have meeting with Alba","due":"20200204T050000Z","entry":"20200128T161436Z","modified":"20200128T163958Z","priority":"M","status":"pending","uuid":"f204feb4-e30c-4c72-aa0a-d13c4d882cea"}
