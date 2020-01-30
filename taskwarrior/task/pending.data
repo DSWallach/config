@@ -1,5 +1,3 @@
-[description:"Improve review for MANTA paper" due:"1580360400" entry:"1580227601" modified:"1580227601" priority:"H" status:"pending" uuid:"5c15b3d8-6745-42d4-bc16-38a8e84d48a5"]
 [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" due:"1580792400" entry:"1580228076" modified:"1580229598" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
-[description:"Finish mergeing Camilles pull request" due:"1580706000" entry:"1580228212" modified:"1580228212" priority:"M" status:"pending" uuid:"467735fb-1b79-4f24-b5e3-771a6614566f"]
-[description:"Finish merging my PR" due:"1580706000" entry:"1580228228" modified:"1580228228" priority:"L" status:"pending" uuid:"36d8697e-9878-4d8e-9cd4-866e974358de"]
-[description:"Review Fungi capability of Qiime" due:"1580360400" entry:"1580229587" modified:"1580229587" priority:"H" status:"pending" uuid:"8d65d5d5-9329-4577-bed1-6c17e4673cf1"]
+[description:"Finish merging my PR" due:"1580706000" entry:"1580228228" modified:"1580305707" priority:"L" project:"mmeds" status:"pending" uuid:"36d8697e-9878-4d8e-9cd4-866e974358de"]
+[description:"Address Kathys questions in the user guide" entry:"1580305696" modified:"1580305696" priority:"L" project:"mmeds" status:"pending" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]

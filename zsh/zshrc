@@ -161,6 +161,7 @@ else
     alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
     alias mysql="mysql -u root -c mmeds_data1"
     module use ~/.modules/modulefiles
+    export PYTHONBREAKPOINT="pudb.set_tract"
     export CONDA_DIR=/home/david/anaconda3/
     # >>> conda initialize >>>
     # !! Contents within this block are managed by 'conda init' !!
