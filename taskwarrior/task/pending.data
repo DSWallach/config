@@ -1,3 +1,2 @@
-[depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" due:"1580792400" entry:"1580228076" modified:"1580229598" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
-[description:"Finish merging my PR" due:"1580706000" entry:"1580228228" modified:"1580305707" priority:"L" project:"mmeds" status:"pending" uuid:"36d8697e-9878-4d8e-9cd4-866e974358de"]
+[depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 [description:"Address Kathys questions in the user guide" entry:"1580305696" modified:"1580305696" priority:"L" project:"mmeds" status:"pending" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]

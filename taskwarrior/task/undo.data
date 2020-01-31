@@ -36,3 +36,11 @@ time 1580386456
 old [description:"Review Fungi capability of Qiime" due:"1580360400" entry:"1580229587" modified:"1580229587" priority:"H" status:"pending" uuid:"8d65d5d5-9329-4577-bed1-6c17e4673cf1"]
 new [description:"Review Fungi capability of Qiime" due:"1580360400" end:"1580386456" entry:"1580229587" modified:"1580386456" priority:"H" status:"completed" uuid:"8d65d5d5-9329-4577-bed1-6c17e4673cf1"]
 ---
+time 1580476790
+old [description:"Finish merging my PR" due:"1580706000" entry:"1580228228" modified:"1580305707" priority:"L" project:"mmeds" status:"pending" uuid:"36d8697e-9878-4d8e-9cd4-866e974358de"]
+new [description:"Finish merging my PR" due:"1580706000" end:"1580476790" entry:"1580228228" modified:"1580476790" priority:"L" project:"mmeds" status:"completed" uuid:"36d8697e-9878-4d8e-9cd4-866e974358de"]
+---
+time 1580476813
+old [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" due:"1580792400" entry:"1580228076" modified:"1580229598" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
+new [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
+---
