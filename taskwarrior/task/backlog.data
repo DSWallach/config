@@ -11,3 +11,4 @@
 {"description":"Review Fungi capability of Qiime","due":"20200130T050000Z","end":"20200130T121416Z","entry":"20200128T163947Z","modified":"20200130T121416Z","priority":"H","status":"completed","uuid":"8d65d5d5-9329-4577-bed1-6c17e4673cf1"}
 {"description":"Finish merging my PR","due":"20200203T050000Z","end":"20200131T131950Z","entry":"20200128T161708Z","modified":"20200131T131950Z","priority":"L","project":"mmeds","status":"completed","uuid":"36d8697e-9878-4d8e-9cd4-866e974358de"}
 {"depends":"8d65d5d5-9329-4577-bed1-6c17e4673cf1","description":"Have meeting with Alba","entry":"20200128T161436Z","modified":"20200131T132013Z","priority":"M","status":"pending","uuid":"f204feb4-e30c-4c72-aa0a-d13c4d882cea"}
+{"description":"Email back Brian Hu","due":"20200207T050000Z","entry":"20200206T122827Z","modified":"20200206T122827Z","priority":"H","status":"pending","uuid":"7ee314dc-6911-4050-af94-f0f00d641851"}

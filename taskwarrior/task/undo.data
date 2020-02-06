@@ -44,3 +44,6 @@ time 1580476813
 old [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" due:"1580792400" entry:"1580228076" modified:"1580229598" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 new [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 ---
+time 1580992107
+new [description:"Email back Brian Hu" due:"1581051600" entry:"1580992107" modified:"1580992107" priority:"H" status:"pending" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
+---
