@@ -1,3 +1,3 @@
 [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 [description:"Address Kathys questions in the user guide" entry:"1580305696" modified:"1580305696" priority:"L" project:"mmeds" status:"pending" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
-[description:"Email back Brian Hu" due:"1581051600" entry:"1580992107" modified:"1580992107" priority:"H" status:"pending" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
+[description:"Email back Brian Hu" due:"1581051600" end:"1581006458" entry:"1580992107" modified:"1581006458" priority:"H" status:"completed" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]

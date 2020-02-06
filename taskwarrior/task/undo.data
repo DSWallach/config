@@ -47,3 +47,7 @@ new [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting wi
 time 1580992107
 new [description:"Email back Brian Hu" due:"1581051600" entry:"1580992107" modified:"1580992107" priority:"H" status:"pending" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
 ---
+time 1581006458
+old [description:"Email back Brian Hu" due:"1581051600" entry:"1580992107" modified:"1580992107" priority:"H" status:"pending" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
+new [description:"Email back Brian Hu" due:"1581051600" end:"1581006458" entry:"1580992107" modified:"1581006458" priority:"H" status:"completed" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
+---
