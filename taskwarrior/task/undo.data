@@ -51,3 +51,9 @@ time 1581006458
 old [description:"Email back Brian Hu" due:"1581051600" entry:"1580992107" modified:"1580992107" priority:"H" status:"pending" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
 new [description:"Email back Brian Hu" due:"1581051600" end:"1581006458" entry:"1580992107" modified:"1581006458" priority:"H" status:"completed" uuid:"7ee314dc-6911-4050-af94-f0f00d641851"]
 ---
+time 1581519996
+new [description:"setup wisdom teeth pull Priority:H" due:"1581570000" entry:"1581519996" modified:"1581519996" status:"pending" uuid:"44a3715b-52d9-4a1f-b835-506720a55b1c"]
+---
+time 1581520030
+new [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581520030" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
+---
