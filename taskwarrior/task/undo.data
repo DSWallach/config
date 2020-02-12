@@ -57,3 +57,9 @@ new [description:"setup wisdom teeth pull Priority:H" due:"1581570000" entry:"15
 time 1581520030
 new [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581520030" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
 ---
+time 1581520585
+new [description:"Follow up with Brian Hu dataset 25th" due:"1612155600" entry:"1581520585" modified:"1581520585" priority:"L" status:"pending" uuid:"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"]
+---
+time 1581526651
+new [description:"cancel audible uk account" due:"1581570000" entry:"1581526651" modified:"1581526651" status:"pending" uuid:"71c9f003-a28d-4017-be92-ad43daf0e51d"]
+---
