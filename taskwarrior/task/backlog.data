@@ -18,3 +18,6 @@
 {"description":"Follow up with Brian Hu dataset 25th","due":"20210201T050000Z","entry":"20200212T151625Z","modified":"20200212T151625Z","priority":"L","status":"pending","uuid":"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"}
 {"description":"cancel audible uk account","due":"20200213T050000Z","entry":"20200212T165731Z","modified":"20200212T165731Z","status":"pending","uuid":"71c9f003-a28d-4017-be92-ad43daf0e51d"}
 {"description":"Test mmeds functionality on Chimera","due":"20200217T050000Z","entry":"20200212T173104Z","modified":"20200212T173104Z","priority":"H","project":"mmeds","status":"pending","uuid":"b21fa416-6c50-4f77-9e1f-cdd0d19f26af"}
+{"description":"setup wisdom teeth pull Priority:H","due":"20200213T050000Z","entry":"20200212T150636Z","modified":"20200212T182537Z","priority":"H","status":"pending","uuid":"44a3715b-52d9-4a1f-b835-506720a55b1c"}
+{"description":"cancel audible uk account","due":"20200213T050000Z","entry":"20200212T165731Z","modified":"20200212T182537Z","priority":"H","status":"pending","uuid":"71c9f003-a28d-4017-be92-ad43daf0e51d"}
+{"description":"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M","due":"20200217T050000Z","entry":"20200212T150710Z","modified":"20200212T182545Z","priority":"M","status":"pending","uuid":"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"}
