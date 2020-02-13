@@ -78,3 +78,14 @@ time 1581531945
 old [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581520030" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
 new [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581531945" priority:"M" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
 ---
+time 1581624492
+old [description:"setup wisdom teeth pull Priority:H" due:"1581570000" entry:"1581519996" modified:"1581531937" priority:"H" status:"pending" uuid:"44a3715b-52d9-4a1f-b835-506720a55b1c"]
+new [description:"setup wisdom teeth pull Priority:H" due:"1581570000" end:"1581624492" entry:"1581519996" modified:"1581624492" priority:"H" status:"completed" uuid:"44a3715b-52d9-4a1f-b835-506720a55b1c"]
+---
+time 1581624492
+old [description:"cancel audible uk account" due:"1581570000" entry:"1581526651" modified:"1581531937" priority:"H" status:"pending" uuid:"71c9f003-a28d-4017-be92-ad43daf0e51d"]
+new [description:"cancel audible uk account" due:"1581570000" end:"1581624492" entry:"1581526651" modified:"1581624492" priority:"H" status:"completed" uuid:"71c9f003-a28d-4017-be92-ad43daf0e51d"]
+---
+time 1581624522
+new [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
+---

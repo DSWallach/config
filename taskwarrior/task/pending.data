@@ -1,7 +1,6 @@
 [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 [description:"Address Kathys questions in the user guide" entry:"1580305696" modified:"1580305696" priority:"L" project:"mmeds" status:"pending" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
-[description:"setup wisdom teeth pull Priority:H" due:"1581570000" entry:"1581519996" modified:"1581531937" priority:"H" status:"pending" uuid:"44a3715b-52d9-4a1f-b835-506720a55b1c"]
 [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581531945" priority:"M" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
 [description:"Follow up with Brian Hu dataset 25th" due:"1612155600" entry:"1581520585" modified:"1581520585" priority:"L" status:"pending" uuid:"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"]
-[description:"cancel audible uk account" due:"1581570000" entry:"1581526651" modified:"1581531937" priority:"H" status:"pending" uuid:"71c9f003-a28d-4017-be92-ad43daf0e51d"]
 [description:"Test mmeds functionality on Chimera" due:"1581915600" entry:"1581528664" modified:"1581528664" priority:"H" project:"mmeds" status:"pending" uuid:"b21fa416-6c50-4f77-9e1f-cdd0d19f26af"]
+[description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]

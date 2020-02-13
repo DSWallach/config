@@ -21,3 +21,6 @@
 {"description":"setup wisdom teeth pull Priority:H","due":"20200213T050000Z","entry":"20200212T150636Z","modified":"20200212T182537Z","priority":"H","status":"pending","uuid":"44a3715b-52d9-4a1f-b835-506720a55b1c"}
 {"description":"cancel audible uk account","due":"20200213T050000Z","entry":"20200212T165731Z","modified":"20200212T182537Z","priority":"H","status":"pending","uuid":"71c9f003-a28d-4017-be92-ad43daf0e51d"}
 {"description":"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M","due":"20200217T050000Z","entry":"20200212T150710Z","modified":"20200212T182545Z","priority":"M","status":"pending","uuid":"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"}
+{"description":"setup wisdom teeth pull Priority:H","due":"20200213T050000Z","end":"20200213T200812Z","entry":"20200212T150636Z","modified":"20200213T200812Z","priority":"H","status":"completed","uuid":"44a3715b-52d9-4a1f-b835-506720a55b1c"}
+{"description":"cancel audible uk account","due":"20200213T050000Z","end":"20200213T200812Z","entry":"20200212T165731Z","modified":"20200213T200812Z","priority":"H","status":"completed","uuid":"71c9f003-a28d-4017-be92-ad43daf0e51d"}
+{"description":"Mail request for absentee ballot","due":"20200218T050000Z","entry":"20200213T200842Z","modified":"20200213T200842Z","status":"pending","uuid":"8097fc80-9f08-45d3-b56a-9ea6635f821c"}
