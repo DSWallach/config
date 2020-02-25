@@ -89,3 +89,6 @@ new [description:"cancel audible uk account" due:"1581570000" end:"1581624492" e
 time 1581624522
 new [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
 ---
+time 1582638204
+new [description:"Everyman Espresso 8\/10" entry:"1582638204" modified:"1582638204" status:"pending" tags:"coffee" uuid:"268aea79-a047-4978-acf3-7595ec30eaa3"]
+---

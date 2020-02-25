@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/etc/X11/xorg.conf.d'
 let g:netrw_dirhist_7='/home/david/Work/mmeds-meta'
 let g:netrw_dirhist_6='/home/david/Work/mmeds-meta/build'
 let g:netrw_dirhist_5='/home/david/Work/ensemble/configuration/internal_configuration'

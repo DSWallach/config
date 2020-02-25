@@ -24,3 +24,4 @@
 {"description":"setup wisdom teeth pull Priority:H","due":"20200213T050000Z","end":"20200213T200812Z","entry":"20200212T150636Z","modified":"20200213T200812Z","priority":"H","status":"completed","uuid":"44a3715b-52d9-4a1f-b835-506720a55b1c"}
 {"description":"cancel audible uk account","due":"20200213T050000Z","end":"20200213T200812Z","entry":"20200212T165731Z","modified":"20200213T200812Z","priority":"H","status":"completed","uuid":"71c9f003-a28d-4017-be92-ad43daf0e51d"}
 {"description":"Mail request for absentee ballot","due":"20200218T050000Z","entry":"20200213T200842Z","modified":"20200213T200842Z","status":"pending","uuid":"8097fc80-9f08-45d3-b56a-9ea6635f821c"}
+{"description":"Everyman Espresso 8\/10","entry":"20200225T134324Z","modified":"20200225T134324Z","status":"pending","tags":["coffee"],"uuid":"268aea79-a047-4978-acf3-7595ec30eaa3"}

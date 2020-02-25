@@ -158,6 +158,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
 else
     if [[ $(hostname) == 'david-yoga.linux' ]] then
         export TERMINAL='xfce4-terminal'
+        xinput set-prop 14 306 1
     fi
     xset r rate 250 45
     # Vim
