@@ -1,4 +1,2 @@
-[depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" entry:"1580228076" modified:"1580476813" priority:"M" status:"pending" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
-[description:"Follow up with Brian Hu dataset 25th" due:"1612155600" end:"1582728226" entry:"1581520585" modified:"1582728226" priority:"L" status:"completed" uuid:"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"]
 [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
-[description:"read how to lie with statistics" entry:"1581701821" modified:"1581701821" status:"pending" uuid:"212dec44-765e-47e3-903e-af4345610fef"]
+[description:"confirm specimen ids for ACTIVATE study are what exist in mmeds" entry:"1582731930" modified:"1582731930" status:"pending" uuid:"69cd3f50-3c91-41a3-b1f6-3c4a59d6cf01"]
