@@ -8,6 +8,8 @@ source "${HOME}/.sel/zsh/antigen.zsh"
 antigen use prezto
 antigen apply
 
+set bell-style none
+
 # Custom alias's
 alias userpath='sudo env "PATH=$PATH"'
 alias smiwatch='watch -n 0.5 nvidia-smi'
@@ -20,9 +22,8 @@ alias rmr='rm -rf'
 alias cpr='cp -rf'
 alias wemacs='env TERM=xterm-256color emacs -nw'
 alias srcocc='source /usr/local/bin/kroc-setup.sh'
-alias ssv='ssh dawallach@mote.cs.vassar.edu'
 alias swap='xmodmap ~/Documents/.xmodmap'
-alias ssc='ssh -XY wallad07@chimera.hpc.mssm.edu'
+alias ssc='ssh wallad07@chimera.hpc.mssm.edu'
 alias check='grep "egg" -R *; grep "pyc" -R *'
 alias cleane='rm -rf build; rm -rf dist; rm -rf ensemble.egg-info; rm ensemble/*.pyc;'
 alias tach='tmux attach-session -t 0'
@@ -155,6 +156,10 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     unset __conda_setup
     # <<< conda initialize <<<
 else
+    if [[ $(hostname) == 'david-yoga.linux' ]] then
+        export TERMINAL='xfce4-terminal'
+        xinput set-prop 14 306 1
+    fi
     xset r rate 250 45
     # Vim
     alias vi='vim'

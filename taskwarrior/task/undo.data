@@ -91,4 +91,26 @@ new [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581
 ---
 time 1581701821
 new [description:"read how to lie with statistics" entry:"1581701821" modified:"1581701821" status:"pending" uuid:"212dec44-765e-47e3-903e-af4345610fef"]
+time 1582638204
+new [description:"Everyman Espresso 8\/10" entry:"1582638204" modified:"1582638204" status:"pending" tags:"coffee" uuid:"268aea79-a047-4978-acf3-7595ec30eaa3"]
+---
+time 1582728214
+old [description:"Test mmeds functionality on Chimera" due:"1581915600" entry:"1581528664" modified:"1581528664" priority:"H" project:"mmeds" status:"pending" uuid:"b21fa416-6c50-4f77-9e1f-cdd0d19f26af"]
+new [description:"Test mmeds functionality on Chimera" due:"1581915600" end:"1582728214" entry:"1581528664" modified:"1582728214" priority:"H" project:"mmeds" status:"completed" uuid:"b21fa416-6c50-4f77-9e1f-cdd0d19f26af"]
+---
+time 1582728226
+old [description:"Follow up with Brian Hu dataset 25th" due:"1612155600" entry:"1581520585" modified:"1581520585" priority:"L" status:"pending" uuid:"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"]
+new [description:"Follow up with Brian Hu dataset 25th" due:"1612155600" end:"1582728226" entry:"1581520585" modified:"1582728226" priority:"L" status:"completed" uuid:"d2c8dbdc-9ec3-4567-aa58-6d34bb632a1c"]
+---
+time 1582728230
+old [description:"Everyman Espresso 8\/10" entry:"1582638204" modified:"1582638204" status:"pending" tags:"coffee" uuid:"268aea79-a047-4978-acf3-7595ec30eaa3"]
+new [description:"Everyman Espresso 8\/10" end:"1582728228" entry:"1582638204" modified:"1582728230" status:"deleted" tags:"coffee" uuid:"268aea79-a047-4978-acf3-7595ec30eaa3"]
+---
+time 1582728936
+old [description:"Address Kathys questions in the user guide" entry:"1580305696" modified:"1580305696" priority:"L" project:"mmeds" status:"pending" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
+new [description:"Address Kathys questions in the user guide" end:"1582728934" entry:"1580305696" modified:"1582728936" priority:"L" project:"mmeds" status:"deleted" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
+---
+time 1582728936
+old [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" entry:"1581520030" modified:"1581531945" priority:"M" status:"pending" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
+new [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" end:"1582728936" entry:"1581520030" modified:"1582728936" priority:"M" status:"deleted" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]
 ---
