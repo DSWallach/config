@@ -33,3 +33,4 @@
 {"description":"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M","due":"20200217T050000Z","end":"20200226T145536Z","entry":"20200212T150710Z","modified":"20200226T145536Z","priority":"M","status":"deleted","uuid":"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"}
 {"depends":"8d65d5d5-9329-4577-bed1-6c17e4673cf1","description":"Have meeting with Alba","end":"20200226T150201Z","entry":"20200128T161436Z","modified":"20200226T150202Z","priority":"M","status":"deleted","uuid":"f204feb4-e30c-4c72-aa0a-d13c4d882cea"}
 {"description":"confirm specimen ids for ACTIVATE study are what exist in mmeds","entry":"20200226T154530Z","modified":"20200226T154530Z","status":"pending","uuid":"69cd3f50-3c91-41a3-b1f6-3c4a59d6cf01"}
+{"description":"Deal with Brian Hu analysis Due:wednesday","entry":"20200228T171530Z","modified":"20200228T171530Z","status":"pending","uuid":"636224cf-d136-4707-87e8-5c683f0afef8"}
