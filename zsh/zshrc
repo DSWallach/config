@@ -114,10 +114,10 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 # Custom params for different locations
 if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
-    #module use /hpc/packages/minerva-common/modulefiles
-    module load tmux;
-    module load htop;
-    module load texlive;
+    # module use /hpc/packages/minerva-common/modulefiles
+    # module load tmux;
+    # module load htop;
+    # module load texlive;
 
     export MMEDS="/sc/orga/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
