@@ -125,6 +125,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     export TMPDIR="/local/tmp"
     export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
     export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/.modules/'
+    export PYTHONBREAKPOINT="pudb.set_trace"
     # '/hpc/packages/minerva-common/anaconda2/'
 
 
