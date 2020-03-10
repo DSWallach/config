@@ -45,6 +45,7 @@ ln -sf $HOME/$name/taskwarrior/task $HOME/.task
 ln -sf $HOME/$name/taskwarrior/taskrc $HOME/.taskrc
 ln -sf $HOME/$name/zsh/zpreztorc $HOME/.zpreztorc
 ln -sf $HOME/$name/ssh/config $HOME/.ssh/config
+ln -sf $HOME/$name/ctags $HOME/.ctags
 
 if [ $0 = "full" ]; then
 	# Setup for vim and neovim
