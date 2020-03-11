@@ -114,11 +114,10 @@ export PATH="${HOME}/${name}/scripts:$PATH"
 
 # Custom params for different locations
 if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
-    #module load Firefox
-    #module use /hpc/packages/minerva-common/modulefiles
-    #module load tmux
-    #module load anaconda
-    #module load git
+    # module use /hpc/packages/minerva-common/modulefiles
+    # module load tmux;
+    # module load htop;
+    # module load texlive;
 
     export MMEDS="/sc/orga/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
@@ -126,18 +125,19 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     export CONDA_DIR='/sc/orga/projects/MMEDS/anaconda3/'
     export CONDA_ENVS_PATH='/sc/orga/projects/MMEDS/.modules/'
     export PYTHONBREAKPOINT="pudb.set_trace"
-    # '/hpc/packages/minerva-common/anaconda2/'
 
 
     # Minerva Aliases
     alias towork='cd /sc/orga/projects/clemej05a/wallach'
     alias remlinks='find -L . -name . -o -type d -prune -o -type l -exec rm {} +'
-    alias logindb='mysql -h db1 -u wallad07_db1 -p wallad07_db1'
+    alias logindb='mysql -h data1 -u wallad07_db1 -p wallad07_db1'
     alias srcens='source /sc/orga/projects/clemej05a/wallach/ENS/python_env/bin/activate'
     alias duh='du -sh'
+    alias mysql='mysql -D mmeds_data1'
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
     alias tommeds="cd $MMEDS"
-    alias vi='gvim -g'
+    # alias vi='gvim -g'
+    alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
 
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
