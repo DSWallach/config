@@ -1,3 +1,4 @@
+[description:"Mail request for absentee ballot" due:"1582002000" end:"1583850098" entry:"1581624522" modified:"1583850098" status:"completed" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
 [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" end:"1582729321" entry:"1580228076" modified:"1582729322" priority:"M" status:"deleted" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 [description:"Address Kathys questions in the user guide" end:"1582728934" entry:"1580305696" modified:"1582728936" priority:"L" project:"mmeds" status:"deleted" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
 [description:"update MMEDS metadata template to reflect use status and lab locataion of specimens Priority:M" due:"1581915600" end:"1582728936" entry:"1581520030" modified:"1582728936" priority:"M" status:"deleted" uuid:"c07c0519-4b3b-4df9-a51b-e0fc132b0e75"]

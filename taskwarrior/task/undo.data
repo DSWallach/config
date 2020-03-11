@@ -124,3 +124,7 @@ new [description:"confirm specimen ids for ACTIVATE study are what exist in mmed
 time 1582910130
 new [description:"Deal with Brian Hu analysis Due:wednesday" entry:"1582910130" modified:"1582910130" status:"pending" uuid:"636224cf-d136-4707-87e8-5c683f0afef8"]
 ---
+time 1583850098
+old [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
+new [description:"Mail request for absentee ballot" due:"1582002000" end:"1583850098" entry:"1581624522" modified:"1583850098" status:"completed" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
+---
