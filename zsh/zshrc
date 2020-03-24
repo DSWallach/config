@@ -161,6 +161,9 @@ else
         export TERMINAL='xfce4-terminal'
         xinput set-prop 14 306 1
     fi
+    if [[ $(hostname) == 'Fedora.Y70' ]] then
+        gsettings set org.gnome.shell.app-switcher current-workspace-only true
+    fi
     xset r rate 250 45
     # Vim
     alias vi='vim'

@@ -34,3 +34,4 @@
 {"depends":"8d65d5d5-9329-4577-bed1-6c17e4673cf1","description":"Have meeting with Alba","end":"20200226T150201Z","entry":"20200128T161436Z","modified":"20200226T150202Z","priority":"M","status":"deleted","uuid":"f204feb4-e30c-4c72-aa0a-d13c4d882cea"}
 {"description":"confirm specimen ids for ACTIVATE study are what exist in mmeds","entry":"20200226T154530Z","modified":"20200226T154530Z","status":"pending","uuid":"69cd3f50-3c91-41a3-b1f6-3c4a59d6cf01"}
 {"description":"Deal with Brian Hu analysis Due:wednesday","entry":"20200228T171530Z","modified":"20200228T171530Z","status":"pending","uuid":"636224cf-d136-4707-87e8-5c683f0afef8"}
+{"description":"Mail request for absentee ballot","due":"20200218T050000Z","end":"20200310T142138Z","entry":"20200213T200842Z","modified":"20200310T142138Z","status":"completed","uuid":"8097fc80-9f08-45d3-b56a-9ea6635f821c"}
