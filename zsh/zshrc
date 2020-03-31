@@ -136,6 +136,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     alias mysql='mysql -D mmeds_data1'
     alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
     alias tommeds="cd $MMEDS"
+    alias toarion="cd /sc/arion/projects/MMEDS"
     # alias vi='gvim -g'
     alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"

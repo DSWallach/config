@@ -1,11 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/sc/orga/projects/clemej05a/test/ensemble-test/configuration'
-let g:netrw_dirhist_2='/sc/orga/projects/clemej05a/test/ensemble-test/configuration/first'
-let g:netrw_dirhist_3='/sc/orga/projects/MMEDS/test_ensemble_project/test_ensemble/tool_scripts/Metaphlan'
-let g:netrw_dirhist_4='/sc/orga/projects/MMEDS/test_ensemble_single/test_single'
-let g:netrw_dirhist_5='/sc/orga/projects/MMEDS/test_ensemble_single/test_single/tool_scripts'
-let g:netrw_dirhist_6='/sc/orga/projects/MMEDS/test_ensemble_single/test_single/tool_scripts/Kraken'
-let g:netrw_dirhist_7='/sc/orga/projects/MMEDS/test_ensemble_single'
-let g:netrw_dirhist_8='/sc/orga/projects/MMEDS/test_ensemble_single/configuration'
-let g:netrw_dirhist_9='/sc/orga/projects/MMEDS/test_ensemble_single/configuration/test_single'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/sc/hydra/projects/MMEDS/.modules/modulefiles/qiime'
+let g:netrw_dirhist_2='/sc/hydra/projects/MMEDS/mmeds_server_data/david_12'
+let g:netrw_dirhist_3='/sc/hydra/projects/MMEDS/mmeds_server_data/david_12/analysis0'
+let g:netrw_dirhist_4='/sc/hydra/projects/MMEDS/mmeds_server_data/david_8'
+let g:netrw_dirhist_5='/sc/hydra/projects/MMEDS/mmeds_server_data/david_8/analysis0'
