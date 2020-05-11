@@ -128,3 +128,6 @@ time 1583850098
 old [description:"Mail request for absentee ballot" due:"1582002000" entry:"1581624522" modified:"1581624522" status:"pending" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
 new [description:"Mail request for absentee ballot" due:"1582002000" end:"1583850098" entry:"1581624522" modified:"1583850098" status:"completed" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
 ---
+time 1589205737
+new [description:"Setup time and message everyone about code meetings" due:"1589169600" entry:"1589205737" modified:"1589205737" status:"pending" uuid:"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"]
+---
