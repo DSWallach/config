@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/sc/hydra/projects/MMEDS/.modules/modulefiles/qiime'
-let g:netrw_dirhist_2='/sc/hydra/projects/MMEDS/mmeds_server_data/david_12'
-let g:netrw_dirhist_3='/sc/hydra/projects/MMEDS/mmeds_server_data/david_12/analysis0'
-let g:netrw_dirhist_4='/sc/hydra/projects/MMEDS/mmeds_server_data/david_8'
-let g:netrw_dirhist_5='/sc/hydra/projects/MMEDS/mmeds_server_data/david_8/analysis0'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/david/.sel/vim/vim/after/ftplugin'
+let g:netrw_dirhist_6='/home/david/.sel/vim/vim/after'
+let g:netrw_dirhist_5='/home/david/.sel/vim/vim/after/ftplugin'
+let g:netrw_dirhist_4='/var/log/httpd'
+let g:netrw_dirhist_3='/etc/httpd/logs'
+let g:netrw_dirhist_2='/var/log/httpd'
+let g:netrw_dirhist_1='/home/david/Work/covid-19/article_info'
