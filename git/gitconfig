@@ -2,6 +2,7 @@
 # See the README for examples.
 [core]
   editor = vim
+	autocrlf = input
 [color]
   ui = true
 [color "branch"]

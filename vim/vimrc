@@ -20,6 +20,8 @@ colo desert
 
 " Plugin management
 call plug#begin()
+Plug 'udalov/kotlin-vim'
+Plug 'vim-scripts/Tabmerge'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
@@ -140,14 +142,25 @@ nnoremap K :YcmCompleter GetDoc<CR>
 nnoremap ff :setlocal foldlevel=1<CR>
 
 "" Python Plugin Settings
-if (hostname() == 'Fedora.Y70')
-    let g:pymode_python='python3'
-endif
+let g:pymode_python='python3'
 let g:pymode_options_max_line_length=120
 let g:pymode_lint_options_pep8 =
     \ {'max_line_length': g:pymode_options_max_line_length}
 let g:pymode_doc_bind='B'
 let g:pymode_rope=0
+let g:pymode_lint_on_write=1
+let g:pymode_lint=1
+
+" Disable YCM for vim
+"let g:ycm_filetype_specific_completion_to_disable = {
+"    \ 'python': 1
+"    \}
+"let g:ycm_filepath_blacklist = {
+"    \ 'python': 1
+"    \}
+"let g:ycm_filetype_blacklist = {
+"    \ 'python': 1
+"    \}
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
@@ -189,3 +202,17 @@ if has('nvim')
   " Unicode symbols work fine (nvim, iterm, tmux, nyovim tested)
   let g:pudb_breakpoint_symbol='☠'
 endif
+
+function! MergeTab()
+    let bufnums = tabpagebuflist()
+    hide tabclose
+    topleft vsplit
+    for n in bufnums
+        execute 'sbuffer ' . n
+        wincmd _
+    endfor
+    wincmd t
+    quit
+    wincmd =
+endfunction
+command! MergeTab call MergeTab()

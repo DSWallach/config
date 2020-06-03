@@ -110,6 +110,11 @@ export FZF_COMPLETION_TRIGGER='~~'
 export name='.sel'
 export SEL="${HOME}/${name}"
 export PATH="${HOME}/${name}/scripts:$PATH"
+export PATH=/opt/kotlin/bin:$PATH
+export PATH=$PATH:/opt/gradle/gradle-6.3/bin
+export PATH=$PATH:/opt/idea/bin
+export PATH=$PATH:/usr/lib/jvm/java-11-openjdk-11.0.6.10-0.fc32.x86_64/bin/javac
+export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
 
 
 # Custom params for different locations
