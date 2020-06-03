@@ -131,3 +131,9 @@ new [description:"Mail request for absentee ballot" due:"1582002000" end:"158385
 time 1589205737
 new [description:"Setup time and message everyone about code meetings" due:"1589169600" entry:"1589205737" modified:"1589205737" status:"pending" uuid:"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"]
 ---
+time 1591191901
+new [description:"create a schedule for constant management of interns\/students" entry:"1591191901" modified:"1591191901" status:"pending" uuid:"9b628ab9-8ff7-42bf-82d7-4fe74091baf9"]
+---
+time 1591219156
+new [description:"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs" entry:"1591219156" modified:"1591219156" status:"pending" uuid:"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"]
+---

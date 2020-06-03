@@ -1,3 +1,5 @@
 [description:"confirm specimen ids for ACTIVATE study are what exist in mmeds" entry:"1582731930" modified:"1582731930" status:"pending" uuid:"69cd3f50-3c91-41a3-b1f6-3c4a59d6cf01"]
 [description:"Deal with Brian Hu analysis Due:wednesday" entry:"1582910130" modified:"1582910130" status:"pending" uuid:"636224cf-d136-4707-87e8-5c683f0afef8"]
 [description:"Setup time and message everyone about code meetings" due:"1589169600" entry:"1589205737" modified:"1589205737" status:"pending" uuid:"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"]
+[description:"create a schedule for constant management of interns\/students" entry:"1591191901" modified:"1591191901" status:"pending" uuid:"9b628ab9-8ff7-42bf-82d7-4fe74091baf9"]
+[description:"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs" entry:"1591219156" modified:"1591219156" status:"pending" uuid:"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"]
