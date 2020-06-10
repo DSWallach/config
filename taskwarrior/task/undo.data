@@ -137,3 +137,15 @@ new [description:"create a schedule for constant management of interns\/students
 time 1591219156
 new [description:"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs" entry:"1591219156" modified:"1591219156" status:"pending" uuid:"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"]
 ---
+time 1591794699
+new [description:"Look for additional viral analysis pipelines" entry:"1591794699" modified:"1591794699" status:"pending" uuid:"7fab4a4f-99fc-4b37-bac1-052db028efc2"]
+---
+time 1591794935
+new [description:"talk to Jakleen about R package or Fischers" entry:"1591794935" modified:"1591794935" status:"pending" uuid:"50066819-10fa-4a28-ad71-829c195c8547"]
+---
+time 1591794951
+new [description:"talk to Jakleen about R package or Fischers Rct transform" entry:"1591794951" modified:"1591794951" status:"pending" uuid:"f33ada47-89b4-4037-bb72-0c7df1997f34"]
+---
+time 1591795059
+new [description:"Check in with Elisa" entry:"1591795059" modified:"1591795059" status:"pending" uuid:"d5abf7f0-aa71-49ac-a1be-5e8caf58e8cf"]
+---
