@@ -36,3 +36,4 @@
 {"description":"Deal with Brian Hu analysis Due:wednesday","entry":"20200228T171530Z","modified":"20200228T171530Z","status":"pending","uuid":"636224cf-d136-4707-87e8-5c683f0afef8"}
 {"description":"Mail request for absentee ballot","due":"20200218T050000Z","end":"20200310T142138Z","entry":"20200213T200842Z","modified":"20200310T142138Z","status":"completed","uuid":"8097fc80-9f08-45d3-b56a-9ea6635f821c"}
 {"description":"Setup time and message everyone about code meetings","due":"20200511T040000Z","entry":"20200511T140217Z","modified":"20200511T140217Z","status":"pending","uuid":"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"}
+{"description":"Look at paper Jose sends about Ensemble for viruses, run tutorial","entry":"20200515T180853Z","modified":"20200515T180853Z","status":"pending","tags":["work"],"uuid":"9dd61c6d-a3b6-4a22-8202-cf566c0b051f"}

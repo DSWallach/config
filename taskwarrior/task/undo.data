@@ -131,3 +131,6 @@ new [description:"Mail request for absentee ballot" due:"1582002000" end:"158385
 time 1589205737
 new [description:"Setup time and message everyone about code meetings" due:"1589169600" entry:"1589205737" modified:"1589205737" status:"pending" uuid:"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"]
 ---
+time 1589566133
+new [description:"Look at paper Jose sends about Ensemble for viruses, run tutorial" entry:"1589566133" modified:"1589566133" status:"pending" tags:"work" uuid:"9dd61c6d-a3b6-4a22-8202-cf566c0b051f"]
+---
