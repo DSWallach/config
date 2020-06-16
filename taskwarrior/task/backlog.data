@@ -37,3 +37,9 @@
 {"description":"Mail request for absentee ballot","due":"20200218T050000Z","end":"20200310T142138Z","entry":"20200213T200842Z","modified":"20200310T142138Z","status":"completed","uuid":"8097fc80-9f08-45d3-b56a-9ea6635f821c"}
 {"description":"Setup time and message everyone about code meetings","due":"20200511T040000Z","entry":"20200511T140217Z","modified":"20200511T140217Z","status":"pending","uuid":"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"}
 {"description":"Look at paper Jose sends about Ensemble for viruses, run tutorial","entry":"20200515T180853Z","modified":"20200515T180853Z","status":"pending","tags":["work"],"uuid":"9dd61c6d-a3b6-4a22-8202-cf566c0b051f"}
+{"description":"create a schedule for constant management of interns\/students","entry":"20200603T134501Z","modified":"20200603T134501Z","status":"pending","uuid":"9b628ab9-8ff7-42bf-82d7-4fe74091baf9"}
+{"description":"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs","entry":"20200603T211916Z","modified":"20200603T211916Z","status":"pending","uuid":"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"}
+{"description":"Look for additional viral analysis pipelines","entry":"20200610T131139Z","modified":"20200610T131139Z","status":"pending","uuid":"7fab4a4f-99fc-4b37-bac1-052db028efc2"}
+{"description":"talk to Jakleen about R package or Fischers","entry":"20200610T131535Z","modified":"20200610T131535Z","status":"pending","uuid":"50066819-10fa-4a28-ad71-829c195c8547"}
+{"description":"talk to Jakleen about R package or Fischers Rct transform","entry":"20200610T131551Z","modified":"20200610T131551Z","status":"pending","uuid":"f33ada47-89b4-4037-bb72-0c7df1997f34"}
+{"description":"Check in with Elisa","entry":"20200610T131739Z","modified":"20200610T131739Z","status":"pending","uuid":"d5abf7f0-aa71-49ac-a1be-5e8caf58e8cf"}
