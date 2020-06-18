@@ -123,8 +123,12 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     # module load tmux;
     # module load htop;
     # module load texlive;
-    export GPFS="/sc/hydra"
+    #
+    # Ensure SSH keys are loaded
+    eval `ssh-agent`
+    ssh-add;
 
+    export GPFS="/sc/hydra"
     export MMEDS="$GPFS/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
@@ -145,6 +149,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     # alias vi='gvim -g'
     alias vi='vim'
     alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
+    alias errorlog="watch -n 0.1 tail -n 25 /etc/httpd/logs/uhpc/wallad07.u.hpc.mssm.edu.error"
 
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
