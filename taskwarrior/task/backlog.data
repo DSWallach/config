@@ -47,3 +47,4 @@
 {"description":"Look at paper Jose sends about Ensemble for viruses, run tutorial","end":"20200616T143126Z","entry":"20200515T180853Z","modified":"20200616T143128Z","status":"completed","tags":["work"],"uuid":"9dd61c6d-a3b6-4a22-8202-cf566c0b051f"}
 {"description":"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs","end":"20200616T143128Z","entry":"20200603T211916Z","modified":"20200616T143128Z","status":"completed","uuid":"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"}
 {"description":"talk to Jakleen about R package or Fischers","end":"20200616T143128Z","entry":"20200610T131535Z","modified":"20200616T143128Z","status":"completed","uuid":"50066819-10fa-4a28-ad71-829c195c8547"}
+{"description":"create presentation directory\/structure in lab-wiki","entry":"20200622T190317Z","modified":"20200622T190317Z","status":"pending","uuid":"572e5a52-26b4-4801-ab41-c822da9da2ba"}
