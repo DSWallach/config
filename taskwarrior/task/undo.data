@@ -167,3 +167,6 @@ time 1592317888
 old [description:"talk to Jakleen about R package or Fischers" entry:"1591794935" modified:"1591794935" status:"pending" uuid:"50066819-10fa-4a28-ad71-829c195c8547"]
 new [description:"talk to Jakleen about R package or Fischers" end:"1592317888" entry:"1591794935" modified:"1592317888" status:"completed" uuid:"50066819-10fa-4a28-ad71-829c195c8547"]
 ---
+time 1593610671
+new [description:"Another similar problem for Elisa then some analysis for Dolores" entry:"1593610671" modified:"1593610671" status:"pending" uuid:"4180a482-42d5-4917-86c4-5ec9bdffc761"]
+---
