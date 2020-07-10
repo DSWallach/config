@@ -170,3 +170,5 @@ new [description:"talk to Jakleen about R package or Fischers" end:"1592317888" 
 time 1593610671
 new [description:"Another similar problem for Elisa then some analysis for Dolores" entry:"1593610671" modified:"1593610671" status:"pending" uuid:"4180a482-42d5-4917-86c4-5ec9bdffc761"]
 ---
+time 1592852597
+new [description:"create presentation directory\/structure in lab-wiki" entry:"1592852597" modified:"1592852597" status:"pending" uuid:"572e5a52-26b4-4801-ab41-c822da9da2ba"]
