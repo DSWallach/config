@@ -1,3 +1,7 @@
+[description:"Setup time and message everyone about code meetings" due:"1589169600" end:"1592317883" entry:"1589205737" modified:"1592317886" status:"completed" uuid:"1d1e2b38-b6dc-49c6-ae04-61bcfceec400"]
+[description:"Look at paper Jose sends about Ensemble for viruses, run tutorial" end:"1592317886" entry:"1589566133" modified:"1592317888" status:"completed" tags:"work" uuid:"9dd61c6d-a3b6-4a22-8202-cf566c0b051f"]
+[description:"Send Elisa and Nathalie pointers to get started. Elisa how to install R on Windows. Nathalie send python setup for macOS stuff... Maybe conda envs" end:"1592317888" entry:"1591219156" modified:"1592317888" status:"completed" uuid:"8fd44d9a-9e15-4a8f-b123-68dfec2f5249"]
+[description:"talk to Jakleen about R package or Fischers" end:"1592317888" entry:"1591794935" modified:"1592317888" status:"completed" uuid:"50066819-10fa-4a28-ad71-829c195c8547"]
 [description:"Mail request for absentee ballot" due:"1582002000" end:"1583850098" entry:"1581624522" modified:"1583850098" status:"completed" uuid:"8097fc80-9f08-45d3-b56a-9ea6635f821c"]
 [depends:"8d65d5d5-9329-4577-bed1-6c17e4673cf1" description:"Have meeting with Alba" end:"1582729321" entry:"1580228076" modified:"1582729322" priority:"M" status:"deleted" uuid:"f204feb4-e30c-4c72-aa0a-d13c4d882cea"]
 [description:"Address Kathys questions in the user guide" end:"1582728934" entry:"1580305696" modified:"1582728936" priority:"L" project:"mmeds" status:"deleted" uuid:"f42d6731-801c-44bd-b7c9-183751cc3074"]
