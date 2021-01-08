@@ -35,6 +35,7 @@ alias opti-settings='optirun -b none nvidia-settings -c :8'
 alias ta='task add tag:work project:mmeds'
 alias tw='task tag:work'
 alias prirun='PRIMUS_UPLOAD=1 primusrun'
+alias calc='libreoffice --calc'
 
 # Directory Navigation
 alias ds='dirs -v'
@@ -116,6 +117,9 @@ export PATH=$PATH:/opt/idea/bin
 export PATH=$PATH:/usr/lib/jvm/java-11-openjdk-11.0.6.10-0.fc32.x86_64/bin/javac
 export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
 
+# VST Setup
+export VSTSDK_PATH=~/Music/VST_Plugins/VST_SDK/VST3_SDK
+
 
 # Custom params for different locations
 if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
@@ -160,7 +164,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
         eval "$__conda_setup"
     else
         if [ -f "${GPFS}/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "${GPFS}/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize
+            . "${GPFS}/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize  # commented out by conda initialize
         else
             export PATH="${GPFS}/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
         fi
@@ -190,7 +194,7 @@ else
         eval "$__conda_setup"
     else
         if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "/home/david/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+            . "/home/david/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize
         else
             export PATH="/home/david/anaconda3/4.3.0/bin:$PATH"
         fi

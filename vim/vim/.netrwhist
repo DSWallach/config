@@ -1,11 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/usr/local/www/wsgi-scripts'
+let g:netrw_dirhist_3='/etc/httpd/logs'
+let g:netrw_dirhist_2='/etc/httpd'
+let g:netrw_dirhist_1='~'
+let g:netrw_dirhist_0='/home/david/Work/mmeds-meta/mmeds/database'
 let g:netrw_dirhist_9='/home/david/Work/mmeds-meta/www_files'
 let g:netrw_dirhist_8='/etc/httpd/conf.modules.d'
 let g:netrw_dirhist_7='/home/david/.sel/vim/vim/after/ftplugin'
 let g:netrw_dirhist_6='/home/david/.sel/vim/vim/after'
 let g:netrw_dirhist_5='/home/david/.sel/vim/vim/after/ftplugin'
-let g:netrw_dirhist_4='/var/log/httpd'
-let g:netrw_dirhist_3='/etc/httpd/logs'
-let g:netrw_dirhist_2='/var/log/httpd'
-let g:netrw_dirhist_1='/home/david/Work/covid-19/article_info'
