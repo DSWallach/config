@@ -217,3 +217,26 @@ new [description:"prevent spaces in study names" entry:"1611148867" modified:"16
 time 1611148957
 new [description:"Check why some emails were not sent" entry:"1611148957" modified:"1611148957" project:"mmeds" status:"pending" tags:"work" uuid:"00352fb6-6fed-4938-904c-c3216420f3c1"]
 ---
+time 1611149749
+new [description:"ensure user sees an error if no data is found for their provided access code" entry:"1611149749" modified:"1611149749" project:"mmeds" status:"pending" tags:"work" uuid:"62c910fc-4094-4f2e-befd-37344766396f"]
+---
+time 1611152391
+new [description:"Missing upload error kills the watcher, fix it so it doesnt" entry:"1611152391" modified:"1611152391" project:"mmeds" status:"pending" tags:"work" uuid:"69d51b28-45d8-4dab-b855-4e0b3efef9c9"]
+---
+time 1611153762
+new [description:"Fix config uploads so a bad file doesnt crash the watcher" entry:"1611153762" modified:"1611153762" project:"mmeds" status:"pending" tags:"work" uuid:"5370ef11-c0e0-4aad-ad9c-9208147f0d2f"]
+---
+time 1611156296
+old [description:"Check why some emails were not sent" entry:"1611148957" modified:"1611148957" project:"mmeds" status:"pending" tags:"work" uuid:"00352fb6-6fed-4938-904c-c3216420f3c1"]
+new [description:"Fix race condition for emails sent so none are lost" entry:"1611148957" modified:"1611156296" project:"mmeds" status:"pending" tags:"work" uuid:"00352fb6-6fed-4938-904c-c3216420f3c1"]
+---
+time 1611156322
+new [description:"Figure out issue with cookies and the need to reload web pages" entry:"1611156322" modified:"1611156322" status:"pending" uuid:"0d91246f-2cc8-40da-a3e2-b43e6759cc8d"]
+---
+time 1611156346
+new [description:"Add ability to create a tarball of all analysis results and files" entry:"1611156346" modified:"1611156346" project:"mmeds" status:"pending" tags:"work" uuid:"23d51dc3-998a-4c5f-b1ce-5c4be0cbcb3e"]
+---
+time 1611156363
+old [description:"Figure out issue with cookies and the need to reload web pages" entry:"1611156322" modified:"1611156322" status:"pending" uuid:"0d91246f-2cc8-40da-a3e2-b43e6759cc8d"]
+new [description:"Project:mmeds Tag:work" entry:"1611156322" modified:"1611156363" status:"pending" uuid:"0d91246f-2cc8-40da-a3e2-b43e6759cc8d"]
+---
