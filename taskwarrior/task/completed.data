@@ -1,3 +1,7 @@
+[description:"prevent spaces in study names" end:"1611337928" entry:"1611148867" modified:"1611337929" project:"mmeds" status:"completed" tags:"work" uuid:"becff897-e1b3-4789-9010-e09a703ea856"]
+[description:"Fix config uploads so a bad file doesnt crash the watcher" end:"1611337929" entry:"1611153762" modified:"1611337929" project:"mmeds" status:"completed" tags:"work" uuid:"5370ef11-c0e0-4aad-ad9c-9208147f0d2f"]
+[description:"Missing upload error kills the watcher, fix it so it doesnt" end:"1611337929" entry:"1611152391" modified:"1611337929" project:"mmeds" status:"completed" tags:"work" uuid:"69d51b28-45d8-4dab-b855-4e0b3efef9c9"]
+[description:"ensure user sees an error if no data is found for their provided access code" end:"1611337929" entry:"1611149749" modified:"1611337929" project:"mmeds" status:"completed" tags:"work" uuid:"62c910fc-4094-4f2e-befd-37344766396f"]
 [description:"confirm specimen ids for ACTIVATE study are what exist in mmeds" end:"1611148840" entry:"1582731930" modified:"1611148842" status:"deleted" uuid:"69cd3f50-3c91-41a3-b1f6-3c4a59d6cf01"]
 [description:"Deal with Brian Hu analysis Due:wednesday" end:"1611148842" entry:"1582910130" modified:"1611148842" status:"deleted" uuid:"636224cf-d136-4707-87e8-5c683f0afef8"]
 [description:"create a schedule for constant management of interns\/students" end:"1611148842" entry:"1591191901" modified:"1611148842" status:"deleted" uuid:"9b628ab9-8ff7-42bf-82d7-4fe74091baf9"]
