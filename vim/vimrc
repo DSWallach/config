@@ -20,6 +20,7 @@ colo desert
 
 " Plugin management
 call plug#begin()
+Plug 'mechatroner/rainbow_csv'
 Plug 'udalov/kotlin-vim'
 Plug 'vim-scripts/Tabmerge'
 Plug 'christoomey/vim-tmux-navigator'
