@@ -1,1 +1,1 @@
-/home/david/.sel/vim/vimrc
+/hpc/users/mmedsadmin/.sel/vim/vimrc
