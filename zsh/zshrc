@@ -1,11 +1,11 @@
 if [[ $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
     module load git
 fi
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 source "${HOME}/.sel/zsh/antigen.zsh"
 
 # Modules
 antigen use prezto
+antigen bundle git
 antigen apply
 
 set bell-style none
@@ -109,16 +109,9 @@ bindkey "^U" ctrlp
 export LC_CTYPE=en_US.UTF-8
 export FZF_COMPLETION_TRIGGER='~~'
 export name='.sel'
-export SEL="${HOME}/${name}"
+export SEL="${HOME}/${name}:$PATH"
 export PATH="${HOME}/${name}/scripts:$PATH"
-export PATH=/opt/kotlin/bin:$PATH
-export PATH=$PATH:/opt/gradle/gradle-6.3/bin
-export PATH=$PATH:/opt/idea/bin
-export PATH=$PATH:/usr/lib/jvm/java-11-openjdk-11.0.6.10-0.fc32.x86_64/bin/javac
-export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
-
-# VST Setup
-export VSTSDK_PATH=~/Music/VST_Plugins/VST_SDK/VST3_SDK
+export PYTHONBREAKPOINT="pudb.set_trace"
 
 
 # Custom params for different locations
@@ -132,7 +125,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     eval `ssh-agent`
     ssh-add;
 
-    export GPFS="/sc/hydra"
+    export GPFS="/sc/arion"
     export MMEDS="$GPFS/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
@@ -156,6 +149,7 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     alias errorlog="watch -n 0.1 tail -n 25 /etc/httpd/logs/uhpc/wallad07.u.hpc.mssm.edu.error"
     alias killjobs="bjobs -w | grep 'PEND' | awk '{print $1}' | xargs bkill"
 
+    ml fzf;
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
     # >>> conda initialize >>>
@@ -181,12 +175,20 @@ else
         gsettings set org.gnome.shell.app-switcher current-workspace-only true
     fi
     xset r rate 250 45
+
+    export PATH=/opt/kotlin/bin:$PATH
+    export PATH=$PATH:/opt/gradle/gradle-6.3/bin
+    export PATH=$PATH:/opt/idea/bin
+    export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
+
+    # VST Setup
+    export VSTSDK_PATH=~/Music/VST_Plugins/VST_SDK/VST3_SDK
+
     # Vim
     alias vi='vim'
     alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
     alias myroot="mysql -u root -proot -c mmeds_data1"
     module use ~/.modules/modulefiles
-    export PYTHONBREAKPOINT="pudb.set_trace"
     export CONDA_DIR=/home/david/anaconda3/
     # >>> conda initialize >>>
     # !! Contents within this block are managed by 'conda init' !!
@@ -202,4 +204,7 @@ else
     fi
     unset __conda_setup
     # <<< conda initialize <<<
+fi
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+      source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
