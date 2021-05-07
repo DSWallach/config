@@ -59,3 +59,6 @@
 	default = current
 [github]
 	user = dswallach
+[pull]
+	base = false
+	rebase = false

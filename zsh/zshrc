@@ -129,7 +129,6 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
     export MMEDS="$GPFS/projects/MMEDS"
     export PATH="$HOME/.local/bin:$PATH"
     export TMPDIR="/local/tmp"
-    export CONDA_DIR="${GPFS}/projects/MMEDS/anaconda3/"
     export CONDA_ENVS_PATH="${GPFS}/projects/MMEDS/.modules/"
     export PYTHONBREAKPOINT="pudb.set_trace"
 
@@ -151,21 +150,6 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
 
     ml fzf;
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-    # >>> conda initialize >>>
-    # !! Contents within this block are managed by 'conda init' !!
-    __conda_setup="$("${GPFS}/projects/MMEDS/anaconda3/bin" 'shell.zsh' 'hook' 2> /dev/null)"
-    if [ $? -eq 0 ]; then
-        eval "$__conda_setup"
-    else
-        if [ -f "${GPFS}/projects/MMEDS/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "${GPFS}/projects/MMEDS/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize  # commented out by conda initialize
-        else
-            export PATH="${GPFS}/projects/MMEDS/anaconda3/4.3.0/bin:$PATH"
-        fi
-    fi
-    unset __conda_setup
-    # <<< conda initialize <<<
 else
     if [[ $(hostname) == 'david-yoga.linux' ]] then
         export TERMINAL='xfce4-terminal'
