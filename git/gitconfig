@@ -61,3 +61,6 @@
 	user = dswallach
 [credential]
 	helper = cache
+[pull]
+	base = false
+	rebase = false
