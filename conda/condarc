@@ -1,3 +1,4 @@
 envs_dirs:
   - ~/.admin_modules
+  - ~/.modules/
 restore_free_channel: true

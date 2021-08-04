@@ -37,6 +37,7 @@ Plug 'dpelle/vim-LanguageTool'
 Plug 'ron89/thesaurus_query.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-fugitive'
+Plug 'szymonmaszke/vimpyter'
 
 " Don't load cause Minerva's Vim is super old
 "if (hostname() == 'Fedora.Y70' || hostname() == 'Fedora.Ryzen7')
