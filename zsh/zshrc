@@ -39,6 +39,7 @@ alias ds='dirs -v'
 # Python
 alias py='python'
 alias pin='python setup.py install&>/dev/null'
+alias spin='sudo python setup.py install&>/dev/null'
 alias sac='conda activate'
 alias sad='conda deactivate'
 alias jb='jupyter notebook'
