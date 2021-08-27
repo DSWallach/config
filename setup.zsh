@@ -15,7 +15,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc" | sudo tee /etc/yum.re
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y;
 sudo dnf upgrade -y;
 sudo dnf install cmake gcc-c++ make python3-devel zsh vim gvim tmux util-linux-user gnome-tweak-tool htop task fzf mongodb-org mariadb mariadb-server -y;
-  # sudo dnf install gstreamer1-libav gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-bad-nonfree gstreamer1-plugins-good gstreamer1-plugins-ugly lame-libs lame-libs -y;
+sudo dnf install gstreamer1-libav gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-bad-nonfree gstreamer1-plugins-good gstreamer1-plugins-ugly lame-libs lame-libs -y;
 sudo dnf group upgrade --with-optional Multimedia -y;
         else
 		module use /hpc/packages/minerva-common/modulefiles;

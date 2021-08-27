@@ -4,3 +4,11 @@ Host github.com
     PreferredAuthentications publickey
     Port 22
     IdentityFile ~/.ssh/id_rsa.pub
+
+
+Host mssm.edu
+    Hostname chimera.hpc.mssm.edu
+    StrictHostKeyChecking no
+    User wallad07
+    Port 22
+
