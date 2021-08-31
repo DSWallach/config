@@ -24,8 +24,6 @@ alias ssc='ssh -o StrictHostKeyChecking=no wallad07@chimera.hpc.mssm.edu'
 alias check='grep "egg" -R *; grep "pyc" -R *'
 alias cleane='rm -rf build; rm -rf dist; rm -rf ensemble.egg-info; rm ensemble/*.pyc;'
 alias tach='tmux attach-session -t 0'
-alias pperf='sudo cpupower frequency-set -g performance'
-alias psave='sudo cpupower frequency-set -g ondemand'
 alias oct='octave --no-gui'
 alias opti-settings='optirun -b none nvidia-settings -c :8'
 alias ta='task add tag:work project:mmeds'
@@ -153,8 +151,14 @@ else
     if [[ $(hostname) == 'david-yoga.linux' ]] then
         export TERMINAL='xfce4-terminal'
         xinput set-prop 14 306 1
+        alias pperf='sudo cpupower frequency-set -g performance'
+        alias psave='sudo cpupower frequency-set -g ondemand'
     fi
-    if [[ $(hostname) == 'Fedora.Y70' ]] then
+    elif [[ $(hostname) == 'Fedora.T14s']] then
+        alias pperf='sudo /opt/RyzenAdj/build/ryzenadj --max-performance&>/dev/null&'
+        alias psave='sudo /opt/RyzenAdj/build/ryzenadj --power-saving&>/dev/null&'
+    fi
+    elif [[ $(hostname) == 'Fedora.Y70' ]] then
         gsettings set org.gnome.shell.app-switcher current-workspace-only true
     fi
     xset r rate 250 45
