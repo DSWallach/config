@@ -28,7 +28,7 @@
 
   # checkout
   co = checkout                     # checkout
-  nb = checkout -b                  # create and switch to a new branch (mnemonic: "git new branch branchname...")
+  nb = "!f() { git checkout -b \"$1\" && git config branch.\"$1\".remote origin && git config branch.\"$1\".merge \"refs/heads/$1\"; }; f"  # create and switch to a new branch tracking origin/<same-name> (mnemonic: "git new branch branchname...")
 
   # diff
   d = diff                          # diff unstaged changes
@@ -53,7 +53,7 @@
 [include]
   path = .gitconfig.user
 [user]
-	name = dswallach
+	name = David Wallach
 	email = d.s.t.wallach@gmail.com
 [push]
 	default = current
@@ -64,3 +64,14 @@
 [pull]
 	base = false
 	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -34,6 +34,9 @@ ln -sf $HOME/$name/taskwarrior/taskrc $HOME/.taskrc
 ln -sf $HOME/$name/zsh/zpreztorc $HOME/.zpreztorc
 ln -sf $HOME/$name/ssh/config $HOME/.ssh/config
 ln -sf $HOME/$name/ctags $HOME/.ctags
+mkdir -p $HOME/.mast
+ln -sf $HOME/$name/mast/ui-settings.json $HOME/.mast/ui-settings.json
+ln -sf $HOME/$name/mast/composer-defaults.json $HOME/.mast/composer-defaults.json
 
 if [ $0 = "full" ]; then
 	# Setup for vim and neovim

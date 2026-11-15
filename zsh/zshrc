@@ -52,11 +52,15 @@ alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
 alias gst='git status'
+alias ggrep='git grep -n'
 
 
 # Steam
 alias cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 optirun /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
 alias smol_cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
+
+#Cursor
+alias c='cursor -r'
 
 # R Nonsense
 alias setupR='export PKG_CXXFLAGS=`Rscript -e '\''Rcpp:::CxxFlags()'\''`; export PKG_LIBS=`Rscript -e '\''-enable-shared-lib -ligraph'\''`'
@@ -87,7 +91,7 @@ bindkey "^[OB" history-beginning-search-forward
 # FZF search
 ctrlp() {
     zle reset-prompt
-    print -z - $BUFFER $( find . -not -path '*/\.*' -nowarn 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
+    print -z - $BUFFER $( find . -not -path '*/\.*' 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
     zle send-break
 }
 
@@ -100,6 +104,8 @@ export FZF_COMPLETION_TRIGGER='~~'
 export name='.sel'
 export SEL="${HOME}/${name}:$PATH"
 export PATH="${HOME}/${name}/scripts:$PATH"
+export PATH="${HOME}/Work/DavidsTooling/scripts:$PATH"
+export PATH="${HOME}/Work/DavidsTooling/bin:$PATH"
 export PYTHONBREAKPOINT="pudb.set_trace"
 
 
@@ -188,10 +194,76 @@ fi
 
 # Added by Antigravity CLI installer
 export PATH="/home/david/.local/bin:$PATH"
-export PATH="/home/david/.local/bin:$PATH"
 export CARGO_TARGET_DIR="$HOME/.cargo/target"
 export RUSTC_WRAPPER=sccache
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+if [[ $(hostname) == Davids-MBP.* || $(hostname) == 'Davids-MBP' ]]; then
+    # Cofactr
+    eval "$(direnv hook zsh)"
+
+    # Scheduled-agent GitHub read-only helper: superseded by the standalone script
+    # /Users/david/.local/bin/gh_pr_detail (2026-09-11). A zshrc function isn't
+    # reliably reachable from scheduled-task shells, which don't always source
+    # the interactive profile — see that script's header comment for why it's a
+    # plain executable instead. Kept here as a comment for history, not defined.
+    # (was: function gh_pr_batch_status() { ... } — see git history / prior chat)
+
+
+    function kill_all_cofactr() {
+      docker stop $(docker ps --filter="name=cf-" -q) ; docker rm $(docker ps --filter="name=cf-" -qa) ; docker rmi $(docker images --filter="reference=*cofactr-*" -q) ; docker rmi $(docker images --filter="reference=081107679084.dkr.ecr.us-gov-east-1.amazonaws.com*" -q) ; docker network rm $(docker network ls --filter="name=cofactr-network" --filter="name=flagship" -q) ; docker volume rm $(docker volume ls -q)
+    }
+
+    function kill_all_docker() {
+      docker stop $(docker ps -q) ; docker rm $(docker ps -qa) ; docker rmi $(docker images -q) ; docker network rm $(docker network ls -q) ; docker volume rm $(docker volume ls -q)
+    }
+
+    function kill_flagship_docker_db() {
+      docker stop $(docker ps -f name=flagship-db -q) ; docker rm -v $(docker ps -f name=flagship-db -qa)
+    }
+
+    function eslint-ui-main() {
+      local root="${COFACTR_UI:-$(git rev-parse --show-toplevel 2>/dev/null)}"
+      [[ -n "$root" ]] || { echo 'eslint-ui-main: not inside a git repo'; return 1; }
+      local base
+      if git -C "$root" show-ref --verify --quiet refs/remotes/origin/main 2>/dev/null; then
+        base=origin/main
+      elif git -C "$root" show-ref --verify --quiet refs/remotes/origin/master 2>/dev/null; then
+        base=origin/master
+      elif git -C "$root" show-ref --verify --quiet refs/heads/main 2>/dev/null; then
+        base=main
+      elif git -C "$root" show-ref --verify --quiet refs/heads/master 2>/dev/null; then
+        base=master
+      else
+        echo 'eslint-ui-main: no main/master (git fetch origin?)'
+        return 1
+      fi
+      local files
+      files=$(git -C "$root" diff --name-only --diff-filter=ACM "${base}...HEAD" -- . | grep -E '\.(tsx?|jsx?)$')
+      [[ -n "$files" ]] || { echo "eslint-ui-main: no matching changes vs ${base}"; return 0; }
+      (cd "$root" && ui-lint $files)
+    }
+    # cofactr-workspace: wsg tab completions (scripts/setup.sh)
+    _cofactr_wsg_precmd() {
+      local _bin
+      if [[ -n "${COFACTR_WORKSPACE_ZSHRC:-}" && -d "${COFACTR_WORKSPACE_ZSHRC}/scripts/shell/bin" ]]; then
+        _bin="${COFACTR_WORKSPACE_ZSHRC}/scripts/shell/bin"
+        path=($_bin ${(@)path:#$_bin})
+        export WSG_ZSH="$COFACTR_WORKSPACE_ZSHRC/scripts/shell/wsg.zsh"
+        export WSG_WORKSPACE_ROOT="$COFACTR_WORKSPACE_ZSHRC"
+      fi
+      [[ -n ${WSG_ZSH:-} ]] || return 0
+      local _reg="${WSG_ZSH:A:h}/zsh/register-wsg-completions.zsh"
+      [[ -r $_reg ]] || return 0
+      source "$_reg"
+    }
+    precmd_functions=(_cofactr_wsg_precmd $precmd_functions)
+    export PATH="$HOME/.local/bin:$PATH"
+
+    # rustup (Homebrew, keg-only)
+    export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
+fi
