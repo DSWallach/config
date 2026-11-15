@@ -1,1 +1,1 @@
-/home/david/.sel/vim/vimrc
+/Users/david/.sel/vim/vimrc

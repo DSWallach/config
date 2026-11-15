@@ -1,6 +1,3 @@
-if [[ $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
-    module load git
-fi
 source "${HOME}/.sel/zsh/antigen.zsh"
 
 # Modules
@@ -55,11 +52,15 @@ alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
 alias gst='git status'
+alias ggrep='git grep -n'
 
 
 # Steam
 alias cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 optirun /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
 alias smol_cities='LD_PRELOAD="libpthread.so.0 libGL.so.1" __GL_THREADED_OPTIMIZATIONS=1 /home/david/.local/share/Steam/steamapps/common/Cities_Skylines/Cities.x64'
+
+#Cursor
+alias c='cursor -r'
 
 # Makes git auto completion faster favouring for local completions
 __git_files () {
@@ -95,7 +96,7 @@ bindkey "^[OB" history-beginning-search-forward
 # FZF search
 ctrlp() {
     zle reset-prompt
-    print -z - $BUFFER $( find . -not -path '*/\.*' -nowarn 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
+    print -z - $BUFFER $( find . -not -path '*/\.*' 2>&1 | sed '/Permission denied/d;' | fzf --height 10)
     zle send-break
 }
 
@@ -108,90 +109,91 @@ export FZF_COMPLETION_TRIGGER='~~'
 export name='.sel'
 export SEL="${HOME}/${name}:$PATH"
 export PATH="${HOME}/${name}/scripts:$PATH"
+export PATH="${HOME}/Work/DavidsTooling/scripts:$PATH"
+export PATH="${HOME}/Work/DavidsTooling/bin:$PATH"
 export PYTHONBREAKPOINT="pudb.set_trace"
 
 
-# Custom params for different locations
-if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
-    # module use /hpc/packages/minerva-common/modulefiles
-    # module load tmux;
-    # module load htop;
-    # module load texlive;
-    #
-    # Ensure SSH keys are loaded
-    eval `ssh-agent`
-    ssh-add;
 
-    export GPFS="/sc/arion"
-    export MMEDS="$GPFS/projects/MMEDS"
-    export PATH="$HOME/.local/bin:$PATH"
-    export TMPDIR="/local/tmp"
-    export CONDA_ENVS_PATH="${GPFS}/projects/MMEDS/.modules/"
-    export PYTHONBREAKPOINT="pudb.set_trace"
-
-
-    # Minerva Aliases
-    alias towork="cd ${GPFS}/projects/clemej05a/wallach"
-    alias remlinks='find -L . -name . -o -type d -prune -o -type l -exec rm {} +'
-    alias logindb='mysql -h data1 -u wallad07_db1 -p wallad07_db1'
-    alias duh='du -sh'
-    alias mysql='mysql -D mmeds_data1'
-    alias mmedsadmin='/opt/collab/bin/cologin mmedsadmin'
-    alias tommeds="cd $MMEDS"
-    alias toarion="cd /sc/arion/projects/MMEDS"
-    # alias vi='gvim -g'
-    alias vi='vim'
-    alias vlog="vi '+normal GA' $MMEDS/mmeds_server_data/mmeds_log.txt"
-    alias errorlog="watch -n 0.1 tail -n 25 /etc/httpd/logs/uhpc/wallad07.u.hpc.mssm.edu.error"
-    alias killjobs="bjobs -w | grep 'PEND' | awk '{print $1}' | xargs bkill"
-
-    ml fzf;
-    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-else
-    if [[ $(hostname) == 'david-yoga.linux' ]] then
-        export TERMINAL='xfce4-terminal'
-        xinput set-prop 14 306 1
-        alias pperf='sudo cpupower frequency-set -g performance'
-        alias psave='sudo cpupower frequency-set -g ondemand'
-    fi
-    elif [[ $(hostname) == 'Fedora.T14s']] then
-        alias pperf='sudo /opt/RyzenAdj/build/ryzenadj --max-performance&>/dev/null&'
-        alias psave='sudo /opt/RyzenAdj/build/ryzenadj --power-saving&>/dev/null&'
-    fi
-    elif [[ $(hostname) == 'Fedora.Y70' ]] then
-        gsettings set org.gnome.shell.app-switcher current-workspace-only true
-    fi
-    xset r rate 250 45
-
-    export PATH=/opt/kotlin/bin:$PATH
-    export PATH=$PATH:/opt/gradle/gradle-6.3/bin
-    export PATH=$PATH:/opt/idea/bin
-    # export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
-
-    # VST Setup
-    export VSTSDK_PATH=~/Music/VST_Plugins/VST_SDK/VST3_SDK
-
-    # Vim
-    alias vi='vim'
-    alias vlog="vi '+normal GA' $HOME/mmeds_server_data/mmeds_log.txt"
-    alias myroot="mysql -u root -proot -c mmeds_data1"
-    module use ~/.modules/modulefiles
-    export CONDA_DIR=/home/david/anaconda3/
-    # >>> conda initialize >>>
-    # !! Contents within this block are managed by 'conda init' !!
-    __conda_setup="$('/home/david/anaconda3/bin' 'shell.zsh' 'hook' 2> /dev/null)"
-    if [ $? -eq 0 ]; then
-        eval "$__conda_setup"
-    else
-        if [ -f "/home/david/anaconda3/etc/profile.d/conda.sh" ]; then
-            . "/home/david/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize  # commented out by conda initialize
-        else
-            export PATH="/home/david/anaconda3/4.3.0/bin:$PATH"
-        fi
-    fi
-    unset __conda_setup
-    # <<< conda initialize <<<
-fi
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
       source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Cofactr
+eval "$(direnv hook zsh)"
+
+# Scheduled-agent GitHub read-only helper: superseded by the standalone script
+# /Users/david/.local/bin/gh_pr_detail (2026-09-11). A zshrc function isn't
+# reliably reachable from scheduled-task shells, which don't always source
+# the interactive profile — see that script's header comment for why it's a
+# plain executable instead. Kept here as a comment for history, not defined.
+# (was: function gh_pr_batch_status() { ... } — see git history / prior chat)
+
+
+function kill_all_cofactr() {
+  docker stop $(docker ps --filter="name=cf-" -q) ; docker rm $(docker ps --filter="name=cf-" -qa) ; docker rmi $(docker images --filter="reference=*cofactr-*" -q) ; docker rmi $(docker images --filter="reference=081107679084.dkr.ecr.us-gov-east-1.amazonaws.com*" -q) ; docker network rm $(docker network ls --filter="name=cofactr-network" --filter="name=flagship" -q) ; docker volume rm $(docker volume ls -q)
+}
+
+function kill_all_docker() {
+  docker stop $(docker ps -q) ; docker rm $(docker ps -qa) ; docker rmi $(docker images -q) ; docker network rm $(docker network ls -q) ; docker volume rm $(docker volume ls -q)
+}
+
+function kill_flagship_docker_db() {
+  docker stop $(docker ps -f name=flagship-db -q) ; docker rm -v $(docker ps -f name=flagship-db -qa)
+}
+
+function eslint-ui-main() {
+  local root="${COFACTR_UI:-$(git rev-parse --show-toplevel 2>/dev/null)}"
+  [[ -n "$root" ]] || { echo 'eslint-ui-main: not inside a git repo'; return 1; }
+  local base
+  if git -C "$root" show-ref --verify --quiet refs/remotes/origin/main 2>/dev/null; then
+    base=origin/main
+  elif git -C "$root" show-ref --verify --quiet refs/remotes/origin/master 2>/dev/null; then
+    base=origin/master
+  elif git -C "$root" show-ref --verify --quiet refs/heads/main 2>/dev/null; then
+    base=main
+  elif git -C "$root" show-ref --verify --quiet refs/heads/master 2>/dev/null; then
+    base=master
+  else
+    echo 'eslint-ui-main: no main/master (git fetch origin?)'
+    return 1
+  fi
+  local files
+  files=$(git -C "$root" diff --name-only --diff-filter=ACM "${base}...HEAD" -- . | grep -E '\.(tsx?|jsx?)$')
+  [[ -n "$files" ]] || { echo "eslint-ui-main: no matching changes vs ${base}"; return 0; }
+  (cd "$root" && ui-lint $files)
+}
+# cofactr-workspace: wsg tab completions (scripts/setup.sh)
+_cofactr_wsg_precmd() {
+  [[ -n ${WSG_ZSH:-} ]] || return 0
+  local _reg="${WSG_ZSH:A:h}/zsh/register-wsg-completions.zsh"
+  [[ -r $_reg ]] || return 0
+  source "$_reg"
+}
+precmd_functions=(_cofactr_wsg_precmd $precmd_functions)
+
+# cofactr-workspace: wsg PATH stickiness + tab completions (scripts/setup.sh; see README)
+# Optional: export COFACTR_WORKSPACE_ZSHRC=/path/to/workspace so wsg_* and completions work before cd / beat direnv.
+_cofactr_wsg_precmd() {
+  local _bin
+  if [[ -n "${COFACTR_WORKSPACE_ZSHRC:-}" && -d "${COFACTR_WORKSPACE_ZSHRC}/scripts/shell/bin" ]]; then
+    _bin="${COFACTR_WORKSPACE_ZSHRC}/scripts/shell/bin"
+    path=($_bin ${(@)path:#$_bin})
+    export WSG_ZSH="$COFACTR_WORKSPACE_ZSHRC/scripts/shell/wsg.zsh"
+    export WSG_WORKSPACE_ROOT="$COFACTR_WORKSPACE_ZSHRC"
+  fi
+  [[ -n ${WSG_ZSH:-} ]] || return 0
+  local _reg="${WSG_ZSH:A:h}/zsh/register-wsg-completions.zsh"
+  [[ -r $_reg ]] || return 0
+  source "$_reg"
+}
+precmd_functions=(_cofactr_wsg_precmd $precmd_functions)
+export PATH="$HOME/.local/bin:$PATH"
+
+# rustup (Homebrew, keg-only)
+export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
