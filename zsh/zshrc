@@ -110,7 +110,7 @@ export PYTHONBREAKPOINT="pudb.set_trace"
 
 
 # Custom params for different locations
-if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu' || $(hostname) == 'web01' ]] then
+if [[ $HOST == 'node2-3'  || $HOST == 'lc03g01.chimera.hpc.mssm.edu' || $HOST == 'web01' ]] then
     # module use /hpc/packages/minerva-common/modulefiles
     # module load tmux;
     # module load htop;
@@ -145,16 +145,16 @@ if [[ $(hostname) == 'node2-3'  || $(hostname) == 'lc03g01.chimera.hpc.mssm.edu'
 
     ml fzf;
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-else
-    if [[ $(hostname) == 'david-yoga.linux' ]] then
+elif [[ $OSTYPE != darwin* ]] then
+    if [[ $HOST == 'david-yoga.linux' ]] then
         export TERMINAL='xfce4-terminal'
         xinput set-prop 14 306 1
         alias pperf='sudo cpupower frequency-set -g performance'
         alias psave='sudo cpupower frequency-set -g ondemand'
-    elif [[ $(hostname) == 'Fedora.T14s' ]] then
+    elif [[ $HOST == 'Fedora.T14s' ]] then
         alias pperf='sudo /opt/RyzenAdj/build/ryzenadj --max-performance&>/dev/null&'
         alias psave='sudo /opt/RyzenAdj/build/ryzenadj --power-saving&>/dev/null&'
-    elif [[ $(hostname) == 'Fedora.Y71' ]] then
+    elif [[ $HOST == 'Fedora.Y71' ]] then
         gsettings set org.gnome.shell.app-switcher current-workspace-only true
     fi
     xset r rate 250 45
@@ -192,10 +192,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 
-# Added by Antigravity CLI installer
-export PATH="/home/david/.local/bin:$PATH"
-export CARGO_TARGET_DIR="$HOME/.cargo/target"
-export RUSTC_WRAPPER=sccache
+# Added by Antigravity CLI installer (Linux only: on macOS ~/.zshenv owns CARGO_TARGET_DIR and sccache isn't installed)
+if [[ $OSTYPE != darwin* ]]; then
+    export PATH="/home/david/.local/bin:$PATH"
+    export CARGO_TARGET_DIR="$HOME/.cargo/target"
+    export RUSTC_WRAPPER=sccache
+fi
 
 export NVM_DIR="$HOME/.nvm"
 # Lazy nvm: sourcing nvm.sh runs `nvm use default`, which is very slow with an lts/* default.
@@ -215,7 +217,7 @@ npm() { _nvm_lazy_load; npm "$@"; }
 npx() { _nvm_lazy_load; npx "$@"; }
 
 
-if [[ $(hostname) == Davids-MBP.* || $(hostname) == 'Davids-MBP' ]]; then
+if [[ $HOST == Davids-MBP.* || $HOST == 'Davids-MBP' ]]; then
     # Cofactr
     # Cached: every external exec costs ~0.26s here. Delete the file after upgrading direnv.
     _direnv_hook_cache="$HOME/.cache/direnv-hook.zsh"
