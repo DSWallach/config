@@ -120,12 +120,29 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Lazy nvm: sourcing nvm.sh runs `nvm use default`, which is very slow with an lts/* default.
+# The newest installed node stays on PATH so non-interactive callers still find it.
+_nvm_default_bin=(${NVM_DIR}/versions/node/*(N/on[-1]))
+[[ -n $_nvm_default_bin ]] && path=("${_nvm_default_bin[1]}/bin" $path)
+unset _nvm_default_bin
+
+_nvm_lazy_load() {
+  unset -f nvm node npm npx _nvm_lazy_load
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+}
+nvm() { _nvm_lazy_load; nvm "$@"; }
+node() { _nvm_lazy_load; node "$@"; }
+npm() { _nvm_lazy_load; npm "$@"; }
+npx() { _nvm_lazy_load; npx "$@"; }
 
 
 # Cofactr
-eval "$(direnv hook zsh)"
+# Cached: every external exec costs ~0.26s here. Delete the file after upgrading direnv.
+_direnv_hook_cache="$HOME/.cache/direnv-hook.zsh"
+[[ -s $_direnv_hook_cache ]] || direnv hook zsh >| $_direnv_hook_cache
+source $_direnv_hook_cache
+unset _direnv_hook_cache
 
 # Scheduled-agent GitHub read-only helper: superseded by the standalone script
 # /Users/david/.local/bin/gh_pr_detail (2026-09-11). A zshrc function isn't

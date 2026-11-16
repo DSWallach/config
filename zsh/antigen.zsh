@@ -18,7 +18,7 @@ if [[ $ANTIGEN_CACHE != false ]]; then
   # It may not be necessary to check ANTIGEN_AUTO_CONFIG.
   if [[ $ANTIGEN_AUTO_CONFIG != false && -f $ANTIGEN_RSRC ]]; then
     # Check the list of files for configuration changes (uses -nt comp)
-    ANTIGEN_CHECK_FILES=$(cat $ANTIGEN_RSRC 2> /dev/null)
+    ANTIGEN_CHECK_FILES=$(<$ANTIGEN_RSRC)
     ANTIGEN_CHECK_FILES=(${(@f)ANTIGEN_CHECK_FILES})
 
     for config in $ANTIGEN_CHECK_FILES; do
