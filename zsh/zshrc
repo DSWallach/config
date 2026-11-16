@@ -108,6 +108,10 @@ export PATH="${HOME}/Work/DavidsTooling/scripts:$PATH"
 export PATH="${HOME}/Work/DavidsTooling/bin:$PATH"
 export PYTHONBREAKPOINT="pudb.set_trace"
 
+# /usr/bin/git, python3 etc. are xcode-select shims (two execs); resolve the real ones directly.
+if [[ $OSTYPE == darwin* && -d /Library/Developer/CommandLineTools/usr/bin ]]; then
+    path[(i)/usr/bin]=(/Library/Developer/CommandLineTools/usr/bin /usr/bin)
+fi
 
 # Custom params for different locations
 if [[ $HOST == 'node2-3'  || $HOST == 'lc03g01.chimera.hpc.mssm.edu' || $HOST == 'web01' ]] then
@@ -191,6 +195,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
       source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+# No-ops so the sorin prompt skips its per-prompt git execs (~0.28s each).
+git-info() { :; }
+git-dir() { :; }
+
 
 # Added by Antigravity CLI installer (Linux only: on macOS ~/.zshenv owns CARGO_TARGET_DIR and sccache isn't installed)
 if [[ $OSTYPE != darwin* ]]; then
@@ -224,6 +232,8 @@ if [[ $HOST == Davids-MBP.* || $HOST == 'Davids-MBP' ]]; then
     [[ -s $_direnv_hook_cache ]] || direnv hook zsh >| $_direnv_hook_cache
     source $_direnv_hook_cache
     unset _direnv_hook_cache
+    # chpwd only: the per-prompt exec costs ~0.28s. Run `direnv reload` after editing an .envrc in place.
+    precmd_functions=(${precmd_functions:#_direnv_hook})
 
     # Scheduled-agent GitHub read-only helper: superseded by the standalone script
     # /Users/david/.local/bin/gh_pr_detail (2026-09-11). A zshrc function isn't
