@@ -1,1 +1,1 @@
-/Users/david/.sel/vim/vimrc
+../vimrc
